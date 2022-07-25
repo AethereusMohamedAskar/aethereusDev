@@ -1,0 +1,1507 @@
+{
+    "customerKey": "e4267113-9418-4e3c-96cb-208a710c6e29",
+    "contentType": "text/html",
+    "assetType": {
+        "name": "webpage",
+        "displayName": "Web Page"
+    },
+    "version": 1,
+    "name": "POC1_shreya",
+    "owner": {
+        "email": "shreya.kamble@aethereus.com",
+        "name": "Shreya Kamble"
+    },
+    "createdDate": "2022-02-08T05:57:47.603-06:00",
+    "createdBy": {
+        "email": "shreya.kamble@aethereus.com",
+        "name": "Shreya Kamble"
+    },
+    "modifiedDate": "2022-02-22T07:26:37.85-06:00",
+    "modifiedBy": {
+        "email": "kavitha.shinde@aethereus.com",
+        "name": "Kavitha"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "meta": {
+        "globalStyles": {
+            "isLocked": false,
+            "body": {
+                "max-width": "1280px"
+            }
+        },
+        "central": {
+            "scModel": null
+        }
+    },
+    "views": {
+        "html": {
+            "thumbnail": {},
+            "meta": {},
+            "slots": {
+                "col1": {
+                    "content": "<div data-type=\"block\" data-key=\"1jf718g93jy\"></div><div data-type=\"block\" data-key=\"oq8m6ncy48r\"></div><div data-type=\"block\" data-key=\"obmpt3blirl\"></div><div data-type=\"block\" data-key=\"h46rh6agaba\"></div>",
+                    "design": "<p style=\"font-family:arial;color:#ccc;font-size:11px;text-align:center;vertical-align:middle;font-weight:bold;padding:10px;margin:0;border:#ccc dashed 1px;\">Drop blocks or content here</p>",
+                    "blocks": {
+                        "obmpt3blirl": {
+                            "assetType": {
+                                "id": 215,
+                                "name": "smartcaptureblock"
+                            },
+                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div style=\"background-color: #f3f2f2; border-radius: 8px; margin: 20px auto; height: 58px; width: 58px;\"><img src=\"data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNS4zNSAyNi4xNCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiM3MDZlNmF9LmNscy0ye2ZpbGw6bm9uZTtzdHJva2U6IzcwNmU2YTtzdHJva2UtbWl0ZXJsaW1pdDoxMDtzdHJva2Utd2lkdGg6MS41cHh9PC9zdHlsZT48L2RlZnM+PGNpcmNsZSBjbGFzcz0iY2xzLTEiIGN4PSI2LjA3IiBjeT0iNi4wNyIgcj0iMy4wOCIvPjxjaXJjbGUgY2xhc3M9ImNscy0yIiBjeD0iNi4wNyIgY3k9IjIwLjA3IiByPSI1LjMyIi8+PGNpcmNsZSBjbGFzcz0iY2xzLTIiIGN4PSI2LjA3IiBjeT0iNi4wNyIgcj0iNS4zMiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTE1Ljk5IDYuMzZ2MTQuNjFsMy41My0xLjMgMS43NCA0LjcyIDEuMjEtLjQ0IDEuMjEtLjQ1LTEuNzMtNC43MiAzLjQtMS4yNS05LjM2LTExLjE3eiIvPjwvc3ZnPg==\" style=\"display: block;  height: 24px; padding: 17px; width: 24px;\"></div></td></tr></table>",
+                            "meta": {
+                                "options": {
+                                    "attributesSlotKey": "yicre1ls3sd",
+                                    "smartCaptureGearID": "u36p8es135",
+                                    "buttonText": "Submit",
+                                    "buttonStyling": {
+                                        "background-color": "#009DDC",
+                                        "border-color": "#009DDC",
+                                        "border-radius": "3px",
+                                        "border-style": "solid",
+                                        "-webkit-border-radius": "3px",
+                                        "-moz-border-radius": "3px",
+                                        "color": "#FFFFFF",
+                                        "font-family": "Arial, Helvetica, sans-serif",
+                                        "font-size": "16px",
+                                        "line-height": "normal",
+                                        "padding": "10px"
+                                    },
+                                    "buttonWrapperStyling": {
+                                        "padding-bottom": "10px",
+                                        "text-align": "center"
+                                    },
+                                    "confirmationMessage": "Thank you for your submission.",
+                                    "fieldFontStyling": {
+                                        "color": "#000000",
+                                        "font-family": "Arial, Helvetica, sans-serif",
+                                        "font-size": "16px"
+                                    },
+                                    "fieldStyling": {
+                                        "width": "200px"
+                                    },
+                                    "formStyling": {
+                                        "background-color": "transparent",
+                                        "margin-top": "0px",
+                                        "margin-right": "0px",
+                                        "margin-bottom": "0px",
+                                        "margin-left": "0px",
+                                        "padding-top": "0px",
+                                        "padding-right": "0px",
+                                        "padding-bottom": "0px",
+                                        "padding-left": "0px",
+                                        "text-align": "center"
+                                    },
+                                    "name": "",
+                                    "useInJourney": false,
+                                    "customObjectFields": [
+                                        {
+                                            "name": "Name",
+                                            "id": "8fc083ba-d73b-469f-9ab3-cdf58ff31b4f",
+                                            "type": "Text",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "length": 50,
+                                            "description": "",
+                                            "ordinal": 1,
+                                            "isNullable": false,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": false,
+                                            "isInheritable": false,
+                                            "isOverridable": false,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "8fc083ba-d73b-469f-9ab3-cdf58ff31b4f",
+                                            "label": "Name",
+                                            "isRequired": true,
+                                            "isFormRequired": true,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "2ss8wnhnki8"
+                                        },
+                                        {
+                                            "name": "Email",
+                                            "id": "e05ccda2-b055-4e03-98b9-3a0847000ae7",
+                                            "type": "EmailAddress",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "length": 254,
+                                            "description": "",
+                                            "ordinal": 2,
+                                            "isNullable": false,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": false,
+                                            "isInheritable": false,
+                                            "isOverridable": false,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "e05ccda2-b055-4e03-98b9-3a0847000ae7",
+                                            "label": "Email",
+                                            "isRequired": true,
+                                            "isFormRequired": true,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "fgsmv846eyk"
+                                        },
+                                        {
+                                            "name": "Phone no",
+                                            "id": "0d669ed5-1c5e-400b-9719-8cc4074e13c1",
+                                            "type": "Phone",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "length": 50,
+                                            "description": "",
+                                            "ordinal": 3,
+                                            "isNullable": false,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": false,
+                                            "isInheritable": false,
+                                            "isOverridable": false,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "0d669ed5-1c5e-400b-9719-8cc4074e13c1",
+                                            "label": "Phone no",
+                                            "isRequired": true,
+                                            "isFormRequired": true,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "8o0on3n4w24"
+                                        },
+                                        {
+                                            "name": "Birthdata",
+                                            "id": "4bb13df9-817c-4823-a1aa-23b4fadc7370",
+                                            "type": "Date",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "description": "",
+                                            "ordinal": 5,
+                                            "isNullable": false,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": false,
+                                            "isInheritable": false,
+                                            "isOverridable": false,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "4bb13df9-817c-4823-a1aa-23b4fadc7370",
+                                            "label": "Birthdata",
+                                            "isRequired": true,
+                                            "isFormRequired": true,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "zct3yngr0c"
+                                        },
+                                        {
+                                            "name": "product",
+                                            "id": "ee42719d-7294-42b5-b228-3511d53967a2",
+                                            "type": "Text",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "length": 50,
+                                            "description": "",
+                                            "ordinal": 6,
+                                            "isNullable": false,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": false,
+                                            "isInheritable": false,
+                                            "isOverridable": false,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "ee42719d-7294-42b5-b228-3511d53967a2",
+                                            "label": "product",
+                                            "isRequired": true,
+                                            "isFormRequired": true,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "6q7k070b3l7"
+                                        },
+                                        {
+                                            "name": "Customer ID",
+                                            "id": "4241712d-3b7b-4498-93dc-d43c9e443669",
+                                            "type": "Text",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "length": 50,
+                                            "description": "",
+                                            "ordinal": 0,
+                                            "isNullable": false,
+                                            "isPrimaryKey": true,
+                                            "isTemplateField": false,
+                                            "isInheritable": false,
+                                            "isOverridable": false,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "4241712d-3b7b-4498-93dc-d43c9e443669",
+                                            "label": "Customer ID",
+                                            "isRequired": true,
+                                            "isFormRequired": true,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "y7b9f5bz4i8"
+                                        }
+                                    ],
+                                    "dataTarget": "dataExtension",
+                                    "listid": "5e87b5d8-f919-ec11-a307-48df37342c9c",
+                                    "listName": "Shreya_DataExtension1",
+                                    "listKey": "66A6398A-8CD8-4906-BCAE-138E550186F0",
+                                    "noAddingFields": false,
+                                    "hasSendableDataExtension": true
+                                },
+                                "wrapperStyles": {
+                                    "mobile": {
+                                        "visible": true
+                                    },
+                                    "styling": {}
+                                }
+                            },
+                            "slots": {
+                                "yicre1ls3sd": {
+                                    "content": "<div data-type=\"block\" data-key=\"2ss8wnhnki8\"></div><div data-type=\"block\" data-key=\"fgsmv846eyk\"></div><div data-type=\"block\" data-key=\"8o0on3n4w24\"></div><div data-type=\"block\" data-key=\"zct3yngr0c\"></div><div data-type=\"block\" data-key=\"6q7k070b3l7\"></div><div data-type=\"block\" data-key=\"y7b9f5bz4i8\"></div>",
+                                    "design": "<p style=\"font-family: arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                                    "blocks": {
+                                        "2ss8wnhnki8": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Name\">Name *</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"Name\" data-field-type=\"Text\" required=\"required\" data-validation-message=\"Please fill out this field.\"></div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "Name",
+                                                    "id": "8fc083ba-d73b-469f-9ab3-cdf58ff31b4f",
+                                                    "type": "Text",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "length": 50,
+                                                    "description": "",
+                                                    "ordinal": 1,
+                                                    "isNullable": false,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": false,
+                                                    "isInheritable": false,
+                                                    "isOverridable": false,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "8fc083ba-d73b-469f-9ab3-cdf58ff31b4f",
+                                                    "label": "Name",
+                                                    "isRequired": true,
+                                                    "isFormRequired": true,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field."
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "fgsmv846eyk": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Email\">Email *</label></div>\n<div class=\"sc-formfield-input\"><input type=\"email\" name=\"Email\" data-field-type=\"EmailAddress\" data-validation=\"email\" required=\"required\" data-validation-message=\"Please fill out this field.\"></div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "Email",
+                                                    "id": "e05ccda2-b055-4e03-98b9-3a0847000ae7",
+                                                    "type": "EmailAddress",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "length": 254,
+                                                    "description": "",
+                                                    "ordinal": 2,
+                                                    "isNullable": false,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": false,
+                                                    "isInheritable": false,
+                                                    "isOverridable": false,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "e05ccda2-b055-4e03-98b9-3a0847000ae7",
+                                                    "label": "Email",
+                                                    "isRequired": true,
+                                                    "isFormRequired": true,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please enter an email address.",
+                                                    "controlType": "BASIC",
+                                                    "availableControls": [
+                                                        "BASIC",
+                                                        "CONFIRM_BASIC"
+                                                    ],
+                                                    "inputType": "text",
+                                                    "isUserRequired": false,
+                                                    "validateAs": {
+                                                        "name": "Email",
+                                                        "inputType": "email",
+                                                        "pattern": "^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*$",
+                                                        "message": "Please enter an email address."
+                                                    }
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "8o0on3n4w24": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Phone no\">Phone no *</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"Phone no\" data-field-type=\"Phone\" required=\"required\" data-validation-message=\"Please fill out this field.\"></div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "Phone no",
+                                                    "id": "0d669ed5-1c5e-400b-9719-8cc4074e13c1",
+                                                    "type": "Phone",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "length": 50,
+                                                    "description": "",
+                                                    "ordinal": 3,
+                                                    "isNullable": false,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": false,
+                                                    "isInheritable": false,
+                                                    "isOverridable": false,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "0d669ed5-1c5e-400b-9719-8cc4074e13c1",
+                                                    "label": "Phone no",
+                                                    "isRequired": true,
+                                                    "isFormRequired": true,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field."
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "zct3yngr0c": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Birthdata\">Birthdata *</label></div>\n\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "Birthdata",
+                                                    "id": "4bb13df9-817c-4823-a1aa-23b4fadc7370",
+                                                    "type": "Date",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "description": "",
+                                                    "ordinal": 5,
+                                                    "isNullable": false,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": false,
+                                                    "isInheritable": false,
+                                                    "isOverridable": false,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "4bb13df9-817c-4823-a1aa-23b4fadc7370",
+                                                    "label": "Birthdata",
+                                                    "isRequired": true,
+                                                    "isFormRequired": true,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field.",
+                                                    "controlType": "DATE_TIME",
+                                                    "availableControls": [
+                                                        "BASIC",
+                                                        "DATE_TIME"
+                                                    ],
+                                                    "inputType": "text",
+                                                    "isUserRequired": false,
+                                                    "includeDate": false,
+                                                    "configDateFormat": "dd/mm/yyyy",
+                                                    "includeTime": false,
+                                                    "configTimeClockType": "twelve_hour",
+                                                    "dateStyle": "dropdown",
+                                                    "dateDropdowns": [
+                                                        {
+                                                            "label": "DD",
+                                                            "options": [
+                                                                {
+                                                                    "name": "01",
+                                                                    "value": "01"
+                                                                },
+                                                                {
+                                                                    "name": "02",
+                                                                    "value": "02"
+                                                                },
+                                                                {
+                                                                    "name": "03",
+                                                                    "value": "03"
+                                                                },
+                                                                {
+                                                                    "name": "04",
+                                                                    "value": "04"
+                                                                },
+                                                                {
+                                                                    "name": "05",
+                                                                    "value": "05"
+                                                                },
+                                                                {
+                                                                    "name": "06",
+                                                                    "value": "06"
+                                                                },
+                                                                {
+                                                                    "name": "07",
+                                                                    "value": "07"
+                                                                },
+                                                                {
+                                                                    "name": "08",
+                                                                    "value": "08"
+                                                                },
+                                                                {
+                                                                    "name": "09",
+                                                                    "value": "09"
+                                                                },
+                                                                {
+                                                                    "name": "10",
+                                                                    "value": "10"
+                                                                },
+                                                                {
+                                                                    "name": "11",
+                                                                    "value": "11"
+                                                                },
+                                                                {
+                                                                    "name": "12",
+                                                                    "value": "12"
+                                                                },
+                                                                {
+                                                                    "name": "13",
+                                                                    "value": "13"
+                                                                },
+                                                                {
+                                                                    "name": "14",
+                                                                    "value": "14"
+                                                                },
+                                                                {
+                                                                    "name": "15",
+                                                                    "value": "15"
+                                                                },
+                                                                {
+                                                                    "name": "16",
+                                                                    "value": "16"
+                                                                },
+                                                                {
+                                                                    "name": "17",
+                                                                    "value": "17"
+                                                                },
+                                                                {
+                                                                    "name": "18",
+                                                                    "value": "18"
+                                                                },
+                                                                {
+                                                                    "name": "19",
+                                                                    "value": "19"
+                                                                },
+                                                                {
+                                                                    "name": "20",
+                                                                    "value": "20"
+                                                                },
+                                                                {
+                                                                    "name": "21",
+                                                                    "value": "21"
+                                                                },
+                                                                {
+                                                                    "name": "22",
+                                                                    "value": "22"
+                                                                },
+                                                                {
+                                                                    "name": "23",
+                                                                    "value": "23"
+                                                                },
+                                                                {
+                                                                    "name": "24",
+                                                                    "value": "24"
+                                                                },
+                                                                {
+                                                                    "name": "25",
+                                                                    "value": "25"
+                                                                },
+                                                                {
+                                                                    "name": "26",
+                                                                    "value": "26"
+                                                                },
+                                                                {
+                                                                    "name": "27",
+                                                                    "value": "27"
+                                                                },
+                                                                {
+                                                                    "name": "28",
+                                                                    "value": "28"
+                                                                },
+                                                                {
+                                                                    "name": "29",
+                                                                    "value": "29"
+                                                                },
+                                                                {
+                                                                    "name": "30",
+                                                                    "value": "30"
+                                                                },
+                                                                {
+                                                                    "name": "31",
+                                                                    "value": "31"
+                                                                }
+                                                            ],
+                                                            "type": "day"
+                                                        },
+                                                        {
+                                                            "label": "MM",
+                                                            "options": [
+                                                                {
+                                                                    "name": "01",
+                                                                    "value": "01"
+                                                                },
+                                                                {
+                                                                    "name": "02",
+                                                                    "value": "02"
+                                                                },
+                                                                {
+                                                                    "name": "03",
+                                                                    "value": "03"
+                                                                },
+                                                                {
+                                                                    "name": "04",
+                                                                    "value": "04"
+                                                                },
+                                                                {
+                                                                    "name": "05",
+                                                                    "value": "05"
+                                                                },
+                                                                {
+                                                                    "name": "06",
+                                                                    "value": "06"
+                                                                },
+                                                                {
+                                                                    "name": "07",
+                                                                    "value": "07"
+                                                                },
+                                                                {
+                                                                    "name": "08",
+                                                                    "value": "08"
+                                                                },
+                                                                {
+                                                                    "name": "09",
+                                                                    "value": "09"
+                                                                },
+                                                                {
+                                                                    "name": "10",
+                                                                    "value": "10"
+                                                                },
+                                                                {
+                                                                    "name": "11",
+                                                                    "value": "11"
+                                                                },
+                                                                {
+                                                                    "name": "12",
+                                                                    "value": "12"
+                                                                }
+                                                            ],
+                                                            "type": "month"
+                                                        },
+                                                        {
+                                                            "label": "YYYY",
+                                                            "options": [
+                                                                {
+                                                                    "name": 1900,
+                                                                    "value": 1900
+                                                                },
+                                                                {
+                                                                    "name": 1901,
+                                                                    "value": 1901
+                                                                },
+                                                                {
+                                                                    "name": 1902,
+                                                                    "value": 1902
+                                                                },
+                                                                {
+                                                                    "name": 1903,
+                                                                    "value": 1903
+                                                                },
+                                                                {
+                                                                    "name": 1904,
+                                                                    "value": 1904
+                                                                },
+                                                                {
+                                                                    "name": 1905,
+                                                                    "value": 1905
+                                                                },
+                                                                {
+                                                                    "name": 1906,
+                                                                    "value": 1906
+                                                                },
+                                                                {
+                                                                    "name": 1907,
+                                                                    "value": 1907
+                                                                },
+                                                                {
+                                                                    "name": 1908,
+                                                                    "value": 1908
+                                                                },
+                                                                {
+                                                                    "name": 1909,
+                                                                    "value": 1909
+                                                                },
+                                                                {
+                                                                    "name": 1910,
+                                                                    "value": 1910
+                                                                },
+                                                                {
+                                                                    "name": 1911,
+                                                                    "value": 1911
+                                                                },
+                                                                {
+                                                                    "name": 1912,
+                                                                    "value": 1912
+                                                                },
+                                                                {
+                                                                    "name": 1913,
+                                                                    "value": 1913
+                                                                },
+                                                                {
+                                                                    "name": 1914,
+                                                                    "value": 1914
+                                                                },
+                                                                {
+                                                                    "name": 1915,
+                                                                    "value": 1915
+                                                                },
+                                                                {
+                                                                    "name": 1916,
+                                                                    "value": 1916
+                                                                },
+                                                                {
+                                                                    "name": 1917,
+                                                                    "value": 1917
+                                                                },
+                                                                {
+                                                                    "name": 1918,
+                                                                    "value": 1918
+                                                                },
+                                                                {
+                                                                    "name": 1919,
+                                                                    "value": 1919
+                                                                },
+                                                                {
+                                                                    "name": 1920,
+                                                                    "value": 1920
+                                                                },
+                                                                {
+                                                                    "name": 1921,
+                                                                    "value": 1921
+                                                                },
+                                                                {
+                                                                    "name": 1922,
+                                                                    "value": 1922
+                                                                },
+                                                                {
+                                                                    "name": 1923,
+                                                                    "value": 1923
+                                                                },
+                                                                {
+                                                                    "name": 1924,
+                                                                    "value": 1924
+                                                                },
+                                                                {
+                                                                    "name": 1925,
+                                                                    "value": 1925
+                                                                },
+                                                                {
+                                                                    "name": 1926,
+                                                                    "value": 1926
+                                                                },
+                                                                {
+                                                                    "name": 1927,
+                                                                    "value": 1927
+                                                                },
+                                                                {
+                                                                    "name": 1928,
+                                                                    "value": 1928
+                                                                },
+                                                                {
+                                                                    "name": 1929,
+                                                                    "value": 1929
+                                                                },
+                                                                {
+                                                                    "name": 1930,
+                                                                    "value": 1930
+                                                                },
+                                                                {
+                                                                    "name": 1931,
+                                                                    "value": 1931
+                                                                },
+                                                                {
+                                                                    "name": 1932,
+                                                                    "value": 1932
+                                                                },
+                                                                {
+                                                                    "name": 1933,
+                                                                    "value": 1933
+                                                                },
+                                                                {
+                                                                    "name": 1934,
+                                                                    "value": 1934
+                                                                },
+                                                                {
+                                                                    "name": 1935,
+                                                                    "value": 1935
+                                                                },
+                                                                {
+                                                                    "name": 1936,
+                                                                    "value": 1936
+                                                                },
+                                                                {
+                                                                    "name": 1937,
+                                                                    "value": 1937
+                                                                },
+                                                                {
+                                                                    "name": 1938,
+                                                                    "value": 1938
+                                                                },
+                                                                {
+                                                                    "name": 1939,
+                                                                    "value": 1939
+                                                                },
+                                                                {
+                                                                    "name": 1940,
+                                                                    "value": 1940
+                                                                },
+                                                                {
+                                                                    "name": 1941,
+                                                                    "value": 1941
+                                                                },
+                                                                {
+                                                                    "name": 1942,
+                                                                    "value": 1942
+                                                                },
+                                                                {
+                                                                    "name": 1943,
+                                                                    "value": 1943
+                                                                },
+                                                                {
+                                                                    "name": 1944,
+                                                                    "value": 1944
+                                                                },
+                                                                {
+                                                                    "name": 1945,
+                                                                    "value": 1945
+                                                                },
+                                                                {
+                                                                    "name": 1946,
+                                                                    "value": 1946
+                                                                },
+                                                                {
+                                                                    "name": 1947,
+                                                                    "value": 1947
+                                                                },
+                                                                {
+                                                                    "name": 1948,
+                                                                    "value": 1948
+                                                                },
+                                                                {
+                                                                    "name": 1949,
+                                                                    "value": 1949
+                                                                },
+                                                                {
+                                                                    "name": 1950,
+                                                                    "value": 1950
+                                                                },
+                                                                {
+                                                                    "name": 1951,
+                                                                    "value": 1951
+                                                                },
+                                                                {
+                                                                    "name": 1952,
+                                                                    "value": 1952
+                                                                },
+                                                                {
+                                                                    "name": 1953,
+                                                                    "value": 1953
+                                                                },
+                                                                {
+                                                                    "name": 1954,
+                                                                    "value": 1954
+                                                                },
+                                                                {
+                                                                    "name": 1955,
+                                                                    "value": 1955
+                                                                },
+                                                                {
+                                                                    "name": 1956,
+                                                                    "value": 1956
+                                                                },
+                                                                {
+                                                                    "name": 1957,
+                                                                    "value": 1957
+                                                                },
+                                                                {
+                                                                    "name": 1958,
+                                                                    "value": 1958
+                                                                },
+                                                                {
+                                                                    "name": 1959,
+                                                                    "value": 1959
+                                                                },
+                                                                {
+                                                                    "name": 1960,
+                                                                    "value": 1960
+                                                                },
+                                                                {
+                                                                    "name": 1961,
+                                                                    "value": 1961
+                                                                },
+                                                                {
+                                                                    "name": 1962,
+                                                                    "value": 1962
+                                                                },
+                                                                {
+                                                                    "name": 1963,
+                                                                    "value": 1963
+                                                                },
+                                                                {
+                                                                    "name": 1964,
+                                                                    "value": 1964
+                                                                },
+                                                                {
+                                                                    "name": 1965,
+                                                                    "value": 1965
+                                                                },
+                                                                {
+                                                                    "name": 1966,
+                                                                    "value": 1966
+                                                                },
+                                                                {
+                                                                    "name": 1967,
+                                                                    "value": 1967
+                                                                },
+                                                                {
+                                                                    "name": 1968,
+                                                                    "value": 1968
+                                                                },
+                                                                {
+                                                                    "name": 1969,
+                                                                    "value": 1969
+                                                                },
+                                                                {
+                                                                    "name": 1970,
+                                                                    "value": 1970
+                                                                },
+                                                                {
+                                                                    "name": 1971,
+                                                                    "value": 1971
+                                                                },
+                                                                {
+                                                                    "name": 1972,
+                                                                    "value": 1972
+                                                                },
+                                                                {
+                                                                    "name": 1973,
+                                                                    "value": 1973
+                                                                },
+                                                                {
+                                                                    "name": 1974,
+                                                                    "value": 1974
+                                                                },
+                                                                {
+                                                                    "name": 1975,
+                                                                    "value": 1975
+                                                                },
+                                                                {
+                                                                    "name": 1976,
+                                                                    "value": 1976
+                                                                },
+                                                                {
+                                                                    "name": 1977,
+                                                                    "value": 1977
+                                                                },
+                                                                {
+                                                                    "name": 1978,
+                                                                    "value": 1978
+                                                                },
+                                                                {
+                                                                    "name": 1979,
+                                                                    "value": 1979
+                                                                },
+                                                                {
+                                                                    "name": 1980,
+                                                                    "value": 1980
+                                                                },
+                                                                {
+                                                                    "name": 1981,
+                                                                    "value": 1981
+                                                                },
+                                                                {
+                                                                    "name": 1982,
+                                                                    "value": 1982
+                                                                },
+                                                                {
+                                                                    "name": 1983,
+                                                                    "value": 1983
+                                                                },
+                                                                {
+                                                                    "name": 1984,
+                                                                    "value": 1984
+                                                                },
+                                                                {
+                                                                    "name": 1985,
+                                                                    "value": 1985
+                                                                },
+                                                                {
+                                                                    "name": 1986,
+                                                                    "value": 1986
+                                                                },
+                                                                {
+                                                                    "name": 1987,
+                                                                    "value": 1987
+                                                                },
+                                                                {
+                                                                    "name": 1988,
+                                                                    "value": 1988
+                                                                },
+                                                                {
+                                                                    "name": 1989,
+                                                                    "value": 1989
+                                                                },
+                                                                {
+                                                                    "name": 1990,
+                                                                    "value": 1990
+                                                                },
+                                                                {
+                                                                    "name": 1991,
+                                                                    "value": 1991
+                                                                },
+                                                                {
+                                                                    "name": 1992,
+                                                                    "value": 1992
+                                                                },
+                                                                {
+                                                                    "name": 1993,
+                                                                    "value": 1993
+                                                                },
+                                                                {
+                                                                    "name": 1994,
+                                                                    "value": 1994
+                                                                },
+                                                                {
+                                                                    "name": 1995,
+                                                                    "value": 1995
+                                                                },
+                                                                {
+                                                                    "name": 1996,
+                                                                    "value": 1996
+                                                                },
+                                                                {
+                                                                    "name": 1997,
+                                                                    "value": 1997
+                                                                },
+                                                                {
+                                                                    "name": 1998,
+                                                                    "value": 1998
+                                                                },
+                                                                {
+                                                                    "name": 1999,
+                                                                    "value": 1999
+                                                                },
+                                                                {
+                                                                    "name": 2000,
+                                                                    "value": 2000
+                                                                },
+                                                                {
+                                                                    "name": 2001,
+                                                                    "value": 2001
+                                                                },
+                                                                {
+                                                                    "name": 2002,
+                                                                    "value": 2002
+                                                                },
+                                                                {
+                                                                    "name": 2003,
+                                                                    "value": 2003
+                                                                },
+                                                                {
+                                                                    "name": 2004,
+                                                                    "value": 2004
+                                                                },
+                                                                {
+                                                                    "name": 2005,
+                                                                    "value": 2005
+                                                                },
+                                                                {
+                                                                    "name": 2006,
+                                                                    "value": 2006
+                                                                },
+                                                                {
+                                                                    "name": 2007,
+                                                                    "value": 2007
+                                                                },
+                                                                {
+                                                                    "name": 2008,
+                                                                    "value": 2008
+                                                                },
+                                                                {
+                                                                    "name": 2009,
+                                                                    "value": 2009
+                                                                },
+                                                                {
+                                                                    "name": 2010,
+                                                                    "value": 2010
+                                                                },
+                                                                {
+                                                                    "name": 2011,
+                                                                    "value": 2011
+                                                                },
+                                                                {
+                                                                    "name": 2012,
+                                                                    "value": 2012
+                                                                },
+                                                                {
+                                                                    "name": 2013,
+                                                                    "value": 2013
+                                                                },
+                                                                {
+                                                                    "name": 2014,
+                                                                    "value": 2014
+                                                                },
+                                                                {
+                                                                    "name": 2015,
+                                                                    "value": 2015
+                                                                },
+                                                                {
+                                                                    "name": 2016,
+                                                                    "value": 2016
+                                                                },
+                                                                {
+                                                                    "name": 2017,
+                                                                    "value": 2017
+                                                                },
+                                                                {
+                                                                    "name": 2018,
+                                                                    "value": 2018
+                                                                },
+                                                                {
+                                                                    "name": 2019,
+                                                                    "value": 2019
+                                                                },
+                                                                {
+                                                                    "name": 2020,
+                                                                    "value": 2020
+                                                                },
+                                                                {
+                                                                    "name": 2021,
+                                                                    "value": 2021
+                                                                },
+                                                                {
+                                                                    "name": 2022,
+                                                                    "value": 2022
+                                                                },
+                                                                {
+                                                                    "name": 2023,
+                                                                    "value": 2023
+                                                                },
+                                                                {
+                                                                    "name": 2024,
+                                                                    "value": 2024
+                                                                },
+                                                                {
+                                                                    "name": 2025,
+                                                                    "value": 2025
+                                                                },
+                                                                {
+                                                                    "name": 2026,
+                                                                    "value": 2026
+                                                                },
+                                                                {
+                                                                    "name": 2027,
+                                                                    "value": 2027
+                                                                },
+                                                                {
+                                                                    "name": 2028,
+                                                                    "value": 2028
+                                                                },
+                                                                {
+                                                                    "name": 2029,
+                                                                    "value": 2029
+                                                                },
+                                                                {
+                                                                    "name": 2030,
+                                                                    "value": 2030
+                                                                },
+                                                                {
+                                                                    "name": 2031,
+                                                                    "value": 2031
+                                                                },
+                                                                {
+                                                                    "name": 2032,
+                                                                    "value": 2032
+                                                                },
+                                                                {
+                                                                    "name": 2033,
+                                                                    "value": 2033
+                                                                },
+                                                                {
+                                                                    "name": 2034,
+                                                                    "value": 2034
+                                                                },
+                                                                {
+                                                                    "name": 2035,
+                                                                    "value": 2035
+                                                                },
+                                                                {
+                                                                    "name": 2036,
+                                                                    "value": 2036
+                                                                },
+                                                                {
+                                                                    "name": 2037,
+                                                                    "value": 2037
+                                                                },
+                                                                {
+                                                                    "name": 2038,
+                                                                    "value": 2038
+                                                                },
+                                                                {
+                                                                    "name": 2039,
+                                                                    "value": 2039
+                                                                },
+                                                                {
+                                                                    "name": 2040,
+                                                                    "value": 2040
+                                                                },
+                                                                {
+                                                                    "name": 2041,
+                                                                    "value": 2041
+                                                                },
+                                                                {
+                                                                    "name": 2042,
+                                                                    "value": 2042
+                                                                },
+                                                                {
+                                                                    "name": 2043,
+                                                                    "value": 2043
+                                                                },
+                                                                {
+                                                                    "name": 2044,
+                                                                    "value": 2044
+                                                                },
+                                                                {
+                                                                    "name": 2045,
+                                                                    "value": 2045
+                                                                },
+                                                                {
+                                                                    "name": 2046,
+                                                                    "value": 2046
+                                                                },
+                                                                {
+                                                                    "name": 2047,
+                                                                    "value": 2047
+                                                                }
+                                                            ],
+                                                            "type": "year"
+                                                        }
+                                                    ],
+                                                    "validateAs": false,
+                                                    "date": 1644839134651
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "6q7k070b3l7": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"product\">product *</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"product\" data-field-type=\"Text\" required=\"required\" data-validation-message=\"Please fill out this field.\"></div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "product",
+                                                    "id": "ee42719d-7294-42b5-b228-3511d53967a2",
+                                                    "type": "Text",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "length": 50,
+                                                    "description": "",
+                                                    "ordinal": 6,
+                                                    "isNullable": false,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": false,
+                                                    "isInheritable": false,
+                                                    "isOverridable": false,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "ee42719d-7294-42b5-b228-3511d53967a2",
+                                                    "label": "product",
+                                                    "isRequired": true,
+                                                    "isFormRequired": true,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field."
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "y7b9f5bz4i8": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Customer ID\">Customer ID *</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"Customer ID\" data-field-type=\"Text\" required=\"required\" data-validation-message=\"Please fill out this field.\"></div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "Customer ID",
+                                                    "id": "4241712d-3b7b-4498-93dc-d43c9e443669",
+                                                    "type": "Text",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "length": 50,
+                                                    "description": "",
+                                                    "ordinal": 0,
+                                                    "isNullable": false,
+                                                    "isPrimaryKey": true,
+                                                    "isTemplateField": false,
+                                                    "isInheritable": false,
+                                                    "isOverridable": false,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "4241712d-3b7b-4498-93dc-d43c9e443669",
+                                                    "label": "Customer ID",
+                                                    "isRequired": true,
+                                                    "isFormRequired": true,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field."
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        }
+                                    },
+                                    "modelVersion": 2
+                                }
+                            },
+                            "modelVersion": 2
+                        },
+                        "h46rh6agaba": {
+                            "assetType": {
+                                "id": 199,
+                                "name": "imageblock"
+                            },
+                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\"><div style=\"width:100%;height:150px;background: url(data:image/png;base64,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) repeat-x 0 0\"></div></div></td></tr></table>",
+                            "meta": {
+                                "wrapperStyles": {
+                                    "mobile": {
+                                        "visible": true
+                                    },
+                                    "styling": {}
+                                }
+                            },
+                            "modelVersion": 2
+                        },
+                        "oq8m6ncy48r": {
+                            "assetType": {
+                                "id": 213,
+                                "name": "layoutblock"
+                            },
+                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding: 10px; \" class=\"stylingblock-content-wrapper camarker-inner\"></td></tr></table>",
+                            "meta": {
+                                "options": {
+                                    "layout": {
+                                        "key": "two_column",
+                                        "spacing": 6,
+                                        "css": {
+                                            "padding": 10
+                                        },
+                                        "layoutClass": "contentlayouts-empty",
+                                        "rows": [
+                                            {
+                                                "columns": [
+                                                    {
+                                                        "width": 50,
+                                                        "slot": "9vnc9r95l7i"
+                                                    },
+                                                    {
+                                                        "width": 50,
+                                                        "slot": "nccbsfcwk9"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "wrapperStyles": {
+                                    "mobile": {
+                                        "visible": true
+                                    },
+                                    "styling": {
+                                        "padding": "10px"
+                                    }
+                                }
+                            },
+                            "slots": {
+                                "9vnc9r95l7i": {
+                                    "content": "<div data-type=\"block\" data-key=\"pceo09t6889\"></div>",
+                                    "design": "<p style=\"font-family: arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                                    "blocks": {
+                                        "pceo09t6889": {
+                                            "assetType": {
+                                                "id": 199,
+                                                "name": "imageblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\"><div style=\"width:100%;height:150px;background: url(data:image/png;base64,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) repeat-x 0 0\"></div></div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        }
+                                    },
+                                    "modelVersion": 2
+                                },
+                                "nccbsfcwk9": {
+                                    "content": "<div data-type=\"block\" data-key=\"rbqsa20tfxh\"></div>",
+                                    "design": "<p style=\"font-family: arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                                    "blocks": {
+                                        "rbqsa20tfxh": {
+                                            "assetType": {
+                                                "id": 196,
+                                                "name": "textblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\" style=\"height:150px; overflow:hidden;\"><p class=\"textblock\" style=\"margin:0; padding:0; overflow:hidden; display:block;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum nunc feugiat porta consectetur. Sed vehicula vel ante suscipit sagittis. Ut metus metus, feugiat ut laoreet blandit, viverra non mi. Phasellus convallis, mauris ac vehicula posuere, ligula magna mattis ipsum, in sollicitudin nibh lacus eget sapien. Mauris ultricies laoreet ex, a viverra leo ornare eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris commodo scelerisque arcu, id semper sem pharetra vel. Sed ut erat auctor lectus pretium blandit gravida vitae enim. Nullam eget ex et enim molestie porttitor. Duis vitae est fringilla, placerat nisi condimentum, tristique purus. Fusce lobortis mauris quis iaculis ultrices. In tempor ligula ac ex tempor rutrum. Pellentesque quis convallis mi.<br><br>Duis mattis, ex a hendrerit ullamcorper, eros massa consectetur elit, vel lobortis justo arcu ac mi magna, blandit sit amet eros id, dapibus cursus justo. Suspendisse mauris odio, aliquet ut ligula in, porta mollis risus. Ut ultrices lectus dolor, sed euismod nulla ultrices ac. Phasellus laoreet ultricies facilisis. Fusce imperdiet maximus ipsum vitae rutrum. Maecenas faucibus vestibulum lorem sit amet varius. Vivamus et ultricies ligula. Mauris semper scelerisque ante id fermentum. Curabitur non odio pellentesque, consectetur odio eu, commodo risus. Mauris egestas elit vel ipsum sagittis fermentum. Cras varius quam ac enim eleifend, eu porttitor odio finibus. Aenean quis finibus dolor. Nunc bibendum aliquam auctor.</p></div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        }
+                                    },
+                                    "modelVersion": 2
+                                }
+                            },
+                            "modelVersion": 2
+                        },
+                        "1jf718g93jy": {
+                            "assetType": {
+                                "id": 199,
+                                "name": "imageblock"
+                            },
+                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\"><div style=\"width:100%;height:150px;background: url(data:image/png;base64,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) repeat-x 0 0\"></div></div></td></tr></table>",
+                            "meta": {
+                                "wrapperStyles": {
+                                    "mobile": {
+                                        "visible": true
+                                    },
+                                    "styling": {}
+                                }
+                            },
+                            "modelVersion": 2
+                        }
+                    },
+                    "modelVersion": 2
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "html"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

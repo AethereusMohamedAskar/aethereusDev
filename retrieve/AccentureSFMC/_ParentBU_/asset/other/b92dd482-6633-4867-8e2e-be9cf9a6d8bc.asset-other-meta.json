@@ -1,0 +1,32 @@
+{
+    "customerKey": "b92dd482-6633-4867-8e2e-be9cf9a6d8bc",
+    "assetType": {
+        "name": "codesnippetblock",
+        "displayName": "Code Snippet Block"
+    },
+    "fileProperties": {
+        "fileName": "Content_Block2"
+    },
+    "name": "Content_Block2",
+    "owner": {
+        "email": "anushree.barapatre@aethereus.com",
+        "name": "Anushree Barapatre"
+    },
+    "createdDate": "2022-02-15T10:54:00.497-06:00",
+    "createdBy": {
+        "email": "anushree.barapatre@aethereus.com",
+        "name": "Anushree Barapatre"
+    },
+    "modifiedDate": "2022-02-15T10:54:00.497-06:00",
+    "modifiedBy": {
+        "email": "anushree.barapatre@aethereus.com",
+        "name": "Anushree Barapatre"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/Anushree/Email"
+}

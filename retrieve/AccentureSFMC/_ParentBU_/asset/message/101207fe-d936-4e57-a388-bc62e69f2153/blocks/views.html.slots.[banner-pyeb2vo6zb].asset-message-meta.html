@@ -1,0 +1,31 @@
+%%[
+VAR @FirstName, @FirstNameFB, @Status, @StatusFB, @SubKey, @Rowset, @Row
+
+SET @SubKey= [StudentId]
+SET @Rowset = LookUpRows('Students','StudentId',@SubKey)
+
+SET @Row = Row(@Rowset,1)
+SET @FirstName = field(@Row,'Name')
+SET @Status = field(@Row, 'Status')
+
+/* Make sure you have a fallback mechanism in place, Do not set the value as dummy*/
+
+SET @FirstNameFB = IIF(Empty(@FirstName), 'Dear Student',Concat('',ProperCase(@FirstName)))
+
+SET @StatusFB = IIF(Empty(@Status),'Dear Student',Concat('','Wait for your status update'))
+
+/*Let's also write some send time data into our data extension for re-engagement and logging purpose*/
+
+VAR @EmailAddress,@MessageType, @SendTime
+
+SET @EmailAddress = EmailAddress
+SET @MessageType = 'Onboarding'
+SET @SendTime = Now()
+
+/*Insert Data into Divya_Demo_SendLog*/
+
+InsertDE('Divya_Demo_SendLog','SubscriberKey', @SubKey, 'EmailAddress', @EmailAddress, 
+'MessageType', @MessageType,
+'SendTime',@SendTime)*/
+
+]%%

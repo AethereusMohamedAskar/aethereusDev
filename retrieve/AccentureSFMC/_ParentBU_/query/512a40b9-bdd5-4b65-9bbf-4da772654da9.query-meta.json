@@ -1,0 +1,11 @@
+{
+    "name": "queryAb",
+    "key": "512a40b9-bdd5-4b65-9bbf-4da772654da9",
+    "description": "",
+    "targetKey": "71621ADC-8E5D-4B0D-955D-865A299101A8",
+    "createdDate": "2022-05-17T03:13:54.213",
+    "modifiedDate": "2022-05-17T06:34:52.3",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

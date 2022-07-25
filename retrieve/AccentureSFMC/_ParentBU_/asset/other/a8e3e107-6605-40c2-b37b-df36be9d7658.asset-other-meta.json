@@ -1,0 +1,32 @@
+{
+    "customerKey": "a8e3e107-6605-40c2-b37b-df36be9d7658",
+    "assetType": {
+        "name": "codesnippetblock",
+        "displayName": "Code Snippet Block"
+    },
+    "fileProperties": {
+        "fileName": "Fractal - Code- without background"
+    },
+    "name": "Fractal - Code- without background",
+    "owner": {
+        "email": "kanika.singhal@aethereus.com",
+        "name": "Kanika Singhal"
+    },
+    "createdDate": "2021-02-18T22:50:29.407-06:00",
+    "createdBy": {
+        "email": "kanika.singhal@aethereus.com",
+        "name": "Kanika Singhal"
+    },
+    "modifiedDate": "2021-07-20T04:16:02.757-06:00",
+    "modifiedBy": {
+        "email": "kanika.singhal@aethereus.com",
+        "name": "Kanika Singhal"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/Practice -Kanika"
+}

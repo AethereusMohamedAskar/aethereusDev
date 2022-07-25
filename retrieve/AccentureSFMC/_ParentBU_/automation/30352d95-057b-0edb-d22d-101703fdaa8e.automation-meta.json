@@ -1,0 +1,36 @@
+{
+    "name": "Ashwini_ImportAutomationDataCsv",
+    "description": "",
+    "key": "30352d95-057b-0edb-d22d-101703fdaa8e",
+    "type": "triggered",
+    "status": "InactiveTrigger",
+    "fileTrigger": {
+        "queueFiles": true,
+        "isPublished": false,
+        "fileNamePatternTypeId": 1,
+        "fileNamingPattern": "Ashwini_DataImport",
+        "folderLocationText": "import\\",
+        "triggerActive": false
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Ashwini_unzip",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Ashwini_importAutomationData",
+                    "r__type": "importFile"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Ashwini"
+}

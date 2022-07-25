@@ -1,0 +1,5 @@
+%%[
+Set @brand = AttributeValue("Order Brand_c")
+Set @FromName = Lookup("POC_Kavitha_Dynamic_SenderProfile","FromName","Brand",@brand)
+]%%
+%%=v(@FromName)=%%

@@ -1,0 +1,72 @@
+{
+    "name": "Ashwini_FilterWaitVerEmailAutomation",
+    "description": " Import the contacts from file in the DE and then send an email to filtered contacts after 5min on file drop",
+    "key": "7870882e-66d8-b452-d2eb-dd617e2b569f",
+    "type": "triggered",
+    "status": "InactiveTrigger",
+    "fileTrigger": {
+        "queueFiles": true,
+        "isPublished": false,
+        "fileNamePatternTypeId": 1,
+        "fileNamingPattern": "Ashwini_FilterFTP",
+        "folderLocationText": "import\\",
+        "triggerActive": false
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Ashwini_WaitVerificationAct",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Ashwini_ImportWaitVerAct",
+                    "r__type": "importFile"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Ashwini_FilterActForWaitVer",
+                    "r__type": "filter"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "5 Minutes",
+                    "r__type": "wait"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Ashwini_DEFilterVerWaitEmail",
+                    "r__type": "verification"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Ahswini_EmailAct",
+                    "r__type": "emailSendDefinition"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Ashwini"
+}

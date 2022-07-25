@@ -1,0 +1,11 @@
+{
+    "name": "DataView_Open",
+    "key": "a2ed4235-3902-45ed-a392-e344133b8fb9",
+    "description": "",
+    "targetKey": "EEA8E96C-DE72-4713-A2D9-EE9A544C1D20",
+    "createdDate": "2022-04-06T06:49:53.56",
+    "modifiedDate": "2022-06-06T00:57:53.813",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

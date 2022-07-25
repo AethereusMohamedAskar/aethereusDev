@@ -1,0 +1,9 @@
+%%[SET @Subkey = _subscriberkey]%%
+
+%%[Set @name = Lookup("CustomerDataExt","Name","SubscriberKey",@Subkey)]%%
+
+%%[Set @emailAddress = Lookup("CustomerDataExt","EmailAddress","SubscriberKey",@Subkey)
+]%%
+
+%%[Set @gender = Lookup("CustomerDataExt","Gender","SubscriberKey",@Subkey)
+]%%

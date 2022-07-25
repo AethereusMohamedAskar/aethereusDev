@@ -1,0 +1,20 @@
+{
+    "name": "_bounce query",
+    "description": "",
+    "key": "d52177a9-f072-6acb-4d9c-7a7e2b2651de",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "_bounce query",
+                    "r__type": "query"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Nitika"
+}

@@ -1,0 +1,29 @@
+{
+    "name": "Ashwini_DataExtractFromDE",
+    "description": "",
+    "key": "1e705ddb-c397-fb3e-5afa-015d270f38cc",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Ashwini_DataExtract",
+                    "r__type": "dataExtract"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Ashwini_DataExtractAct",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training"
+}

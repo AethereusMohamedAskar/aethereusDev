@@ -1,0 +1,53 @@
+{
+    "CreatedDate": "2022-02-24T05:10:58.24",
+    "ModifiedDate": "2022-02-24T05:10:58.24",
+    "CustomerKey": 15070,
+    "Name": "Test Automation Birthday",
+    "Description": "",
+    "SendClassification": {
+        "CustomerKey": "Default Commercial"
+    },
+    "SenderProfile": {
+        "CustomerKey": "Default"
+    },
+    "DeliveryProfile": {
+        "CustomerKey": "Default"
+    },
+    "SuppressTracking": false,
+    "IsSendLogging": true,
+    "SendDefinitionList": [
+        {
+            "SendDefinitionListType": "ExclusionList",
+            "DataSourceTypeID": "CustomObject",
+            "IsTestObject": false,
+            "SalesForceObjectID": "",
+            "Name": "",
+            "r__dataExtension_Key": "D0937F13-2BAC-4609-BAEC-C60A123AF3B6"
+        },
+        {
+            "SendDefinitionListType": "SourceList",
+            "DataSourceTypeID": "CustomObject",
+            "IsTestObject": false,
+            "SalesForceObjectID": "",
+            "Name": "",
+            "r__dataExtension_Key": "121172E9-8AEA-404A-B117-91B486D90073",
+            "r__list_PathName": "my subscribers/All Subscribers"
+        }
+    ],
+    "BccEmail": "",
+    "AutoBccEmail": "",
+    "TestEmailAddr": "",
+    "EmailSubject": "Test Email Template",
+    "DynamicEmailSubject": "Test Email Template",
+    "IsMultipart": true,
+    "IsWrapped": true,
+    "SendWindowOpen": "12:30:00.0000000-06:00",
+    "SendWindowClose": "13:00:00.0000000-06:00",
+    "DeduplicateByEmail": true,
+    "ExclusionFilter": "",
+    "Additional": "",
+    "CCEmail": "",
+    "r__folder_Path": "User-Initiated",
+    "r__assetMessage_Name": "POC 3 kavitha",
+    "r__assetMessage_Key": "5e5451e0-2f95-4db0-9db4-56774c4ad264"
+}

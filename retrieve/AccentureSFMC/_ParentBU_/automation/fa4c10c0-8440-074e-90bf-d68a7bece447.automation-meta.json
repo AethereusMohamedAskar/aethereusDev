@@ -1,0 +1,27 @@
+{
+    "name": "Anushree_Upload_csv_file_to_DE",
+    "description": "",
+    "key": "fa4c10c0-8440-074e-90bf-d68a7bece447",
+    "type": "triggered",
+    "status": "InactiveTrigger",
+    "fileTrigger": {
+        "queueFiles": true,
+        "isPublished": false,
+        "fileNamePatternTypeId": 1,
+        "fileNamingPattern": "Anushree_Automation_File",
+        "folderLocationText": "import\\",
+        "triggerActive": false
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Anushree_Upload to new Data Extension1",
+                    "r__type": "importFile"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Anushree"
+}

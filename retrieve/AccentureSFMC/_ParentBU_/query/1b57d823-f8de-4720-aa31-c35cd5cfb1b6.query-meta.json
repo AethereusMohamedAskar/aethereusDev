@@ -1,0 +1,11 @@
+{
+    "name": "GMAIL_Dyanimc_Query",
+    "key": "1b57d823-f8de-4720-aa31-c35cd5cfb1b6",
+    "description": "",
+    "targetKey": "827F47EA-CB11-43BD-9D1A-8F5DB5A9E625",
+    "createdDate": "2020-04-09T00:29:55.423",
+    "modifiedDate": "2020-04-09T00:29:55.423",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query/Sai Prasad UC"
+}

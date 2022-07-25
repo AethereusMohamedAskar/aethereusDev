@@ -1,0 +1,72 @@
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><script runat="server">
+Platform.Load("Core","1.1.1");
+try{
+</script>
+  <style>
+        body {
+            justify-content: center;
+            align-items: center;
+        }
+        #form-container {
+            padding: 10px;
+            text-align: center;
+        }
+        h2 {
+            margin: 0px 0px 10px 0px;
+            color: Black;
+        }
+        input {
+            width: 300px;
+            margin: 5px 0px;
+            padding: 5px;
+        }
+        input[type="submit"] {
+            width: 222px;
+            background-color: #00bfa5;
+            border: 0px;
+            color: black;
+        }
+        label {
+            color: black;
+        }
+    </style>
+%%[
+
+if RequestParameter("submitted") == true then
+
+var @createLead
+set @createLead = CreateSalesforceObject( 
+                  "Lead",4,
+                  "FirstName", RequestParameter("FirstName"),
+                  "LastName", RequestParameter("LastName"),
+                  "Company", RequestParameter("company"),
+                  "Email", RequestParameter("email")
+          )
+endif
+
+]%%
+
+  
+    %%[ if not empty(@createLead) then ]%%
+    <p>%%=v(@createLead)=%% record created in Lead Object</p>
+    %%[ endif ]%%
+    <h2>Register</h2>
+<form action="%%=RequestParameter('PAGEURL')=%%" method="post">
+  <label>First Name</label><br>
+  <input type="text" name="FirstName" id="FirstName"><br><br>
+  <label>Last Name</label><br>
+  <input type="text" name="LastName" id="LastName"><br><br>
+  <label>Company</label><br>
+  <input type="text" name="company" id="company"><br><br>
+  <label>Email</label><br>
+  <input type="text" name="email"><br><br>
+  <input name="submitted" type="hidden" value="true">
+  <input type="submit" value="Submit">
+</form>
+  
+
+<script runat="server">
+}catch(e){
+ Write(Stringify(e));
+}
+</script></td></tr></table>

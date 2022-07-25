@@ -1,0 +1,1543 @@
+{
+    "customerKey": "116649f7-2aed-4adf-97f8-c4b9f5546d2a",
+    "contentType": "text/html",
+    "assetType": {
+        "name": "webpage",
+        "displayName": "Web Page"
+    },
+    "version": 1,
+    "name": "Cup Cake",
+    "owner": {
+        "email": "Gauri.Singh@aethereus.com",
+        "name": "Gauri shankar singh"
+    },
+    "createdDate": "2022-05-15T01:05:34.16-06:00",
+    "createdBy": {
+        "email": "Gauri.Singh@aethereus.com",
+        "name": "Gauri shankar singh"
+    },
+    "modifiedDate": "2022-05-18T23:44:44.81-06:00",
+    "modifiedBy": {
+        "email": "Gauri.Singh@aethereus.com",
+        "name": "Gauri shankar singh"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "meta": {
+        "globalStyles": {
+            "isLocked": false,
+            "body": {
+                "max-width": "1280px",
+                "color": "#000000",
+                "font-family": "Arial",
+                "font-size": "12px",
+                "margin": "0px auto"
+            },
+            "template": {
+                "background-color": "#FFFFFF",
+                "border": "none",
+                "box-sizing": "border-box",
+                "padding": "0px",
+                "width": "100%"
+            },
+            "buttons": {},
+            "h1": {},
+            "h2": {},
+            "h3": {},
+            "links": {}
+        },
+        "central": {
+            "scModel": null
+        }
+    },
+    "views": {
+        "html": {
+            "thumbnail": {},
+            "meta": {},
+            "slots": {
+                "header": {
+                    "content": "<div data-type=\"block\" data-key=\"m4sdt3va8c\"></div><div data-type=\"block\" data-key=\"j0iujgy0uy\"></div><div data-type=\"block\" data-key=\"mi1v04749fg\"></div>",
+                    "design": "<p style=\"font-family:arial;color:#ccc;font-size:11px;text-align:center;vertical-align:middle;font-weight:bold;padding:10px;margin:0;border:#ccc dashed 1px;\">Drop blocks or content here</p>",
+                    "blocks": {
+                        "j0iujgy0uy": {
+                            "assetType": {
+                                "id": 196,
+                                "name": "textblock"
+                            },
+                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"background-color: #3FBFBF; min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding: 0px; \" class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\" style=\"height:150px; overflow:hidden;\"><p class=\"textblock\" style=\"margin:0; padding:0; overflow:hidden; display:block;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum nunc feugiat porta consectetur. Sed vehicula vel ante suscipit sagittis. Ut metus metus, feugiat ut laoreet blandit, viverra non mi. Phasellus convallis, mauris ac vehicula posuere, ligula magna mattis ipsum, in sollicitudin nibh lacus eget sapien. Mauris ultricies laoreet ex, a viverra leo ornare eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris commodo scelerisque arcu, id semper sem pharetra vel. Sed ut erat auctor lectus pretium blandit gravida vitae enim. Nullam eget ex et enim molestie porttitor. Duis vitae est fringilla, placerat nisi condimentum, tristique purus. Fusce lobortis mauris quis iaculis ultrices. In tempor ligula ac ex tempor rutrum. Pellentesque quis convallis mi.<br><br>Duis mattis, ex a hendrerit ullamcorper, eros massa consectetur elit, vel lobortis justo arcu ac mi magna, blandit sit amet eros id, dapibus cursus justo. Suspendisse mauris odio, aliquet ut ligula in, porta mollis risus. Ut ultrices lectus dolor, sed euismod nulla ultrices ac. Phasellus laoreet ultricies facilisis. Fusce imperdiet maximus ipsum vitae rutrum. Maecenas faucibus vestibulum lorem sit amet varius. Vivamus et ultricies ligula. Mauris semper scelerisque ante id fermentum. Curabitur non odio pellentesque, consectetur odio eu, commodo risus. Mauris egestas elit vel ipsum sagittis fermentum. Cras varius quam ac enim eleifend, eu porttitor odio finibus. Aenean quis finibus dolor. Nunc bibendum aliquam auctor.</p></div></td></tr></table>",
+                            "meta": {
+                                "wrapperStyles": {
+                                    "mobile": {
+                                        "visible": true,
+                                        "columnOrder": "ltr"
+                                    },
+                                    "styling": {
+                                        "background-color": "#3FBFBF",
+                                        "margin": "0px",
+                                        "padding": "0px"
+                                    }
+                                }
+                            },
+                            "modelVersion": 2
+                        },
+                        "m4sdt3va8c": {
+                            "assetType": {
+                                "id": 213,
+                                "name": "layoutblock"
+                            },
+                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"background-color: #3FBFBF; min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding: 10px; \" class=\"stylingblock-content-wrapper camarker-inner\"></td></tr></table>",
+                            "meta": {
+                                "options": {
+                                    "layout": {
+                                        "key": "three_column",
+                                        "spacing": 6,
+                                        "css": {
+                                            "padding": 10
+                                        },
+                                        "layoutClass": "contentlayouts-empty",
+                                        "rows": [
+                                            {
+                                                "columns": [
+                                                    {
+                                                        "width": 33,
+                                                        "slot": "c6xv6j1dsn"
+                                                    },
+                                                    {
+                                                        "width": 33,
+                                                        "slot": "5o2x9npw8bc"
+                                                    },
+                                                    {
+                                                        "width": 33,
+                                                        "slot": "wu39ew8kae"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "rowDirection": "ltr"
+                                    }
+                                },
+                                "wrapperStyles": {
+                                    "mobile": {
+                                        "visible": true,
+                                        "columnOrder": "ltr"
+                                    },
+                                    "styling": {
+                                        "padding": "10px",
+                                        "background-color": "#3FBFBF",
+                                        "margin": "0px"
+                                    }
+                                }
+                            },
+                            "slots": {
+                                "c6xv6j1dsn": {
+                                    "content": "<div data-type=\"block\" data-key=\"eosoczup8c4\"></div>",
+                                    "design": "<p style=\"font-family: arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                                    "blocks": {
+                                        "eosoczup8c4": {
+                                            "assetType": {
+                                                "id": 199,
+                                                "name": "imageblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\"><div style=\"width:100%;height:150px;background: url(data:image/png;base64,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) repeat-x 0 0\"></div></div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        }
+                                    },
+                                    "modelVersion": 2
+                                },
+                                "5o2x9npw8bc": {
+                                    "content": "<div data-type=\"block\" data-key=\"zothqhfdnv\"></div>",
+                                    "design": "<p style=\"font-family: arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                                    "blocks": {
+                                        "zothqhfdnv": {
+                                            "assetType": {
+                                                "id": 199,
+                                                "name": "imageblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\"><div style=\"width:100%;height:150px;background: url(data:image/png;base64,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) repeat-x 0 0\"></div></div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        }
+                                    },
+                                    "modelVersion": 2
+                                },
+                                "wu39ew8kae": {
+                                    "content": "<div data-type=\"block\" data-key=\"m17nknph4\"></div>",
+                                    "design": "<p style=\"font-family: arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                                    "blocks": {
+                                        "m17nknph4": {
+                                            "assetType": {
+                                                "id": 199,
+                                                "name": "imageblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\"><div style=\"width:100%;height:150px;background: url(data:image/png;base64,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) repeat-x 0 0\"></div></div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        }
+                                    },
+                                    "modelVersion": 2
+                                }
+                            },
+                            "modelVersion": 2
+                        },
+                        "mi1v04749fg": {
+                            "assetType": {
+                                "id": 215,
+                                "name": "smartcaptureblock"
+                            },
+                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div style=\"background-color: #f3f2f2; border-radius: 8px; margin: 20px auto; height: 58px; width: 58px;\"><img src=\"data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNS4zNSAyNi4xNCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiM3MDZlNmF9LmNscy0ye2ZpbGw6bm9uZTtzdHJva2U6IzcwNmU2YTtzdHJva2UtbWl0ZXJsaW1pdDoxMDtzdHJva2Utd2lkdGg6MS41cHh9PC9zdHlsZT48L2RlZnM+PGNpcmNsZSBjbGFzcz0iY2xzLTEiIGN4PSI2LjA3IiBjeT0iNi4wNyIgcj0iMy4wOCIvPjxjaXJjbGUgY2xhc3M9ImNscy0yIiBjeD0iNi4wNyIgY3k9IjIwLjA3IiByPSI1LjMyIi8+PGNpcmNsZSBjbGFzcz0iY2xzLTIiIGN4PSI2LjA3IiBjeT0iNi4wNyIgcj0iNS4zMiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTE1Ljk5IDYuMzZ2MTQuNjFsMy41My0xLjMgMS43NCA0LjcyIDEuMjEtLjQ0IDEuMjEtLjQ1LTEuNzMtNC43MiAzLjQtMS4yNS05LjM2LTExLjE3eiIvPjwvc3ZnPg==\" style=\"display: block;  height: 24px; padding: 17px; width: 24px;\"></div></td></tr></table>",
+                            "meta": {
+                                "options": {
+                                    "attributesSlotKey": "o435k41vgo",
+                                    "smartCaptureGearID": "oi2phen0w4",
+                                    "buttonText": "Submit",
+                                    "buttonStyling": {
+                                        "background-color": "#009DDC",
+                                        "border-color": "#009DDC",
+                                        "border-radius": "3px",
+                                        "border-style": "solid",
+                                        "-webkit-border-radius": "3px",
+                                        "-moz-border-radius": "3px",
+                                        "color": "#FFFFFF",
+                                        "font-family": "Arial, Helvetica, sans-serif",
+                                        "font-size": "16px",
+                                        "line-height": "normal",
+                                        "padding": "10px"
+                                    },
+                                    "buttonWrapperStyling": {
+                                        "padding-bottom": "10px",
+                                        "text-align": "center"
+                                    },
+                                    "confirmationMessage": "Thank you for your submission.",
+                                    "fieldFontStyling": {
+                                        "color": "#000000",
+                                        "font-family": "Arial, Helvetica, sans-serif",
+                                        "font-size": "16px",
+                                        "line-height": "inherit",
+                                        "margin-bottom": "3px",
+                                        "vertical-align": "middle"
+                                    },
+                                    "fieldStyling": {
+                                        "width": "200px"
+                                    },
+                                    "formStyling": {
+                                        "background-color": "#3FBFBF",
+                                        "margin-top": "0px",
+                                        "margin-right": "0px",
+                                        "margin-bottom": "0px",
+                                        "margin-left": "0px",
+                                        "padding-top": "0px",
+                                        "padding-right": "0px",
+                                        "padding-bottom": "0px",
+                                        "padding-left": "0px",
+                                        "text-align": "left",
+                                        "margin": "0px",
+                                        "padding": "0px 0px 0px 40px"
+                                    },
+                                    "name": "Gauri_2022",
+                                    "useInJourney": true,
+                                    "customObjectFields": [
+                                        {
+                                            "name": "Easy Little Pandas",
+                                            "id": "b040c29f-8660-46a9-9ea2-da3ae7c153b2",
+                                            "type": "Boolean",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "description": "",
+                                            "ordinal": 11,
+                                            "isNullable": true,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": false,
+                                            "isInheritable": true,
+                                            "isOverridable": true,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "b040c29f-8660-46a9-9ea2-da3ae7c153b2",
+                                            "label": "Easy Little Pandas",
+                                            "isRequired": false,
+                                            "isFormRequired": false,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "0xn1f6ueexz"
+                                        },
+                                        {
+                                            "name": "Apple Pie Cupcakes",
+                                            "id": "08c3d363-430d-4f96-89c8-18d3a9d59e55",
+                                            "type": "Boolean",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "description": "",
+                                            "ordinal": 12,
+                                            "isNullable": true,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": false,
+                                            "isInheritable": true,
+                                            "isOverridable": true,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "08c3d363-430d-4f96-89c8-18d3a9d59e55",
+                                            "label": "Apple Pie Cupcakes",
+                                            "isRequired": false,
+                                            "isFormRequired": false,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "qeoxi5p2gyp"
+                                        },
+                                        {
+                                            "name": "Triple Salted Caramel Cupcakes",
+                                            "id": "c176b111-2a51-49bf-b6e2-eebdb344d289",
+                                            "type": "Boolean",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "description": "",
+                                            "ordinal": 13,
+                                            "isNullable": true,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": false,
+                                            "isInheritable": true,
+                                            "isOverridable": true,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "c176b111-2a51-49bf-b6e2-eebdb344d289",
+                                            "label": "Triple Salted Caramel Cupcakes",
+                                            "isRequired": false,
+                                            "isFormRequired": false,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "7kyst7h7i13"
+                                        },
+                                        {
+                                            "name": "Sprinkles’ Strawberry Cupcakes",
+                                            "id": "405896ba-aa87-41d7-bb76-0bb9678fcfc5",
+                                            "type": "Boolean",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "description": "",
+                                            "ordinal": 14,
+                                            "isNullable": true,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": false,
+                                            "isInheritable": true,
+                                            "isOverridable": true,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "405896ba-aa87-41d7-bb76-0bb9678fcfc5",
+                                            "label": "Sprinkles’ Strawberry Cupcakes",
+                                            "isRequired": false,
+                                            "isFormRequired": false,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "z2jrtu8pwjg"
+                                        },
+                                        {
+                                            "name": "Bubbly Champagne Cupcakes",
+                                            "id": "02390deb-01f4-4fe9-971a-c0332cb645f1",
+                                            "type": "Boolean",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "description": "",
+                                            "ordinal": 15,
+                                            "isNullable": true,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": false,
+                                            "isInheritable": true,
+                                            "isOverridable": true,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "02390deb-01f4-4fe9-971a-c0332cb645f1",
+                                            "label": "Bubbly Champagne Cupcakes",
+                                            "isRequired": false,
+                                            "isFormRequired": false,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "9r72iaqeu46"
+                                        },
+                                        {
+                                            "name": "Butterbeer Cupcakes",
+                                            "id": "f0a3fc0f-e171-4ed2-8a34-63c8d81b7e2f",
+                                            "type": "Boolean",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "description": "",
+                                            "ordinal": 16,
+                                            "isNullable": true,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": false,
+                                            "isInheritable": true,
+                                            "isOverridable": true,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "f0a3fc0f-e171-4ed2-8a34-63c8d81b7e2f",
+                                            "label": "Butterbeer Cupcakes",
+                                            "isRequired": false,
+                                            "isFormRequired": false,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "yma2n90tusk"
+                                        },
+                                        {
+                                            "name": "First name",
+                                            "id": "d067e160-a379-4266-a99c-9d42ae7d0228",
+                                            "type": "Text",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "length": 50,
+                                            "description": "",
+                                            "ordinal": 0,
+                                            "isNullable": false,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": false,
+                                            "isInheritable": false,
+                                            "isOverridable": false,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "d067e160-a379-4266-a99c-9d42ae7d0228",
+                                            "label": "First name",
+                                            "isRequired": true,
+                                            "isFormRequired": true,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "yf1tg339fsk"
+                                        },
+                                        {
+                                            "name": "Last Name",
+                                            "id": "a423f16f-1ef1-443d-82e7-3f08dc680822",
+                                            "type": "Text",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "length": 50,
+                                            "description": "",
+                                            "ordinal": 1,
+                                            "isNullable": false,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": false,
+                                            "isInheritable": false,
+                                            "isOverridable": false,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "a423f16f-1ef1-443d-82e7-3f08dc680822",
+                                            "label": "Last Name",
+                                            "isRequired": true,
+                                            "isFormRequired": true,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "jto5njcrv4"
+                                        },
+                                        {
+                                            "name": "Delivery Date",
+                                            "id": "aa0c33ac-87f0-4f6d-9ac9-5aa95cc217d8",
+                                            "type": "Date",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "description": "",
+                                            "ordinal": 2,
+                                            "isNullable": true,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": false,
+                                            "isInheritable": false,
+                                            "isOverridable": false,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "aa0c33ac-87f0-4f6d-9ac9-5aa95cc217d8",
+                                            "label": "Delivery Date",
+                                            "isRequired": false,
+                                            "isFormRequired": false,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "be9vb34szfr"
+                                        },
+                                        {
+                                            "name": "Phone",
+                                            "id": "5d2a8e88-0bf2-4cc6-a5be-c7d2ad302b53",
+                                            "type": "Phone",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "length": 50,
+                                            "description": "",
+                                            "ordinal": 3,
+                                            "isNullable": true,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": false,
+                                            "isInheritable": false,
+                                            "isOverridable": false,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "5d2a8e88-0bf2-4cc6-a5be-c7d2ad302b53",
+                                            "label": "Phone",
+                                            "isRequired": false,
+                                            "isFormRequired": false,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "45mqy59juvr"
+                                        },
+                                        {
+                                            "name": "Email",
+                                            "id": "36e18f7f-b077-4d89-9107-a024c1d7bbc0",
+                                            "type": "EmailAddress",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "length": 254,
+                                            "description": "",
+                                            "ordinal": 4,
+                                            "isNullable": true,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": false,
+                                            "isInheritable": false,
+                                            "isOverridable": false,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "36e18f7f-b077-4d89-9107-a024c1d7bbc0",
+                                            "label": "Email",
+                                            "isRequired": false,
+                                            "isFormRequired": false,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "r71pkz61pxs"
+                                        },
+                                        {
+                                            "name": "Street Address",
+                                            "id": "71ac9155-c3d3-4329-afaf-09cbcee8e433",
+                                            "type": "Text",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "length": 50,
+                                            "description": "",
+                                            "ordinal": 5,
+                                            "isNullable": true,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": false,
+                                            "isInheritable": false,
+                                            "isOverridable": false,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "71ac9155-c3d3-4329-afaf-09cbcee8e433",
+                                            "label": "Street Address",
+                                            "isRequired": false,
+                                            "isFormRequired": false,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "t153pon7unb"
+                                        },
+                                        {
+                                            "name": "Street Address 2",
+                                            "id": "e4a4a95a-3035-4e38-9d69-9c8c4e8afb6b",
+                                            "type": "Text",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "length": 50,
+                                            "description": "",
+                                            "ordinal": 6,
+                                            "isNullable": true,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": false,
+                                            "isInheritable": false,
+                                            "isOverridable": false,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "e4a4a95a-3035-4e38-9d69-9c8c4e8afb6b",
+                                            "label": "Street Address 2",
+                                            "isRequired": false,
+                                            "isFormRequired": false,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "7wnmneznmmn"
+                                        },
+                                        {
+                                            "name": "City",
+                                            "id": "6da3304f-09ce-44a7-80cb-1df8b9c94495",
+                                            "type": "Text",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "length": 50,
+                                            "description": "",
+                                            "ordinal": 7,
+                                            "isNullable": true,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": false,
+                                            "isInheritable": false,
+                                            "isOverridable": false,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "6da3304f-09ce-44a7-80cb-1df8b9c94495",
+                                            "label": "City",
+                                            "isRequired": false,
+                                            "isFormRequired": false,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "vj85368izik"
+                                        },
+                                        {
+                                            "name": "Region",
+                                            "id": "95cfcc28-6aaf-426b-8d9b-64ac36b823be",
+                                            "type": "Text",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "description": "",
+                                            "ordinal": 8,
+                                            "isNullable": true,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": false,
+                                            "isInheritable": false,
+                                            "isOverridable": false,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "95cfcc28-6aaf-426b-8d9b-64ac36b823be",
+                                            "label": "Region",
+                                            "isRequired": false,
+                                            "isFormRequired": false,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "m28pn4mlpa"
+                                        },
+                                        {
+                                            "name": "Zip Code",
+                                            "id": "51080d0c-081a-4db1-9428-34bce4127970",
+                                            "type": "Number",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "description": "",
+                                            "ordinal": 9,
+                                            "isNullable": true,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": false,
+                                            "isInheritable": false,
+                                            "isOverridable": false,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "51080d0c-081a-4db1-9428-34bce4127970",
+                                            "label": "Zip Code",
+                                            "isRequired": false,
+                                            "isFormRequired": false,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "bikg13dc3e"
+                                        },
+                                        {
+                                            "name": "Country",
+                                            "id": "c662861b-0e68-428b-b243-f85455afc777",
+                                            "type": "Text",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "length": 50,
+                                            "description": "",
+                                            "ordinal": 10,
+                                            "isNullable": true,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": false,
+                                            "isInheritable": false,
+                                            "isOverridable": false,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "c662861b-0e68-428b-b243-f85455afc777",
+                                            "label": "Country",
+                                            "isRequired": false,
+                                            "isFormRequired": false,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "actfwbvfso7"
+                                        }
+                                    ],
+                                    "dataTarget": "dataExtension",
+                                    "listid": "7b5dafdf-1cd4-ec11-ba2d-d4f5ef3de4bd",
+                                    "listName": "Cup Cake",
+                                    "listKey": "28C38C98-D8A0-409D-84C4-FD0BE78EE1FC",
+                                    "noAddingFields": false,
+                                    "hasSendableDataExtension": true,
+                                    "smartCaptureFormID": 163,
+                                    "isInJourney": true
+                                },
+                                "wrapperStyles": {
+                                    "mobile": {
+                                        "visible": true
+                                    },
+                                    "styling": {}
+                                }
+                            },
+                            "slots": {
+                                "o435k41vgo": {
+                                    "content": "<div data-type=\"block\" data-key=\"0xn1f6ueexz\"></div><div data-type=\"block\" data-key=\"qeoxi5p2gyp\"></div><div data-type=\"block\" data-key=\"7kyst7h7i13\"></div><div data-type=\"block\" data-key=\"z2jrtu8pwjg\"></div><div data-type=\"block\" data-key=\"9r72iaqeu46\"></div><div data-type=\"block\" data-key=\"yma2n90tusk\"></div><div data-type=\"block\" data-key=\"yf1tg339fsk\"></div><div data-type=\"block\" data-key=\"jto5njcrv4\"></div><div data-type=\"block\" data-key=\"be9vb34szfr\"></div><div data-type=\"block\" data-key=\"45mqy59juvr\"></div><div data-type=\"block\" data-key=\"r71pkz61pxs\"></div><div data-type=\"block\" data-key=\"t153pon7unb\"></div><div data-type=\"block\" data-key=\"7wnmneznmmn\"></div><div data-type=\"block\" data-key=\"vj85368izik\"></div><div data-type=\"block\" data-key=\"m28pn4mlpa\"></div><div data-type=\"block\" data-key=\"bikg13dc3e\"></div><div data-type=\"block\" data-key=\"actfwbvfso7\"></div>",
+                                    "design": "<p style=\"font-family: arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                                    "blocks": {
+                                        "0xn1f6ueexz": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"></div>\n<div class=\"sc-formfield-input-wrapper\">\n\n\t<div class=\"sc-formfield-input\"><label><input type=\"checkbox\" name=\"Easy Little Pandas\" data-field-type=\"Boolean\">&nbsp;Easy Little Pandas</label></div>\n\n</div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "Easy Little Pandas",
+                                                    "id": "b040c29f-8660-46a9-9ea2-da3ae7c153b2",
+                                                    "type": "Boolean",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "description": "",
+                                                    "ordinal": 11,
+                                                    "isNullable": true,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": false,
+                                                    "isInheritable": true,
+                                                    "isOverridable": true,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "b040c29f-8660-46a9-9ea2-da3ae7c153b2",
+                                                    "label": "Easy Little Pandas",
+                                                    "isRequired": false,
+                                                    "isFormRequired": false,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field."
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "qeoxi5p2gyp": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"></div>\n<div class=\"sc-formfield-input-wrapper\">\n\n\t<div class=\"sc-formfield-input\"><label><input type=\"checkbox\" name=\"Apple Pie Cupcakes\" data-field-type=\"Boolean\">&nbsp;Apple Pie Cupcakes</label></div>\n\n</div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "Apple Pie Cupcakes",
+                                                    "id": "08c3d363-430d-4f96-89c8-18d3a9d59e55",
+                                                    "type": "Boolean",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "description": "",
+                                                    "ordinal": 12,
+                                                    "isNullable": true,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": false,
+                                                    "isInheritable": true,
+                                                    "isOverridable": true,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "08c3d363-430d-4f96-89c8-18d3a9d59e55",
+                                                    "label": "Apple Pie Cupcakes",
+                                                    "isRequired": false,
+                                                    "isFormRequired": false,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field."
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "7kyst7h7i13": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"></div>\n<div class=\"sc-formfield-input-wrapper\">\n\n\t<div class=\"sc-formfield-input\"><label><input type=\"checkbox\" name=\"Triple Salted Caramel Cupcakes\" data-field-type=\"Boolean\">&nbsp;Triple Salted Caramel Cupcakes</label></div>\n\n</div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "Triple Salted Caramel Cupcakes",
+                                                    "id": "c176b111-2a51-49bf-b6e2-eebdb344d289",
+                                                    "type": "Boolean",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "description": "",
+                                                    "ordinal": 13,
+                                                    "isNullable": true,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": false,
+                                                    "isInheritable": true,
+                                                    "isOverridable": true,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "c176b111-2a51-49bf-b6e2-eebdb344d289",
+                                                    "label": "Triple Salted Caramel Cupcakes",
+                                                    "isRequired": false,
+                                                    "isFormRequired": false,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field."
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "z2jrtu8pwjg": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"></div>\n<div class=\"sc-formfield-input-wrapper\">\n\n\t<div class=\"sc-formfield-input\"><label><input type=\"checkbox\" name=\"Sprinkles’ Strawberry Cupcakes\" data-field-type=\"Boolean\">&nbsp;Sprinkles’ Strawberry Cupcakes</label></div>\n\n</div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "Sprinkles’ Strawberry Cupcakes",
+                                                    "id": "405896ba-aa87-41d7-bb76-0bb9678fcfc5",
+                                                    "type": "Boolean",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "description": "",
+                                                    "ordinal": 14,
+                                                    "isNullable": true,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": false,
+                                                    "isInheritable": true,
+                                                    "isOverridable": true,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "405896ba-aa87-41d7-bb76-0bb9678fcfc5",
+                                                    "label": "Sprinkles’ Strawberry Cupcakes",
+                                                    "isRequired": false,
+                                                    "isFormRequired": false,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field."
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "9r72iaqeu46": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"></div>\n<div class=\"sc-formfield-input-wrapper\">\n\n\t<div class=\"sc-formfield-input\"><label><input type=\"checkbox\" name=\"Bubbly Champagne Cupcakes\" data-field-type=\"Boolean\">&nbsp;Bubbly Champagne Cupcakes</label></div>\n\n</div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "Bubbly Champagne Cupcakes",
+                                                    "id": "02390deb-01f4-4fe9-971a-c0332cb645f1",
+                                                    "type": "Boolean",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "description": "",
+                                                    "ordinal": 15,
+                                                    "isNullable": true,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": false,
+                                                    "isInheritable": true,
+                                                    "isOverridable": true,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "02390deb-01f4-4fe9-971a-c0332cb645f1",
+                                                    "label": "Bubbly Champagne Cupcakes",
+                                                    "isRequired": false,
+                                                    "isFormRequired": false,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field."
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "yma2n90tusk": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"></div>\n<div class=\"sc-formfield-input-wrapper\">\n\n\t<div class=\"sc-formfield-input\"><label><input type=\"checkbox\" name=\"Butterbeer Cupcakes\" data-field-type=\"Boolean\">&nbsp;Butterbeer Cupcakes</label></div>\n\n</div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "Butterbeer Cupcakes",
+                                                    "id": "f0a3fc0f-e171-4ed2-8a34-63c8d81b7e2f",
+                                                    "type": "Boolean",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "description": "",
+                                                    "ordinal": 16,
+                                                    "isNullable": true,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": false,
+                                                    "isInheritable": true,
+                                                    "isOverridable": true,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "f0a3fc0f-e171-4ed2-8a34-63c8d81b7e2f",
+                                                    "label": "Butterbeer Cupcakes",
+                                                    "isRequired": false,
+                                                    "isFormRequired": false,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field."
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "yf1tg339fsk": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"First name\">First name *</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"First name\" data-field-type=\"Text\" required=\"required\" data-validation-message=\"Please fill out this field.\"></div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "First name",
+                                                    "id": "d067e160-a379-4266-a99c-9d42ae7d0228",
+                                                    "type": "Text",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "length": 50,
+                                                    "description": "",
+                                                    "ordinal": 0,
+                                                    "isNullable": false,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": false,
+                                                    "isInheritable": false,
+                                                    "isOverridable": false,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "d067e160-a379-4266-a99c-9d42ae7d0228",
+                                                    "label": "First name",
+                                                    "isRequired": true,
+                                                    "isFormRequired": true,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field.",
+                                                    "_key": "vzb7eqgmsp"
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "jto5njcrv4": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Last Name\">Last Name *</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"Last Name\" data-field-type=\"Text\" required=\"required\" data-validation-message=\"Please fill out this field.\"></div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "Last Name",
+                                                    "id": "a423f16f-1ef1-443d-82e7-3f08dc680822",
+                                                    "type": "Text",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "length": 50,
+                                                    "description": "",
+                                                    "ordinal": 1,
+                                                    "isNullable": false,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": false,
+                                                    "isInheritable": false,
+                                                    "isOverridable": false,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "a423f16f-1ef1-443d-82e7-3f08dc680822",
+                                                    "label": "Last Name",
+                                                    "isRequired": true,
+                                                    "isFormRequired": true,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field."
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "be9vb34szfr": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Delivery Date\">Delivery Date</label></div>\n\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "Delivery Date",
+                                                    "id": "aa0c33ac-87f0-4f6d-9ac9-5aa95cc217d8",
+                                                    "type": "Date",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "description": "",
+                                                    "ordinal": 2,
+                                                    "isNullable": true,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": false,
+                                                    "isInheritable": false,
+                                                    "isOverridable": false,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "aa0c33ac-87f0-4f6d-9ac9-5aa95cc217d8",
+                                                    "label": "Delivery Date",
+                                                    "isRequired": false,
+                                                    "isFormRequired": false,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field."
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "45mqy59juvr": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Phone\">Phone</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"Phone\" data-field-type=\"Phone\"></div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "Phone",
+                                                    "id": "5d2a8e88-0bf2-4cc6-a5be-c7d2ad302b53",
+                                                    "type": "Phone",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "length": 50,
+                                                    "description": "",
+                                                    "ordinal": 3,
+                                                    "isNullable": true,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": false,
+                                                    "isInheritable": false,
+                                                    "isOverridable": false,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "5d2a8e88-0bf2-4cc6-a5be-c7d2ad302b53",
+                                                    "label": "Phone",
+                                                    "isRequired": false,
+                                                    "isFormRequired": false,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field."
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "r71pkz61pxs": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Email\">Email</label></div>\n<div class=\"sc-formfield-input\"><input type=\"email\" name=\"Email\" data-field-type=\"EmailAddress\" data-validation=\"email\"></div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "Email",
+                                                    "id": "36e18f7f-b077-4d89-9107-a024c1d7bbc0",
+                                                    "type": "EmailAddress",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "length": 254,
+                                                    "description": "",
+                                                    "ordinal": 4,
+                                                    "isNullable": true,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": false,
+                                                    "isInheritable": false,
+                                                    "isOverridable": false,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "36e18f7f-b077-4d89-9107-a024c1d7bbc0",
+                                                    "label": "Email",
+                                                    "isRequired": false,
+                                                    "isFormRequired": false,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field."
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "t153pon7unb": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Street Address\">Street Address</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"Street Address\" data-field-type=\"Text\"></div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "Street Address",
+                                                    "id": "71ac9155-c3d3-4329-afaf-09cbcee8e433",
+                                                    "type": "Text",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "length": 50,
+                                                    "description": "",
+                                                    "ordinal": 5,
+                                                    "isNullable": true,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": false,
+                                                    "isInheritable": false,
+                                                    "isOverridable": false,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "71ac9155-c3d3-4329-afaf-09cbcee8e433",
+                                                    "label": "Street Address",
+                                                    "isRequired": false,
+                                                    "isFormRequired": false,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field."
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "7wnmneznmmn": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Street Address 2\">Street Address 2</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"Street Address 2\" data-field-type=\"Text\"></div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "Street Address 2",
+                                                    "id": "e4a4a95a-3035-4e38-9d69-9c8c4e8afb6b",
+                                                    "type": "Text",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "length": 50,
+                                                    "description": "",
+                                                    "ordinal": 6,
+                                                    "isNullable": true,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": false,
+                                                    "isInheritable": false,
+                                                    "isOverridable": false,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "e4a4a95a-3035-4e38-9d69-9c8c4e8afb6b",
+                                                    "label": "Street Address 2",
+                                                    "isRequired": false,
+                                                    "isFormRequired": false,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field."
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "vj85368izik": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"City\">City</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"City\" data-field-type=\"Text\"></div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "City",
+                                                    "id": "6da3304f-09ce-44a7-80cb-1df8b9c94495",
+                                                    "type": "Text",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "length": 50,
+                                                    "description": "",
+                                                    "ordinal": 7,
+                                                    "isNullable": true,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": false,
+                                                    "isInheritable": false,
+                                                    "isOverridable": false,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "6da3304f-09ce-44a7-80cb-1df8b9c94495",
+                                                    "label": "City",
+                                                    "isRequired": false,
+                                                    "isFormRequired": false,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field."
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "m28pn4mlpa": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Region\">Region</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"Region\" data-field-type=\"Text\"></div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "Region",
+                                                    "id": "95cfcc28-6aaf-426b-8d9b-64ac36b823be",
+                                                    "type": "Text",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "description": "",
+                                                    "ordinal": 8,
+                                                    "isNullable": true,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": false,
+                                                    "isInheritable": false,
+                                                    "isOverridable": false,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "95cfcc28-6aaf-426b-8d9b-64ac36b823be",
+                                                    "label": "Region",
+                                                    "isRequired": false,
+                                                    "isFormRequired": false,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field."
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "bikg13dc3e": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Zip Code\">Zip Code</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"Zip Code\" data-field-type=\"Number\"></div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "Zip Code",
+                                                    "id": "51080d0c-081a-4db1-9428-34bce4127970",
+                                                    "type": "Number",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "description": "",
+                                                    "ordinal": 9,
+                                                    "isNullable": true,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": false,
+                                                    "isInheritable": false,
+                                                    "isOverridable": false,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "51080d0c-081a-4db1-9428-34bce4127970",
+                                                    "label": "Zip Code",
+                                                    "isRequired": false,
+                                                    "isFormRequired": false,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field."
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "actfwbvfso7": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Country\">Country</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"Country\" data-field-type=\"Text\"></div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "Country",
+                                                    "id": "c662861b-0e68-428b-b243-f85455afc777",
+                                                    "type": "Text",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "length": 50,
+                                                    "description": "",
+                                                    "ordinal": 10,
+                                                    "isNullable": true,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": false,
+                                                    "isInheritable": false,
+                                                    "isOverridable": false,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "c662861b-0e68-428b-b243-f85455afc777",
+                                                    "label": "Country",
+                                                    "isRequired": false,
+                                                    "isFormRequired": false,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field."
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        }
+                                    },
+                                    "modelVersion": 2
+                                }
+                            },
+                            "modelVersion": 2
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "footer": {
+                    "design": "<p style=\"font-family:arial;color:#ccc;font-size:11px;text-align:center;vertical-align:middle;font-weight:bold;padding:10px;margin:0;border:#ccc dashed 1px;\">Drop blocks or content here</p>",
+                    "modelVersion": 2
+                },
+                "col1": {
+                    "content": "",
+                    "design": "<p style=\"font-family:arial;color:#ccc;font-size:11px;text-align:center;vertical-align:middle;font-weight:bold;padding:10px;margin:0;border:#ccc dashed 1px;\">Drop blocks or content here</p>",
+                    "blocks": {},
+                    "modelVersion": 2
+                },
+                "col2": {
+                    "content": "",
+                    "design": "<p style=\"font-family:arial;color:#ccc;font-size:11px;text-align:center;vertical-align:middle;font-weight:bold;padding:10px;margin:0;border:#ccc dashed 1px;\">Drop blocks or content here</p>",
+                    "blocks": {},
+                    "modelVersion": 2
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "html"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

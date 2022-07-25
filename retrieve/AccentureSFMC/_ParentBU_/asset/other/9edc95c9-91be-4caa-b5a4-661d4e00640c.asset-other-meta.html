@@ -1,0 +1,7 @@
+/*Let's write some send time data into our data extension for re-engagement and logging purpose*/
+var @EmailAddress,@MessageType, @JobID,@SendTime set @EmailAddress= emailaddr set @JobID=jobid set
+@MessageType= 'Onboarding' set @SendTime= NOW() /*Insert data into DE*/ InsertDE('Insert_DE',
+'SubscriberKey', @SubKey, 'EmailAddress', @EmailAddress,'JobID',
+@JobID,'MessageType',@MessageType,'ProgramName',@ProgramName,'SendTime',@SendTime) /*Upsert data
+into DE*/ UpsertDE('Upsert_DE', 1,'SubscriberKey', @SubKey,
+'MessageType',@MessageType,'ProgramName',@ProgramName,'LatestSendTime',@SendTime)

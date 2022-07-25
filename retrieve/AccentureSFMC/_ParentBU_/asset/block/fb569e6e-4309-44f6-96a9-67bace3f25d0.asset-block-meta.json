@@ -1,0 +1,68 @@
+{
+    "customerKey": "fb569e6e-4309-44f6-96a9-67bace3f25d0",
+    "assetType": {
+        "name": "dynamicblock",
+        "displayName": "Dynamic Block"
+    },
+    "fileProperties": {
+        "fileName": "rahul_thanku_img"
+    },
+    "name": "rahul_thanku_img",
+    "owner": {
+        "email": "Rahul.Raj@aethereus.com",
+        "name": "Rahul Raj"
+    },
+    "createdDate": "2022-07-13T00:47:24.433-06:00",
+    "createdBy": {
+        "email": "Rahul.Raj@aethereus.com",
+        "name": "Rahul Raj"
+    },
+    "modifiedDate": "2022-07-13T00:49:22.917-06:00",
+    "modifiedBy": {
+        "email": "Rahul.Raj@aethereus.com",
+        "name": "Rahul Raj"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\">%%=BeginImpressionRegion(\"__Default_Content__thanks.jpg\")=%%\n<img src=\"https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/1eb4374b-3c76-49a9-8e00-56ac11e41427.jpg\" data-assetid=\"40265\" alt=\"thanks.jpg\" width=\"100%\" height=\"auto\">\n%%=EndImpressionRegion()=%%</td></tr></table>",
+    "design": "",
+    "superContent": "<div data-marker=\"wrapper\" style=\"\" class=\"stylingblock-content-wrapper\"><img src=\"https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/1eb4374b-3c76-49a9-8e00-56ac11e41427.jpg\" data-assetid=\"40265\" alt=\"thanks.jpg\" width=\"100%\" height=\"auto\" /></div>",
+    "meta": {
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true
+            },
+            "styling": {}
+        },
+        "options": {
+            "dynamicContent": {
+                "views": {
+                    "html": {
+                        "name": "",
+                        "defaultContent": {
+                            "id": 40265,
+                            "name": "thanks.jpg",
+                            "type": {
+                                "id": 23,
+                                "name": "jpg",
+                                "displayName": "Image"
+                            },
+                            "textContent": "<img src=\"https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/1eb4374b-3c76-49a9-8e00-56ac11e41427.jpg\" data-assetid=\"40265\" alt=\"thanks.jpg\" width=\"100%\" height=\"auto\" />"
+                        },
+                        "dataSource": {},
+                        "variants": [],
+                        "blockPosition": "",
+                        "defaultContentRuleName": "Default Content"
+                    }
+                }
+            },
+            "blockType": "reference",
+            "dataSourceSchema": []
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2022 Training/Rahul Raj"
+}

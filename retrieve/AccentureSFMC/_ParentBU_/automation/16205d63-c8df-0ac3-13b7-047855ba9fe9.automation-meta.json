@@ -1,0 +1,20 @@
+{
+    "name": "Ashwini_AutoSuppressionAutomation",
+    "description": "",
+    "key": "16205d63-c8df-0ac3-13b7-047855ba9fe9",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Ashwini_ASscriptActivity",
+                    "r__type": "script"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Ashwini"
+}

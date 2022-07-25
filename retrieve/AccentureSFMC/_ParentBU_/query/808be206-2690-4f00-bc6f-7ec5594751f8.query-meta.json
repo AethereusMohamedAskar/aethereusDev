@@ -1,0 +1,11 @@
+{
+    "name": "Gauri query",
+    "key": "808be206-2690-4f00-bc6f-7ec5594751f8",
+    "description": "",
+    "targetKey": "4F4E4B2A-B3CF-437A-8A95-0AF5807059B6",
+    "createdDate": "2022-05-17T05:24:07.853",
+    "modifiedDate": "2022-05-18T06:09:03.95",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

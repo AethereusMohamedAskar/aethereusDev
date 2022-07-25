@@ -1,0 +1,43 @@
+{
+    "CreatedDate": "2022-05-16T06:56:19.57",
+    "ModifiedDate": "2022-05-16T06:56:19.57",
+    "CustomerKey": 16113,
+    "Name": "kanika_email send",
+    "Description": "",
+    "SendClassification": {
+        "CustomerKey": "Default Commercial"
+    },
+    "SenderProfile": {
+        "CustomerKey": "Default"
+    },
+    "DeliveryProfile": {
+        "CustomerKey": "Default"
+    },
+    "SuppressTracking": false,
+    "IsSendLogging": true,
+    "SendDefinitionList": [
+        {
+            "SendDefinitionListType": "SourceList",
+            "DataSourceTypeID": "CustomObject",
+            "IsTestObject": false,
+            "SalesForceObjectID": "",
+            "Name": "",
+            "r__dataExtension_Key": "BB831D84-D975-41CD-B396-D0757141873F",
+            "r__list_PathName": "my subscribers/All Subscribers"
+        }
+    ],
+    "BccEmail": "",
+    "AutoBccEmail": "",
+    "TestEmailAddr": "",
+    "EmailSubject": "Invitation %%Name%%! Should investors prefer target maturity product over fixed maturity plans. Register to join experts ☮",
+    "DynamicEmailSubject": "Invitation %%Name%%! Should investors prefer target maturity product over fixed maturity plans. Register to join experts ☮",
+    "IsMultipart": true,
+    "IsWrapped": true,
+    "DeduplicateByEmail": true,
+    "ExclusionFilter": "",
+    "Additional": "",
+    "CCEmail": "",
+    "r__folder_Path": "User-Initiated",
+    "r__assetMessage_Name": "Email 1",
+    "r__assetMessage_Key": "68e0a2ef-3bef-417e-93b9-a1f1ea1a2a2d"
+}

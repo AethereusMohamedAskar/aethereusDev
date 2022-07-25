@@ -1,0 +1,11 @@
+{
+    "name": "Unsubscribe_SQL",
+    "key": "cbf15aeb-6e8a-4ff8-998c-2cad5ec97f32",
+    "description": "",
+    "targetKey": "6AA89367-B0C4-4E42-82CA-247FF8595D27",
+    "createdDate": "2022-06-22T05:14:31.437",
+    "modifiedDate": "2022-06-22T05:52:40.56",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

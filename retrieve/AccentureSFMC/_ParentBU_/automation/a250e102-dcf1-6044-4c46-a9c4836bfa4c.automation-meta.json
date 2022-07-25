@@ -1,0 +1,25 @@
+{
+    "name": "POC_Kavitha_Automation",
+    "key": "a250e102-dcf1-6044-4c46-a9c4836bfa4c",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2022-02-28T16:30:00",
+        "endDate": "2022-02-28T16:30:00",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "India Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Automation_POC2_Kavitha",
+                    "r__type": "filter"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Kavitha"
+}

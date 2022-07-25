@@ -1,0 +1,38 @@
+{
+    "name": "Dataview_SQL",
+    "description": "",
+    "key": "4ff300a6-e2bf-9f69-9da7-ecb377908b1e",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "DataView_Click",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "DataView_Open",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "DataView_Bounce",
+                    "r__type": "query"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Anushree/LSM POC"
+}

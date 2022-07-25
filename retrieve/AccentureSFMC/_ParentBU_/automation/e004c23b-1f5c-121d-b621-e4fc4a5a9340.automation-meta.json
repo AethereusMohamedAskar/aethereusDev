@@ -1,0 +1,195 @@
+{
+    "name": "IPWarming",
+    "description": "",
+    "key": "e004c23b-1f5c-121d-b621-e4fc4a5a9340",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Gmail_Segment",
+                    "r__type": "query"
+                },
+                {
+                    "name": "Yahoo_Segment",
+                    "r__type": "query"
+                },
+                {
+                    "name": "Outlook_Segment",
+                    "r__type": "query"
+                },
+                {
+                    "name": "Others_Segment",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Total_Subscribers_from_Sent_DV",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Domain_wise_Count_from_Sent_DV",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Remainder_Count_for_Current_Day_Send",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "GMAIL_Update_Negative_Values",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "YAHOO_Update_Negative_Values",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Outlook_Update_Negative_Values",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Others_Update_Negative_Values",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Total_Update_Negative_Values",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "SSJS_Dyanimc_Query_Script",
+                    "r__type": "script"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "GMAIL_Dyanimc_Query",
+                    "r__type": "query"
+                },
+                {
+                    "name": "Yahoo_Dynamic_Query",
+                    "r__type": "query"
+                },
+                {
+                    "name": "Outlook_Dynamic_Query",
+                    "r__type": "query"
+                },
+                {
+                    "name": "Others_Dynamic_Query",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "SECONDMASTER_IPWarming",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "5 Minutes",
+                    "r__type": "wait"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "EMAIL-IPWarming",
+                    "r__type": "emailSendDefinition"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Update_Second_Master",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Update_Master",
+                    "r__type": "query"
+                },
+                {
+                    "name": "Update_Gmail",
+                    "r__type": "query"
+                },
+                {
+                    "name": "Update_Yahoo",
+                    "r__type": "query"
+                },
+                {
+                    "name": "Update_Outlook",
+                    "r__type": "query"
+                },
+                {
+                    "name": "Update_Others",
+                    "r__type": "query"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/Sai Prasad UC/IPWarming"
+}

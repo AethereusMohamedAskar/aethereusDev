@@ -1,0 +1,137 @@
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+<meta name="ROBOTS" content="INDEX, FOLLOW"><meta name="keywords" content=""><meta name="description" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <title>Homans Email Preferences</title>
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&amp;display=swap" rel="stylesheet">
+ <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
+ <link href="https://mcfyfwscx0zgzfvrhzpbd0vv9kj1.pub.sfmc-content.com/nji5sxl51hh" rel="stylesheet">
+
+  
+%%[
+
+  SET @contactId = QueryParameter('Id')
+
+  IF NOT EMPTY(@contactId) THEN
+
+  SET @subscriberRows = RetrieveSalesforceObjects(
+   "Contact",
+   "Id,Marketing_Promotions__c,Business_Updates__c,HasOptedOutOfEmail",
+   "Id", "=", @contactId
+   )
+   
+  IF RowCount(@subscriberRows) > 0 THEN
+  SET @row = row(@subscriberRows, 1)
+  SET @MarketingPromotions = Field(@row, "Marketing_Promotions__c")
+  SET @BusinessUpdates = Field(@row, "Business_Updates__c")
+  SET @EmailOptOut = Field(@row, "HasOptedOutOfEmail")
+  
+  ENDIF
+  
+  IF @MarketingPromotions == true THEN SET @MarketingpromotionsChk = "checked" ENDIF 
+  IF @BusinessUpdates == true THEN SET @BusinessupdatesChk = "checked" ENDIF
+  IF @EmailOptOut == true THEN SET @EmailOptOutChk = "checked" ENDIF
+  
+  ENDIF
+]%%
+ 
+
+  <div class="container">
+   <table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+
+
+
+<header><meta name="ROBOTS" content="INDEX, FOLLOW"><meta name="keywords" content=""><meta name="description" content="">
+    <nav class="navbar">
+        <div class="navbar-logo">
+             <a href="https://www.homans.com/">
+            <img class="logo" src="http://image.S10.exacttarget.com/lib/fe41157075640475711471/m/1/063a5155-8f34-47cf-8d59-b0e0afe26b16.png?b=1522707245000" alt="Homans-Logo">
+            </a>
+        </div>
+    </nav>
+    <div class="additional-bar">
+       
+    </div>
+</header>
+<section>
+    
+    <div class="main-content">
+       <form action="http://cloud.homans.biz/Processing-page" method="post">
+         <input type="hidden" name="contactId" id="contactId" value="%%=v(@contactId)=%%">
+        <h1>MANAGE EMAIL PREFERENCES</h1>
+            <ul class="pref-list">
+   <li>
+                    <div>
+                        
+                        <h3>Update your communication preferences by choosing from the following options:</h3>
+                    </div>
+                    
+                </li>
+                <li>
+                    <div>
+                        <h3>Marketing Promotions</h3>
+                        <p>Emails from Homans containing marketing promotions and offers</p>
+                    </div>
+                    <label class="switch">
+                        <input class="switchTile1" type="checkbox" name="marketingpromotions" %%=v(@MarketingpromotionsChk)=%%>
+                        <span class="slider round"></span>
+                    </label>
+                </li>
+               
+                <li>
+                    <div>
+                        <h3>Business Updates</h3>
+                        <p>Correspondence about Homans news, product information, resources, events</p>
+                    </div>
+                    <label class="switch">
+                        <input class="switchTile1" type="checkbox" name="businessupdates" %%=v(@BusinessupdatesChk)=%%>
+                        <span class="slider round"></span>
+                    </label>
+                </li>
+                
+                <li>
+                    <div>
+                        <h3>Unsubscribe from all</h3>
+                        <p>Remove me from all Homans email communication</p>
+                    </div>
+                    <label class="switch">
+                        <input class="unsub" id="unsub" type="checkbox" name="emailoptout" %%=v(@EmailOptOutChk)=%%>
+                        <span class="slider round"></span>
+                    </label>
+                </li>
+            </ul>
+            <input type="hidden" name="submitted" value="true">
+            <input type="hidden" name="unsub" value="true"><br>
+            <button class="btn saveBtn" value="Close this window" onclick="self.close()">Cancel</button>
+            <button class="btn saveBtn" type="submit" value="Submit">Save</button>
+        </form>
+    </div>
+</section>
+<footer>
+    <p class="copyrights">© 2020 Homans Associates. All rights reserved.</p>
+    <div class="follow-us">
+        <h4>Follow Us</h4>
+        <a href="https://www.facebook.com/HomansAssociates/"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/Homans_Associates/"><i class="fab fa-instagram-square"></i></a>
+        <a href="https://www.linkedin.com/company/homans-associates/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://twitter.com/HomansHVAC/"><i class="fab fa-twitter-square"></i></a>
+        <a href="https://m.youtube.com/channel/UC8SFL4b2DxxaWJ8G6BzxR1A"><i class="fab fa-youtube-square"></i></a>
+    </div>
+</footer>
+
+</td></tr></table>
+    </div>
+<script src="https://kit.fontawesome.com/ac05daac42.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+$('input.unsub').on('change', function() {
+    $('input.switchTile1').not(this).prop('checked', false);  
+});
+
+$('input.switchTile1').on('change', function() {
+    $('input.unsub').not(this).prop('checked', false);  
+});
+</script>
+
+</td></tr></table>

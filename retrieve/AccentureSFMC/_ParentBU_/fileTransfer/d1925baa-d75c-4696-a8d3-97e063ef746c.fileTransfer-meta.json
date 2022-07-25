@@ -1,0 +1,16 @@
+{
+    "name": "Anushree_Data_Extract1",
+    "customerKey": "d1925baa-d75c-4696-a8d3-97e063ef746c",
+    "createdDate": "2021-08-14T01:46:42.883",
+    "modifiedDate": "2021-08-14T01:46:42.883",
+    "fileSpec": "Data Extract%%Day%%.csv",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

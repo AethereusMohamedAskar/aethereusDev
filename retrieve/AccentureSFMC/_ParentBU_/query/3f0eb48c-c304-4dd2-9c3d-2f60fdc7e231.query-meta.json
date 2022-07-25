@@ -1,0 +1,11 @@
+{
+    "name": "Timezone_POC_SQL",
+    "key": "3f0eb48c-c304-4dd2-9c3d-2f60fdc7e231",
+    "description": "",
+    "targetKey": "7DC7A5F7-BCDB-4B88-A69C-FD58D2746315",
+    "createdDate": "2022-06-13T07:37:30.437",
+    "modifiedDate": "2022-06-15T05:12:55.3",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

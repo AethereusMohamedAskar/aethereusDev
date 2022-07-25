@@ -1,0 +1,11 @@
+{
+    "name": "Update_Gmail",
+    "key": "7939d761-3b99-4965-a419-ccb2f78242be",
+    "description": "",
+    "targetKey": "D6AD58E1-F6D4-471E-AB2C-F4BC21484CC0",
+    "createdDate": "2020-04-09T00:46:16.47",
+    "modifiedDate": "2020-04-09T00:46:16.47",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query/Sai Prasad UC"
+}

@@ -1,0 +1,26 @@
+%%[
+
+var @rows, @row, @rowCount, @Country, @Subject, @Image_URL, @Body
+
+
+set  @Lang_Country = AttributeValue("Country")
+
+set @rows = LookupRows("DY_Referal_DE","Country", @Lang_Country)
+set @rowCount = rowcount(@rows)
+
+
+
+if @rowCount > 0 then
+
+   
+    set @row = row(@rows, 1) /* get row based on counter */
+    set @Subject = field(@row,"Subject")
+    set @Image_URL  = field(@row,"Image_URL")
+    set @Body = field(@row,"Body")
+
+endif
+
+]%%
+
+
+ <center>%%=v(@Body)=%%</center>

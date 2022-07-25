@@ -1,0 +1,48 @@
+{
+    "CreatedDate": "2020-04-08T20:54:34.027",
+    "ModifiedDate": "2020-04-08T20:55:22.297",
+    "CustomerKey": 10113,
+    "Name": "EMAIL-Primary",
+    "Description": "",
+    "SendClassification": {
+        "CustomerKey": "Default Commercial"
+    },
+    "SenderProfile": {
+        "CustomerKey": "Default"
+    },
+    "DeliveryProfile": {
+        "CustomerKey": "Default"
+    },
+    "SuppressTracking": false,
+    "IsSendLogging": true,
+    "SendDefinitionList": [
+        {
+            "SendDefinitionListType": "SourceList",
+            "CustomObjectID": "",
+            "DataSourceTypeID": "FilterDefinition",
+            "FilterDefinition": {
+                "PartnerKey": "",
+                "ObjectID": "9f50b6dd-4f71-43c8-a8fe-bb660f31f964",
+                "CustomerKey": "9B659357-7B92-46F1-8D18-0FAED93A068A"
+            },
+            "IsTestObject": false,
+            "SalesForceObjectID": "",
+            "Name": "",
+            "r__list_PathName": "my subscribers/All Subscribers"
+        }
+    ],
+    "BccEmail": "",
+    "AutoBccEmail": "",
+    "TestEmailAddr": "",
+    "EmailSubject": "Primary Email",
+    "DynamicEmailSubject": "Primary Email",
+    "IsMultipart": true,
+    "IsWrapped": true,
+    "DeduplicateByEmail": false,
+    "ExclusionFilter": "",
+    "Additional": "",
+    "CCEmail": "",
+    "r__folder_Path": "User-Initiated/Sai Prasad UC/Followup_Journey",
+    "r__assetMessage_Name": "Primary Email",
+    "r__assetMessage_Key": "c5fbfbd8-1b34-4f14-86aa-ae7d7305cbdf"
+}

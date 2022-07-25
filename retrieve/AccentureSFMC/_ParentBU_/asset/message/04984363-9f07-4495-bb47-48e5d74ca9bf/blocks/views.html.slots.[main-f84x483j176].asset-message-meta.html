@@ -1,0 +1,14 @@
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">%%[<br />
+<br />
+SET @ltype = [Age]<br />
+<br />
+ IF @ltype >40 THEN<br />
+SET @status = "Gold"<br />
+<br />
+ELSE @ltype >20<br />
+SET @status = "Platinum"<br />
+<br />
+ENDIF<br />
+]%%<br>
+<br>
+%%=v(@status)=%%</td></tr></table>

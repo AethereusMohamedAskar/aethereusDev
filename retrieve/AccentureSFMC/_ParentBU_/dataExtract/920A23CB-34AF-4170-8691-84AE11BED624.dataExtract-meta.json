@@ -1,0 +1,13 @@
+{
+    "name": "leads generation",
+    "key": "920A23CB-34AF-4170-8691-84AE11BED624",
+    "fileSpec": "aug",
+    "createdDate": "2020-08-12T05:10:34.253",
+    "modifiedDate": "2020-08-12T05:10:34.253",
+    "createdBy": 713269674,
+    "modifiedBy": 713269674,
+    "intervalType": 0,
+    "description": "",
+    "dataFields": [],
+    "r__dataExtractType_name": "Contacts Without Channel Addresses"
+}

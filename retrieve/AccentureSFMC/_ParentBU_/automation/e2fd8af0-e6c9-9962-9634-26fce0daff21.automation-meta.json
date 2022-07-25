@@ -1,0 +1,29 @@
+{
+    "name": "auto",
+    "description": "",
+    "key": "e2fd8af0-e6c9-9962-9634-26fce0daff21",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "auto transfer",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "importing automate data",
+                    "r__type": "importFile"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2022 Training/abhinay"
+}

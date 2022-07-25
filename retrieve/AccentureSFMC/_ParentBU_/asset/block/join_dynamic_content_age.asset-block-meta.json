@@ -1,0 +1,206 @@
+{
+    "customerKey": "join_dynamic_content_age",
+    "assetType": {
+        "name": "dynamicblock",
+        "displayName": "Dynamic Block"
+    },
+    "fileProperties": {
+        "fileName": "New yr gift "
+    },
+    "name": "New yr gift ",
+    "owner": {
+        "email": "kanika.singhal@aethereus.com",
+        "name": "Kanika Singhal"
+    },
+    "createdDate": "2020-08-05T03:54:57.387-06:00",
+    "createdBy": {
+        "email": "kanika.singhal@aethereus.com",
+        "name": "Kanika Singhal"
+    },
+    "modifiedDate": "2021-07-20T04:17:00.76-06:00",
+    "modifiedBy": {
+        "email": "kanika.singhal@aethereus.com",
+        "name": "Kanika Singhal"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\">%%[IF (([Country] == \"USA\")) THEN]%%\n%%=BeginImpressionRegion(\"__Rule_1__love-gifts-free-wallpapera-download.png\")=%%\n<img src=\"https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/b2845f1a-eda1-405f-9f4b-5a4b4ff5be06.png\" data-assetid=\"8721\" alt=\"love-gifts-free-wallpapera-download.png\" width=\"100%\" height=\"auto\">\n%%=EndImpressionRegion()=%%\n%%[ELSEIF (([Country] == \"India\")) THEN]%%\n%%=BeginImpressionRegion(\"__Rule_2__beautiful_gift_of_picture_3_170125.jpg\")=%%\n<img src=\"https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/cc3af989-2160-44ed-9148-c9287bdd6d71.jpg\" data-assetid=\"8720\" alt=\"beautiful_gift_of_picture_3_170125.jpg\" width=\"100%\" height=\"auto\">\n%%=EndImpressionRegion()=%%\n%%[ELSE]%%\n%%=BeginImpressionRegion(\"__Default_Content__love-gifts-free-wallpapera-download.png\")=%%\n<img src=\"https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/b2845f1a-eda1-405f-9f4b-5a4b4ff5be06.png\" data-assetid=\"8721\" alt=\"love-gifts-free-wallpapera-download.png\" width=\"100%\" height=\"auto\">\n%%=EndImpressionRegion()=%%\n%%[ENDIF]%%</td></tr></table>",
+    "design": "",
+    "superContent": "<div data-marker=\"wrapper\" style=\"\" class=\"stylingblock-content-wrapper\"><img src=\"https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/b2845f1a-eda1-405f-9f4b-5a4b4ff5be06.png\" data-assetid=\"8721\" alt=\"love-gifts-free-wallpapera-download.png\" width=\"100%\" height=\"auto\" /></div>",
+    "meta": {
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true
+            },
+            "styling": {}
+        },
+        "options": {
+            "dynamicContent": {
+                "views": {
+                    "html": {
+                        "name": "",
+                        "defaultContent": {
+                            "id": 8721,
+                            "name": "love-gifts-free-wallpapera-download.png",
+                            "type": {
+                                "id": 28,
+                                "name": "png",
+                                "displayName": "Image"
+                            },
+                            "textContent": "<img src=\"https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/b2845f1a-eda1-405f-9f4b-5a4b4ff5be06.png\" data-assetid=\"8721\" alt=\"love-gifts-free-wallpapera-download.png\" width=\"100%\" height=\"auto\" />"
+                        },
+                        "dataSource": {
+                            "type": "dataextension",
+                            "name": "DemoSend",
+                            "id": "55058824-51d6-ea11-a2ee-48df37342cd1"
+                        },
+                        "variants": [
+                            {
+                                "name": "Rule 1",
+                                "content": {
+                                    "id": 8721,
+                                    "name": "love-gifts-free-wallpapera-download.png",
+                                    "textContent": "<img src=\"https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/b2845f1a-eda1-405f-9f4b-5a4b4ff5be06.png\" data-assetid=\"8721\" alt=\"love-gifts-free-wallpapera-download.png\" width=\"100%\" height=\"auto\" />"
+                                },
+                                "expression": {
+                                    "operand": "AND",
+                                    "conditions": [
+                                        {
+                                            "personalization": "Country",
+                                            "dataType": "text",
+                                            "operator": "Equals",
+                                            "value": "USA",
+                                            "name": "Country"
+                                        }
+                                    ]
+                                },
+                                "IRTDefault": "Rule_1__love-gifts-free-wallpapera-download.png",
+                                "customIRTName": ""
+                            },
+                            {
+                                "name": "Rule 2",
+                                "content": {
+                                    "id": 8720,
+                                    "name": "beautiful_gift_of_picture_3_170125.jpg",
+                                    "textContent": "<img src=\"https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/cc3af989-2160-44ed-9148-c9287bdd6d71.jpg\" data-assetid=\"8720\" alt=\"beautiful_gift_of_picture_3_170125.jpg\" width=\"100%\" height=\"auto\" />"
+                                },
+                                "expression": {
+                                    "operand": "AND",
+                                    "conditions": [
+                                        {
+                                            "personalization": "Country",
+                                            "dataType": "text",
+                                            "operator": "Equals",
+                                            "value": "India",
+                                            "name": "Country"
+                                        }
+                                    ]
+                                },
+                                "IRTDefault": "Rule_2__beautiful_gift_of_picture_3_170125.jpg",
+                                "customIRTName": ""
+                            }
+                        ],
+                        "blockPosition": "",
+                        "defaultContentRuleName": "Default Content"
+                    }
+                }
+            },
+            "blockType": "reference",
+            "dataSourceSchema": [
+                {
+                    "displayName": "First Name",
+                    "type": "item",
+                    "id": "c7c98576-d373-4838-a3f2-20e0378ba6bd",
+                    "attr": {
+                        "text": "First Name",
+                        "personalization": "First Name",
+                        "dataType": "text"
+                    },
+                    "displayType": "Text"
+                },
+                {
+                    "displayName": "Last Name",
+                    "type": "item",
+                    "id": "d0677cc4-10d4-4466-a465-e94bf0bcc199",
+                    "attr": {
+                        "text": "Last Name",
+                        "personalization": "Last Name",
+                        "dataType": "text"
+                    },
+                    "displayType": "Text"
+                },
+                {
+                    "displayName": "Email Address",
+                    "type": "item",
+                    "id": "7f45e956-e4a7-4f0e-951b-f0aad1cde02e",
+                    "attr": {
+                        "text": "Email Address",
+                        "personalization": "Email Address",
+                        "dataType": "text"
+                    },
+                    "displayType": "EmailAddress"
+                },
+                {
+                    "displayName": "Age",
+                    "type": "item",
+                    "id": "d6698f2f-0b13-4b23-b4f1-737dc9427f2d",
+                    "attr": {
+                        "text": "Age",
+                        "personalization": "Age",
+                        "dataType": "text"
+                    },
+                    "displayType": "Text"
+                },
+                {
+                    "displayName": "Country",
+                    "type": "item",
+                    "id": "67c8e290-81c8-47ba-beee-9fa59332e904",
+                    "attr": {
+                        "text": "Country",
+                        "personalization": "Country",
+                        "dataType": "text"
+                    },
+                    "displayType": "Text"
+                },
+                {
+                    "displayName": "City",
+                    "type": "item",
+                    "id": "e30a39b5-f4d3-44a6-b107-dc78e75dad46",
+                    "attr": {
+                        "text": "City",
+                        "personalization": "City",
+                        "dataType": "text"
+                    },
+                    "displayType": "Text"
+                },
+                {
+                    "displayName": "Preference",
+                    "type": "item",
+                    "id": "62f3a14a-c6f5-4211-b6f6-4f1b450c61e4",
+                    "attr": {
+                        "text": "Preference",
+                        "personalization": "Preference",
+                        "dataType": "text"
+                    },
+                    "displayType": "Text"
+                },
+                {
+                    "displayName": "Quantity",
+                    "type": "item",
+                    "id": "9184be50-9070-42b7-a73d-cd4717dd32ce",
+                    "attr": {
+                        "text": "Quantity",
+                        "personalization": "Quantity",
+                        "dataType": "text"
+                    },
+                    "displayType": "Text"
+                }
+            ]
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/Practice -Kanika"
+}

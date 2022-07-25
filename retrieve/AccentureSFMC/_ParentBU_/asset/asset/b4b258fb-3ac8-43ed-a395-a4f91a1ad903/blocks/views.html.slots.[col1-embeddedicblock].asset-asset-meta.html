@@ -1,0 +1,289 @@
+<table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+<!-- 228.12.0/1607516823887 -->
+<script runat="server">
+    Platform.Load('Core', '1');
+    // This snippet will display the following behavior for writing to a DE:
+    // * If your DE has no primary keys, it will simply add a new row.
+    // * If your DE has one or multiple primary key and we know their values for this message, we will upsert using all keys.
+    // * If your DE has primary keys and we do not know one or more of their values for this message, we will generate a unique
+    // id for each missing primary key and upsert using all keys.
+    // Wrapping in a try/catch will prevent a catastrophic failure in the flow from rendering a 500 error
+      
+		var ATTRIBUTES_TO_REMOVE = {
+			qs: 'delete',
+			ic_c: 'delete',
+			ic_tLink: 'delete'
+		};
+
+		function getPrimaryKeys (deFields) {
+			var primaryKeys = {};
+			for (var i = 0; i < deFields.Results.length; i++) {
+				var field = deFields.Results[i];
+				var partnerProps = field.PartnerProperties;
+				for (var p = 0; p < partnerProps.length; p++) {
+					var partnerPropName = partnerProps[p].Name;
+					var partnerPropValue = partnerProps[p].Value;
+					if (partnerPropName === 'isPrimaryKey' && partnerPropValue === 'True') {
+						primaryKeys[field.Name] = GUID();
+					}
+				}
+			}
+			return primaryKeys;
+		}
+
+		function sanitizeData (data, primaryKeys) {
+			var dataObject = new Object(data);
+			var pkObject = new Object(primaryKeys);
+			for (var key in dataObject) {
+				if (dataObject.hasOwnProperty(key)) {
+					if (ATTRIBUTES_TO_REMOVE[key] && ATTRIBUTES_TO_REMOVE[key] === 'delete') {
+						delete dataObject[key];
+					}
+					if (pkObject && pkObject[key]) {
+						delete pkObject[key];
+					}
+				}
+			}
+			for (var pKey in pkObject) {
+				if (pkObject.hasOwnProperty(pKey)) {
+					dataObject[pKey] = pkObject[pKey];
+				}
+			}
+
+			return dataObject;
+		}
+
+		function generateKeyValuePairs (sanitizedData) {
+			var submittedValues = [];
+			for (var key in sanitizedData) {
+				if (sanitizedData.hasOwnProperty(key)) {
+					var fieldData = {};
+					fieldData.Name = key;
+					fieldData.Value = sanitizedData[key];
+					submittedValues.push(fieldData);
+				}
+			}
+
+			return submittedValues;
+		}
+				
+	function processResult(formSubmitLink) {
+      if (result.Status === "OK") {
+        if (formSubmitLink) {
+          try {
+            HTTP.Get(formSubmitLink);
+          } catch (e) {
+              // Avoid issues with unresolved URLs causing an uncaught error
+          };
+        }
+      } else {
+        var statusMessage = result.Results[0].StatusMessage;
+        var errorMessage = result.Results[0].ErrorMessage;
+        var error = statusMessage + " " + errorMessage;
+        throw error;
+      }
+    }
+
+    var data = Request.GetFormField('data');
+    try {
+      if (data) {
+        var parsedData = Platform.Function.ParseJSON(data);
+		var deCustomerKey = decodeURI(Request.GetQueryStringParameter('ic_deN'));
+		var formSubmitLink = parsedData.ic_tLink;
+        
+        var prox = new Script.Util.WSProxy();        
+        var columns = ["CustomerKey", "Name", "isPrimaryKey"];
+        var filter = {
+            Property: "DataExtension.CustomerKey",
+            SimpleOperator: "equals",
+            Value: deCustomerKey
+        };
+            
+        // Try to get the DE 
+        var deFields = prox.retrieve("DataExtensionField", columns, filter);
+
+        // If there are no fields returned, attempt to retrieve a shared DE
+        if (!deFields.Results) {
+					var queryAllAccounts = true;
+					var deFields = prox.retrieve("DataExtensionField", columns, filter, queryAllAccounts);
+
+					// If there are no fields returned from the shared attempt, throw an error
+					if (!deFields.Results) {
+							throw "Data Extension not found";
+					};
+        }
+        
+        // See if any of the fields are primary keys
+				var primaryKeys = getPrimaryKeys(deFields);
+				
+				var pks = Platform.Function.ParseJSON(Platform.Function.Stringify(primaryKeys));
+        var cleanData = sanitizeData(parsedData, pks);
+        var props = generateKeyValuePairs(cleanData)
+  				
+        // Create the DE object for the write
+        var DE = {
+          CustomerKey: deCustomerKey,
+          Properties: props
+        };
+
+				var deHasPrimaryKey = false
+				
+				function checkForKeys (obj) {
+					for (var prop in obj) {
+						if (obj.hasOwnProperty(prop)) {
+							return true;
+						}
+					}
+					return false;
+				}
+				
+				deHasPrimaryKey = checkForKeys(primaryKeys)
+        if (deHasPrimaryKey) {
+					// These options need to be included to ensure an upsert is executed
+					var options = {
+						SaveOptions: [
+							{
+								PropertyName: '*',
+								SaveAction: 'UpdateAdd'
+							}
+						]
+					};
+
+					var result = prox.updateItem('DataExtensionObject', DE, options);
+					processResult(formSubmitLink);
+        } else {
+          var result = prox.createItem('DataExtensionObject', DE);
+          processResult(formSubmitLink);
+        }
+      } else {
+				
+		</script>
+		<script id="ic-cloudpage" src="https://d2zhidazoqfden.cloudfront.net/ic-cloudpage.js" data-redirect-url="%%=URLEncode('https://aethereus.com/')=%%"></script>
+		<script runat="server">
+
+      }
+    } catch (e) {
+			var rawData = sanitizeData(Platform.Function.ParseJSON(data), Platform.Function.ParseJSON(Platform.Function.Stringify({})));      var errorLog = "IC_Error_Log";
+      var error_log_exists = DataExtension.Retrieve({
+        Property: "CustomerKey",
+        SimpleOperator: "equals",
+        Value: errorLog
+      });
+      // Check if the DE is returned, if not create the DE
+      if (error_log_exists.length == 0) {
+        try {
+          var category_exists = Folder.Retrieve({
+              Property: "Name",
+              SimpleOperator: "equals",
+              Value: "Interactive Content"
+          });
+          if (category_exists.length == 0) {
+            var deFolder = Folder.Retrieve({
+                Property: "Name",
+                SimpleOperator: "equals",
+                Value: "Data Extensions"
+            });
+            var newFolder = {
+              "Name": "Interactive Content",
+              "CustomerKey": "",
+              "Description": "",
+              "ContentType": "dataextension",
+              "IsActive": "true",
+              "IsEditable": "true",
+              "AllowChildren": "true",
+              "ParentFolderID": deFolder[0].ID
+            };
+            var createFolder = Folder.Add(newFolder);
+          }
+          var category = Folder.Retrieve({
+            Property: "Name",
+            SimpleOperator: "equals",
+            Value: "Interactive Content"
+          });
+          var errorLogObj = {
+            "CustomerKey": errorLog,
+            "Name": "00 IC Error Log",
+            "CategoryID": category[0].ID,
+            "Fields": [
+              {
+                "Name": "Time Stamp",
+                "FieldType": "Date",
+                "Ordinal": 0
+              },
+							{
+								"Name": "Is Test Send",
+								"FieldType": "Boolean",
+								"Ordinal": 1
+							},
+              {
+								"Name": "Subscriber Key",
+								"FieldType": "Text",
+								"Ordinal": 2,
+								"MaxLength": 100
+								},
+								{
+									"Name": "Email Address",
+									"FieldType": "EmailAddress",
+									"Ordinal": 3,
+									"MaxLength": 100
+								},
+								{
+									"Name": "Target Data Extension Name",
+									"FieldType": "Text",
+									"Ordinal": 4,
+									"MaxLength": 100
+								},
+								{
+									"Name": "Target Data Extension Customer Key",
+									"FieldType": "Text",
+									"Ordinal": 5,
+									"MaxLength": 100
+								},
+								{
+									"Name": "Submission",
+									"FieldType": "Text",
+									"Ordinal": 6
+								},
+								{
+									"Name": "Error Message",
+									"FieldType": "Text",
+									"Ordinal": 7,
+									"MaxLength": 2500
+								},
+								{
+									"Name": "Email Web Link",
+									"FieldType": "Text",
+									"Ordinal": 8,
+									"MaxLength": 200
+								}
+						]
+          };
+          var createDE = DataExtension.Add(errorLogObj);
+        } catch(e) {
+          Write(Stringify(e));
+        }
+      }
+      var time = Platform.Function.Now();
+      var deCustomerKey = decodeURI(Request.GetQueryStringParameter('ic_deN'));
+      var deName = DataExtension.Retrieve({
+        Property: "CustomerKey",
+        SimpleOperator: "equals",
+        Value: deCustomerKey
+      });
+      var error = {
+        "Time Stamp": time,
+        "Is Test Send": Attribute.GetValue("_IsTestSend"),
+        "Subscriber Key": Attribute.GetValue("_SubscriberKey"),
+        "Email Address": Attribute.GetValue("emailAddr"),
+        "Target Data Extension Name": deName[0].Name,
+        "Target Data Extension Customer Key": deCustomerKey,
+        "Submission": Stringify(rawData),
+        "Error Message": Stringify(e),
+        "Email Web Link": Attribute.GetValue("view_email_url")
+      }
+      var de = DataExtension.Init(errorLog);
+      de.Rows.Add(error);
+      Write(Stringify(error));
+    }
+  </script>
+</td></tr></table>

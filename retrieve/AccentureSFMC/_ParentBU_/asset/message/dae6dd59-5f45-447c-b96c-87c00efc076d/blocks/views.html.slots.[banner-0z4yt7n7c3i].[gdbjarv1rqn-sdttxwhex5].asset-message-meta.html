@@ -1,0 +1,19 @@
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><div>
+	%%[<br />
+	Set @contact =LookupRows ("c_Product_Purchase",  "Customer_ID", @customer_id)<br />
+	Set @count = RowCount( @contact)<br />
+	<br />
+	]%%<br>
+	<br>
+	Total Number of Products Ordered - %%=v(@count)=%%<br>
+	<br>
+	%%[<br />
+	for @i =1 to @count do <br />
+	Set @row = Row(@contact, @i)<br />
+	Set @product_name = Field(@row, 'Product_Name')<br />
+	Set @product_image = Field(@row, 'Product_Image')<br />
+	Set @product_price = Field(@row, 'Product_Price')<br />
+	<br />
+	]%%<br>
+	<img src="%%=v(@product_image)=%%" style=" display: block, margin:auto"> %%=v(@product_name)=%%, %%=v(@product_price)=%%<br>
+	%%[next @i]%%</div></td></tr></table>

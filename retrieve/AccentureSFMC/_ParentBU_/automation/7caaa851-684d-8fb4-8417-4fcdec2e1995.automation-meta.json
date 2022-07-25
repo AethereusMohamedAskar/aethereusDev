@@ -1,0 +1,27 @@
+{
+    "name": "Birthday_POC_Kavitha",
+    "description": "",
+    "key": "7caaa851-684d-8fb4-8417-4fcdec2e1995",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {
+        "typeId": 2,
+        "startDate": "2022-04-21T12:00:00",
+        "endDate": "2022-04-21T12:00:00",
+        "icalRecur": "FREQ=HOURLY;COUNT=1;INTERVAL=1",
+        "timezoneName": "India Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "description": "",
+            "activities": [
+                {
+                    "name": "Test1234",
+                    "r__type": "query"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Kavitha"
+}

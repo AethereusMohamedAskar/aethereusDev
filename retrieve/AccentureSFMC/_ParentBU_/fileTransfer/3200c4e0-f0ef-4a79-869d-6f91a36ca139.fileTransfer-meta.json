@@ -1,0 +1,16 @@
+{
+    "name": "Ashwini_DataExtractAct",
+    "customerKey": "3200c4e0-f0ef-4a79-869d-6f91a36ca139",
+    "createdDate": "2021-08-12T05:38:32.407",
+    "modifiedDate": "2021-08-12T05:38:32.407",
+    "fileSpec": "DataExtract %%Year%% %%Month%%  %%Day%%.csv",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "Training 2021"
+}

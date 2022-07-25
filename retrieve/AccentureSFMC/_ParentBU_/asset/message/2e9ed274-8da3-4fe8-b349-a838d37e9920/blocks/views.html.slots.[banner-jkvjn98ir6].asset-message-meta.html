@@ -1,0 +1,51 @@
+%%[
+
+var @firstName, @Account_ID, @OffersString, @OptinCheck, @PromoString, @OptedIn, @WebinarDate, @ConfirmationNumber, @DaysUntilArrival, @CountOfStays, @ETA_Minutes, @ETA_Hour, @RoundedETA, @RoundedMintes, @ETA_Copy, @ETA_Arrival_CTA, @WelcomeText, @email, @oci, @e, @unsuburl, @OfferType
+
+
+Set @WelcomeText = "Can't Wait to see you!"
+set @Account_ID = AttributeValue("account_ID")
+set @firstName = AttributeValue("firstname")
+set @ConfirmationNumber = AttributeValue("Confirmation_Number")
+
+/*
+set @Client_ID = AttributeValue("_SubscriberKey")
+if @Client_ID =="" then 
+set @Client_ID = AttributeValue("ClientID")
+endif
+*/
+
+set @WebinarDate = AttributeValue("WebinarDate")
+set @DaysUntilArrival = DateDiff(NOW(),@WebinarDate,"D")
+set @email = AttributeValue("email")
+
+/* set oci= AttributeValue("ClientID") */
+
+set @e = EncryptSymmetric(@email,'des;mode=cbc', @null,'0x742B5CB2B9D14BB6', @null, @null, @null, @null)
+
+set @unsuburl = Concat("https://www.hotelname.com/unsubscribe?jobid=%%jobid%%&oci=",@oci"&e=",@e)
+
+set @OptedIn = "Promotions"
+set @PromoString = AttributeValue("Opted_In_Subscription")
+
+/* Does it Match */
+if IndexOf(@PromoString,@OptedIn)>0
+then set @msg='Save 25% on your next Webinar!'
+else set @msg='Agenda Details'
+endif
+
+set @ETA_Minutes = DatePart(v(@WebinarDate),'minute')
+set @ETA_Hour = DatePart(v(@WebinarDate),'hour')
+
+if @ETA_Minutes == 59 AND @ETA_Hour == 2
+then set @ETA_Copy=""
+else @ETA_Copy = Concat("at", FormatDate(@WebinarDate, "","s",""))
+endif
+
+if @ETA_Minutes == 59 AND @ETA_Hour == 2
+then @ETA_Arrival_CTA = "SHARE ARRIVAL TIME"
+ elseif (@ETA_Minutes != 59 AND @ETA_Hour != 2) AND not empty(@PickupLocation) 
+ then set @ETA_Arrival_CTA = "VIEW PICK-UP DETAILS"
+ else set @ETA_Arrival_CTA = "AGENDA DETAILS HERE"
+ endif
+]%%

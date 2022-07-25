@@ -1,0 +1,16 @@
+{
+    "name": "Data Extract",
+    "customerKey": "d0735616-905c-48ce-bf54-1dfd963271e7",
+    "createdDate": "2021-08-10T19:36:02.033",
+    "modifiedDate": "2021-08-10T19:36:02.033",
+    "fileSpec": "Tracking Data%%Year%%.csv",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "Training 2021"
+}

@@ -1,0 +1,32 @@
+{
+    "customerKey": "e4fa8ba5-c8ed-4b1b-91b6-5e31ed7a4148",
+    "assetType": {
+        "name": "codesnippetblock",
+        "displayName": "Code Snippet Block"
+    },
+    "fileProperties": {
+        "fileName": "PC 2-v1 "
+    },
+    "name": "PC 2-v1 ",
+    "owner": {
+        "email": "ashwini.surwase@aethereus.com",
+        "name": "Ashwini Surwase"
+    },
+    "createdDate": "2021-12-01T03:24:42.72-06:00",
+    "createdBy": {
+        "email": "ashwini.surwase@aethereus.com",
+        "name": "Ashwini Surwase"
+    },
+    "modifiedDate": "2021-12-10T07:47:13.013-06:00",
+    "modifiedBy": {
+        "email": "ashwini.surwase@aethereus.com",
+        "name": "Ashwini Surwase"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/Ashwini/Preference Center"
+}

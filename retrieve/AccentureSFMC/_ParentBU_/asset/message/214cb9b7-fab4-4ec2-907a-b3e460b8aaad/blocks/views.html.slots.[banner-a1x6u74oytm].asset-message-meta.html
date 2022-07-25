@@ -1,0 +1,15 @@
+%%[
+var @rows, @row, @rowCount, @SubKey,  @NameFB, @DoseStatusFB
+
+set @SubKey = AttributeValue('SubscriberKey')
+set @rows = LookUpRows('Day3_VaccinationCert', 'CustomerId',@SubKey)
+
+set @row = row(@rows,1)
+set @Name = field(@row,'Name')
+set @DoseStatus = field(@row,'DoseStatus')
+
+SET @NameFB = IIF(Empty(@Name), 'Dear Customer',Concat('',ProperCase(@Name)))
+SET @DoseStatusFB = IIF(Empty(@DoseStatus), 'Please Vaccinated as soon as possible',Concat('',ProperCase(@DoseStatus)))
+ 
+    
+    ]%%

@@ -1,0 +1,11 @@
+{
+    "name": "PJ-BounceData",
+    "key": "4baae8c1-112a-4eba-86a7-ca7460bfd201",
+    "description": "",
+    "targetKey": "40567C8A-8D41-4D0A-AF13-D00CB04173DD",
+    "createdDate": "2022-01-04T05:25:24.377",
+    "modifiedDate": "2022-01-04T05:25:24.377",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

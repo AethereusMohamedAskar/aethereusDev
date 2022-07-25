@@ -1,0 +1,35 @@
+{
+    "name": "Training_Practice",
+    "description": "",
+    "key": "96b9e455-8a5e-694a-b2b5-c499d404d448",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2022-05-17T12:00:00",
+        "endDate": "2022-05-17T12:00:00",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "India Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Vikas_training_New.zip",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Intersala_training",
+                    "r__type": "importFile"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2022 Training/vikas"
+}

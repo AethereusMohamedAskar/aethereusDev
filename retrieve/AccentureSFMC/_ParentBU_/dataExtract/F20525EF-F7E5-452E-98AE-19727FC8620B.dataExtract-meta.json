@@ -1,0 +1,39 @@
+{
+    "name": "Shivani_DataExtract_from_DE",
+    "key": "F20525EF-F7E5-452E-98AE-19727FC8620B",
+    "fileSpec": "Shivani_DataExtract_from_DE.csv",
+    "createdDate": "2021-11-10T01:03:17.097",
+    "modifiedDate": "2021-11-10T01:07:56.507",
+    "createdBy": 713674035,
+    "modifiedBy": 713674035,
+    "intervalType": 0,
+    "description": "",
+    "dataFields": [
+        {
+            "name": "ColumnDelimiter",
+            "type": "string",
+            "value": ","
+        },
+        {
+            "name": "DECustomerKey",
+            "type": "string",
+            "value": "5F93F3D5-B4FC-45E9-A011-6A19C4679625"
+        },
+        {
+            "name": "HasColumnHeaders",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "TextQualified",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "UsesLineFeed",
+            "type": "bool",
+            "value": "False"
+        }
+    ],
+    "r__dataExtractType_name": "Data Extension Extract"
+}

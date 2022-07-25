@@ -1,0 +1,49 @@
+%%[
+VAR @FirstName, @FirstNameFB, @AdvisorName, @AdvisorNameFB, @ProductName, @ProductNameFB, @SubKey, @Rowset, @Row
+
+SET @SubKey = [SubscriberKey]
+
+SET @Rowset = LookUpRows('Day3_Demo_ClientProfile','SubscriberKey',@SubKey)
+
+SET @Row = Row(@Rowset,1)
+SET @FirstName = field(@Row, 'FirstName')
+SET @AdvisorName = field(@Row, 'AdvisorName')
+SET @ProductName = field(@Row, 'ProductName')
+
+SET @FirstNameFB = IIF(Empty(@FirstName), 'Dear Customer',Concat('',ProperCase(@FirstName)))
+
+SET @ProductNameFB = IIF(Empty(@ProductName),'New Astro Bank Product',Concat('',ProperCase(@ProductName)))
+
+SET @AdvisorNameFB = IIF(Empty(@AdvisorName), 'Your Astro Bank Team', ProperCase(@AdvisorName))
+
+VAR @EmailAddress, @JobID, @MessageType, @SendTime
+SET @EmailAddress = emailaddr
+SET @JobID = jobid 
+SET @MessageType = 'Onboarding'
+SET @SendTime = Now()
+
+InsertDE('Day3_Demo_SendLog','SubscriberKey', @SubKey, 'EmailAddress', @EmailAddress, 'JobId',@JobID,
+'MessageType', @MessageType,
+'ProductType', @ProductName,
+'SendTime',@SendTime)
+
+UpsertDE('Day3_Demo_LatestSendTracker',1,
+'SubscriberKey',@SubKey,
+'MessageType',@MessageType,
+'ProductType',@ProductName,
+'TestSendTime',@SendTime)
+
+VAR @DefaultCoupon, @CouponCode
+
+SET @DefaultCoupon = "Save10"
+
+If _messageContext == "PREVIEW" Then
+SET @CouponCode = "TEST COUPON CODE TEST"
+
+Else
+
+SET @CouponCode = ClaimRowValue('Ampscript_Coupon_Code_DE','CouponCode','IsClaimed',@DefaultCoupon, 'SubscriberKey',@Subkey)
+
+Endif
+
+]%%

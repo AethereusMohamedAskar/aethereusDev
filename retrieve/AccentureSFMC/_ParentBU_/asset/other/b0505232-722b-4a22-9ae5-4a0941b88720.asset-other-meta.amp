@@ -1,0 +1,14 @@
+%%[
+var @skey, @numRowsToReturn, @membership
+
+set @skey = AttributeValue('Customer ID')
+
+set @numRowsToReturn = 0
+
+set @membership = LookupOrderRows("membership",@numRowsToReturn,"membership desc", "SubscriberKey", @skey)
+
+if RowCount(@membership) > 0 then
+
+  for @i = 1 to RowCount(@membership) do
+  var @membership, @
+]%%

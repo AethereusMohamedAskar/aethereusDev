@@ -1,0 +1,10 @@
+Error Log
+Parser: html
+Unexpected closing tag "a". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags (7:258)
+   5 |        <td style="border-radius:4px; background: #0077cc;”=" "="">
+   6 |
+>  7 |             <a class="button-a-primary" href="https://www.contactmonkey.com/" style="background: #0077cc; font-family: sans-serif; font-size:15px; line-height:15px; text-decoration: none; padding: 13px;  color:#ffffff; border-radius:4px;”=" "="">Button text</a>
+     |                                                                                                                                                                                                                                                                  ^^^^
+   8 |
+   9 |        </td>
+  10 |

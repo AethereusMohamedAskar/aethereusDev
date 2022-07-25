@@ -1,0 +1,97 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>E-commerce_KT_demo_product Details page</title>
+    <style type="text/css">
+        #Gender_div {
+            width: 800px;
+            height: 50px;
+            text-align: right;
+            left: 100px;
+            position: relative;
+        }
+
+        #Category_div {
+            width: 800px;
+            height: 50px;
+            text-align: right;
+            left: 100px;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body style="height:auto; overflow:visible;">
+    <h1 style="color:maroon; text-align:center;">Product Details Page</h1>
+    <div id="Gender_div">
+        %%[
+        var @Gender_rows, @Gender_row, @rowCount, @i
+        set @Gender_rows = LookupRows("Gender_DE", "default", "1")
+        set @rowCount = rowcount(@Gender_rows)
+        if @rowCount > 0 then
+        for @i = 1 to @rowCount do
+        if @i == 1 then
+        output(concat('Select Gender: ','<select name="Gender"
+            onchange="javascript: dynamicdropdown(this.options[this.selectedIndex].value);">
+            <option value="">Select</option>'))
+            endif
+            var @Gender
+            set @Gender_row = row(@Gender_rows, @i)
+            set @Gender = field(@Gender_row,"Gender")
+            output(concat('<option value="', @Gender, '">', @Gender, '</option>'))
+            if @i == @rowCount then
+            output(concat('
+        </select>'))
+        endif
+        next @i
+        else
+        output(concat("<br>companies not found"))
+        endif
+        ]%%
+    </div>
+    <div id="Category_div">
+        <script language="javascript" type="text/javascript">
+            function dynamicdropdown(listindex) {
+                document.getElementById("Category").length = 0;
+                switch (listindex) {
+                    case "Male":
+                        document.getElementById("Category").options[0] = new Option("Male Categories", "Male Categories");
+                        document.getElementById("Category").options[3] = new Option("Jackets", "Jackets");
+                        document.getElementById("Category").options[4] = new Option("Jeans", "Jeans");
+                        document.getElementById("Category").options[5] = new Option("Shorts", "Shorts");
+                        document.getElementById("Category").options[2] = new Option("Boots", "Boots");
+                        break;
+                    case "Female":
+                        document.getElementById("Category").options[0] = new Option("Female Categories", "Female Categories");
+                        document.getElementById("Category").options[3] = new Option("Tops", "Tops");
+                        document.getElementById("Category").options[4] = new Option("Jeggings", "Jeggings");
+                        document.getElementById("Category").options[5] = new Option("Skirts", "Skirts");
+                        document.getElementById("Category").options[2] = new Option("Sandles", "Sandles");
+                        break;
+                }
+                return true;
+            }
+        </script>
+        %%[
+        var @Category_rows, @Category_row, @rowCount, @i
+        set @Category_rows = LookupRows("Category", "default", "1")
+        set @rowCount = rowcount(@Category_rows)
+        if @rowCount > 0 then
+        for @i = 1 to @rowCount do
+        if @i == 1 then
+        output(concat('Select Category: ','<select id="Category" name="Category">
+            <option value="">Select Gender first</option>
+        </select>'))
+        endif
+        next @i
+        else
+        output(concat("<br />Categories not found"))
+        endif
+        ]%%
+    </div>
+</body>
+
+</html>

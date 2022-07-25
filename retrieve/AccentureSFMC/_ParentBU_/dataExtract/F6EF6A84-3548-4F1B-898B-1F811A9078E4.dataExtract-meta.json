@@ -1,0 +1,39 @@
+{
+    "name": "Ashwini_HardBounceActivity",
+    "key": "F6EF6A84-3548-4F1B-898B-1F811A9078E4",
+    "fileSpec": "HardBounce1.zip",
+    "createdDate": "2021-12-17T00:46:42.057",
+    "modifiedDate": "2021-12-28T04:05:49.23",
+    "createdBy": 713633358,
+    "modifiedBy": 713633358,
+    "intervalType": 0,
+    "description": "",
+    "dataFields": [
+        {
+            "name": "ColumnDelimiter",
+            "type": "string",
+            "value": ","
+        },
+        {
+            "name": "DECustomerKey",
+            "type": "string",
+            "value": "HBDEKey"
+        },
+        {
+            "name": "HasColumnHeaders",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "TextQualified",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "UsesLineFeed",
+            "type": "bool",
+            "value": "False"
+        }
+    ],
+    "r__dataExtractType_name": "Data Extension Extract"
+}

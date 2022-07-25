@@ -1,0 +1,28 @@
+{
+    "name": "POC_VJ",
+    "key": "28caa1a4-5d9d-7d8d-f680-f038a6d9c2e8",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Filter_Activity_VJ",
+                    "r__type": "filter"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Filter_Activity",
+                    "r__type": "emailSendDefinition"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations"
+}

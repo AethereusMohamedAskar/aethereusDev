@@ -1,0 +1,47 @@
+{
+    "name": "HardBounceAutomation",
+    "description": "",
+    "key": "fa4ee7aa-202a-c7bd-7405-dc8e38ed3601",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Ashwini_HardBounceQueryActivity",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Ashwini_HardBounceActivity",
+                    "r__type": "dataExtract"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Ashwini_HardBounceFileTransferActivity",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Ashwini_HardBounceImportActivity",
+                    "r__type": "importFile"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Ashwini"
+}

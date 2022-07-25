@@ -1,0 +1,43 @@
+{
+    "CreatedDate": "2020-08-16T12:57:38.493",
+    "ModifiedDate": "2020-08-16T12:57:38.493",
+    "CustomerKey": 10757,
+    "Name": "Birthday Automation",
+    "Description": "",
+    "SendClassification": {
+        "CustomerKey": "Default Commercial"
+    },
+    "SenderProfile": {
+        "CustomerKey": "Default"
+    },
+    "DeliveryProfile": {
+        "CustomerKey": "Default"
+    },
+    "SuppressTracking": false,
+    "IsSendLogging": true,
+    "SendDefinitionList": [
+        {
+            "SendDefinitionListType": "SourceList",
+            "DataSourceTypeID": "CustomObject",
+            "IsTestObject": false,
+            "SalesForceObjectID": "",
+            "Name": "",
+            "r__dataExtension_Key": "AD900E4C-B957-4EE3-AE0D-F2472FE14762",
+            "r__list_PathName": "my subscribers/All Subscribers"
+        }
+    ],
+    "BccEmail": "",
+    "AutoBccEmail": "",
+    "TestEmailAddr": "",
+    "EmailSubject": "So who's the birthday girl %%First Name%%?",
+    "DynamicEmailSubject": "So who's the birthday girl %%First Name%%?",
+    "IsMultipart": true,
+    "IsWrapped": true,
+    "DeduplicateByEmail": true,
+    "ExclusionFilter": "",
+    "Additional": "",
+    "CCEmail": "",
+    "r__folder_Path": "User-Initiated",
+    "r__assetMessage_Name": "Birthday Mail Campaign",
+    "r__assetMessage_Key": "3abc6fb6-1ced-4526-bcfb-f58e0011f2ae"
+}

@@ -1,0 +1,43 @@
+{
+    "CreatedDate": "2022-01-03T07:00:08.593",
+    "ModifiedDate": "2022-01-03T07:00:08.593",
+    "CustomerKey": 14553,
+    "Name": "Birthday Wish Email",
+    "Description": "",
+    "SendClassification": {
+        "CustomerKey": "Default Commercial"
+    },
+    "SenderProfile": {
+        "CustomerKey": "Default"
+    },
+    "DeliveryProfile": {
+        "CustomerKey": "Default"
+    },
+    "SuppressTracking": false,
+    "IsSendLogging": true,
+    "SendDefinitionList": [
+        {
+            "SendDefinitionListType": "SourceList",
+            "DataSourceTypeID": "CustomObject",
+            "IsTestObject": false,
+            "SalesForceObjectID": "",
+            "Name": "",
+            "r__dataExtension_Key": "B59DB21A-8304-4AE3-A720-1F1D2BBE80F2",
+            "r__list_PathName": "my subscribers/All Subscribers"
+        }
+    ],
+    "BccEmail": "",
+    "AutoBccEmail": "",
+    "TestEmailAddr": "",
+    "EmailSubject": "Hello Mam...",
+    "DynamicEmailSubject": "Hello Mam...",
+    "IsMultipart": true,
+    "IsWrapped": true,
+    "DeduplicateByEmail": true,
+    "ExclusionFilter": "",
+    "Additional": "",
+    "CCEmail": "",
+    "r__folder_Path": "User-Initiated",
+    "r__assetMessage_Name": "Anu_Email_Happy_Birthday",
+    "r__assetMessage_Key": "13135207-dcc2-452e-81ae-d35d49b9d74b"
+}

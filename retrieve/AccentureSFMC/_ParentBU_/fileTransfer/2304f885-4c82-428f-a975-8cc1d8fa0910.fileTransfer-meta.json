@@ -1,0 +1,16 @@
+{
+    "name": "Data Extract 1",
+    "customerKey": "2304f885-4c82-428f-a975-8cc1d8fa0910",
+    "createdDate": "2021-08-10T19:46:53.11",
+    "modifiedDate": "2022-01-20T07:31:44.1",
+    "fileSpec": "Audit Trail_activity_logl%%Year%%, %%Month%%, %%Day%%.csv",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

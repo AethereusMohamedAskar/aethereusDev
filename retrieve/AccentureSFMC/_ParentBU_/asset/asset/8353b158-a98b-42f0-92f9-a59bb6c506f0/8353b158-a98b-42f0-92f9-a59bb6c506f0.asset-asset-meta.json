@@ -1,0 +1,287 @@
+{
+    "customerKey": "8353b158-a98b-42f0-92f9-a59bb6c506f0",
+    "contentType": "text/html",
+    "assetType": {
+        "name": "webpage",
+        "displayName": "Web Page"
+    },
+    "version": 1,
+    "name": "FormDesign",
+    "owner": {
+        "email": "anushree.barapatre@aethereus.com",
+        "name": "Anushree Barapatre"
+    },
+    "createdDate": "2021-10-31T23:14:43.197-06:00",
+    "createdBy": {
+        "email": "anushree.barapatre@aethereus.com",
+        "name": "Anushree Barapatre"
+    },
+    "modifiedDate": "2022-03-21T10:33:52.797-06:00",
+    "modifiedBy": {
+        "email": "anushree.barapatre@aethereus.com",
+        "name": "Anushree Barapatre"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "meta": {
+        "globalStyles": {
+            "isLocked": false,
+            "body": {
+                "max-width": "1280px"
+            }
+        },
+        "central": {
+            "scModel": null
+        }
+    },
+    "views": {
+        "html": {
+            "thumbnail": {},
+            "meta": {},
+            "slots": {
+                "col1": {
+                    "content": "<div data-type=\"block\" data-key=\"w5nz9lqqxg\"></div>",
+                    "design": "<p style=\"font-family:arial;color:#ccc;font-size:11px;text-align:center;vertical-align:middle;font-weight:bold;padding:10px;margin:0;border:#ccc dashed 1px;\">Drop blocks or content here</p>",
+                    "blocks": {
+                        "w5nz9lqqxg": {
+                            "assetType": {
+                                "id": 215,
+                                "name": "smartcaptureblock"
+                            },
+                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div style=\"background-color: #f3f2f2; border-radius: 8px; margin: 20px auto; height: 58px; width: 58px;\"><img src=\"data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNS4zNSAyNi4xNCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiM3MDZlNmF9LmNscy0ye2ZpbGw6bm9uZTtzdHJva2U6IzcwNmU2YTtzdHJva2UtbWl0ZXJsaW1pdDoxMDtzdHJva2Utd2lkdGg6MS41cHh9PC9zdHlsZT48L2RlZnM+PGNpcmNsZSBjbGFzcz0iY2xzLTEiIGN4PSI2LjA3IiBjeT0iNi4wNyIgcj0iMy4wOCIvPjxjaXJjbGUgY2xhc3M9ImNscy0yIiBjeD0iNi4wNyIgY3k9IjIwLjA3IiByPSI1LjMyIi8+PGNpcmNsZSBjbGFzcz0iY2xzLTIiIGN4PSI2LjA3IiBjeT0iNi4wNyIgcj0iNS4zMiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTE1Ljk5IDYuMzZ2MTQuNjFsMy41My0xLjMgMS43NCA0LjcyIDEuMjEtLjQ0IDEuMjEtLjQ1LTEuNzMtNC43MiAzLjQtMS4yNS05LjM2LTExLjE3eiIvPjwvc3ZnPg==\" style=\"display: block;  height: 24px; padding: 17px; width: 24px;\"></div></td></tr></table>",
+                            "meta": {
+                                "options": {
+                                    "attributesSlotKey": "e8cjnzfi9c",
+                                    "smartCaptureGearID": "ioc76ikfagh",
+                                    "buttonText": "Submit",
+                                    "buttonStyling": {
+                                        "background-color": "#50AE50",
+                                        "border-color": "#50AE50",
+                                        "border-radius": "3px",
+                                        "border-style": "solid",
+                                        "-webkit-border-radius": "3px",
+                                        "-moz-border-radius": "3px",
+                                        "color": "#FFFFFF",
+                                        "font-family": "Arial, Helvetica, sans-serif",
+                                        "font-size": "16px",
+                                        "line-height": "normal",
+                                        "padding": "10px"
+                                    },
+                                    "buttonWrapperStyling": {
+                                        "padding-bottom": "10px",
+                                        "text-align": "center"
+                                    },
+                                    "confirmationMessage": "Thank you for your submission.",
+                                    "fieldFontStyling": {
+                                        "color": "#ffffff",
+                                        "font-family": "Arial, Helvetica, sans-serif",
+                                        "font-size": "16px"
+                                    },
+                                    "fieldStyling": {
+                                        "width": "200px"
+                                    },
+                                    "formStyling": {
+                                        "background-image": "linear-gradient(to bottom right, green, blue)",
+                                        "background-color": "transparent",
+                                        "margin-top": "0px",
+                                        "margin-right": "0px",
+                                        "margin-bottom": "0px",
+                                        "margin-left": "0px",
+                                        "padding-top": "0px",
+                                        "padding-right": "0px",
+                                        "padding-bottom": "0px",
+                                        "padding-left": "0px",
+                                        "text-align": "center"
+                                    },
+                                    "name": "",
+                                    "useInJourney": false,
+                                    "customObjectFields": [
+                                        {
+                                            "name": "EmailAddress",
+                                            "id": "1b58ec22-7e7c-4d0c-9101-46b98c90680f",
+                                            "type": "EmailAddress",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "length": 254,
+                                            "description": "",
+                                            "ordinal": 1,
+                                            "isNullable": true,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": true,
+                                            "isInheritable": true,
+                                            "isOverridable": true,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "1b58ec22-7e7c-4d0c-9101-46b98c90680f",
+                                            "label": "EmailAddress",
+                                            "isRequired": false,
+                                            "isFormRequired": false,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "zpu1m72wljp"
+                                        },
+                                        {
+                                            "name": "Phone",
+                                            "id": "7cbaaba7-ffe4-47b4-b50f-4d812e2b762e",
+                                            "type": "Text",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "length": 15,
+                                            "description": "",
+                                            "ordinal": 10,
+                                            "isNullable": true,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": true,
+                                            "isInheritable": true,
+                                            "isOverridable": true,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "7cbaaba7-ffe4-47b4-b50f-4d812e2b762e",
+                                            "label": "Phone",
+                                            "isRequired": false,
+                                            "isFormRequired": false,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "q9fleiughp"
+                                        }
+                                    ],
+                                    "dataTarget": "default",
+                                    "listid": "eccb028a-1c76-ea11-a2e5-48df37342d01",
+                                    "listName": "CloudPages_DataExtension",
+                                    "listKey": "B0C53A23-E32A-481D-BC0B-0F0FD74D4366",
+                                    "noAddingFields": false,
+                                    "onSubmitGotoUrlScheme": "http://",
+                                    "onSubmitGotoUrlType": 2,
+                                    "onSubmitShouldGotoUrl": false
+                                },
+                                "wrapperStyles": {
+                                    "mobile": {
+                                        "visible": true
+                                    },
+                                    "styling": {}
+                                }
+                            },
+                            "slots": {
+                                "e8cjnzfi9c": {
+                                    "content": "<div data-type=\"block\" data-key=\"zpu1m72wljp\"></div><div data-type=\"block\" data-key=\"q9fleiughp\"></div>",
+                                    "design": "<p style=\"font-family: arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                                    "blocks": {
+                                        "zpu1m72wljp": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"EmailAddress\">EmailAddress</label></div>\n<div class=\"sc-formfield-input\"><input type=\"email\" name=\"EmailAddress\" data-field-type=\"EmailAddress\" data-validation=\"email\"></div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "EmailAddress",
+                                                    "id": "1b58ec22-7e7c-4d0c-9101-46b98c90680f",
+                                                    "type": "EmailAddress",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "length": 254,
+                                                    "description": "",
+                                                    "ordinal": 1,
+                                                    "isNullable": true,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": true,
+                                                    "isInheritable": true,
+                                                    "isOverridable": true,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "1b58ec22-7e7c-4d0c-9101-46b98c90680f",
+                                                    "label": "EmailAddress",
+                                                    "isRequired": false,
+                                                    "isFormRequired": false,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field."
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "q9fleiughp": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Phone\">Phone</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"Phone\" data-field-type=\"Text\"></div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "Phone",
+                                                    "id": "7cbaaba7-ffe4-47b4-b50f-4d812e2b762e",
+                                                    "type": "Text",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "length": 15,
+                                                    "description": "",
+                                                    "ordinal": 10,
+                                                    "isNullable": true,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": true,
+                                                    "isInheritable": true,
+                                                    "isOverridable": true,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "7cbaaba7-ffe4-47b4-b50f-4d812e2b762e",
+                                                    "label": "Phone",
+                                                    "isRequired": false,
+                                                    "isFormRequired": false,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field."
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        }
+                                    },
+                                    "modelVersion": 2
+                                }
+                            },
+                            "modelVersion": 2
+                        }
+                    },
+                    "modelVersion": 2
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "html"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

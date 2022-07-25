@@ -1,0 +1,11 @@
+{
+    "name": "Ashwini_AutoSuppressionActivity",
+    "key": "ASKEY",
+    "description": "",
+    "targetKey": "InactiveSubscribers",
+    "createdDate": "2021-12-29T01:19:20.373",
+    "modifiedDate": "2021-12-29T01:33:14.97",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

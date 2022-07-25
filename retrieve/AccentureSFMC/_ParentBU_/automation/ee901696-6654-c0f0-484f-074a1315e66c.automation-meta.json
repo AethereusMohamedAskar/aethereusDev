@@ -1,0 +1,54 @@
+{
+    "name": "Primary Email Send",
+    "description": "",
+    "key": "ee901696-6654-c0f0-484f-074a1315e66c",
+    "type": "triggered",
+    "status": "InactiveTrigger",
+    "fileTrigger": {
+        "queueFiles": true,
+        "isPublished": false,
+        "fileNamePatternTypeId": 2,
+        "fileNamingPattern": "SF_CampaignCode_",
+        "folderLocationText": "import\\",
+        "triggerActive": false
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "IMPORT-Primary",
+                    "r__type": "importFile"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "SEGMENT-Primary_Query",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "EMAIL-Primary",
+                    "r__type": "emailSendDefinition"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "UPDATE-SegmentDE",
+                    "r__type": "query"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/Sai Prasad UC/Followup_Journey"
+}

@@ -1,0 +1,124 @@
+{
+    "CustomerKey": "93f1a640-fa8b-4ae4-b9d3-a9d760f401ef",
+    "Name": "Marketing_Buzzzz _s form created on Mon Oct 5_ 2020 4_40pm - Marketing_Buzzzz 157190176",
+    "Description": "",
+    "IsSendable": true,
+    "IsTestable": false,
+    "SendableDataExtensionField": {
+        "Name": "email"
+    },
+    "SendableSubscriberField": {
+        "Name": "Subscriber Key"
+    },
+    "RowBasedRetention": false,
+    "ResetRetentionPeriodOnImport": false,
+    "DeleteAtEndOfRetentionPeriod": false,
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "Lead ID",
+            "DefaultValue": "",
+            "MaxLength": 64,
+            "IsRequired": true,
+            "IsPrimaryKey": true,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Lead Gen Form ID",
+            "DefaultValue": "",
+            "MaxLength": 64,
+            "IsRequired": false,
+            "IsPrimaryKey": false,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Facebook Page ID",
+            "DefaultValue": "",
+            "MaxLength": 64,
+            "IsRequired": false,
+            "IsPrimaryKey": false,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Facebook Ad ID",
+            "DefaultValue": "",
+            "MaxLength": 64,
+            "IsRequired": false,
+            "IsPrimaryKey": false,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Facebook Ad Name",
+            "DefaultValue": "",
+            "MaxLength": 1024,
+            "IsRequired": false,
+            "IsPrimaryKey": false,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Facebook Ad Set ID",
+            "DefaultValue": "",
+            "MaxLength": 64,
+            "IsRequired": false,
+            "IsPrimaryKey": false,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Facebook Ad Set Name",
+            "DefaultValue": "",
+            "MaxLength": 1024,
+            "IsRequired": false,
+            "IsPrimaryKey": false,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Facebook Campaign ID",
+            "DefaultValue": "",
+            "MaxLength": 64,
+            "IsRequired": false,
+            "IsPrimaryKey": false,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Facebook Campaign Name",
+            "DefaultValue": "",
+            "MaxLength": 1024,
+            "IsRequired": false,
+            "IsPrimaryKey": false,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Facebook Platform",
+            "DefaultValue": "",
+            "MaxLength": 1024,
+            "IsRequired": false,
+            "IsPrimaryKey": false,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Date Collected",
+            "DefaultValue": "",
+            "IsRequired": false,
+            "IsPrimaryKey": false,
+            "FieldType": "Date"
+        },
+        {
+            "Name": "email",
+            "DefaultValue": "",
+            "MaxLength": 254,
+            "IsRequired": false,
+            "IsPrimaryKey": false,
+            "FieldType": "EmailAddress"
+        },
+        {
+            "Name": "full_name",
+            "DefaultValue": "",
+            "MaxLength": 1024,
+            "IsRequired": false,
+            "IsPrimaryKey": false,
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/Practice - Kanika"
+}

@@ -1,0 +1,34 @@
+{
+    "name": "Audit Trail_2",
+    "key": "91C8B90E-0D43-44CF-86E3-31DFCFC21995",
+    "fileSpec": "Audit Trail_activity_logl%%Year%%, %%Month%%, %%Day%%.csv",
+    "createdDate": "2022-01-20T07:31:29.117",
+    "modifiedDate": "2022-05-09T04:52:22.587",
+    "createdBy": 713269674,
+    "modifiedBy": 713603179,
+    "intervalType": 2,
+    "description": "",
+    "dataFields": [
+        {
+            "name": "ApplyTimeZone",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "ConvertToASCII",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "IncludeHeader",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "Timezone",
+            "type": "integer",
+            "value": "1"
+        }
+    ],
+    "r__dataExtractType_name": "Audit Trail Activity Log"
+}

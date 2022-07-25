@@ -1,0 +1,23 @@
+%%[
+
+var @payload, @postRequest, @response, @responseRows
+
+set @payload = '{
+   "Order Number":10110113,
+   "First Name":"Curt",
+   "Last Name":"Harris",
+   "Amount":{
+      "Order Subtotal":120,
+      "VAT":20,
+      "Shipping":0,
+      "Order Total":120
+   }
+}'
+
+set @postrequest = HTTPPost2("https://httpbin.org/post","application/json", @payload, true, @response, @responseRows)
+
+]%%
+status code: %%=v(@postrequest)=%%
+<br><br>response: %%=v(@response)=%%
+<br><br>responseRows: %%=v(@responseRows)=%%
+<br><br>responseRowCount: %%=RowCount(@responseRows)=%%

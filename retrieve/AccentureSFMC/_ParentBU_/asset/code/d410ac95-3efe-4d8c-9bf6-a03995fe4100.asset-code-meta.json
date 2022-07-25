@@ -1,0 +1,30 @@
+{
+    "customerKey": "d410ac95-3efe-4d8c-9bf6-a03995fe4100",
+    "assetType": {
+        "name": "html",
+        "displayName": "Code"
+    },
+    "fileProperties": {
+        "fileName": "Fractal - Template code.html",
+        "extension": "html",
+        "fileSize": 9391,
+        "fileCreatedDate": "2021-02-18T23:18:40.7637556-06:00"
+    },
+    "name": "Fractal - Template code.html",
+    "createdDate": "2021-02-18T23:18:40.763-06:00",
+    "createdBy": {
+        "email": "kanika.singhal@aethereus.com",
+        "name": "Kanika Singhal"
+    },
+    "modifiedDate": "2021-07-20T04:16:03.733-06:00",
+    "modifiedBy": {
+        "email": "kanika.singhal@aethereus.com",
+        "name": "Kanika Singhal"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/Practice -Kanika"
+}

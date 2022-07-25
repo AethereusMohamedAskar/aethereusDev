@@ -1,0 +1,11 @@
+{
+    "CreatedDate": "2021-11-29T04:41:06.797",
+    "ModifiedDate": "2021-11-29T04:41:06.797",
+    "ID": 2137,
+    "CustomerKey": "PJ-Trans_Message_API_Test - 3664",
+    "ListName": "PJ-Trans_Message_API_Test",
+    "Type": "Private",
+    "Description": "The list is create for testing Transactional Messaging API",
+    "ListClassification": "ExactTargetList",
+    "r__folder_Path": "my lists"
+}

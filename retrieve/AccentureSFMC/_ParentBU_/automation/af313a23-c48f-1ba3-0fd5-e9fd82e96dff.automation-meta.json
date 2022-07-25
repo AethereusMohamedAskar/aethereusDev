@@ -1,0 +1,20 @@
+{
+    "name": "Ashwini_SSJSDEAutomation",
+    "description": "",
+    "key": "af313a23-c48f-1ba3-0fd5-e9fd82e96dff",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Ashwini_InsertRecordDE",
+                    "r__type": "script"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Ashwini"
+}

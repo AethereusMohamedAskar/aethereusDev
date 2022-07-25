@@ -1,0 +1,11 @@
+{
+    "name": "create query",
+    "key": "e9b64096-3008-424b-a34a-47f9e3a8b85a",
+    "description": "",
+    "targetKey": "495290F5-2E7A-46F3-8BB2-FB766DAC21FE",
+    "createdDate": "2020-08-14T05:21:11.77",
+    "modifiedDate": "2020-08-14T05:21:11.77",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

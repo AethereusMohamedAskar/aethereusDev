@@ -1,0 +1,11 @@
+{
+    "name": "JobTable",
+    "key": "JobTable",
+    "description": "",
+    "targetKey": "JobTable",
+    "createdDate": "2021-10-12T07:27:33.313",
+    "modifiedDate": "2021-10-12T07:27:33.313",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

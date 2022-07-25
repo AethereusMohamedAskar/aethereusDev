@@ -1,0 +1,16 @@
+{
+    "name": "Ashwini_FileTransferActivity",
+    "customerKey": "387923f5-82ca-4109-9b48-4d1b06b070fa",
+    "createdDate": "2021-11-10T00:35:55.45",
+    "modifiedDate": "2021-11-10T01:51:35.79",
+    "fileSpec": "Ashwini_DataExtract %%Year%% %%Month%% %%Day%%.zip",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "Training 2021"
+}

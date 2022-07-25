@@ -1,0 +1,18 @@
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+%%[SET @Subkey = _subscriberkey]%%
+
+%%[
+var @emailOptInStatus
+IF RequestParameter("submitted") != true THEN
+
+SET @emailOptInStatus = UpdateSingleSalesforceObject(
+'Contact',@Subkey,
+'MC_Email_Opt_In_Status__c', 'true')
+endif
+]%%
+
+
+
+  
+
+</td></tr></table>

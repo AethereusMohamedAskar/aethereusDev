@@ -1,0 +1,16 @@
+{
+    "name": "Ashwini_TrackingDataExtractAct",
+    "customerKey": "cb1c9662-041e-4452-b62f-1d43977025f6",
+    "createdDate": "2021-08-12T05:56:27.783",
+    "modifiedDate": "2022-01-20T06:17:22.447",
+    "fileSpec": "Ashwini_TrackingData %%Year%% %%Month%% %%Day%%.zip",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

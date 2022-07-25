@@ -1,0 +1,16 @@
+{
+    "name": "filetransfer",
+    "customerKey": "0999",
+    "createdDate": "2022-05-16T09:10:37.287",
+    "modifiedDate": "2022-05-16T09:27:01.067",
+    "fileSpec": "%%DU2022.csv%%",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

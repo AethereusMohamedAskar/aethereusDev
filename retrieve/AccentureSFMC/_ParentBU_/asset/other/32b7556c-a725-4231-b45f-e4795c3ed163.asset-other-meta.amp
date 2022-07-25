@@ -1,0 +1,108 @@
+<script runat="server" type="text/javascript">Platform.Load("core","1");
+  try{
+</script>
+%%[
+set @firstname=queryparameter('n')
+set @gender=queryparameter('g')
+set @subscriberkey = _subscriberkey
+]%%
+Hello %%=v(@firstname)=%%, Subkey : %%=v(@subscriberkey)=%%
+
+%%[set @rc=rowcount(lookuprows('Ashwini Master Subscribers', 'Subscriber Key', @subscriberkey))]%%
+%%=v(@rc)=%%
+%%[
+%%=v(@subscriberkey)=%%
+if(not empty(@subscriberkey) == true and
+rowcount(lookuprows('Master Sub', 'Subscriber Key', @subscriberkey)) >= 1)
+
+then
+set @subscriberRS = lookuprows('Master Sub', 'Subscriber Key', @subscriberkey)
+set @EmailStatus = field(row(@subscriberRS,1),'Email Status')
+set @Newsletter = field(row(@subscriberRS,1),'Newsletter')
+set @Events = field(row(@subscriberRS,1), 'Events')
+set @Webinar = field(row(@subscriberRS,1), 'Webinar')
+
+]%%
+<meta name="ROBOTS" content="INDEX, FOLLOW"><meta name="keywords" content=""><meta name="description" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <title>Homans Email Preferences</title>
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&amp;display=swap" rel="stylesheet">
+ <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
+ <link href="https://mcfyfwscx0zgzfvrhzpbd0vv9kj1.pub.sfmc-content.com/5mpwkeptx20" rel="stylesheet">
+<hr color="#ac366a">
+<html>
+
+
+<style>
+    fieldset {
+        background-color: #eeeeee;
+    }
+  .button {
+  background-color: #ac366a; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+
+<body>
+    <h1 style="color:#ac366a;"> Manage Email Preferences</h1>
+    <p><h4>
+  
+ Below are your current subscriptions and preferences for the email address: %%=v(@email)=%%. <br>
+        You may use this page to update your selections or choose to unsubscribe from all of our email
+        communications. </h4></p><br>
+    <h3 style="color:#ac366a;">Email Address :%%=v(@email)=%% </h3>
+    <form action="%%=cloudpagesURL('1247')=%%" method="post" width="70px" height="70px">
+        <fieldset style="width:50%; height:50%">
+            <!-- <h2 style="color:#ac366a;">Subscriptions</h2>-->
+ <legend style="color:#ac366a;font-size:30px">Subscriptions:</legend>
+<label for="newsletter"><input type="checkbox" name="newsletter" %%[if @Newsletter == true then]%%checked%%[endif]%%>Newsletter<br>
+                <span>Get insight and analysis from the best conservative writers delivered to your
+                    inbox.</span></label><br><br>
+<label for="events"><input type="checkbox" name="events" %%[if @Events == true then]%%checked%%[endif]%%>Events<br>The latest updates on our events and
+                conferences.</label><br><br>
+<label for="webinar"><input type="checkbox" name="webinar" %%[if @Webinar == true then]%%checked%%[endif]%%>Webinar<br>Stay up to date with our comapany webinars.</label><br><br>
+          <label for="unsuball"><input type="checkbox" name="unsuball">Unsubscribe Me from all Email Communications</label>
+                    <input type="hidden" name="subscriberkey" value="%%=v(@subscriberkey)=%%" />
+                    <input type="hidden" name="email" value="%%=v(@email)=%%" />
+                    <input type="hidden" name="jobid" value="%%=v(@jobid)=%%" />
+                    <input type="hidden" name="batchid" value="%%=v(@batchid)=%%" />
+                    <input type="hidden" name="listid" value="%%=v(@emailName)=%%" />
+                    
+                    <br><br>
+                    <input type="submit" name="submit" value="Submit"  class="button"/>
+        </fieldset>
+       <br>
+                 Debug:<br>
+                 Subscriber Key: %%=v(@subscriberkey)=%%<br>
+                 Email: %%=v(@email)=%%<br>
+                 JobID: %%=v(@jobid)=%%<br>
+                 ListID: %%=v(@listID)=%%<br>
+                 BatchID: %%=v(@batchid)=%%<br>
+                 Newsletter: %%=v(@Newsletter)=%%<br>
+                 Events: %%=v(@Events)=%%<br>
+                 Webinar: %%=v(@Webinar)=%%<br>
+                
+    </form>
+  
+
+</body>
+
+</html>
+%%[else]%%
+                              You have reached this page in error
+%%[endif]%%
+<script runat="server" type="text/javascript">
+  }
+  catch(err){
+  Write("Error: "+Stringify(err));
+  }
+</script>

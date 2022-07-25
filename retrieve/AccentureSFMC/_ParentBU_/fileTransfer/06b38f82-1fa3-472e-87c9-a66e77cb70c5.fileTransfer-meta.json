@@ -1,0 +1,16 @@
+{
+    "name": "Automation_POC",
+    "customerKey": "06b38f82-1fa3-472e-87c9-a66e77cb70c5",
+    "createdDate": "2022-02-27T04:35:57.54",
+    "modifiedDate": "2022-02-27T04:35:57.54",
+    "fileSpec": "Test_POC",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": false,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

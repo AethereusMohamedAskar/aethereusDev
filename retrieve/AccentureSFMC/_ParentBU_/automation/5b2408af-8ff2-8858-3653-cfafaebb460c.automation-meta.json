@@ -1,0 +1,28 @@
+{
+    "name": "Shreya@tracking data extract",
+    "key": "5b2408af-8ff2-8858-3653-cfafaebb460c",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Shreya@tracking data extract",
+                    "r__type": "dataExtract"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Shreya_tracking data extract",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Shreya"
+}

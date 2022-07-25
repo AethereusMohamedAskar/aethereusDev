@@ -1,0 +1,16 @@
+{
+    "name": "trackingftact",
+    "customerKey": "bce8dac5-4dc9-463e-9fc4-7d10f7d622c7",
+    "createdDate": "2022-04-27T07:45:51.09",
+    "modifiedDate": "2022-04-27T07:45:51.09",
+    "fileSpec": "Trackingsentextract%%Year%%, %%Month%%, %%Day%%.zip",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

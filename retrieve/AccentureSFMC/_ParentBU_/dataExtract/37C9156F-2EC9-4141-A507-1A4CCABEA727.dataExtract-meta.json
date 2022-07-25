@@ -1,0 +1,39 @@
+{
+    "name": "Anushree_DE_Filter",
+    "key": "37C9156F-2EC9-4141-A507-1A4CCABEA727",
+    "fileSpec": "Anushree_Data_Filter%%Month%%,%%Year%%.zip",
+    "createdDate": "2021-08-12T07:29:00.723",
+    "modifiedDate": "2021-08-12T07:29:00.723",
+    "createdBy": 713633357,
+    "modifiedBy": 713633357,
+    "intervalType": 0,
+    "description": "",
+    "dataFields": [
+        {
+            "name": "ColumnDelimiter",
+            "type": "string",
+            "value": ","
+        },
+        {
+            "name": "DECustomerKey",
+            "type": "string",
+            "value": "AFE6FEDC-02BB-4338-918E-97A8931D388D"
+        },
+        {
+            "name": "HasColumnHeaders",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "TextQualified",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "UsesLineFeed",
+            "type": "bool",
+            "value": "False"
+        }
+    ],
+    "r__dataExtractType_name": "Data Extension Extract"
+}

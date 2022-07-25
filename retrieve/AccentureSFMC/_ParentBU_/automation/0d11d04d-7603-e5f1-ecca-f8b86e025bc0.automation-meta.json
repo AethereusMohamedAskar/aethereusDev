@@ -1,0 +1,20 @@
+{
+    "name": "SQL One",
+    "description": "",
+    "key": "0d11d04d-7603-e5f1-ecca-f8b86e025bc0",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "SQL Query Activity One",
+                    "r__type": "query"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Nitika"
+}

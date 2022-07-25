@@ -1,0 +1,65 @@
+{
+    "name": "Anushree_Email_Send_Activity",
+    "description": "",
+    "key": "9e5b1240-c451-4a7d-c3d2-269e1c2d9790",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Anushree_FTP-SF",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Anushree_Import_Data",
+                    "r__type": "importFile"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Anushree_Email_Filter",
+                    "r__type": "filter"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "5 Minutes",
+                    "r__type": "wait"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "NEW_DE_For_Automation",
+                    "r__type": "verification"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Anushree_First_Campaign",
+                    "r__type": "emailSendDefinition"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Anushree"
+}

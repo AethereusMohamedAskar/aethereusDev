@@ -1,0 +1,19 @@
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+%%[
+if RequestParameter("submitted") == true then
+
+var @createAccount, @RecordTypeId
+set @RecordTypeId = "0125j000000wyNUAAY"
+set @createAccount = CreateSalesforceObject(
+                    "Account", 4,
+                    "FirstName", RequestParameter("firstname"),
+                    "LastName", RequestParameter("lastname"),
+ 
+                    "PersonEmail", RequestParameter("email"),
+                     "Phone", RequestParameter("Phone"),
+                     "RecordTypeId",@RecordTypeId
+                   
+)
+endif
+]%%
+</td></tr></table>

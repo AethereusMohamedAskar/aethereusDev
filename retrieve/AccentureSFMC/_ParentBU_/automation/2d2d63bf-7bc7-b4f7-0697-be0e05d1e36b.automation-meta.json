@@ -1,0 +1,27 @@
+{
+    "name": "POC_Kavitha",
+    "description": "",
+    "key": "2d2d63bf-7bc7-b4f7-0697-be0e05d1e36b",
+    "type": "triggered",
+    "status": "InactiveTrigger",
+    "fileTrigger": {
+        "queueFiles": true,
+        "isPublished": false,
+        "fileNamePatternTypeId": 0,
+        "fileNamingPattern": "",
+        "folderLocationText": "import\\ashwini_filterftp\\",
+        "triggerActive": false
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Automation_POC",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Kavitha"
+}

@@ -1,0 +1,170 @@
+<table
+    cellpadding="0"
+    cellspacing="0"
+    width="100%"
+    role="presentation"
+    style="min-width: 100%"
+    class="stylingblock-content-wrapper"
+>
+    <tr>
+        <td class="stylingblock-content-wrapper camarker-inner">
+            <style>
+                .form-group {
+                    margin-bottom: 15px;
+                }
+                .form-control {
+                    display: block;
+                    width: 100%;
+                    height: 36px;
+                    padding: 6px 12px;
+                    font-size: 14px;
+                    line-height: 1.42857143;
+                    color: #555;
+                    background-color: #fff;
+                    background-image: none;
+                    border: 1px solid #ccc;
+                    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+                    transition: border-color ease-in-out 0.15s, box- shadow ease-in-out 0.15s;
+                }
+                .well {
+                    background-color: #ffffff;
+                    border: 1px solid #ffffff;
+                    min-height: 20px;
+                    padding: 19px;
+                    margin-bottom: 20px;
+                    border-radius: 4px;
+                    box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
+                }
+            </style>
+            <div class="well">
+                <span>Get in touch with us</span>
+                <p></p>
+                <div>
+                    <form>
+                        <div class="form-group">
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="FirstName"
+                                placeholder="First Name"
+                                name="FirstName"
+                                required=""
+                            />
+                        </div>
+                        <div class="form-group">
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="LastName"
+                                placeholder="Last Name"
+                                name="LastName"
+                                required=""
+                            />
+                        </div>
+                        <div class="form-group">
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="Mobile"
+                                placeholder="Mobile No"
+                                name="Mobile"
+                                [attern="[7-9]{1}[0-9]{9}"
+                                required=""
+                            />
+                        </div>
+                        <div class="form-group">
+                            <input
+                                type="email"
+                                class="form-control"
+                                id="Email"
+                                placeholder="Email"
+                                name="Email"
+                                required=""
+                            />
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" id="LeadCity" required="">
+                                <option value="">Select City</option>
+                                <option value="303">Agra</option>
+                                <option value="272">Ahmedabad</option>
+                                <option value="452">Ajmer</option>
+                                <option value="486">Amravati</option>
+                                <option value="462">Anand</option>
+                                <option value="422">Aurangabad</option>
+                                <option value="355">Bangalore</option>
+                                <option value="320">Bhopal</option>
+                                <option value="230">Bhubaneshwar</option>
+                                <option value="430">Chandigarh</option>
+                                <option value="340">Chennai</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" id="Center" required="">
+                                <option value="">Select Centre</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" id="Product" name="Product" required="">
+                                <option value="">Select Product</option>
+                            </select>
+                        </div>
+                        <input
+                            type="hidden"
+                            class="form-control"
+                            id="CampaingName"
+                            name="CampaingName"
+                            value=""
+                            placeholder="Source"
+                            readonly=""
+                        />
+                        <input
+                            type="hidden"
+                            class="form-control"
+                            id="SourceMedium"
+                            name="SourceMedium"
+                            value=""
+                            placeholder="Source"
+                            readonly=""
+                        />
+                        <input
+                            type="hidden"
+                            class="form-control"
+                            id="LeadSource"
+                            name="LeadSource"
+                            value="a0J2u000004IKwaEAG"
+                            placeholder="Source"
+                            readonly=""
+                        />
+                        <input
+                            type="hidden"
+                            class="form-control"
+                            id="LeadMode"
+                            name="LeadMode"
+                            value="a092u00000Dpco8AAB"
+                            placeholder="Source"
+                            readonly=""
+                        />
+                        <input
+                            type="hidden"
+                            class="form-control"
+                            id="CampaingId"
+                            name="CampaingId"
+                            value=""
+                            placeholder="campaign id"
+                            readonly=""
+                        />
+                        <input
+                            type="hidden"
+                            class="form-control"
+                            id="txtlimacampaign"
+                            name="txtlimacampaign"
+                            value="1046"
+                        />
+                        <button type="submit" class="button button-primary" id="sub">Submit</button>
+                        <br /><br />
+                    </form>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>

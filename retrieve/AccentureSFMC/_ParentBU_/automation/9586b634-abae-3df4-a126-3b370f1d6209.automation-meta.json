@@ -1,0 +1,28 @@
+{
+    "name": "update Unsubscribe automation",
+    "key": "9586b634-abae-3df4-a126-3b370f1d6209",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Unsubscribe_SQL",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "update_unsubscribe_in_sfdc",
+                    "r__type": "script"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Anushree/POC"
+}

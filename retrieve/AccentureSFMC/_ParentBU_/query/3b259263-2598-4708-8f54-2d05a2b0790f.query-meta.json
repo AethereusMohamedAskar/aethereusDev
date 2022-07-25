@@ -1,0 +1,11 @@
+{
+    "name": "Total_open",
+    "key": "3b259263-2598-4708-8f54-2d05a2b0790f",
+    "description": "",
+    "targetKey": "73443E5D-915B-43EE-80DF-11150DA0F0FF",
+    "createdDate": "2021-12-20T01:28:37.283",
+    "modifiedDate": "2022-01-03T02:06:51.02",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

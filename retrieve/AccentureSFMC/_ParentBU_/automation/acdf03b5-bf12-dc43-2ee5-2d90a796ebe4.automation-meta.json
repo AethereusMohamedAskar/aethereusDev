@@ -1,0 +1,36 @@
+{
+    "name": "PJ-POC_Reg_Status",
+    "description": "",
+    "key": "acdf03b5-bf12-dc43-2ee5-2d90a796ebe4",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "typeId": 2,
+        "startDate": "2021-12-03T19:00:00",
+        "endDate": "2021-12-03T19:00:00",
+        "icalRecur": "FREQ=HOURLY;COUNT=1;INTERVAL=1",
+        "timezoneName": "India Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "PJ-POC_Reg_Status",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "activities": [
+                {
+                    "name": "PJ-POC_Registration_Status",
+                    "r__type": "journeyEntry"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations"
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Anushree_Last7days_Sends",
+    "key": "25110639-5afb-70f9-bf55-47f63f086f9d",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "typeId": 4,
+        "startDate": "2021-09-21T00:00:00",
+        "endDate": "2021-09-23T00:00:00",
+        "icalRecur": "FREQ=WEEKLY;UNTIL=20210923T113000;INTERVAL=1;BYDAY=MO,TU,WE,TH,FR",
+        "timezoneName": "India Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "AccountSummary7days",
+                    "r__type": "reportDefinition"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Anushree"
+}

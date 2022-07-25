@@ -1,0 +1,16 @@
+{
+    "name": "Trackingftactivity",
+    "customerKey": "8c3cd854-7fed-4352-8ad7-2ceec24108c4",
+    "createdDate": "2022-04-28T03:14:37.393",
+    "modifiedDate": "2022-04-28T03:14:37.393",
+    "fileSpec": "Trackingsentextract%%Year%%, %%Month%%, %%Day%%.zip",
+    "isEncrypted": false,
+    "isCompressed": true,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": false,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

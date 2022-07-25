@@ -1,0 +1,11 @@
+{
+    "name": "Vikas_SQL_Query",
+    "key": "FA24CDC3-191E-4A3A-9A97-0937C5CF1D97",
+    "description": "",
+    "targetKey": "7F0FED60-5A1C-44E2-A55C-54267E8C1DC3",
+    "createdDate": "2022-05-18T02:19:03.163",
+    "modifiedDate": "2022-05-19T13:06:14.24",
+    "targetUpdateTypeName": "Append",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

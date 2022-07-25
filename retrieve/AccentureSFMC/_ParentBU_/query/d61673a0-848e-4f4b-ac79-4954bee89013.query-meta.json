@@ -1,0 +1,11 @@
+{
+    "name": "PJ-POC_Reg_Status",
+    "key": "d61673a0-848e-4f4b-ac79-4954bee89013",
+    "description": "",
+    "targetKey": "85943220-78A7-4894-B40C-9C7B4C51FC39",
+    "createdDate": "2021-12-03T07:08:52.023",
+    "modifiedDate": "2021-12-03T07:08:52.023",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

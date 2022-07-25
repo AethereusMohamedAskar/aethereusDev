@@ -1,0 +1,45 @@
+{
+    "CreatedDate": "2022-04-10T21:57:21.93",
+    "ModifiedDate": "2022-04-10T21:57:21.93",
+    "CustomerKey": 15721,
+    "Name": "Filter_Activity_bir",
+    "Description": "",
+    "SendClassification": {
+        "CustomerKey": "Default Commercial"
+    },
+    "SenderProfile": {
+        "CustomerKey": "Default"
+    },
+    "DeliveryProfile": {
+        "CustomerKey": "Default"
+    },
+    "SuppressTracking": false,
+    "IsSendLogging": true,
+    "SendDefinitionList": [
+        {
+            "SendDefinitionListType": "SourceList",
+            "DataSourceTypeID": "CustomObject",
+            "IsTestObject": false,
+            "SalesForceObjectID": "",
+            "Name": "",
+            "r__dataExtension_Key": "E8F72C90-DCE5-4B5B-8E9C-EE317034E98C",
+            "r__list_PathName": "my subscribers/All Subscribers"
+        }
+    ],
+    "BccEmail": "",
+    "AutoBccEmail": "",
+    "TestEmailAddr": "",
+    "EmailSubject": "Science behind the northern lights wasn't theorized",
+    "DynamicEmailSubject": "Science behind the northern lights wasn't theorized",
+    "IsMultipart": true,
+    "IsWrapped": true,
+    "SendWindowOpen": "12:30:00.0000000-06:00",
+    "SendWindowClose": "13:00:00.0000000-06:00",
+    "DeduplicateByEmail": true,
+    "ExclusionFilter": "",
+    "Additional": "",
+    "CCEmail": "",
+    "r__folder_Path": "User-Initiated",
+    "r__assetMessage_Name": "PoC_template_Vijay",
+    "r__assetMessage_Key": "cd8484e5-1cbd-4c7a-a210-72ad3703bcb2"
+}

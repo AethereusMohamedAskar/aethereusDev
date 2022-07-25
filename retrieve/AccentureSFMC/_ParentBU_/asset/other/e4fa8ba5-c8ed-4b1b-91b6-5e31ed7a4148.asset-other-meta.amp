@@ -1,0 +1,89 @@
+<script runat="server" type="text/javascript">Platform.Load("core","1");
+  try{
+</script>
+hello %%=v(@subscriberkey)=%%
+%%[set @rc=rowcount(lookuprows('Ashwini Master Subscribers', 'Subscriber Key', @subscriberkey))]%%
+%%=v(@rc)=%%
+%%[
+%%=v(@subscriberkey)=%%
+if(not empty(@subscriberkey) == true and
+rowcount(lookuprows('Ashwini Master Subscribers', 'Subscriber Key', @subscriberkey)) >= 1)
+
+then
+set @subscriberRS = lookuprows('Ashwini Master Subscribers', 'Subscriber Key', @subscriberkey)
+set @EmailStatus = field(row(@subscriberRS,1),'Email Status')
+set @Newsletter = field(row(@subscriberRS,1),'Newsletter')
+set @Deals = field(row(@subscriberRS,1), 'Deals')
+set @EmailFrequency = field(row(@subscriberRS,1), 'Email Frequency')
+set @Hiking = field(row(@subscriberRS,1), 'Hiking')
+set @Kayaking = field(row(@subscriberRS,1), 'Kayaking')
+set @Climbing = field(row(@subscriberRS,1), 'Climbing')
+]%%
+<html>
+  <body>
+<div class = "container">
+  <h1> Email Preferences </h1>
+  <p>Below are the current subscriptions and preferences for the email address: %%=v(@email)=%%</p>
+  <br>
+  <form action="%%=cloudpagesURL('1238')=%%" method="post">
+  <fieldset>
+<h2> Subscriptions</h2>
+
+  <label for ="newsletter"><input type="checkbox" name="newsletter" %%[if @Newsletter == true then]%%checked%%[endif]%%>Newsletter </label>
+  <label for ="deals"><input type="checkbox" name="deals" %%[if @Deals == true then]%%checked%%[endif]%%>Deals</label>
+
+ <h2> Preferences</h2>
+    <label for ="frequency"> How many emails do we wish to receive from Carved Rock?
+    <select name = "frequency">
+    <option value="">Please make a selection </option>
+    <option value="all" %%[if @EmailFrequency == 'all' then]%%selected%%[endif]%%>As many emails as you can send me! </option>
+    <option value="medium" %%[if @EmailFrequency == 'medium' then]%%selected%%[endif]%%>1-2 emails a week is plenty </option>
+    <option value="minimum" %%[if @EmailFrequency == 'minimum' then]%%selected%%[endif]%%>Only the most relevant emails, 1-2 per month or less </option>
+    </select>
+    </label>
+    
+    <h2> Interests</h2>
+    <label for ="hiking"><input type="checkbox" name="hiking" %%[if @Hiking == true then]%%checked%%[endif]%%>Hiking</label>
+  <label for ="kayaking"><input type="checkbox" name="kayaking" %%[if @Kayaking == true then]%%checked%%[endif]%%>Kayaking</label>
+  <label for ="climbing"><input type="checkbox" name="climbing" %%[if @Climbing == true then]%%checked%%[endif]%%>Climbing</label>
+    <br><br>
+
+    <label for ="unsuball"><input type="checkbox" name="unsuball">Unsubscribe from all emails</label><input type="hidden" name="subscriberkey" value="%%=v(@subscriberkey)=%%" />
+                        <input type="hidden" name="email" value="%%=v(@email)=%%" />
+                        <input type="hidden" name="jobid" value="%%=v(@jobid)=%%" />
+                        <input type="hidden" name="batchid" value="%%=v(@batchid)=%%" />
+                        <input type="hidden" name="listid" value="%%=v(@emailName)=%%" />
+                        
+    <br>
+    <input type="submit" name ="submit" value="Submit"/>
+
+
+    </fieldset>
+   </form>
+    <br>
+                 Debug:<br>
+                 Subscriber Key: %%=v(@subscriberkey)=%%<br>
+                 Email: %%=v(@email)=%%<br>
+                 JobID: %%=v(@jobid)=%%<br>
+                 ListID: %%=v(@listID)=%%<br>
+                 BatchID: %%=v(@batchid)=%%<br>
+                 Newsletter: %%=v(@Newsletter)=%%<br>
+                 Deals: %%=v(@Deals)=%%<br>
+                 Frequency: %%=v(@Frequency)=%%<br>
+                 Hiking: %%=v(@Hiking)=%%<br>
+                 Kayaking: %%=v(@Kayaking)=%%<br>
+                 Climbing: %%=v(@Climbing)=%%<br>
+
+        </div>
+</body>
+</html>
+  
+%%[else]%%
+                              You have reached this page in error
+%%[endif]%%
+<script runat="server" type="text/javascript">
+  }
+  catch(err){
+  Write("Error: "+Stringify(err));
+  }
+</script>

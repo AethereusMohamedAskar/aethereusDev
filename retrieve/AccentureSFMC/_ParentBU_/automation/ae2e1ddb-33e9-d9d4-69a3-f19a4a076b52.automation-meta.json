@@ -1,0 +1,20 @@
+{
+    "name": "Anu_SQL_For_ Salesforce DE",
+    "description": "",
+    "key": "ae2e1ddb-33e9-d9d4-69a3-f19a4a076b52",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Anu_SQL555",
+                    "r__type": "query"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Anushree"
+}

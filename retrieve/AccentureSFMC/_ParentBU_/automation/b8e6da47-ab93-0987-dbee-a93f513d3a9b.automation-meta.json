@@ -1,0 +1,20 @@
+{
+    "name": "Anu_Api_Perform_automation",
+    "description": "",
+    "key": "b8e6da47-ab93-0987-dbee-a93f513d3a9b",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Total_open",
+                    "r__type": "query"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Anushree"
+}

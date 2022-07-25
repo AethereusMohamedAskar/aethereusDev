@@ -1,0 +1,10 @@
+select
+    SubscriberID,
+    SubscriberKey,
+    JobID,
+    EventDate,
+    SMTPBounceReason,
+    SMTPMessage,
+    SMTPCode
+from
+    _Bounce

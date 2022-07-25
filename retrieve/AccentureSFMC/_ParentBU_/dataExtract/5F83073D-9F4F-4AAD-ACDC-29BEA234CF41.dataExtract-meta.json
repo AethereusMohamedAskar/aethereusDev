@@ -1,0 +1,39 @@
+{
+    "name": "Extract All Subscriber Update",
+    "key": "5F83073D-9F4F-4AAD-ACDC-29BEA234CF41",
+    "fileSpec": "sublist.csv",
+    "createdDate": "2021-12-29T05:26:17.69",
+    "modifiedDate": "2021-12-29T05:27:18.1",
+    "createdBy": 713633358,
+    "modifiedBy": 713633358,
+    "intervalType": 0,
+    "description": "",
+    "dataFields": [
+        {
+            "name": "ColumnDelimiter",
+            "type": "string",
+            "value": ","
+        },
+        {
+            "name": "DECustomerKey",
+            "type": "string",
+            "value": "7D867D5A-7378-4B21-AD06-3B9540321E95"
+        },
+        {
+            "name": "HasColumnHeaders",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "TextQualified",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "UsesLineFeed",
+            "type": "bool",
+            "value": "False"
+        }
+    ],
+    "r__dataExtractType_name": "Data Extension Extract"
+}

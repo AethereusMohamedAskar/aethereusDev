@@ -1,0 +1,11 @@
+{
+    "name": "Sql-Weather3-shrey",
+    "key": "e63f7856-be53-4c51-a419-383b29b33e1d",
+    "description": "",
+    "targetKey": "081A6B92-553A-4DBA-9F53-935CFACB608B",
+    "createdDate": "2022-03-07T05:00:01.103",
+    "modifiedDate": "2022-04-05T22:26:37.217",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

@@ -1,0 +1,30 @@
+{
+    "customerKey": "9fccc7cf-9a47-4512-95e0-40e8f92d8020",
+    "assetType": {
+        "name": "css",
+        "displayName": "Code"
+    },
+    "fileProperties": {
+        "fileName": "animate.css",
+        "extension": "css",
+        "fileSize": 25503,
+        "fileCreatedDate": "2022-02-11T06:34:29.3309895-06:00"
+    },
+    "name": "animate.css",
+    "createdDate": "2022-02-11T06:34:29.33-06:00",
+    "createdBy": {
+        "email": "anushree.barapatre@aethereus.com",
+        "name": "Anushree Barapatre"
+    },
+    "modifiedDate": "2022-02-11T06:44:15.403-06:00",
+    "modifiedBy": {
+        "email": "anushree.barapatre@aethereus.com",
+        "name": "Anushree Barapatre"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/Anushree/IMS"
+}

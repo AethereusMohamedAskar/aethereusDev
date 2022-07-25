@@ -1,0 +1,29 @@
+{
+    "name": "Kanika_DE EXTRACT",
+    "description": "",
+    "key": "39286b56-8d70-9d35-9cd8-4b9ef63ebd04",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "kanika_DE extract",
+                    "r__type": "dataExtract"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Kanika_DE Extract SF- ftp",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training"
+}

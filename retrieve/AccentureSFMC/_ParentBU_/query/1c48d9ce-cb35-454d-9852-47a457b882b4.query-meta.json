@@ -1,0 +1,11 @@
+{
+    "name": "M_R_Combine_Data",
+    "key": "1c48d9ce-cb35-454d-9852-47a457b882b4",
+    "description": "",
+    "targetKey": "6346185D-2E9E-4C1A-A28B-3F7516C0AA9F",
+    "createdDate": "2020-11-24T07:30:18.43",
+    "modifiedDate": "2020-11-24T07:30:18.43",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

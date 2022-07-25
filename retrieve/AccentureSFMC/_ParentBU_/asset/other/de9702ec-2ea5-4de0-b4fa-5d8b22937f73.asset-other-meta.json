@@ -1,0 +1,32 @@
+{
+    "customerKey": "de9702ec-2ea5-4de0-b4fa-5d8b22937f73",
+    "assetType": {
+        "name": "codesnippetblock",
+        "displayName": "Code Snippet Block"
+    },
+    "fileProperties": {
+        "fileName": "test"
+    },
+    "name": "test",
+    "owner": {
+        "email": "kanika.singhal@aethereus.com",
+        "name": "Kanika Singhal"
+    },
+    "createdDate": "2021-08-24T01:52:29.57-06:00",
+    "createdBy": {
+        "email": "kanika.singhal@aethereus.com",
+        "name": "Kanika Singhal"
+    },
+    "modifiedDate": "2021-08-24T01:52:29.57-06:00",
+    "modifiedBy": {
+        "email": "kanika.singhal@aethereus.com",
+        "name": "Kanika Singhal"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/Kanika/Email"
+}

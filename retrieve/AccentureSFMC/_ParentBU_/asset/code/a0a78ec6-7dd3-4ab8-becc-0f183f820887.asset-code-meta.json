@@ -1,0 +1,30 @@
+{
+    "customerKey": "a0a78ec6-7dd3-4ab8-becc-0f183f820887",
+    "assetType": {
+        "name": "css",
+        "displayName": "Code"
+    },
+    "fileProperties": {
+        "fileName": "gutenberg-front.css",
+        "extension": "css",
+        "fileSize": 1192,
+        "fileCreatedDate": "2022-02-11T06:34:27.3682564-06:00"
+    },
+    "name": "gutenberg-front.css",
+    "createdDate": "2022-02-11T06:34:27.367-06:00",
+    "createdBy": {
+        "email": "anushree.barapatre@aethereus.com",
+        "name": "Anushree Barapatre"
+    },
+    "modifiedDate": "2022-02-11T06:44:16.513-06:00",
+    "modifiedBy": {
+        "email": "anushree.barapatre@aethereus.com",
+        "name": "Anushree Barapatre"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/Anushree/IMS"
+}

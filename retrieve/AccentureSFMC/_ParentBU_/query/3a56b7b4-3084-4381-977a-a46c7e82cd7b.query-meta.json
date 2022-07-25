@@ -1,0 +1,11 @@
+{
+    "name": "Update_Email1",
+    "key": "3a56b7b4-3084-4381-977a-a46c7e82cd7b",
+    "description": "Default field needs to be updated",
+    "targetKey": "5D86A73C-B2F6-4CE2-AA50-CFEFBB14F794",
+    "createdDate": "2022-05-05T01:25:45.143",
+    "modifiedDate": "2022-05-06T00:38:09.87",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

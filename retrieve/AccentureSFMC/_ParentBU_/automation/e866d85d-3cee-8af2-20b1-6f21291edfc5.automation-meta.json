@@ -1,0 +1,28 @@
+{
+    "name": "Shivani_Tracking Data Extract",
+    "key": "e866d85d-3cee-8af2-20b1-6f21291edfc5",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Shivani_Tracking Data Extract",
+                    "r__type": "dataExtract"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Shivani_Tracking Data Extract",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Shivani"
+}

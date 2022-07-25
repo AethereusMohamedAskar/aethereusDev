@@ -1,0 +1,29 @@
+{
+    "name": "Anushree_Final Birthday POC",
+    "description": "",
+    "key": "7d8e5847-431f-fe11-77be-838a8d26470e",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Anu_Birthday SQL",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Birthday Wish Email",
+                    "r__type": "emailSendDefinition"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Anushree"
+}

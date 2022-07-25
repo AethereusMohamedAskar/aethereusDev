@@ -1,0 +1,20 @@
+{
+    "name": "Kanika_ Create DE Backup using SSJS",
+    "description": "",
+    "key": "08b20e73-f655-59f7-dfcf-8bdda1603aa3",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Backup Master Customers DE",
+                    "r__type": "script"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Kanika"
+}

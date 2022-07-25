@@ -1,0 +1,11 @@
+{
+    "name": "Vitas_Demo_Lead_Filter_Data",
+    "key": "b9733ee9-98f6-486f-86a5-f1c2f81f9882",
+    "description": "",
+    "targetKey": "25EA0EAD-854F-4785-AF0A-0FD7F422F9D2",
+    "createdDate": "2020-12-07T10:06:31.283",
+    "modifiedDate": "2020-12-08T23:19:56",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

@@ -1,0 +1,46 @@
+{
+    "customerKey": "68e2fcb4-5aae-4ce0-89d3-aaa406bf5108",
+    "assetType": {
+        "name": "freeformblock",
+        "displayName": "Free Form Block"
+    },
+    "fileProperties": {
+        "fileName": "Footer block"
+    },
+    "name": "Footer block",
+    "owner": {
+        "email": "ashwini.surwase@aethereus.com",
+        "name": "Ashwini Surwase"
+    },
+    "createdDate": "2021-12-02T07:30:51.137-06:00",
+    "createdBy": {
+        "email": "ashwini.surwase@aethereus.com",
+        "name": "Ashwini Surwase"
+    },
+    "modifiedDate": "2021-12-02T07:34:42.177-06:00",
+    "modifiedBy": {
+        "email": "ashwini.surwase@aethereus.com",
+        "name": "Ashwini Surwase"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"background-color: transparent; min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding: 10px; \" class=\"stylingblock-content-wrapper camarker-inner\"></td></tr></table>",
+    "meta": {
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true,
+                "columnOrder": "ltr"
+            },
+            "styling": {
+                "background-color": "transparent",
+                "margin": "0px",
+                "padding": "10px"
+            }
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/Ashwini/Free Form"
+}

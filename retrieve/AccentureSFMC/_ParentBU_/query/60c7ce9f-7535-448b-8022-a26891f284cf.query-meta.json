@@ -1,0 +1,11 @@
+{
+    "name": "SECONDMASTER_IPWarming",
+    "key": "60c7ce9f-7535-448b-8022-a26891f284cf",
+    "description": "",
+    "targetKey": "68A79BCF-BEE5-4608-8D0C-F307D536E7FA",
+    "createdDate": "2020-04-09T00:39:04.27",
+    "modifiedDate": "2020-04-09T00:39:04.27",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query/Sai Prasad UC"
+}

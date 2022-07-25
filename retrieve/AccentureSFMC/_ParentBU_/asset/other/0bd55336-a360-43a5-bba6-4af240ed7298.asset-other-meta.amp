@@ -1,0 +1,73 @@
+%%[
+/* lookup subscriber key in master data extension */
+if(not empty(@subscriberkey) == true and 
+rowcount(lookuprows('Master Subscribers', 'Subscriber Key', @subscriberkey)) >= 1)
+then
+set @subscriberRS = lookuprows('Master Subscribers', 'Subscriber Key', @subscriberkey)
+set @EmailStatus = field(row(@subscriberRS, 1), 'Email Status')
+set @Newsletter = field(row(@subscriberRS, 1), 'Newsletter')
+set @Deals = field(row(@subscriberRS, 1), 'Deals')
+set @EmailFrequency = field(row(@subscriberRS, 1), 'Email Frequency')
+set @Hiking = field(row(@subscriberRS, 1), 'Hiking')
+set @Kayaking = field(row(@subscriberRS, 1), 'Kayaking')
+set @Climbing = field(row(@subscriberRS, 1), 'Climbing')
+]%%
+
+DISPLAY THE FORM
+
+
+ <div class = "container">
+  <h1> Email Preferences </h1>
+  <p>Below are the current subscriptions and preferences for the email address: %%=v(@email)=%%</p>
+  <br>
+  <form action="%%=cloudpagesURL('1230')=%%" method="post">
+  <fieldset>
+<h2> Subscriptions</h2>
+
+  <label for ="newsletter"><input type="checkbox" name="newsletter" %%[if @Newsletter == true then]%%checked%%[endif]%%>Newsletter </label>
+  <label for ="deals"><input type="checkbox" name="deals" %%[if @Deals == true then]%%checked%%[endif]%%>Deals</label>
+
+ <h2> Preferences</h2>
+    <label for ="frequency"> How many emails do we wish to receive from Carved Rock?
+    <select name = "frequency">
+    <option value="">Please make a selection </option>
+    <option value="all" %%[if @EmailFrequency == 'all' then]%%selected%%[endif]%%>As many emails as you can send me! </option>
+    <option value="medium" %%[if @EmailFrequency == 'medium' then]%%selected%%[endif]%%>1-2 emails a week is plenty </option>
+    <option value="minimum" %%[if @EmailFrequency == 'minimum' then]%%selected%%[endif]%%>Only the most relevant emails, 1-2 per month or less </option>
+    </select>
+    </label>
+    
+    <h2> Interests</h2>
+    <label for ="hiking"><input type="checkbox" name="hiking" %%[if @Hiking == true then]%%checked%%[endif]%%>Hiking</label>
+  <label for ="kayaking"><input type="checkbox" name="kayaking" %%[if @Kayaking == true then]%%checked%%[endif]%%>Kayaking</label>
+  <label for ="climbing"><input type="checkbox" name="climbing" %%[if @Climbing == true then]%%checked%%[endif]%%>Climbing</label>
+    <br><br>
+
+    <label for ="unsuball"><input type="checkbox" name="unsuball">Unsubscribe from all emails</label>
+    <br>
+    <input type="submit" name ="submit" value="Submit"/>
+
+
+    </fieldset>
+   </form>
+    <br>
+
+    DEBUG:<br>
+    Subscriber Key: %%=v(@subscriberkey)=%%<br>
+    Email: %%=v(@Email)=%%<br>
+    JobID: %%=v(@jobid)=%%<br>
+    ListID: %%=v(@listid)=%%<br>
+    BatchID: %%=v(@batchid)=%%<br>
+    Newsletter: %%=v(@Newsletter)=%%<br>
+    Deals: %%=v(@Deals)=%%<br>
+    Frequency: %%=v(@EmailFrequency)=%%<br>
+    Hiking: %%=v(@Hiking)=%%<br>
+    Kayaking: %%=v(@Kayaking)=%%<br>
+    Climbing: %%=v(@Climbing)=%%<br>
+    </div>
+
+%%[else]%% 
+
+You've reached this page in error
+
+%%[endif]%%

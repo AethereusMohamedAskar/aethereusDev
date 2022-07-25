@@ -1,0 +1,34 @@
+{
+    "name": "File Transfer",
+    "key": "5bd8bee7-3728-2c65-753e-40640678e1b4",
+    "type": "triggered",
+    "status": "Building",
+    "fileTrigger": {
+        "queueFiles": false,
+        "isPublished": false,
+        "fileNamePatternTypeId": 0,
+        "fileNamingPattern": "",
+        "folderLocationText": "",
+        "triggerActive": false
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Trial File Transfer",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "dataFactoryUtility"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations"
+}

@@ -1,0 +1,163 @@
+<table
+    cellpadding="0"
+    cellspacing="0"
+    width="100%"
+    role="presentation"
+    style="min-width: 100%"
+    class="stylingblock-content-wrapper"
+>
+    <tr>
+        <td class="stylingblock-content-wrapper camarker-inner">
+            <meta charset="utf-8" />
+            <title>form</title>
+            <!-- <link href="https://www.imsindia.com/assets/css/vendors.css" rel="stylesheet" type="text/css">
+-->
+
+            <!--
+<link href="https://www.imsindia.com/assets/css/style-blue.css" rel="stylesheet" title="default" type="text/css">
+-->
+
+            <div class="col-md-4" style="width: 100% !important; background-color: white">
+                <form id="onlineform" method="post" class="" action="response.php" onsubmit="">
+                    <input type="hidden" name="action_type" value="send_data" />
+
+                    <div class="form-group">
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="FirstName"
+                            placeholder="First Name"
+                            name="FirstName"
+                            required=""
+                        />
+                    </div>
+                    <div class="form-group">
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="LastName"
+                            placeholder="Last Name"
+                            name="LastName"
+                            required=""
+                        />
+                    </div>
+                    <div class="form-group">
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="Mobile"
+                            placeholder="Mobile No"
+                            name="Mobile"
+                            pattern="[7-9]{1}[0-9]{9}"
+                            required=""
+                        />
+                    </div>
+
+                    <div class="form-group">
+                        <input
+                            type="email"
+                            class="form-control"
+                            id="Email"
+                            placeholder="Email"
+                            name="Email"
+                            required=""
+                        />
+                    </div>
+
+                    <div class="form-group">
+                        <select class="form-control" id="LeadCity" name="LeadCity" required="">
+                            <option value="">Select City</option>
+                            { "cityhtml": "
+                            <option value="249">Mumbai</option>
+                            " }
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <select class="form-control" id="Center" name="Center" required="">
+                            <option value="">Select Centre</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <select class="form-control" id="Product" name="Product" required="">
+                            <option value="">Select Product</option>
+                        </select>
+                    </div>
+
+                    <input
+                        type="hidden"
+                        class="form-control"
+                        id="CampaingName"
+                        name="CampaingName"
+                        value=""
+                        placeholder="Source"
+                        readonly=""
+                    />
+
+                    <input
+                        type="hidden"
+                        class="form-control"
+                        id="SourceMedium"
+                        name="SourceMedium"
+                        value=""
+                        placeholder="Source"
+                        readonly=""
+                    />
+
+                    <input
+                        type="hidden"
+                        class="form-control"
+                        id="LeadSource"
+                        name="LeadSource"
+                        value="a0J2u000004IKwaEAG"
+                        placeholder="Source"
+                        readonly=""
+                    />
+
+                    <input
+                        type="hidden"
+                        class="form-control"
+                        id="LeadMode"
+                        name="LeadMode"
+                        value="a092u00000Dpco8AAB"
+                        placeholder="Mode"
+                        readonly=""
+                    />
+
+                    <input
+                        type="hidden"
+                        class="form-control"
+                        id="CampaingId"
+                        name="CampaingId"
+                        value=""
+                        placeholder="campaign id"
+                        readonly=""
+                    />
+                    <input
+                        type="hidden"
+                        class="form-control"
+                        id="txtlimacampaign"
+                        name="txtlimacampaign"
+                        value="1116"
+                    />
+                    <button
+                        style="
+                            background-color: #1b9af7;
+                            color: #fff;
+                            border: none;
+                            padding: 9px 35px;
+                            font-size: 15px;
+                        "
+                        type="submit"
+                        class="button button-primary"
+                        id="sub"
+                    >
+                        Submit
+                    </button>
+                    <br /><br />
+                </form>
+            </div>
+        </td>
+    </tr>
+</table>

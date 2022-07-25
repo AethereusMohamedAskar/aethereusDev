@@ -1,0 +1,16 @@
+{
+    "name": "Hard_Bounce_FTA",
+    "customerKey": "575dc234-51df-46a2-9514-162669487bff",
+    "createdDate": "2022-04-21T23:20:02.7",
+    "modifiedDate": "2022-04-21T23:20:02.7",
+    "fileSpec": "Hard_bounce.zip",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

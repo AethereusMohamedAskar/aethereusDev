@@ -1,0 +1,72 @@
+{
+    "name": "Kanika_Filter Activity",
+    "description": "",
+    "key": "9757f941-dcd8-7396-80e1-5ddf0ce3a2ef",
+    "type": "triggered",
+    "status": "Building",
+    "fileTrigger": {
+        "queueFiles": false,
+        "isPublished": false,
+        "fileNamePatternTypeId": 0,
+        "fileNamingPattern": "",
+        "folderLocationText": "",
+        "triggerActive": false
+    },
+    "steps": [
+        {
+            "name": "Aim - Import the contact in DE using zip file, Send email to filtered contact after 5min on file drop",
+            "activities": [
+                {
+                    "name": "",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "",
+                    "r__type": "importFile"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Kanika_Name Filter Activity",
+                    "r__type": "filter"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "",
+                    "r__type": "wait"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "",
+                    "r__type": "verification"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "",
+                    "r__type": "emailSendDefinition"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training"
+}

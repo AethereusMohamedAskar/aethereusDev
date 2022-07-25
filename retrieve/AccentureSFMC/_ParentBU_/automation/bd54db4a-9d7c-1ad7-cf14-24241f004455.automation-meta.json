@@ -1,0 +1,45 @@
+{
+    "name": "Anushree_Filter_Activity1",
+    "description": "",
+    "key": "bd54db4a-9d7c-1ad7-cf14-24241f004455",
+    "type": "triggered",
+    "status": "AwaitingTrigger",
+    "fileTrigger": {
+        "queueFiles": true,
+        "isPublished": true,
+        "fileNamePatternTypeId": 1,
+        "fileNamingPattern": "Anushree_Automation_File",
+        "folderLocationText": "import\\",
+        "triggerActive": true
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Anushree_Data_Filter_Act1",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Anushree_Import_DE1",
+                    "r__type": "importFile"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Anushree_Filter_DE",
+                    "r__type": "filter"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Anushree"
+}

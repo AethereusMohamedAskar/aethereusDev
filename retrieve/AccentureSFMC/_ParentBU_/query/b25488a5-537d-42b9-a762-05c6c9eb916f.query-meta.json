@@ -1,0 +1,11 @@
+{
+    "name": "Ashwini_MCPOC_QueryActivity",
+    "key": "b25488a5-537d-42b9-a762-05c6c9eb916f",
+    "description": "",
+    "targetKey": "10F89094-CD9C-4B6C-8D84-DC379255CA08",
+    "createdDate": "2021-12-28T08:27:16.187",
+    "modifiedDate": "2021-12-28T08:27:16.187",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

@@ -1,0 +1,23 @@
+%%[
+var @IMSPIN, @Name, @SubKey, @Variant, @Phone
+
+set @SubKey= attributevalue('EmailAddress')
+
+set @Rowset= LookupRows('TEST_IMS_DE','EmailAddress',@SubKey)
+
+set @Row=Row(@Rowset,1)
+set @Name= Field(@Row,'Name')
+set @IMSPIN= Field(@Row,'IMS PIN')
+set @Variant= Field(@Row,'Variant')
+set @Phone= Field(@Row,'Phone')
+
+]%%
+
+%%=v(@Name)=%%
+%%=v(@IMSPIN)=%%
+%%=v(@Variant)=%%
+%%=v(@Phone)=%%
+
+
+
+

@@ -1,0 +1,217 @@
+{
+    "customerKey": "f0412095-5dc1-4373-84a4-e692f4e26133",
+    "assetType": {
+        "name": "dynamicblock",
+        "displayName": "Dynamic Block"
+    },
+    "fileProperties": {
+        "fileName": "shoes"
+    },
+    "name": "shoes",
+    "owner": {
+        "email": "ashwini.surwase@aethereus.com",
+        "name": "Ashwini Surwase"
+    },
+    "createdDate": "2021-08-04T04:18:37.34-06:00",
+    "createdBy": {
+        "email": "ashwini.surwase@aethereus.com",
+        "name": "Ashwini Surwase"
+    },
+    "modifiedDate": "2021-08-04T04:18:37.34-06:00",
+    "modifiedBy": {
+        "email": "ashwini.surwase@aethereus.com",
+        "name": "Ashwini Surwase"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\">%%[IF (([Product] == \"casual\")) THEN]%%\n%%=BeginImpressionRegion(\"__Rule_1__sneakers.jpg\")=%%\n<img src=\"https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/6e237471-1ff3-4665-a17f-5ec23f59e85d.jpg\" data-assetid=\"32216\" alt=\"sneakers.jpg\" width=\"100%\" height=\"auto\">\n%%=EndImpressionRegion()=%%\n%%[ELSEIF (([Product] == \"formal\")) THEN]%%\n%%=BeginImpressionRegion(\"__Rule_2__formal_shoes.png\")=%%\n<img src=\"https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/52daea60-fe07-489a-b139-b02c693f1b45.png\" data-assetid=\"32218\" alt=\"formal shoes.png\" width=\"100%\" height=\"auto\">\n%%=EndImpressionRegion()=%%\n%%[ELSE]%%\n%%=BeginImpressionRegion(\"__Default_Content__sneakers.jpg\")=%%\n<img src=\"https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/6e237471-1ff3-4665-a17f-5ec23f59e85d.jpg\" data-assetid=\"32216\" alt=\"sneakers.jpg\" width=\"100%\" height=\"auto\">\n%%=EndImpressionRegion()=%%\n%%[ENDIF]%%</td></tr></table>",
+    "design": "",
+    "superContent": "<div data-marker=\"wrapper\" style=\"\" class=\"stylingblock-content-wrapper\"><img src=\"https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/6e237471-1ff3-4665-a17f-5ec23f59e85d.jpg\" data-assetid=\"32216\" alt=\"sneakers.jpg\" width=\"100%\" height=\"auto\" /></div>",
+    "meta": {
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true
+            },
+            "styling": {}
+        },
+        "options": {
+            "dynamicContent": {
+                "views": {
+                    "html": {
+                        "name": "",
+                        "defaultContent": {
+                            "id": 32216,
+                            "name": "sneakers.jpg",
+                            "type": {
+                                "id": 23,
+                                "name": "jpg",
+                                "displayName": "Image"
+                            },
+                            "textContent": "<img src=\"https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/6e237471-1ff3-4665-a17f-5ec23f59e85d.jpg\" data-assetid=\"32216\" alt=\"sneakers.jpg\" width=\"100%\" height=\"auto\" />"
+                        },
+                        "dataSource": {
+                            "type": "dataextension",
+                            "name": "firstSampleDataEXtension",
+                            "id": "4aaedd7a-24f4-eb11-a306-48df370ef7cd"
+                        },
+                        "variants": [
+                            {
+                                "name": "Rule 1",
+                                "content": {
+                                    "id": 32216,
+                                    "name": "sneakers.jpg",
+                                    "textContent": "<img src=\"https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/6e237471-1ff3-4665-a17f-5ec23f59e85d.jpg\" data-assetid=\"32216\" alt=\"sneakers.jpg\" width=\"100%\" height=\"auto\" />"
+                                },
+                                "expression": {
+                                    "operand": "AND",
+                                    "conditions": [
+                                        {
+                                            "personalization": "Product",
+                                            "dataType": "text",
+                                            "operator": "Equals",
+                                            "value": "casual",
+                                            "name": "Product"
+                                        }
+                                    ]
+                                },
+                                "IRTDefault": "Rule_1__sneakers.jpg",
+                                "customIRTName": ""
+                            },
+                            {
+                                "name": "Rule 2",
+                                "content": {
+                                    "id": 32218,
+                                    "name": "formal shoes.png",
+                                    "textContent": "<img src=\"https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/52daea60-fe07-489a-b139-b02c693f1b45.png\" data-assetid=\"32218\" alt=\"formal shoes.png\" width=\"100%\" height=\"auto\" />"
+                                },
+                                "expression": {
+                                    "operand": "AND",
+                                    "conditions": [
+                                        {
+                                            "personalization": "Product",
+                                            "dataType": "text",
+                                            "operator": "Equals",
+                                            "value": "formal",
+                                            "name": "Product"
+                                        }
+                                    ]
+                                },
+                                "IRTDefault": "Rule_2__formal_shoes.png",
+                                "customIRTName": ""
+                            }
+                        ],
+                        "blockPosition": "",
+                        "defaultContentRuleName": "Default Content"
+                    }
+                }
+            },
+            "blockType": "reference",
+            "dataSourceSchema": [
+                {
+                    "displayName": "CustomerID",
+                    "type": "item",
+                    "id": "431481d3-9155-436b-be8d-d7bf43fc5b7d",
+                    "attr": {
+                        "text": "CustomerID",
+                        "personalization": "CustomerID",
+                        "dataType": "text"
+                    },
+                    "displayType": "Text"
+                },
+                {
+                    "displayName": "Name",
+                    "type": "item",
+                    "id": "f3959580-279a-496d-a8da-8bfaf7bb5022",
+                    "attr": {
+                        "text": "Name",
+                        "personalization": "Name",
+                        "dataType": "text"
+                    },
+                    "displayType": "Text"
+                },
+                {
+                    "displayName": "Email",
+                    "type": "item",
+                    "id": "35cfe404-dc67-4a63-b2c1-24ed366bbe28",
+                    "attr": {
+                        "text": "Email",
+                        "personalization": "Email",
+                        "dataType": "text"
+                    },
+                    "displayType": "EmailAddress"
+                },
+                {
+                    "displayName": "Phone No",
+                    "type": "item",
+                    "id": "428ba128-4fee-4fea-95e1-6b9b7bdd95cf",
+                    "attr": {
+                        "text": "Phone No",
+                        "personalization": "Phone No",
+                        "dataType": "text"
+                    },
+                    "displayType": "Phone"
+                },
+                {
+                    "displayName": "Age",
+                    "type": "item",
+                    "id": "634e4f1f-3346-4a18-a88f-135e52cfd3a4",
+                    "attr": {
+                        "text": "Age",
+                        "personalization": "Age",
+                        "dataType": "number"
+                    },
+                    "displayType": "Number"
+                },
+                {
+                    "displayName": "BirthDate",
+                    "type": "item",
+                    "id": "ebd4632a-0074-4b80-ae55-6ea0b7d653d7",
+                    "attr": {
+                        "text": "BirthDate",
+                        "personalization": "BirthDate",
+                        "dataType": "date"
+                    },
+                    "displayType": "Date"
+                },
+                {
+                    "displayName": "Product",
+                    "type": "item",
+                    "id": "01136510-0463-45ed-a987-378419969343",
+                    "attr": {
+                        "text": "Product",
+                        "personalization": "Product",
+                        "dataType": "text"
+                    },
+                    "displayType": "Text"
+                },
+                {
+                    "displayName": "Price",
+                    "type": "item",
+                    "id": "d18a97be-e2b0-4f3f-9f9b-91bfe708459c",
+                    "attr": {
+                        "text": "Price",
+                        "personalization": "Price",
+                        "dataType": "number"
+                    },
+                    "displayType": "Decimal"
+                },
+                {
+                    "displayName": "Buy Status",
+                    "type": "item",
+                    "id": "0f26609c-e129-4141-8265-12e746d6f11e",
+                    "attr": {
+                        "text": "Buy Status",
+                        "personalization": "Buy Status",
+                        "dataType": "boolean"
+                    },
+                    "displayType": "Boolean"
+                }
+            ]
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/Ashwini/Images"
+}

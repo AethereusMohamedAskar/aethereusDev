@@ -1,0 +1,16 @@
+{
+    "name": "Preethi-DE_Extract_SafeHouse_to_FTP",
+    "customerKey": "912589d2-88de-4fd5-b049-fa109fb51085",
+    "createdDate": "2021-08-15T11:57:46.41",
+    "modifiedDate": "2021-08-15T11:57:46.41",
+    "fileSpec": "DE_Extract_Date%%Day%%.csv",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "Training 2021"
+}

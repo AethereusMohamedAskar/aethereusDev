@@ -1,0 +1,43 @@
+{
+    "CreatedDate": "2022-05-17T03:58:15.227",
+    "ModifiedDate": "2022-05-17T03:58:15.227",
+    "CustomerKey": 16127,
+    "Name": "Cup cake auto test",
+    "Description": "",
+    "SendClassification": {
+        "CustomerKey": "Default Commercial"
+    },
+    "SenderProfile": {
+        "CustomerKey": "Default"
+    },
+    "DeliveryProfile": {
+        "CustomerKey": "Default"
+    },
+    "SuppressTracking": false,
+    "IsSendLogging": true,
+    "SendDefinitionList": [
+        {
+            "SendDefinitionListType": "SourceList",
+            "DataSourceTypeID": "CustomObject",
+            "IsTestObject": false,
+            "SalesForceObjectID": "",
+            "Name": "",
+            "r__dataExtension_Key": "28C38C98-D8A0-409D-84C4-FD0BE78EE1FC",
+            "r__list_PathName": "my subscribers/All Subscribers"
+        }
+    ],
+    "BccEmail": "",
+    "AutoBccEmail": "",
+    "TestEmailAddr": "",
+    "EmailSubject": "Let's order some cup cake %%First name%%",
+    "DynamicEmailSubject": "Let's order some cup cake %%First name%%",
+    "IsMultipart": true,
+    "IsWrapped": true,
+    "DeduplicateByEmail": true,
+    "ExclusionFilter": "",
+    "Additional": "",
+    "CCEmail": "",
+    "r__folder_Path": "User-Initiated",
+    "r__assetMessage_Name": "Cup cake",
+    "r__assetMessage_Key": "8b95b03a-09d6-49b9-a49a-d6368110bcdb"
+}

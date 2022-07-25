@@ -1,0 +1,11 @@
+{
+    "name": "Yahoo_Segment",
+    "key": "a362360d-11c9-4e3c-8116-c7cca1330a37",
+    "description": "",
+    "targetKey": "AD7AD2A2-4D83-4C4D-96DA-5E3A456DD446",
+    "createdDate": "2020-04-09T00:04:24.907",
+    "modifiedDate": "2020-04-09T00:04:24.907",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query/Sai Prasad UC"
+}

@@ -1,0 +1,32 @@
+{
+    "customerKey": "6fff500f-5e01-4d19-9d0a-9907dd451c35",
+    "assetType": {
+        "name": "codesnippetblock",
+        "displayName": "Code Snippet Block"
+    },
+    "fileProperties": {
+        "fileName": "Dynamic_Femail"
+    },
+    "name": "Dynamic_Femail",
+    "owner": {
+        "email": "kavitha.shinde@aethereus.com",
+        "name": "Kavitha"
+    },
+    "createdDate": "2022-04-03T10:26:01.607-06:00",
+    "createdBy": {
+        "email": "kavitha.shinde@aethereus.com",
+        "name": "Kavitha"
+    },
+    "modifiedDate": "2022-04-03T10:26:01.607-06:00",
+    "modifiedBy": {
+        "email": "kavitha.shinde@aethereus.com",
+        "name": "Kavitha"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/Kavitha"
+}

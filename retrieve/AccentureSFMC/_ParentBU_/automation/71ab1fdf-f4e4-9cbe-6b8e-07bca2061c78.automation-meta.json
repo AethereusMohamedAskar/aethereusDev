@@ -1,0 +1,20 @@
+{
+    "name": "FM data move from Sync to Standard DE",
+    "description": "",
+    "key": "71ab1fdf-f4e4-9cbe-6b8e-07bca2061c78",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Fractal Testing, Master Data",
+                    "r__type": "query"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations"
+}

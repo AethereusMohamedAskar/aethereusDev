@@ -1,0 +1,16 @@
+{
+    "name": "Audit Trail_2",
+    "customerKey": "360d251d-6c55-4393-be0d-38d116d563fb",
+    "createdDate": "2022-05-09T05:50:44.76",
+    "modifiedDate": "2022-05-09T05:57:45.97",
+    "fileSpec": "Audit Trail_2.zip",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "Training 2021"
+}

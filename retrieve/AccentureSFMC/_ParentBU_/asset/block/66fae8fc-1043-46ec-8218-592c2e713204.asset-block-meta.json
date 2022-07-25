@@ -1,0 +1,41 @@
+{
+    "customerKey": "66fae8fc-1043-46ec-8218-592c2e713204",
+    "assetType": {
+        "name": "htmlblock",
+        "displayName": "HTML Block"
+    },
+    "fileProperties": {
+        "fileName": "IMS_GMAT_Exam_Details_Block"
+    },
+    "name": "IMS_GMAT_Exam_Details_Block",
+    "owner": {
+        "email": "shivani.mittal@aethereus.com",
+        "name": "Shivani Mittal"
+    },
+    "createdDate": "2022-02-28T05:28:33.12-06:00",
+    "createdBy": {
+        "email": "shivani.mittal@aethereus.com",
+        "name": "Shivani Mittal"
+    },
+    "modifiedDate": "2022-02-28T06:19:04.113-06:00",
+    "modifiedBy": {
+        "email": "shivani.mittal@aethereus.com",
+        "name": "Shivani Mittal"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "design": "",
+    "meta": {
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true
+            },
+            "styling": {}
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/Shivani/Shivani Content Blocks"
+}

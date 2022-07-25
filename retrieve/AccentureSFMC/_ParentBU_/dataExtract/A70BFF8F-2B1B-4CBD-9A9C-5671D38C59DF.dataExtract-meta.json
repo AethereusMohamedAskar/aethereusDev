@@ -1,0 +1,39 @@
+{
+    "name": "kanika_dataextension_extract",
+    "key": "A70BFF8F-2B1B-4CBD-9A9C-5671D38C59DF",
+    "fileSpec": "kanika_dataextension_extract",
+    "createdDate": "2022-05-17T07:00:56.36",
+    "modifiedDate": "2022-05-17T07:10:16.627",
+    "createdBy": 713269674,
+    "modifiedBy": 713269674,
+    "intervalType": 0,
+    "description": "",
+    "dataFields": [
+        {
+            "name": "ColumnDelimiter",
+            "type": "string",
+            "value": ","
+        },
+        {
+            "name": "DECustomerKey",
+            "type": "string",
+            "value": "BB831D84-D975-41CD-B396-D0757141873F"
+        },
+        {
+            "name": "HasColumnHeaders",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "TextQualified",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "UsesLineFeed",
+            "type": "bool",
+            "value": "False"
+        }
+    ],
+    "r__dataExtractType_name": "Data Extension Extract"
+}

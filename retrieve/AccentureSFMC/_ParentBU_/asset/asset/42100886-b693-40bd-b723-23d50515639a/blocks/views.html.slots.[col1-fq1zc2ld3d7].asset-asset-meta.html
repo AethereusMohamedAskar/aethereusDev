@@ -1,0 +1,11 @@
+%%[
+
+var @referrer, @userAgent, @host
+set @referrer = HTTPRequestHeader("Referer")
+set @userAgent = HTTPRequestHeader("User-Agent")
+set @host = HTTPRequestHeader("Host")
+
+]%%
+Referrer is %%=v(@referrer)=%%
+<br><br>User Agent is %%=v(@userAgent)=%%
+<br><br>Host is %%=v(@host)=%%

@@ -1,0 +1,11 @@
+{
+    "name": "DataView_Bounce",
+    "key": "54be4995-31ee-425e-9916-0fc50f1ca631",
+    "description": "",
+    "targetKey": "955C266A-087B-4D27-9DBC-23F2E870089E",
+    "createdDate": "2022-04-06T06:51:17.59",
+    "modifiedDate": "2022-06-06T00:58:04.32",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

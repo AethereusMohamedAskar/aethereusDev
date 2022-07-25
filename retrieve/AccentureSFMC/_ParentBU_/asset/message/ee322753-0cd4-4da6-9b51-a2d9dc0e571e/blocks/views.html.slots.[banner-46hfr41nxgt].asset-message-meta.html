@@ -1,0 +1,30 @@
+
+%%[
+/* Let's start to identify the dynamic component */
+Var @ProductName, @ProductNameFB, @SubKey, @RowSet, @Row
+
+Set @RowSet = LookupRows('Day3_Demo POC', 'SubscriberKey', @SubKey)
+
+Set @FirstName = [FirstName]
+Set @AdvisorName = [AdvisorName]
+Set @ProductName = [ProductName]
+
+/*Make sure you have Fallback mechanism in place*/
+
+SET @FirstNameFB = IIF(Empty(@FirstName), 'dear Customer',
+ Concat(' ', Propercase(@FirstName)))
+
+SET @ProductNameFB = IIF(Empty(@ProductName), 'new Astro Bank',
+ Concat(' ', Propercase(@ProductName)))
+
+ 
+ SET @AdvisorNameFB = IIF(Empty(@AdvisorName), 'Your Astro Bank Team',
+ Propercase(@AdvisorName)))
+ %%=Now()=%%.
+
+ 
+ 
+
+]%%
+ 
+

@@ -1,0 +1,11 @@
+{
+    "name": "rahul_sql_query_test1",
+    "key": "577ede2f-4e03-4cec-bd41-5493a6108dfc",
+    "description": "",
+    "targetKey": "E0E050EE-26A2-42ED-A2E9-CBE316B9049A",
+    "createdDate": "2022-05-18T03:45:26.793",
+    "modifiedDate": "2022-05-18T03:45:26.793",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

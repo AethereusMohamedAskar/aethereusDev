@@ -1,0 +1,16 @@
+{
+    "name": "Anushree_Fractal",
+    "customerKey": "3701337f-e3f2-470c-b30d-989da29ef417",
+    "createdDate": "2021-10-17T07:22:26.893",
+    "modifiedDate": "2021-10-17T07:22:26.893",
+    "fileSpec": "Fractal_NEW_database.zip",
+    "isEncrypted": false,
+    "isCompressed": true,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": false,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

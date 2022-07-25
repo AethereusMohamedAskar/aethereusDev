@@ -1,0 +1,29 @@
+{
+    "name": "Preethi-DE_Extract",
+    "description": "",
+    "key": "103ec6ab-a406-6dd8-f53c-9e81c2f6fa2b",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Preethi-DE_Extract",
+                    "r__type": "dataExtract"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Preethi-DE_Extract_SafeHouse_to_FTP",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Preethi"
+}

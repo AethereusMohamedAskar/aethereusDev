@@ -1,0 +1,29 @@
+{
+    "name": "Anushree_Tracking_Extract_New",
+    "description": "",
+    "key": "1e943ded-98cd-6f79-8bc0-bf69dfc4b43c",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Anushree_data extract activity",
+                    "r__type": "dataExtract"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Anushree_file transfer activity",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Anushree"
+}

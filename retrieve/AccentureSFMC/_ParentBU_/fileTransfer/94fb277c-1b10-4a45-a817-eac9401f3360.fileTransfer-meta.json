@@ -1,0 +1,16 @@
+{
+    "name": "new transfer",
+    "customerKey": "94fb277c-1b10-4a45-a817-eac9401f3360",
+    "createdDate": "2022-05-28T22:47:03.65",
+    "modifiedDate": "2022-05-28T22:47:03.65",
+    "fileSpec": "automate.zip",
+    "isEncrypted": false,
+    "isCompressed": true,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": false,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

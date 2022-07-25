@@ -1,0 +1,38 @@
+{
+    "name": "update then send data from journey",
+    "description": "",
+    "key": "64ddb4a9-aba3-2e6c-648e-f140ccc94757",
+    "type": "triggered",
+    "status": "AwaitingTrigger",
+    "fileTrigger": {
+        "queueFiles": true,
+        "isPublished": true,
+        "fileNamePatternTypeId": 1,
+        "fileNamingPattern": "productpurchase",
+        "folderLocationText": "import\\",
+        "triggerActive": true
+    },
+    "steps": [
+        {
+            "name": "",
+            "description": "",
+            "activities": [
+                {
+                    "name": "productpurchase",
+                    "r__type": "importFile"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "activities": [
+                {
+                    "name": "automation + journey",
+                    "r__type": "journeyEntry"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations"
+}

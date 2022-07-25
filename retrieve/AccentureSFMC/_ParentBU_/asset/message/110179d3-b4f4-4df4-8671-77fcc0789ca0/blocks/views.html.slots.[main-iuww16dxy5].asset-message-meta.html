@@ -1,0 +1,16 @@
+%%[
+/*Insert into the DE (Use Case 2) */
+ Var @EmailAddress, @JobID, @MessageType, @SendTime
+ 
+ SET @EmailAddress = emailadder
+ SET @JobID = JobID
+ SET @MessageType = 'Onboarding' 
+ SET @SendTime = Now()
+ 
+ /*Insert data into Day3_AMPscript2 */
+ InsertDE('Day3_AMPscript2', 'Subscriber Key', @SubKey, 'EmailAddress', @emailadder,
+ 'JobID', @JobID, 'MessageType', @MessageType, 'ProductType', @ProductType 
+ 
+ 
+
+]%%

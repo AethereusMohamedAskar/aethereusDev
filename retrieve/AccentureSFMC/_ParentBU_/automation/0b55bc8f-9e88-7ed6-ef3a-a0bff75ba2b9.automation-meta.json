@@ -1,0 +1,27 @@
+{
+    "name": "File Transfer Activity",
+    "description": "",
+    "key": "0b55bc8f-9e88-7ed6-ef3a-a0bff75ba2b9",
+    "type": "triggered",
+    "status": "InactiveTrigger",
+    "fileTrigger": {
+        "queueFiles": false,
+        "isPublished": false,
+        "fileNamePatternTypeId": 1,
+        "fileNamingPattern": "product_purchase",
+        "folderLocationText": "import\\",
+        "triggerActive": false
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "File transfer",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations"
+}

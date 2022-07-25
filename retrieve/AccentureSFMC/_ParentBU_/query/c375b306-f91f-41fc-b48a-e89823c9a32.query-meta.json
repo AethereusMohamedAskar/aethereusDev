@@ -1,0 +1,11 @@
+{
+    "name": "Anu_demo_SQL",
+    "key": "c375b306-f91f-41fc-b48a-e89823c9a32",
+    "description": "",
+    "targetKey": "61D7967B-23B8-4601-81D5-43FE46E2813D",
+    "createdDate": "2021-12-29T10:51:20.76",
+    "modifiedDate": "2021-12-30T03:07:17.77",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

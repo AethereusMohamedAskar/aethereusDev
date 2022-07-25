@@ -1,0 +1,5 @@
+%%[
+SET @job = AttributeValue(jobid)
+SET @rows = RowCount(LookupRows("FormSubmissions","jobid", @job))
+IF @rows < 3 THEN
+]%%

@@ -1,0 +1,32 @@
+%%[
+var @skey, @employeeDetails, @numRowsToReturn
+set @skey = AttributeValue("EmployeeId")
+set @numRowsToReturn = 0
+
+set @employeeDetails = LookupOrderedRows("EmployeeInfoDE",@numRowsToReturn," Name desc", "EmployeeId",@skey)
+
+if RowCount(@employeeDetails) > 0 then
+ for @i = 1 to RowCount(@employeeDetails) do
+ 
+ var @Employee, @Name, @Status, @EmailAddress
+ 
+ set @Employee = row(@employeeDetails, @i)
+ set @Name = field(@Employee,"Name")
+ set @EmailAddress = field(@Employee,"EmailAddress")
+ set @Designation = field(@Employee,"Designation")
+ set @Address = field(@Employee,"Address")
+ set @MobileNo = field(@Employee,"MobileNo")
+
+ 
+ next @1
+
+endif
+
+
+
+]%%
+
+
+
+
+

@@ -1,0 +1,11 @@
+{
+    "name": "SQL Query Activity One",
+    "key": "47d814ce-c018-4798-b36e-b57559fff121",
+    "description": "",
+    "targetKey": "8481D59B-A843-41B6-8210-46AA26112D1E",
+    "createdDate": "2021-10-28T21:13:10.663",
+    "modifiedDate": "2021-10-29T10:50:40.86",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

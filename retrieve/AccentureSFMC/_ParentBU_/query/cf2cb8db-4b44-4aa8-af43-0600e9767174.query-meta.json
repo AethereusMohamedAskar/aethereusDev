@@ -1,0 +1,11 @@
+{
+    "name": "Total_Subscribers_from_Sent_DV",
+    "key": "cf2cb8db-4b44-4aa8-af43-0600e9767174",
+    "description": "",
+    "targetKey": "AA0D3A66-6DCA-4F51-935A-7B6D47B1E624",
+    "createdDate": "2020-04-09T00:09:33.24",
+    "modifiedDate": "2020-04-09T00:09:33.24",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query/Sai Prasad UC"
+}

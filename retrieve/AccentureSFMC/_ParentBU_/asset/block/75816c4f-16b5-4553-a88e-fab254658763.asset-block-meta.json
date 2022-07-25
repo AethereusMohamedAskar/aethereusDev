@@ -1,0 +1,41 @@
+{
+    "customerKey": "75816c4f-16b5-4553-a88e-fab254658763",
+    "assetType": {
+        "name": "htmlblock",
+        "displayName": "HTML Block"
+    },
+    "fileProperties": {
+        "fileName": "IMS_LP_SudentSpeak_4"
+    },
+    "name": "IMS_LP_SudentSpeak_4",
+    "owner": {
+        "email": "shivani.mittal@aethereus.com",
+        "name": "Shivani Mittal"
+    },
+    "createdDate": "2022-02-24T05:25:18.163-06:00",
+    "createdBy": {
+        "email": "shivani.mittal@aethereus.com",
+        "name": "Shivani Mittal"
+    },
+    "modifiedDate": "2022-02-24T05:26:31.853-06:00",
+    "modifiedBy": {
+        "email": "shivani.mittal@aethereus.com",
+        "name": "Shivani Mittal"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "design": "",
+    "meta": {
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true
+            },
+            "styling": {}
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/Shivani/Shivani Content Blocks"
+}

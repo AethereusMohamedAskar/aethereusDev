@@ -1,0 +1,11 @@
+{
+    "name": "30dec_SQL",
+    "key": "40bba908-90b1-4c6f-8c8e-faa5d62943fa",
+    "description": "",
+    "targetKey": "40059F35-2D8B-4F22-9784-C1DD5546B998",
+    "createdDate": "2021-12-30T03:01:44.727",
+    "modifiedDate": "2022-01-02T23:15:19.22",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

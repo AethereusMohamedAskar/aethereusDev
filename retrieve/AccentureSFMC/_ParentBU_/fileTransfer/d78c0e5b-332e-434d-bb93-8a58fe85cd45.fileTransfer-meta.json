@@ -1,0 +1,16 @@
+{
+    "name": "Transfer Activity",
+    "customerKey": "d78c0e5b-332e-434d-bb93-8a58fe85cd45",
+    "createdDate": "2022-05-16T10:15:19.73",
+    "modifiedDate": "2022-05-16T22:02:46.747",
+    "fileSpec": "Converted files.zip",
+    "isEncrypted": false,
+    "isCompressed": true,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": false,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

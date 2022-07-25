@@ -1,0 +1,43 @@
+{
+    "CreatedDate": "2022-02-17T03:48:07.173",
+    "ModifiedDate": "2022-04-10T04:17:39.437",
+    "CustomerKey": 14991,
+    "Name": "POC 3 kavitha test",
+    "Description": "",
+    "SendClassification": {
+        "CustomerKey": "Default Commercial"
+    },
+    "SenderProfile": {
+        "CustomerKey": "Default"
+    },
+    "DeliveryProfile": {
+        "CustomerKey": "Default"
+    },
+    "SuppressTracking": false,
+    "IsSendLogging": true,
+    "SendDefinitionList": [
+        {
+            "SendDefinitionListType": "SourceList",
+            "DataSourceTypeID": "CustomObject",
+            "IsTestObject": false,
+            "SalesForceObjectID": "",
+            "Name": "",
+            "r__dataExtension_Key": "4E1B04B2-593F-4C74-AD05-E8E420C06A7E",
+            "r__list_PathName": "my subscribers/All Subscribers"
+        }
+    ],
+    "BccEmail": "",
+    "AutoBccEmail": "",
+    "TestEmailAddr": "",
+    "EmailSubject": "Test Email Template",
+    "DynamicEmailSubject": "Test Email Template",
+    "IsMultipart": true,
+    "IsWrapped": true,
+    "DeduplicateByEmail": true,
+    "ExclusionFilter": "",
+    "Additional": "",
+    "CCEmail": "",
+    "r__folder_Path": "User-Initiated",
+    "r__assetMessage_Name": "POC 3 kavitha",
+    "r__assetMessage_Key": "5e5451e0-2f95-4db0-9db4-56774c4ad264"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Data Extract from zip",
+    "key": "B6B14B75-6FB4-491E-936F-2AC7518D6A47",
+    "fileSpec": "product.zip",
+    "createdDate": "2020-08-18T04:56:25.177",
+    "modifiedDate": "2020-08-18T04:56:25.177",
+    "createdBy": 713269674,
+    "modifiedBy": 713269674,
+    "intervalType": 0,
+    "description": "",
+    "dataFields": [],
+    "r__dataExtractType_name": "Contacts Without Channel Addresses"
+}

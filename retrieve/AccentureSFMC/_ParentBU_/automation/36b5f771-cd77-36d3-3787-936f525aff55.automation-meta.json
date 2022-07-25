@@ -1,0 +1,35 @@
+{
+    "name": "Nightly Import of Mobile Connect Users",
+    "description": "Nightly Import of Mobile Connect Users",
+    "key": "36b5f771-cd77-36d3-3787-936f525aff55",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2020-12-05T00:00:00",
+        "endDate": "2020-12-09T00:00:00",
+        "icalRecur": "FREQ=DAILY;UNTIL=20201209T113000;INTERVAL=1",
+        "timezoneName": "India Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Daily Transfer of Mobile Connect Users",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Mobile Connect Users FTP by Automation",
+                    "r__type": "importFile"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations"
+}

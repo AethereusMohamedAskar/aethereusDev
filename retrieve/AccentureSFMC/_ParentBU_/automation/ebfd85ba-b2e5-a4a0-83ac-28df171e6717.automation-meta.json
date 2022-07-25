@@ -1,0 +1,27 @@
+{
+    "name": "Kanika_DataUpload_16May",
+    "description": "",
+    "key": "ebfd85ba-b2e5-a4a0-83ac-28df171e6717",
+    "type": "triggered",
+    "status": "AwaitingTrigger",
+    "fileTrigger": {
+        "queueFiles": false,
+        "isPublished": true,
+        "fileNamePatternTypeId": 1,
+        "fileNamingPattern": "16May",
+        "folderLocationText": "import\\",
+        "triggerActive": true
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Kanika_Data_Upload_16May",
+                    "r__type": "importFile"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2022 Training/Kanika"
+}

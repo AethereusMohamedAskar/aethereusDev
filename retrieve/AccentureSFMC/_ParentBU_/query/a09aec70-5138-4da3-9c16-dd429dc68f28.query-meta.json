@@ -1,0 +1,11 @@
+{
+    "name": "URL_Click_Details",
+    "key": "a09aec70-5138-4da3-9c16-dd429dc68f28",
+    "description": "",
+    "targetKey": "43F835F2-8EE5-447C-AA8E-233DEDF92201",
+    "createdDate": "2020-04-08T21:28:03.2",
+    "modifiedDate": "2020-04-09T04:35:15.26",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query/Sai Prasad UC"
+}

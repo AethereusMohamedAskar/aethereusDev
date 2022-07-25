@@ -1,0 +1,31 @@
+{
+    "CreatedDate": "2022-04-11T00:02:00",
+    "ModifiedDate": "2022-04-11T00:02:00",
+    "CustomerKey": 42156,
+    "Name": "Bday_Trigger_Send_Kavitha",
+    "Description": "Bday_Trigger_Send_Kavitha",
+    "Keyword": "",
+    "SendClassification": {
+        "CustomerKey": "Default Commercial"
+    },
+    "FromName": "Aethereus Consulting Private Ltd",
+    "FromAddress": "Kunal.parikh@aethereus.com",
+    "SuppressTracking": false,
+    "TriggeredSendType": "Continuous",
+    "TriggeredSendStatus": "Active",
+    "AutoAddSubscribers": true,
+    "AutoUpdateSubscribers": false,
+    "BatchInterval": 0,
+    "BccEmail": "",
+    "EmailSubject": "Promo Code",
+    "DynamicEmailSubject": "Promo Code",
+    "IsMultipart": false,
+    "IsWrapped": true,
+    "AllowedSlots": 0,
+    "NewSlotTrigger": 0,
+    "Priority": 4,
+    "r__folder_Path": "Triggered Sends",
+    "r__assetMessage_Name": "TriggerSend_Email_K",
+    "r__assetMessage_Key": "02dce812-e2e2-4a3f-bbca-b0772cca2602",
+    "r__list_PathName": "my subscribers/All Subscribers"
+}

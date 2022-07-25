@@ -1,0 +1,32 @@
+<html>
+  <body>
+    Dear Customer,<br>
+    Here are the details of your order:
+
+
+
+%%[ Var @rows, @row, @rowCount, @SubKey, @counter, @orderItem
+
+set @SubKey = _SubscriberKey
+set @rows = LookupRows('Day3_Orders', 'CustomerId', @SubKey)
+set @rowCount = RowCount(@rows)
+
+if @rowCount > 0 then
+for @counter = 1 to @rowCount do
+set @row = row(@rows, @counter)
+
+set @orderItem = field(@row,'OrderItem')
+
+]%%
+<br>
+Order item %%=v(@counter)=%% : %%=v(@orderItem)=%%<br>
+
+%%[next]%%
+    %%[else]%%
+    No items to display
+    %%[endif]%%
+    <br>
+    We hope to see you again soon!
+    
+      </body>
+</html>

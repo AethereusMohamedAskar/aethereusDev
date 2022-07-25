@@ -1,0 +1,11 @@
+{
+    "name": "Remainder_Count_for_Current_Day_Send",
+    "key": "320c326e-aaba-41f9-b492-fc4081a2cfbd",
+    "description": "",
+    "targetKey": "1A4D25F3-7463-4F7A-994F-7FA664D66596",
+    "createdDate": "2020-04-09T00:12:06.53",
+    "modifiedDate": "2020-04-09T00:12:06.53",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query/Sai Prasad UC"
+}

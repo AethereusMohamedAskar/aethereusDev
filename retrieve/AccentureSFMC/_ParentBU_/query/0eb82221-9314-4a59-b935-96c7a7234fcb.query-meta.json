@@ -1,0 +1,11 @@
+{
+    "name": "Others_Segment",
+    "key": "0eb82221-9314-4a59-b935-96c7a7234fcb",
+    "description": "",
+    "targetKey": "1FDFB30D-F36D-4564-BFE2-EB44D5BC370E",
+    "createdDate": "2020-04-09T00:07:41.003",
+    "modifiedDate": "2020-04-09T00:07:41.003",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query/Sai Prasad UC"
+}

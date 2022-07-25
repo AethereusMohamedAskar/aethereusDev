@@ -1,0 +1,20 @@
+<table role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0"><tr><td class="stylingblock-content-wrapper camarker-inner">%%[ if empty(@Name) then]%%
+<center>
+    <h2>Summer Bonus</h2>
+    <p>In-store and Online, Rouge's first access</p>
+       <p>Use Code: <b>INSIDER20SEP</b></p>
+       <p>and avail <b>10% OFF</b> on all products!!</p>
+    </center>
+ 
+%%[else]%%
+<center>
+  <h2><p>%%=V(@Name)=%%</p></h2>
+  <p>%%=V(@Address)=%%</p>
+  <p>%%=V(@City)=%%, %%=V(@Province)=%%</p>
+  <p>%%=V(@PostalCode)=%%</p>
+    </center>
+ 
+%%[endif]%%
+     
+  
+</td></tr></table>

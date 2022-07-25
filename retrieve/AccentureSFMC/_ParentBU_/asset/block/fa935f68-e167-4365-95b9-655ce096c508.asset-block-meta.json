@@ -1,0 +1,41 @@
+{
+    "customerKey": "fa935f68-e167-4365-95b9-655ce096c508",
+    "assetType": {
+        "name": "htmlblock",
+        "displayName": "HTML Block"
+    },
+    "fileProperties": {
+        "fileName": "PJ - Content_C"
+    },
+    "name": "PJ - Day2_AMP_MainContent",
+    "owner": {
+        "email": "preethi.julian@aethereus.com",
+        "name": "Preethi Julian"
+    },
+    "createdDate": "2022-02-17T10:54:04.247-06:00",
+    "createdBy": {
+        "email": "preethi.julian@aethereus.com",
+        "name": "Preethi Julian"
+    },
+    "modifiedDate": "2022-02-27T10:11:24.363-06:00",
+    "modifiedBy": {
+        "email": "preethi.julian@aethereus.com",
+        "name": "Preethi Julian"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "design": "",
+    "meta": {
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true
+            },
+            "styling": {}
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/Preethi/Email"
+}

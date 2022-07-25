@@ -1,0 +1,16 @@
+{
+    "name": "Anushree_file transfer activity",
+    "customerKey": "8c51d761-88c6-466f-9843-dc008f815eb9",
+    "createdDate": "2021-11-08T01:16:12.74",
+    "modifiedDate": "2021-11-10T02:58:52.757",
+    "fileSpec": "Anushree_data_extract_new%%Day%%,%%Year%%.zip",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "Training 2021"
+}

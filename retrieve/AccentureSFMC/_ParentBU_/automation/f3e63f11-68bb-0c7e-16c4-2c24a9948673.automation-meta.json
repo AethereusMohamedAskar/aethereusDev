@@ -1,0 +1,29 @@
+{
+    "name": "click per link report",
+    "description": "",
+    "key": "f3e63f11-68bb-0c7e-16c4-2c24a9948673",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Audit Trail_2",
+                    "r__type": "dataExtract"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Data Extract 1",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Kanika"
+}

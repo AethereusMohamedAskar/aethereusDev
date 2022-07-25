@@ -1,0 +1,11 @@
+{
+    "name": "M_R_Filter_Data",
+    "key": "a6ad8d10-1042-4676-8ab0-a971fd909832",
+    "description": "",
+    "targetKey": "83A85770-C695-434E-9244-7CACBD9A9D0F",
+    "createdDate": "2020-11-24T07:59:13.1",
+    "modifiedDate": "2020-11-24T10:06:47.687",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

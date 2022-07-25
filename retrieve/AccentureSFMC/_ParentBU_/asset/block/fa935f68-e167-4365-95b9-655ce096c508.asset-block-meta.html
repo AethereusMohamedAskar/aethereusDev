@@ -1,0 +1,32 @@
+<table role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0"><tr><td class="stylingblock-content-wrapper camarker-inner">%%[
+var @skey, @numRowsToReturn, @locations
+
+set @skey = AttributeValue('SubscriberKey')/*Value from attribute column in send context*/
+
+set @numRowsToReturn = 0
+
+set @locations = LookupOrderedRows("PJ - Day2_AMP_locations",@numRowsToReturn,"Location desc","SubscriberKey",@skey)
+
+
+if RowCount(@locations) > 0 then
+
+   for @i = 1 to RowCount(@locations) do
+   var @Location, @Address, @Province, @City, @PostalCode, @Name
+   set @Location = row(@locations,@i)
+   set @Name = field(@Location, 'Location')
+   set @Address = field(@Location, 'Address')
+   set @Province = field(@Location, 'Province')
+   set @City = field(@Location, 'City')
+   set @PostalCode = field(@Location, 'PostalCode')
+   
+next @1
+set @varerror = "I found Something"
+
+else
+set @varerror = "I found Nothing"
+
+endif
+
+var @Text
+set @Text="Being our %%=v(@Name)=%%, take advantage of Saga's exclusive collection"
+]%%</td></tr></table>

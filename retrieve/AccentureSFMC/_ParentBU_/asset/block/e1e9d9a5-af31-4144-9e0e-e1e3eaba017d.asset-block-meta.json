@@ -1,0 +1,41 @@
+{
+    "customerKey": "e1e9d9a5-af31-4144-9e0e-e1e3eaba017d",
+    "assetType": {
+        "name": "textblock",
+        "displayName": "Text Block"
+    },
+    "fileProperties": {
+        "fileName": "SQL"
+    },
+    "name": "SQL",
+    "owner": {
+        "email": "kanika.singhal@aethereus.com",
+        "name": "Kanika Singhal"
+    },
+    "createdDate": "2021-11-25T20:15:17.827-06:00",
+    "createdBy": {
+        "email": "kanika.singhal@aethereus.com",
+        "name": "Kanika Singhal"
+    },
+    "modifiedDate": "2021-11-25T20:15:17.827-06:00",
+    "modifiedBy": {
+        "email": "kanika.singhal@aethereus.com",
+        "name": "Kanika Singhal"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "design": "",
+    "meta": {
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true
+            },
+            "styling": {}
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/Kanika/Email"
+}

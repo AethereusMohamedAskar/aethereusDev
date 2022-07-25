@@ -1,0 +1,38 @@
+<table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><div> 
+<!--
+		%%[
+			VAR @CPID, @deExtKey, @encodedDeExtKey, @CPURL, @qsStart, @qsValueStart, @qsValue, @unmappedFields
+			SET @CPID = "552"
+			SET @deExtKey = "D38459C7-627D-439A-B59D-B522C00E0AD9"
+			IF (@CPID == 'undefined') AND (@deExtKey == 'undefined') THEN
+				RaiseError("Please select a CloudPage and Data Extension and assign all fields to data attributes on the Interactive Email Form Block.")
+			ELSEIF (@CPID == "undefined") THEN
+				RaiseError("Please select a CloudPage on the Interactive Email Form Block.")
+			ELSEIF (@deExtKey == "undefined") THEN
+				RaiseError("Please select a Data Extension and assign all fields to data attributes on the Interactive Email Form Block.")
+			ENDIF
+			SET @encodedDeExtKey = URLEncode(@deExtKey,1,1)
+			SET @CPURL = CloudPagesURL(@CPID,'ic_deN',@encodedDeExtKey)
+			SET @qsStart = IndexOf(@CPURL,'?')
+			SET @qsValueStart = Add(@qsStart, 4)
+			SET @qsValue = Substring(@CPURL, @qsValueStart)
+
+			VAR @linkToClickCode, @link2C, @regexPattern, @trackedClickLink
+			SET @linkToClickCode = '<a href="https://submit.mc-content.com" alias="formSubmit" target="_blank">Interactive Email Form Submit</a>'
+			SET @link2C = TreatAsContentArea("submitTrackingClick", @linkToClickCode)
+			SET @regexPattern = 'href="(.+?)"'
+			SET @trackedClickLink = RegExMatch(@link2C, @regexPattern, 1)
+			]%%
+		-->
+ <!--[if mso]><!--> <div class="ie-form" style="display:none" rebel=""> <form class="sc-block-c7ts7e2-ic-form" action="%%=v(@CPURL)=%%" method="get" novalidate=""> <div class="sc-c7ts7e2-ic-form-box-sizing"> <input type="hidden" name="qs" value="%%=v(@qsValue)=%%"> <input type="hidden" name="ic_tLink" value="%%=v(@trackedClickLink)=%%"> <input type="hidden" name="Email" value="%%emailaddr%%"> <div> <label class="ie-label sc-block-c7ts7e2-ic-label"> <span class="sc-c7ts7e2-ic-label-box-sizing ie-b-label-box"> First Name </span> </label> <div class="ie-input-wrap-c7ts7e2-ic-text-select"> <div class="ie-input ie-input-c7ts7e2-ic-text-select"> <ul style="margin:0;padding:0" role="presentation"> <input class="ie-text-in" type="text" name="firstname--zFVu9YwCw" placeholder="Enter Your First Name"> </ul> </div> </div> </div> <div> <label class="ie-label sc-block-c7ts7e2-ic-label"> <span class="sc-c7ts7e2-ic-label-box-sizing ie-b-label-box"> Last Name </span> 
+</label> <div class="ie-input-wrap-c7ts7e2-ic-text-select"> <div class="ie-input ie-input-c7ts7e2-ic-text-select"> <ul style="margin:0;padding:0" role="presentation"> <input class="ie-text-in" type="text" name="lastname-IkYLSTWAn2" placeholder="Enter Your Last Name"> </ul> </div> </div> </div> <fieldset class="ie-input-group ie-checkboxgroup"> <div> <span class="ie-label sc-block-c7ts7e2-ic-label"> <legend> <span class="sc-c7ts7e2-ic-label-box-sizing ie-b-label-box"> Interests </span> </legend> </span> 
+<label class="ie-btn-label-after ie-btn-wrap ie-btn-wrap-c7ts7e2-ic-image-choice ie-btn-wrap-c7ts7e2-zEcm0gLih"> <div class="ie-gmail-btn-wrap"> <input type="checkbox" name="categoryhair-Y5hArj-9wr" value="Hair Care" class="ie-radio-check"> <div class="ie-btn ie-btn-c7ts7e2-ic-image-choice ie-btn-c7ts7e2-zEcm0gLih"> <div class="a11yHidden"> </div> </div> </div> <span class="sc-block-c7ts7e2-ic-image-choice-label ie-b-label"> <span class="sc-c7ts7e2-ic-image-choice-label-box-sizing ie-b-label-box">
+Hair Products</span> </span> </label> <label class="ie-btn-label-after ie-btn-wrap ie-btn-wrap-c7ts7e2-ic-image-choice ie-btn-wrap-c7ts7e2-Qk-mDMOM3"> <div class="ie-gmail-btn-wrap"> <input type="checkbox" name="categoryskincare-Z3d8bIE8s9" value="Skin Care" class="ie-radio-check"> <div class="ie-btn ie-btn-c7ts7e2-ic-image-choice ie-btn-c7ts7e2-Qk-mDMOM3"> <div class="a11yHidden"> </div> </div> </div> <span class="sc-block-c7ts7e2-ic-image-choice-label ie-b-label"> <span class="sc-c7ts7e2-ic-image-choice-label-box-sizing ie-b-label-box">Skin Care</span> </span> </label> </div> </fieldset> <label class="ie-frm-btn ie-frm-btn-c7ts7e2-ic-submit"> <input value="" type="submit"> <div>Submit</div> </label> <input type="hidden" name="ic_c" value="7VyNc9o6Ev9XfO4wSe5w-P68pq88INPMpXm5kPZdr2Q6siVAF9uikpxAO_nfbyUbMIaQz2tyjOlMI0vr1e7qt6tdGfPTlNMxMZumw3xJJtLMmoJISf2hMJs_TU4xjGXOjjoZGBl6iLq9YDxmXJpNyQOy3PeR2dQlsxEmJqqfEwGsBsgV5CYL03hj5hNfQt_Xn_PJAyGZZ42k58I0NsNTNbm-bJpv_2JZfb8v-zKT-Ro2-vJz68x43z496mSN95h0J_IfZApN4jsME9xZ9LRPP50dw9_voicRl7r1GbkBSVxCK_A9NB4TfEiJi8Vspl73PJzJODD6ZqVS7JtLQ7PZ9XCnVC9XGu2aVS3WOla51GhZv1caHfivWGzn8918q9NY3H90aOxGrA-MncDHZEB9gnf2jNZJB4YWrBPD5x-6JzMmfXmGqCBdzhnf7ZunLkGCGIK4xJEGMtouC_ApGhID-djoIIkMYEp8QZmvu5AQdAhN1zUGWnFDMgMrOiQlp3YgiTCAVo6IcQQY4ciR9IoYXbXwxiHjnvG7y5zL_b65N5Ope9zrLinXN-fiA9nj5H-sDHErPl6OX2W5k87R4RK-EpAGmAGgu7pzoVu2kC3sJRALZEA8t5-A63BBsjvU-YbJyU42yXyZReQywOQIjDb5Y7AbedPObztJyoVLAXkL492Fw5XX0gJZL7AF2Mkf7sa8dMFI3Rb3dpf6l-es7VLnsg1CZ8OeYhsanAzJ5BSsTrgPlxIsfUmwJj0GmqX5E2xAjp23yBhxMjjoQ8iRY9HM5URge1Tue46l46Iv9yFw9U1Ya4oE0A1g8XqaBjpB2CGR0PvNdhHMZr67ZbXDO97m0LudFZGKbZDknBMkW6IdztmCK0BiKMu50glspQXvm9kVRZatHLeIUjHSb3f_b7_t9c3l6ZPmAvozMuxOPiLpjHZvs_ICbxeZTNi0rHfmzU12HtaVlWLxPFTkE1dBPZM5uIqWfe8gozYXTjDl4GvhuO74HkAPVrfqralp_hW6HRepDeWrSR1rTnKRNcdMUAmuCWRoACIqSZaItTQXt21B1B8H0hpRjIkfk9lHnhr9LqDvSkFzLnsEVS19XOnNjMDzpLLxCrvkIjyQr0bZElOiehDGfC2faK-fcblCnCJfmTgacJFN3JjlDykX0jhRky1bNSRctr9NwNbEBPtjIhxOx2H_nFmCRZzoNkaRmgMlhmpb1o_Dz0Hjy3X7OqY1NMcucsiIuRgQAGZRjmh8YQE3ljSAGyhEapglTHPmUNN5Stb00OSY-EM5MpuVvAKSRyRSoV1Rd7pt5gaefxLKFGOcQJxS1wp3EPPiyUtwjF7DCsBd4QIcXX457p3_2fKL91yAuPzPaf8F3weZf8hZMLacEXEubTaJLUTS7jqYEyHFy9h9s6lubjYHtHvo9wFRbpxyhgNnRUfqQeYATBh1yFqFo1CrqgZl59gSrqzpAuDiWu0s5hxTDpJkyPh0BJJYXyqjFv-P1bjmMVxpGduIK-xEYhsrMLoDJ-1olm-KWRIrcUWB8Y-u4-WHx3S0Bjj3MGkPduqZuC9nTgFSOCCE9e8SrttH3bpoxEwal_HJJu1FU91h1n9eWl7n4x8fS2DWiwXlRSJnsCB1lsxfGxzDJGIhc5hTJeeNqGCWGOuHV5lQPySqQlVEnJ996i6VDusKB6gTAk4g90fSmLLAGCHIBUNOumLQWFpbMVxTOaIbqwZ7Q9UwT8bOR5CL6qnBpEYgIHdc5ReSFou1_WJ-v1DNFSqNWqHUKNeK-Vp5ntSFjbeYXhlCTl0CiSSmAgL9tOlD4Pm7SoxhfaLkBEbVAQCkwdF9vzy7jubNgcAqIQWkabHFiBCpY2gAFzpWRpiZp4cRpSIaMF8TD5BH3WkUu5nLeNi8JnQ4ikJ6dI9qYuIwjiJvhmtQaRg1Bf1BQizP98rAp5oFoBeybPIh4nkrDVG5d2-MHFjM28muGcd3ECkqitX2ehsTD8xOw62LjW8n45slthk4srdJo4HcIOMY8tdIixeUwobMXGULPg4xMwOBApYNtlaJzlzAOEQ2W3iOmrgCj7t9oeDj7p8Z4DF338yMcIYwDURkiuMNJs0qgrP7LNm9iDZNdaMrn5iXh5tuzM2jQBbed1-ftyG93VK_H90hyyuPC4XKgnQ8WStJPkmxKswKk6Q8CR5pkNiqIBEvy54aKtIwseyg-efwz_zD_fP2kHF3xLgrdt0ZLtKEYmtjRfyQKY0Vs104H3PAzPp4UVpx4rTkeFqEeOPozzpfKyRtPcOZYC7FawPGk7itxo8nsUuGkycwe93RJWs2R-wqXN00w7jDmq94FdMdfuMOr3A-YE64cCnOU5xvMc6XnoduO9pX0uP545qHZ8ZvBvqzlSEABZI9U0H9PCdehcqvLakLz3EKV7j3MdwbUi-iWj6NS_8HFXaaA6e5QZoDpzhPcb4dOE-mhGu-BLU2PdTfcnn201OHqG-PpI9l07PTNPd7_U9XEt8fTB-v6PFaMVkZrYaHVZo0RNwVIt6U8g2McfqUZfufsugvcYfvFqW599bl3jPkbnbkvP48lyM_hdsaR34KuxVHfjyz9DgmLVPT45gU5ynOt-o4Jnojav6e1bywSlhv9mrav-K850co0QyXZKpgpycCnP-ZlMXR28c6ck7GBKk-n1lRO2vqmg_6Zm8L6et9USjsi8HyK0M5l9q5ASnlC4Ua_KuW8-UaqZUK-Vo95-UKOeIUqtgmVataGBCrXKpjCxUHtoVKFZTHVbtKanh_DJ6isLHY5ZZtoF4hW8oXV4YX757F3ht8iJWfUeNS1a7bdski9QG2ynYVW416rW7Vi-WKA0TFOm5ojbMvsLTPZuXFa4SKpUcwRdqO3wPCVbR-r7sM5rtTQzickPD3OnY9NLG0pzTLlfx4sqd-ZGDdq2BCIm6pSK4N9UKHDqX6yuPP9EwyPZNMzyTT04I0NUxTw_9RCZSW-inO01I_xXmK860o9dUPoNz8Fw"> </div> </form> </div> <!--<![endif]--> <!--
+		%%[
+			IF @unmappedFields == TRUE THEN
+			RaiseError("Please ensure that you have mapped all inputs to data attributes within the Interactive Email Form block.")
+			ENDIF
+		]%%
+		Thank you for using Interactive Email
+		227.20.16/1597139472074
+		--> <div style="display:none" aria-hidden="true"> <a href="https://submit.mc-content.com" alias="formSubmit" target="_blank">Interactive Email Form Submit</a> </div> </div></td></tr></table>

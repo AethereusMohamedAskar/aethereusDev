@@ -1,0 +1,29 @@
+{
+    "name": "Ashwini_CustomerWinback",
+    "description": "",
+    "key": "fcd37290-2380-3923-cffc-2b08e0f3235e",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Ashwini_CustomerWinbackQueryActivity",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Ashwini_CustomerWinbackJourney",
+                    "r__type": "journeyEntry"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Ashwini"
+}

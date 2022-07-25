@@ -1,0 +1,36 @@
+%%[
+var @FirstName, @FirstNameFB, @AdvisorName, @AdvisorNameFB, @ProductName, @ProductNameFB, @SubKey, @Rowset, @Row
+
+set @SubKey = [Subscriber Key]
+set @Rowset= LookupRows('Shivani_AMPscript_DE1', 'Subscriber Key', @SubKey)
+set @Row= row(@Rowset, 1)
+set @FirstName = Field(@Row, 'First Name')
+set @AdvisorName = Field(@Row, 'AdvisorName')
+set @ProductName = Field(@Row, 'ProductName')
+
+
+set @FirstNameFB = IIF(Empty(@FirstName),'dear customer', Concat(' ',Propercase(@FirstName)))
+
+set @AdvisorNameFB = IIF(Empty(@AdvisorName),'new bank product', Concat(' ',Propercase(@AdvisorName)))
+
+set @ProductNameFB = IIF(Empty(@ProductName),'your bank team', Concat(' ',Propercase(@ProductName)))
+
+
+/*Send Time Data in our DE for re-engagement */
+
+var @email_address, @job_id, @message_type, @send_time
+
+SET @email_address = 'Email Address'
+SET @job_id = jobid
+SET @message_type = 'Onboarding'
+SET @send_time = Now()
+
+/*Insert into the DE */
+InsertDE('Shivani_Ampscript2_DE1', 'Subscriber Key', @SubKey, 'Email Address', @email_address, 'jobid', @job_id, 'MessageType', @message_type, 'ProductType', @ProductName, 'SendTime', @send_time) 
+
+/*UpSert the DE
+UpsertDE('Shivani_Ampscript2_DE1', 'Subscriber Key', @SubKey, 'Email Address', @email_address, 'jobid', @job_id,'MessageType', @message_type, 'ProductType', @ProductName, 'SendTime', @send_time) */
+
+]%%
+
+

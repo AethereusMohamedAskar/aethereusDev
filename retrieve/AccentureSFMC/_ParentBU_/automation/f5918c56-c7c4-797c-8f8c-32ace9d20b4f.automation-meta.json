@@ -1,0 +1,39 @@
+{
+    "name": "sql query automation",
+    "description": "",
+    "key": "f5918c56-c7c4-797c-8f8c-32ace9d20b4f",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2020-08-15T07:00:00",
+        "endDate": "2020-08-15T07:00:00",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "Central Standard Time (no DST)"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Data2",
+                    "r__type": "importFile"
+                },
+                {
+                    "name": "DataMAIN",
+                    "r__type": "importFile"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "join data",
+                    "r__type": "query"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations"
+}

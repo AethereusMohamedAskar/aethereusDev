@@ -1,0 +1,16 @@
+%%[
+
+var @subjectLine,@RegistrationId, @Name,@StudentId,@StudentName
+
+SET @Name=AttributeValue("Name")
+SET @StudentId=AttributeValue("StudentId")
+set @StudentName = Iif(not Empty(@Name), @Name, "Student")
+SET @RegistrationId = Concat(@StudentName,'.',@StudentId)
+
+if AttributeValue('Status') == 'Pass' then
+  set @subjectLine = 'Congratulations!'/* string constant */
+else
+  set @subjectLine = 'Better luck next time'
+endif
+
+]%%

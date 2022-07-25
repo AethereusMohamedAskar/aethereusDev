@@ -1,0 +1,30 @@
+{
+    "customerKey": "f7493afa-5ca3-4ea5-8644-1b3d4f4d24de",
+    "assetType": {
+        "name": "css",
+        "displayName": "Code"
+    },
+    "fileProperties": {
+        "fileName": "available_icons  font-awesome.min.css",
+        "extension": "css",
+        "fileSize": 31002,
+        "fileCreatedDate": "2022-02-11T06:34:27.3056479-06:00"
+    },
+    "name": "available_icons  font-awesome.min.css",
+    "createdDate": "2022-02-11T06:34:27.307-06:00",
+    "createdBy": {
+        "email": "anushree.barapatre@aethereus.com",
+        "name": "Anushree Barapatre"
+    },
+    "modifiedDate": "2022-02-11T06:44:16.81-06:00",
+    "modifiedBy": {
+        "email": "anushree.barapatre@aethereus.com",
+        "name": "Anushree Barapatre"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/Anushree/IMS"
+}

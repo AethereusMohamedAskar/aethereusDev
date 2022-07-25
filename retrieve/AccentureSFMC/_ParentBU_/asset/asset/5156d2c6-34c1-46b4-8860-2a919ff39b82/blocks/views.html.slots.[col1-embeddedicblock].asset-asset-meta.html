@@ -1,0 +1,285 @@
+<table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+<!-- 227.20.16/1597053473646 -->
+<script runat="server">
+  Platform.Load('Core', '1');
+
+  var ATTRIBUTES_AND_ACTIONS = {
+    qs: "delete",
+    ic_c: "delete",
+    ic_tLink: "delete",
+    "%%_emailid%%": { fetch: "_emailid" },
+    "%%_subscriberkey%%": { fetch: "_subscriberkey" },
+    "%%emailaddr%%": { fetch: "emailaddr" },
+    "%%emailname_%%": { fetch: "emailname_" },
+    "%%memberid%%": { fetch: "memberid" },
+    "%%subscriberid%%": { fetch: "subscriberid" }
+  };
+
+  // This snippet will display the following behavior for writing to a DE:
+  // * If your DE has no primary keys, it will simply add a new row.
+  // * If your DE has one or multiple primary key and we know their values for this message, we will upsert using all keys.
+  // * If your DE has primary keys and we do not know one or more of their values for this message, we will generate a unique
+  // id for each missing primary key and upsert using all keys.
+  // Wrapping in a try/catch will prevent a catastrophic failure in the flow from rendering a 500 error
+
+  /**
+   * Removes keys from an object
+   * 
+   * @param {Object} data The object containing the data we are going to modify
+   * @param {Array} keys The list of keys to remove from object
+   * @return {void} Since it is manipulating the same object reference no need to return
+   */
+  function removeKeysFromObject(data, keys) {
+    if (keys.length) {
+      for (var i = 0; i < keys.length; i++) {
+        var key = keys[i];
+        delete data[key];
+      }
+    }
+  }
+
+  /**
+   * Finds primary keys in the data or creates one if needed
+   * 
+   * @param {Array} data The primary keys found on the DE
+   * @param {Object} data The object containing the data to use
+   * @return {Array} primaryValueStore The list of keys to use for insert
+   */
+  function mapPrimaryValues(keys, data) {
+    var primaryValueStore = [];
+    for (var i = 0; i < keys.length; i++) {
+      if (data[keys[i]] == null) {
+        primaryValueStore.push(GUID());
+      } else {
+        primaryValueStore.push(data[keys[i]]);
+      }
+    }
+    return primaryValueStore;
+  }
+  
+  
+  /**
+   * Returns a new Object with the desired attributes modified.
+   * The actions are modified depending on the ATTRIBUTES_AND_ACTIONS
+   * This is the DEFAULT data sanitization.
+   * 
+   * @param {Object} data The object containing the data we need.
+   * @return {Object} dataObject with modified attributes.
+   */
+  function sanitizeData(data) {
+    var dataObject = new Object(data);
+    for (var key in dataObject) {
+      var value = dataObject[key];
+      if (ATTRIBUTES_AND_ACTIONS[key] === "delete") {
+        delete dataObject[key]
+      } else if (ATTRIBUTES_AND_ACTIONS[value].fetch) {
+        dataObject[key] = Attribute.GetValue(ATTRIBUTES_AND_ACTIONS[value].fetch);
+      }
+    }
+    return dataObject;
+  }
+
+  /**
+   * Returns Data Extension's primary keys list.
+   * 
+   * @param {Array} fields The Data Extension fields
+   * @return {Array} A list of primary keys. Empty list if there are non.
+   */
+  function getPrimaryKeys(fields) {
+    var primaryKeys = [];
+    for (var i = 0; i < fields.length; i++) {
+      if (fields[i].IsPrimaryKey === true) {
+        primaryKeys.push(fields[i].Name);
+      }
+    }
+    return primaryKeys;
+  }
+
+  var data = Request.GetFormField('data');
+  try {
+    if (data) {
+      var parsedData = Platform.Function.ParseJSON(data);
+
+      var deCustomerKey = decodeURI(Request.GetQueryStringParameter('ic_deN'));
+      var de = DataExtension.Init(deCustomerKey);
+      var fields = de.Fields.Retrieve();
+      var primaryKeys = getPrimaryKeys(fields);
+
+      if (parsedData.ic_tLink) {
+        try {
+					HTTP.Get(parsedData.ic_tLink);
+		 		} catch (e) {
+					// Avoid issues with unresolved URLs
+		 		};
+      }
+
+      var cleanData = sanitizeData(parsedData);
+
+      if (primaryKeys.length > 0) {
+        var proxy = new Script.Util.WSProxy();
+        var columns = ["Name", "CustomerKey"];
+        var filter = {
+          Property: "CustomerKey",
+          SimpleOperator: "equals",
+          Value: deCustomerKey
+        };
+        var desc = proxy.retrieve("DataExtension", columns, filter);
+        var deName = desc.Results[0].Name;
+        var primaryValueStore = mapPrimaryValues(primaryKeys, cleanData);
+
+        removeKeysFromObject(cleanData, primaryKeys);
+
+        var writeKeyStore = [];
+        var writeValueStore = [];
+
+        for (var key in cleanData) {
+          writeKeyStore.push(key);
+          writeValueStore.push(cleanData[key]);
+        }
+
+        // TODO investigate if we can throw a custom error.
+        Platform.Function.UpsertData(deName, primaryKeys, primaryValueStore, writeKeyStore, writeValueStore);
+      } else {
+        de.Rows.Add(cleanData);
+      }
+    } else {
+      
+      var successContent = Platform.Function.ContentBlockByID("742");
+      Platform.Variable.SetValue('@SuccessContent', successContent);
+</script>
+<script id="ic-cloudpage" src="https://d2zhidazoqfden.cloudfront.net/ic-cloudpage.js" data-content="%%=URLEncode(@SuccessContent, 1, 1)=%%"></script>
+<script runat="server">
+
+    }
+  } catch (e) {
+    var rawData = sanitizeData(Platform.Function.ParseJSON(data));
+
+    var errorLog = "IC_Error_Log";
+    var error_log_exists = DataExtension.Retrieve({
+    	Property: "CustomerKey",
+    	SimpleOperator: "equals",
+    	Value: errorLog
+    });
+
+    // Check if the DE is returned, if not create the DE
+    if (error_log_exists.length == 0) {
+      try {
+        var category_exists = Folder.Retrieve({
+        	Property: "Name",
+        	SimpleOperator: "equals",
+        	Value: "Interactive Content"
+        });
+        if (category_exists.length == 0) {
+          var deFolder = Folder.Retrieve({
+          	Property: "Name",
+          	SimpleOperator: "equals",
+          	Value: "Data Extensions"
+          });
+          var newFolder = {
+            "Name": "Interactive Content",
+            "CustomerKey": "",
+            "Description": "",
+            "ContentType": "dataextension",
+            "IsActive": "true",
+            "IsEditable": "true",
+            "AllowChildren": "true",
+            "ParentFolderID": deFolder[0].ID
+          };
+          var createFolder = Folder.Add(newFolder);
+        }
+        var category = Folder.Retrieve({
+					Property: "Name",
+					SimpleOperator: "equals",
+					Value: "Interactive Content"
+        });
+        var errorLogObj = {
+          "CustomerKey": errorLog,
+          "Name": "00 IC Error Log",
+          "CategoryID": category[0].ID,
+          "Fields": [
+            {
+              "Name": "Time Stamp",
+              "FieldType": "Date",
+              "Ordinal": 0
+						},
+						{
+							"Name": "Is Test Send",
+							"FieldType": "Boolean",
+							"Ordinal": 1
+						},
+					  {
+					    "Name": "Subscriber Key",
+					    "FieldType": "Text",
+					    "Ordinal": 2,
+					    "MaxLength": 100
+						},
+						{
+						  "Name": "Email Address",
+						  "FieldType": "EmailAddress",
+						  "Ordinal": 3,
+						  "MaxLength": 100
+						},
+						{
+						  "Name": "Target Data Extension Name",
+						  "FieldType": "Text",
+						  "Ordinal": 4,
+						  "MaxLength": 100
+						},
+						{
+						  "Name": "Target Data Extension Customer Key",
+						  "FieldType": "Text",
+						  "Ordinal": 5,
+						  "MaxLength": 100
+						},
+						{
+						  "Name": "Submission",
+						  "FieldType": "Text",
+						  "Ordinal": 6
+						},
+						{
+						  "Name": "Error Message",
+						  "FieldType": "Text",
+						  "Ordinal": 7,
+						  "MaxLength": 2500
+						},
+						{
+						  "Name": "Email Web Link",
+						  "FieldType": "Text",
+						  "Ordinal": 8,
+						  "MaxLength": 200
+						}
+					]
+        };
+        var createDE = DataExtension.Add(errorLogObj);
+      } catch(e) {
+        Write(Stringify(e));
+      }
+    }
+
+    var time = Platform.Function.Now();
+    var deCustomerKey = decodeURI(Request.GetQueryStringParameter('ic_deN'));
+    var deName = DataExtension.Retrieve({
+    	Property: "CustomerKey",
+    	SimpleOperator: "equals",
+    	Value: deCustomerKey
+    });
+
+    var error = {
+      "Time Stamp": time,
+      "Is Test Send": Attribute.GetValue("_IsTestSend"),
+      "Subscriber Key": Attribute.GetValue("_SubscriberKey"),
+      "Email Address": Attribute.GetValue("emailAddr"),
+      "Target Data Extension Name": deName[0].Name,
+      "Target Data Extension Customer Key": deCustomerKey,
+      "Submission": Stringify(rawData),
+      "Error Message": Stringify(e),
+      "Email Web Link": Attribute.GetValue("view_email_url")
+    }
+
+    var de = DataExtension.Init(errorLog);
+    de.Rows.Add(error);
+
+    Write(Stringify(error));
+  }
+</script>
+</td></tr></table>

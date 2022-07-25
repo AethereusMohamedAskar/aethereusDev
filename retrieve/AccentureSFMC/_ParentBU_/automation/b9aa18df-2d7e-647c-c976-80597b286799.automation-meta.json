@@ -1,0 +1,35 @@
+{
+    "name": "Rahul_automation_test_SQL_QUERY",
+    "key": "b9aa18df-2d7e-647c-c976-80597b286799",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2022-05-18T15:30:00",
+        "endDate": "2022-05-18T15:30:00",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "India Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "rahul_sql_query_test1",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "activities": [
+                {
+                    "name": "rahul_automation_journey",
+                    "r__type": "journeyEntry"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2022 Training/Rahul Raj"
+}

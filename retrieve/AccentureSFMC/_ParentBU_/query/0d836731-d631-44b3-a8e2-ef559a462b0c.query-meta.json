@@ -1,0 +1,11 @@
+{
+    "name": "An_Final_Score_calculation",
+    "key": "0d836731-d631-44b3-a8e2-ef559a462b0c",
+    "description": "",
+    "targetKey": "AFFF194C-B99D-470F-8D33-E93A8C903C63",
+    "createdDate": "2022-04-05T12:19:30.26",
+    "modifiedDate": "2022-06-06T01:01:59.407",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

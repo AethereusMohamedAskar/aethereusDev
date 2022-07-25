@@ -1,0 +1,37 @@
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">%%[/*
+set @orderID="8015Y000001iNXDQA2"
+set @orderID="8015Y0000039CMJQA2"
+/*set @CTA="https://starwarsfinejewelry.com/46587871396/checkouts/3269fa203bd8e7aa833f43fa5eeed7bb/recover?key=6354e7d969aade4204fb2f87ee12f583"
+*/]%%
+%%[
+set @orderID=attributevalue("Order:Id")
+set @cta = attributevalue("Order:Cart_Recovery_URL__c")
+Set @p1 = ContentBlockbyKey("b1f4cda1-f74f-49ac-bc8b-1ed71367b99a")
+SET @P2= CONTENTBLOCKBYKEY("e5b2a10a-b6ab-4387-b582-d6f5c1fd3def")
+set @numrows = 0
+set @rows = lookuporderedrows("orderItem_salesforce", @numrows, "product2id asc", "orderID", @orderID)
+set @rowcount = Rowcount(@Rows)
+If @rowcount > 0 then 
+For @i = 1 to @rowcount do
+Set @row = row(@rows,@i)
+set @prodID = field(@row,"product2id")
+set @qty = field(@row,"quantity")
+
+if @brand == "Enchanted Disney Fine Jewelry UK" or @brand == "Star Wars Fine Jewelry UK" Then
+set @tprice = formatcurrency(field(@row,"totalprice"), "en-GB") Else
+set @tprice = formatcurrency(field(@row,"totalprice"), "en-US")
+ENDIF
+
+
+set @name = Propercase(lookup("product2_salesforce","Title__c","id",@prodid))
+set @image = lookup("product2_salesforce","Image_URL__c","id",@prodid)
+set @p1a = concat('<a href="',@cta,' title="" alias="Image" conversion="true" data-linkto="https://"><img src="')
+/*set @p2a = concat('<a href="',@cta,'" alias="Pname" conversion="true" data-linkto="https://" target="_blank"><span style="color:#305c8c;">')*/
+Set @p3 = concat("</span></a></span><br>Quantity: ",@qty," &mdash; Total: ",@tprice,"</span></td></tr></table></td></tr></table></td></tr></table></td></tr></table>")
+]%%
+%%[set @final = concat(@p1,@p1a,@image,@p2,@p2a,@name, @p3)]%%
+%%=v(@FINAL)=%%
+%%[Next @i]%% 
+%%[Else]%% 
+%%[ENDIF]%%
+</td></tr></table>

@@ -1,0 +1,36 @@
+{
+    "name": "Anushree_Data_Extract_DE",
+    "description": "",
+    "key": "892692ac-3d5d-cfcc-19ac-73ca322d2f23",
+    "type": "triggered",
+    "status": "Building",
+    "fileTrigger": {
+        "queueFiles": false,
+        "isPublished": false,
+        "fileNamePatternTypeId": 0,
+        "fileNamingPattern": "",
+        "folderLocationText": "",
+        "triggerActive": false
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Anushree_Data_Extract1",
+                    "r__type": "dataExtract"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Anushree_Data_Extract1",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Anushree"
+}

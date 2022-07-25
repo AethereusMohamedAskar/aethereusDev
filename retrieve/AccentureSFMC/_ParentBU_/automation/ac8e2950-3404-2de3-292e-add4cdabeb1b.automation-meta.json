@@ -1,0 +1,29 @@
+{
+    "name": "Anushree_Audit_Trail_Automation",
+    "description": "",
+    "key": "ac8e2950-3404-2de3-292e-add4cdabeb1b",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Anushree_Audit trail activity",
+                    "r__type": "dataExtract"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Anushree_Audit_Trail_File_Transfer",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Anushree"
+}

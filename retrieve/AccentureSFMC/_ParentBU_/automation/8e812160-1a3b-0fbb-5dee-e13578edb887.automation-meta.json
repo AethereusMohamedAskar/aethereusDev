@@ -1,0 +1,27 @@
+{
+    "name": "Test_Automation_Kavitha",
+    "description": "Test_Automation_Kavitha ",
+    "key": "8e812160-1a3b-0fbb-5dee-e13578edb887",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2022-02-25T00:00:00",
+        "endDate": "2022-02-25T00:00:00",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "India Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "description": "",
+            "activities": [
+                {
+                    "name": "POC 3 kavitha test",
+                    "r__type": "emailSendDefinition"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Kavitha"
+}

@@ -1,0 +1,29 @@
+{
+    "name": "Ashwini_ExtractingTrackingData",
+    "description": "",
+    "key": "cd62a585-33db-d7c6-a7d4-10abba1c8dff",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Ashwini_TrackingDataExtract",
+                    "r__type": "dataExtract"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Ashwini_TrackingDataExtractAct",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Ashwini"
+}

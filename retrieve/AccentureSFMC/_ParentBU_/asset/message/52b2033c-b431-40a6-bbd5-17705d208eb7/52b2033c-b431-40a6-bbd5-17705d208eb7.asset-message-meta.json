@@ -1,0 +1,135 @@
+{
+    "customerKey": "52b2033c-b431-40a6-bbd5-17705d208eb7",
+    "contentType": "application/vnd.etmc.email.Message; kind=paste",
+    "assetType": {
+        "name": "htmlemail",
+        "displayName": "HTML Email"
+    },
+    "name": "Anushree_OrderConfirmation123",
+    "description": "",
+    "owner": {
+        "email": "anushree.barapatre@aethereus.com",
+        "name": "Anushree Barapatre"
+    },
+    "createdDate": "2021-12-01T05:56:23.747-06:00",
+    "createdBy": {
+        "email": "anushree.barapatre@aethereus.com",
+        "name": "Anushree Barapatre"
+    },
+    "modifiedDate": "2021-12-01T05:56:23.747-06:00",
+    "modifiedBy": {
+        "email": "anushree.barapatre@aethereus.com",
+        "name": "Anushree Barapatre"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "subjectline": {
+            "thumbnail": {},
+            "modelVersion": 2
+        },
+        "preheader": {
+            "thumbnail": {},
+            "modelVersion": 2
+        },
+        "html": {
+            "thumbnail": {},
+            "modelVersion": 2
+        },
+        "text": {
+            "thumbnail": {},
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": "html"
+                    }
+                }
+            },
+            "generateFrom": "html",
+            "modelVersion": 2
+        },
+        "viewAsAWebPage": {
+            "thumbnail": {},
+            "modelVersion": 2
+        },
+        "subscriptioncenter": {
+            "thumbnail": {},
+            "modelVersion": 2
+        },
+        "forwardHTML": {
+            "thumbnail": {},
+            "modelVersion": 2
+        },
+        "forwardText": {
+            "thumbnail": {},
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "subjectline",
+        "preheader",
+        "html",
+        "text",
+        "viewAsAWebPage",
+        "subscriptioncenter",
+        "forwardHTML",
+        "forwardText"
+    ],
+    "data": {
+        "email": {
+            "options": {
+                "characterEncoding": "utf-8"
+            },
+            "attributes": [
+                {
+                    "displayName": "__AdditionalEmailAttribute1",
+                    "name": "__AdditionalEmailAttribute1",
+                    "value": "",
+                    "order": 1,
+                    "channel": "email",
+                    "attributeType": "AdditionalEmailAttribute"
+                },
+                {
+                    "displayName": "__AdditionalEmailAttribute2",
+                    "name": "__AdditionalEmailAttribute2",
+                    "value": "",
+                    "order": 2,
+                    "channel": "email",
+                    "attributeType": "AdditionalEmailAttribute"
+                },
+                {
+                    "displayName": "__AdditionalEmailAttribute3",
+                    "name": "__AdditionalEmailAttribute3",
+                    "value": "",
+                    "order": 3,
+                    "channel": "email",
+                    "attributeType": "AdditionalEmailAttribute"
+                },
+                {
+                    "displayName": "__AdditionalEmailAttribute4",
+                    "name": "__AdditionalEmailAttribute4",
+                    "value": "",
+                    "order": 4,
+                    "channel": "email",
+                    "attributeType": "AdditionalEmailAttribute"
+                },
+                {
+                    "displayName": "__AdditionalEmailAttribute5",
+                    "name": "__AdditionalEmailAttribute5",
+                    "value": "",
+                    "order": 5,
+                    "channel": "email",
+                    "attributeType": "AdditionalEmailAttribute"
+                }
+            ]
+        },
+        "approvals": {
+            "approvalStatus": null
+        },
+        "campaigns": {}
+    },
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

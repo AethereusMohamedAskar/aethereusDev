@@ -1,0 +1,16 @@
+{
+    "name": "filetranfer_activity",
+    "customerKey": "229d9062-8e12-4ce0-b1cc-aaca28c202f3",
+    "createdDate": "2022-02-23T03:35:38.323",
+    "modifiedDate": "2022-02-23T03:35:38.323",
+    "fileSpec": "DE.csv",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": false,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

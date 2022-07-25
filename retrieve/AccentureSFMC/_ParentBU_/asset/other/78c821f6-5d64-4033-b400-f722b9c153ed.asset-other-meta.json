@@ -1,0 +1,32 @@
+{
+    "customerKey": "78c821f6-5d64-4033-b400-f722b9c153ed",
+    "assetType": {
+        "name": "codesnippetblock",
+        "displayName": "Code Snippet Block"
+    },
+    "fileProperties": {
+        "fileName": "DYN_Fmail"
+    },
+    "name": "DYN_Fmail",
+    "owner": {
+        "email": "Vijay.Jaganathan@aethereus.com",
+        "name": "Vijay Jaganathan"
+    },
+    "createdDate": "2022-05-04T10:34:11.987-06:00",
+    "createdBy": {
+        "email": "Vijay.Jaganathan@aethereus.com",
+        "name": "Vijay Jaganathan"
+    },
+    "modifiedDate": "2022-05-04T10:34:11.987-06:00",
+    "modifiedBy": {
+        "email": "Vijay.Jaganathan@aethereus.com",
+        "name": "Vijay Jaganathan"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/VJ"
+}

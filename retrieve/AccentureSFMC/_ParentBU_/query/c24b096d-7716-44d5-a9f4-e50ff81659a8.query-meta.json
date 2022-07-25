@@ -1,0 +1,11 @@
+{
+    "name": "Anu_Birthday_query",
+    "key": "c24b096d-7716-44d5-a9f4-e50ff81659a8",
+    "description": "",
+    "targetKey": "5274AC55-EC05-480E-BF61-8DBFECB41868",
+    "createdDate": "2022-01-06T02:03:23.83",
+    "modifiedDate": "2022-01-06T07:08:50.8",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

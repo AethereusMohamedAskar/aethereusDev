@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
+        />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <style class="main_style">
+            .layout-canvas-a {
+                background-color: #ffffff;
+                border: none;
+                box-sizing: border-box;
+                padding: 0px;
+                width: 100%;
+            }
+            .layout-canvas-a > .header,
+            .layout-canvas-a > .section,
+            .layout-canvas-a > .footer {
+                position: relative;
+                overflow: hidden;
+                width: 100%;
+                overflow-wrap: break-word;
+            }
+            .layout-canvas-a > .section {
+                margin: 10px 0px;
+            }
+            .layout-canvas-a > .section > .columns {
+                box-sizing: border-box;
+                overflow-wrap: break-word;
+            }
+            body {
+                color: #000000;
+                font-family: Arial;
+                font-size: 12px;
+                margin: 0px auto;
+                max-width: 1280px;
+            }
+            @media only screen and (max-width: 480px) {
+                .mobile-hidden {
+                    display: none !important;
+                }
+                .responsive-td {
+                    width: 100% !important;
+                    display: block !important;
+                    padding: 0px !important;
+                }
+            }
+            .layout-canvas-a > .section > .columns {
+                width: 100%;
+            }
+        </style>
+
+        <script language="javascript">
+            //Set the number of days before your cookie should expire
+            var ExpireDays = 90;
+            //Do not change anything below this line
+            qstr = document.location.search;
+            qstr = qstr.substring(1, qstr.length);
+            function SetCookie(cookieName, cookieValue, nDays) {
+                var today = new Date();
+                var expire = new Date();
+                if (nDays == null || nDays == 0) nDays = 1;
+                expire.setTime(today.getTime() + 3600000 * 24 * nDays);
+                document.cookie =
+                    cookieName +
+                    '=' +
+                    escape(cookieValue) +
+                    '; expires=' +
+                    expire.toGMTString() +
+                    '; path=/';
+            }
+            thevars = qstr.split('&');
+            for (i = 0; i < thevars.length; i++) {
+                cookiecase = thevars[i].split('=');
+                switch (cookiecase[0]) {
+                    case 'sfmc_sub':
+                        sfmc_sub = cookiecase[1];
+                        SetCookie('SubscriberID', sfmc_sub, ExpireDays);
+                        break;
+                    case 'e':
+                        e = cookiecase[1];
+                        SetCookie('EmailAddr_', e, ExpireDays);
+                        break;
+                    case 'j':
+                        j = cookiecase[1];
+                        SetCookie('JobID', j, ExpireDays);
+                        break;
+                    case 'l':
+                        l = cookiecase[1];
+                        SetCookie('ListID', l, ExpireDays);
+                        break;
+                    case 'jb':
+                        jb = cookiecase[1];
+                        SetCookie('BatchID', jb, ExpireDays);
+                        break;
+                    case 'u':
+                        u = cookiecase[1];
+                        SetCookie('UrlID', u, ExpireDays);
+                        break;
+                    case 'mid':
+                        mid = cookiecase[1];
+                        SetCookie('MemberID', mid, ExpireDays);
+                        break;
+                    default:
+                        break;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="layout layout-canvas-a">
+            <div class="header">
+                <div data-type="slot" data-key="header"></div>
+            </div>
+            <div class="section">
+                <div class="columns col1">
+                    <div data-type="slot" data-key="col1"></div>
+                </div>
+            </div>
+            <div class="footer">
+                <div data-type="slot" data-key="footer"></div>
+            </div>
+        </div>
+        <a href="https://fe3011717164047e731078.pub.s11.sfmc-content.com/zzzrbcona0v/ontx1ajx03j"
+            >Conversion Page</a
+        >
+    </body>
+</html>

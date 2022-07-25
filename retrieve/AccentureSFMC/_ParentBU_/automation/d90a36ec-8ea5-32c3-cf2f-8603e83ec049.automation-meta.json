@@ -1,0 +1,45 @@
+{
+    "name": "Kanika_JB Auto",
+    "key": "d90a36ec-8ea5-32c3-cf2f-8603e83ec049",
+    "type": "triggered",
+    "status": "AwaitingTrigger",
+    "fileTrigger": {
+        "queueFiles": true,
+        "isPublished": true,
+        "fileNamePatternTypeId": 1,
+        "fileNamingPattern": "JB Auto",
+        "folderLocationText": "import\\",
+        "triggerActive": true
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Kanika_Import file to trigger JB",
+                    "r__type": "importFile"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Kanika_JB Auto",
+                    "r__type": "fireEvent"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "activities": [
+                {
+                    "name": "Kanika_JB AUTO",
+                    "r__type": "journeyEntry"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training"
+}

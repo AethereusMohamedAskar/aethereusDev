@@ -1,0 +1,11 @@
+{
+    "name": "Outlook_Segment",
+    "key": "298c7055-e2d8-4ba6-b40c-3725a50b8a97",
+    "description": "",
+    "targetKey": "0E8687C4-092A-4BE3-98CE-2293EDF86C3A",
+    "createdDate": "2020-04-09T00:06:07.307",
+    "modifiedDate": "2020-04-09T00:06:07.307",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query/Sai Prasad UC"
+}

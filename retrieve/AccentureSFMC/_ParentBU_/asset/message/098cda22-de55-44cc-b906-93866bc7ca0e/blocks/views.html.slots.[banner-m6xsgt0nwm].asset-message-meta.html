@@ -1,0 +1,34 @@
+%%[
+var @rows, @row, @rowCount, @numRowsToReturn, @region, @i
+
+set @region = AttributeValue("Region") /* value from attribute or DE column in send context */
+set @region = "North" /* or a literal value */
+set @numRowsToReturn = 0 /* 0 means all, max 2000 */
+set @rows = LookupOrderedRows("LoyaltyMembers", @numRowsToReturn, "rank desc, firstName asc", "region", @region)
+set @rowCount = rowcount(@rows)
+
+
+
+if @rowCount > 0 then
+
+  for @i = 1 to @rowCount do
+
+    var @firstName, @emailAddress, @rank
+    set @row = row(@rows, @i) /* get row based on counter */
+    set @rank = field(@row,"rank")
+    set @firstName = field(@row,"firstName")
+    set @emailAddress = field(@row,"emailAddress")
+
+    ]%%
+
+ 
+
+    %%[
+
+  next @i ]%%
+
+%%[ else ]%%
+
+No rows found
+
+%%[ endif ]%%

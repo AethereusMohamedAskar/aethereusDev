@@ -1,0 +1,302 @@
+{
+    "customerKey": "1c4421f6-fb27-42d4-afa7-7cbeebaf33bd",
+    "contentType": "text/html",
+    "assetType": {
+        "name": "webpage",
+        "displayName": "Web Page"
+    },
+    "version": 1,
+    "name": "Vikas_Company_form",
+    "owner": {
+        "email": "Vikas.Rathore@aethereus.com",
+        "name": "Vikas Singh Rathore"
+    },
+    "createdDate": "2022-06-06T05:40:31.61-06:00",
+    "createdBy": {
+        "email": "Vikas.Rathore@aethereus.com",
+        "name": "Vikas Singh Rathore"
+    },
+    "modifiedDate": "2022-06-14T00:23:12.56-06:00",
+    "modifiedBy": {
+        "email": "Vikas.Rathore@aethereus.com",
+        "name": "Vikas Singh Rathore"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "meta": {
+        "globalStyles": {
+            "isLocked": false,
+            "body": {
+                "max-width": "1280px",
+                "color": "#000000",
+                "font-family": "Arial",
+                "font-size": "12px",
+                "margin": "0px auto"
+            },
+            "template": {
+                "background-color": "#FFFFFF",
+                "border": "none",
+                "box-sizing": "border-box",
+                "padding": "0px",
+                "width": "100%"
+            },
+            "buttons": {},
+            "h1": {},
+            "h2": {},
+            "h3": {},
+            "links": {}
+        },
+        "central": {
+            "scModel": null
+        }
+    },
+    "views": {
+        "html": {
+            "thumbnail": {},
+            "meta": {},
+            "slots": {
+                "col1": {
+                    "content": "<div data-type=\"block\" data-key=\"buqm5vr4wvr\"></div>",
+                    "design": "<p style=\"font-family:arial;color:#ccc;font-size:11px;text-align:center;vertical-align:middle;font-weight:bold;padding:10px;margin:0;border:#ccc dashed 1px;\">Drop blocks or content here</p>",
+                    "blocks": {
+                        "buqm5vr4wvr": {
+                            "assetType": {
+                                "id": 215,
+                                "name": "smartcaptureblock"
+                            },
+                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div style=\"background-color: #f3f2f2; border-radius: 8px; margin: 20px auto; height: 58px; width: 58px;\"><img src=\"data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNS4zNSAyNi4xNCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiM3MDZlNmF9LmNscy0ye2ZpbGw6bm9uZTtzdHJva2U6IzcwNmU2YTtzdHJva2UtbWl0ZXJsaW1pdDoxMDtzdHJva2Utd2lkdGg6MS41cHh9PC9zdHlsZT48L2RlZnM+PGNpcmNsZSBjbGFzcz0iY2xzLTEiIGN4PSI2LjA3IiBjeT0iNi4wNyIgcj0iMy4wOCIvPjxjaXJjbGUgY2xhc3M9ImNscy0yIiBjeD0iNi4wNyIgY3k9IjIwLjA3IiByPSI1LjMyIi8+PGNpcmNsZSBjbGFzcz0iY2xzLTIiIGN4PSI2LjA3IiBjeT0iNi4wNyIgcj0iNS4zMiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTE1Ljk5IDYuMzZ2MTQuNjFsMy41My0xLjMgMS43NCA0LjcyIDEuMjEtLjQ0IDEuMjEtLjQ1LTEuNzMtNC43MiAzLjQtMS4yNS05LjM2LTExLjE3eiIvPjwvc3ZnPg==\" style=\"display: block;  height: 24px; padding: 17px; width: 24px;\"></div></td></tr></table>",
+                            "meta": {
+                                "options": {
+                                    "attributesSlotKey": "4muivur6v02",
+                                    "smartCaptureGearID": "5f4ga5isqgi",
+                                    "buttonText": "Registration",
+                                    "buttonStyling": {
+                                        "background-color": "#009DDC",
+                                        "border-color": "#009DDC",
+                                        "border-radius": "3px",
+                                        "border-style": "solid",
+                                        "-webkit-border-radius": "3px",
+                                        "-moz-border-radius": "3px",
+                                        "color": "#0C0C0C",
+                                        "font-family": "Arial, Helvetica, sans-serif",
+                                        "font-size": "15px",
+                                        "line-height": "normal",
+                                        "padding": "10px"
+                                    },
+                                    "buttonWrapperStyling": {
+                                        "padding-bottom": "10px",
+                                        "text-align": "center"
+                                    },
+                                    "confirmationMessage": "Thank you for Register.",
+                                    "fieldFontStyling": {
+                                        "color": "#000000",
+                                        "font-family": "Arial, Helvetica, sans-serif",
+                                        "font-size": "16px"
+                                    },
+                                    "fieldStyling": {
+                                        "width": "200px"
+                                    },
+                                    "formStyling": {
+                                        "background-color": "#1FDFDF",
+                                        "margin-top": "0px",
+                                        "margin-right": "0px",
+                                        "margin-bottom": "0px",
+                                        "margin-left": "0px",
+                                        "padding-top": "0px",
+                                        "padding-right": "0px",
+                                        "padding-bottom": "0px",
+                                        "padding-left": "0px",
+                                        "text-align": "left",
+                                        "margin": "0px",
+                                        "padding": "19px"
+                                    },
+                                    "name": "Comicbook Purchase",
+                                    "useInJourney": true,
+                                    "customObjectFields": [
+                                        {
+                                            "name": "FirstName",
+                                            "id": "5441a927-8de8-46a0-9576-3575f35f94af",
+                                            "type": "Text",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "length": 50,
+                                            "description": "",
+                                            "ordinal": 1,
+                                            "isNullable": true,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": false,
+                                            "isInheritable": false,
+                                            "isOverridable": false,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "5441a927-8de8-46a0-9576-3575f35f94af",
+                                            "label": "FirstName",
+                                            "isRequired": false,
+                                            "isFormRequired": false,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "kwo9cax2j5"
+                                        },
+                                        {
+                                            "name": "LastName",
+                                            "id": "71353ea4-996a-459b-ab28-f64d98650545",
+                                            "type": "Text",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "length": 50,
+                                            "description": "",
+                                            "ordinal": 2,
+                                            "isNullable": true,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": false,
+                                            "isInheritable": false,
+                                            "isOverridable": false,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "71353ea4-996a-459b-ab28-f64d98650545",
+                                            "label": "LastName",
+                                            "isRequired": false,
+                                            "isFormRequired": false,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "1hum234hntg"
+                                        }
+                                    ],
+                                    "dataTarget": "dataExtension",
+                                    "listid": "a0fc925f-86cb-ec11-ba30-d4f5ef3de275",
+                                    "listName": "Vikas_MasterSubscriber",
+                                    "listKey": "6C4643FA-6F21-4811-983C-169C669239BF",
+                                    "noAddingFields": false,
+                                    "hasSendableDataExtension": true,
+                                    "onSubmitGotoUrlScheme": "http://",
+                                    "onSubmitGotoUrlType": 2,
+                                    "onSubmitShouldGotoUrl": false,
+                                    "smartCaptureFormID": 186
+                                }
+                            },
+                            "slots": {
+                                "4muivur6v02": {
+                                    "content": "<div data-type=\"block\" data-key=\"kwo9cax2j5\"></div><div data-type=\"block\" data-key=\"1hum234hntg\"></div>",
+                                    "design": "<p style=\"font-family: arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                                    "blocks": {
+                                        "kwo9cax2j5": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"FirstName\">FirstName</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"FirstName\" data-field-type=\"Text\"></div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "FirstName",
+                                                    "id": "5441a927-8de8-46a0-9576-3575f35f94af",
+                                                    "type": "Text",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "length": 50,
+                                                    "description": "",
+                                                    "ordinal": 1,
+                                                    "isNullable": true,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": false,
+                                                    "isInheritable": false,
+                                                    "isOverridable": false,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "5441a927-8de8-46a0-9576-3575f35f94af",
+                                                    "label": "FirstName",
+                                                    "isRequired": false,
+                                                    "isFormRequired": false,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field."
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "1hum234hntg": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"LastName\">LastName</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"LastName\" data-field-type=\"Text\"></div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "LastName",
+                                                    "id": "71353ea4-996a-459b-ab28-f64d98650545",
+                                                    "type": "Text",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "length": 50,
+                                                    "description": "",
+                                                    "ordinal": 2,
+                                                    "isNullable": true,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": false,
+                                                    "isInheritable": false,
+                                                    "isOverridable": false,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "71353ea4-996a-459b-ab28-f64d98650545",
+                                                    "label": "LastName",
+                                                    "isRequired": false,
+                                                    "isFormRequired": false,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field."
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        }
+                                    },
+                                    "modelVersion": 2
+                                }
+                            },
+                            "modelVersion": 2
+                        }
+                    },
+                    "maxBlocks": 0,
+                    "allowedBlocks": [],
+                    "modelVersion": 2
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "html"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

@@ -1,0 +1,36 @@
+%%[
+var @FirstName, @Greetings, @Price, @debug, @OfferEnd, @EmailAddress
+
+Set @RowSet = LookupRows('Day5_D&T_CurrencyDE_Referal', 'EmailAddress', @EmailAddress)
+Set @FirstName = [FirstName]
+Set @Greetings = [Greetings]
+Set @Price = [Price]
+Set @OfferEnd = [OfferEnd]
+Set @EmailAddress = [EmailAddress]
+
+
+var @date 
+set @date = “02/14/2021 07:45 AM”
+set @OfferEnd = Format(@date, “MMMM dd, yyyy”)
+
+
+
+
+set @EmailAddress = AttributeValue("EmailAddress")
+Output(Concat("EmailAddress: ", @EmailAddress))
+
+set @FirstName = AttributeValue("FirstName")
+Output(Concat("FirstName: ", @FirstName))
+
+set @Greetings = IIF(not Empty(@FirstName),concat("Hello",@FirstName,","), "Hello,")
+Output(Concat("Greetings: ", @Greetings))
+
+set @OfferEnd = "2022-03-25 23:59:59"
+Output(Concat("OfferEnd: ", @OfferEnd))
+
+
+
+  
+]%%
+
+Output: %%=v(@OfferEnd)=%%

@@ -1,0 +1,16 @@
+{
+    "name": "Ashwini_unzip",
+    "customerKey": "c9a0fbef-5a4c-4e1c-8371-8f76019a090c",
+    "createdDate": "2021-08-11T02:21:05.267",
+    "modifiedDate": "2021-08-11T02:21:05.267",
+    "fileSpec": "Ashwini_DataImport.zip",
+    "isEncrypted": false,
+    "isCompressed": true,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": false,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "DataView_Click",
+    "key": "96d6d6ea-f002-4644-bcb6-135d3863e14a",
+    "description": "",
+    "targetKey": "268BFDCF-7D7D-4EBE-9EE6-8AD9F05DFD74",
+    "createdDate": "2022-04-06T06:48:36.887",
+    "modifiedDate": "2022-06-06T01:56:35.217",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

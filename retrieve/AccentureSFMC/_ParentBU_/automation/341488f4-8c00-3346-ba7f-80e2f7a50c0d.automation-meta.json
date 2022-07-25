@@ -1,0 +1,26 @@
+{
+    "name": "Automation to run Query for Mobile Connect Users",
+    "key": "341488f4-8c00-3346-ba7f-80e2f7a50c0d",
+    "type": "triggered",
+    "status": "InactiveTrigger",
+    "fileTrigger": {
+        "queueFiles": true,
+        "isPublished": false,
+        "fileNamePatternTypeId": 0,
+        "fileNamingPattern": "",
+        "folderLocationText": "import\\training\\",
+        "triggerActive": false
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Query for training",
+                    "r__type": "query"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/Mobile Query"
+}

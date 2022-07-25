@@ -1,0 +1,11 @@
+{
+    "name": "Hardbounce",
+    "key": "a9b04c56-00c6-4c2d-9864-1356bcc4ab54",
+    "description": "",
+    "targetKey": "3FFC386A-173C-4F46-B994-68A098A03994",
+    "createdDate": "2022-03-17T00:59:33.03",
+    "modifiedDate": "2022-03-17T00:59:33.03",
+    "targetUpdateTypeName": "Append",
+    "isFrozen": false,
+    "r__folder_Path": "Query/Sai Prasad UC"
+}

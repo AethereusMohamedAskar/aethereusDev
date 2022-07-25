@@ -1,0 +1,39 @@
+{
+    "name": "Hard_Bounce_Extract",
+    "key": "924957F9-B611-44A6-95B0-6C8189A4148F",
+    "fileSpec": "Hard_bounce.zip",
+    "createdDate": "2022-04-21T23:18:48.417",
+    "modifiedDate": "2022-04-21T23:18:48.417",
+    "createdBy": 713633357,
+    "modifiedBy": 713633357,
+    "intervalType": 0,
+    "description": "",
+    "dataFields": [
+        {
+            "name": "ColumnDelimiter",
+            "type": "string",
+            "value": ","
+        },
+        {
+            "name": "DECustomerKey",
+            "type": "string",
+            "value": "031AE3E4-5742-42B0-9BF8-325B9F7395BF"
+        },
+        {
+            "name": "HasColumnHeaders",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "TextQualified",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "UsesLineFeed",
+            "type": "bool",
+            "value": "False"
+        }
+    ],
+    "r__dataExtractType_name": "Data Extension Extract"
+}

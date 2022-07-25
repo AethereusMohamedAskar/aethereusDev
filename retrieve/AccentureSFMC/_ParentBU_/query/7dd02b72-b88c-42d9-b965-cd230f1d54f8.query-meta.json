@@ -1,0 +1,11 @@
+{
+    "name": "Sent Data View Test",
+    "key": "7dd02b72-b88c-42d9-b965-cd230f1d54f8",
+    "description": "",
+    "targetKey": "CF7DE49F-1195-4767-998D-8FE6D38DB9C3",
+    "createdDate": "2021-09-20T05:22:28.367",
+    "modifiedDate": "2021-09-20T05:34:53.183",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

@@ -1,0 +1,16 @@
+{
+    "name": "gauriTest1",
+    "customerKey": "49df2ee0-7ac3-4701-9db6-cfb4d587ba64",
+    "createdDate": "2022-05-17T02:22:12.11",
+    "modifiedDate": "2022-05-17T06:26:07.823",
+    "fileSpec": "info1.zip",
+    "isEncrypted": false,
+    "isCompressed": true,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": false,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

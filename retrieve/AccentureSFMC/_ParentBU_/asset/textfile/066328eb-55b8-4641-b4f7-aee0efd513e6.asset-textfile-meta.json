@@ -1,0 +1,31 @@
+{
+    "customerKey": "066328eb-55b8-4641-b4f7-aee0efd513e6",
+    "assetType": {
+        "name": "txt",
+        "displayName": "Text"
+    },
+    "fileProperties": {
+        "fileName": "137-jquery.txt",
+        "extension": "txt",
+        "fileSize": 95982,
+        "fileCreatedDate": "2022-02-11T06:42:38.0737013-06:00",
+        "publishedURL": "https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/77f4686f-cc52-47fb-92b4-2ee300febfdb.txt"
+    },
+    "name": "137-jquery.txt",
+    "createdDate": "2022-02-11T06:42:38.073-06:00",
+    "createdBy": {
+        "email": "anushree.barapatre@aethereus.com",
+        "name": "Anushree Barapatre"
+    },
+    "modifiedDate": "2022-02-11T06:44:15.417-06:00",
+    "modifiedBy": {
+        "email": "anushree.barapatre@aethereus.com",
+        "name": "Anushree Barapatre"
+    },
+    "status": {
+        "name": "Published"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/Anushree/IMS"
+}

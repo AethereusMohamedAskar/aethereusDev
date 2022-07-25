@@ -1,0 +1,5 @@
+%%[
+set @brand = Attributevalue("Order:Brand__c")
+set @fromName = lookup("dynamic_Senders","fromname","Brand",@brand)
+]%%
+%%=v(@FromName)=%%

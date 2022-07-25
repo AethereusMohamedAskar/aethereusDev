@@ -1,0 +1,32 @@
+{
+    "customerKey": "b9ee8365-aaea-4a35-98d7-0fdbe6113090",
+    "assetType": {
+        "name": "codesnippetblock",
+        "displayName": "Code Snippet Block"
+    },
+    "fileProperties": {
+        "fileName": "AC-DYNAMIC_Fmail_K"
+    },
+    "name": "AC-DYNAMIC_Fmail_K",
+    "owner": {
+        "email": "shreevalli.lipendra@aethereus.com",
+        "name": "Shreevalli Lipendra"
+    },
+    "createdDate": "2021-12-24T05:34:02.86-06:00",
+    "createdBy": {
+        "email": "shreevalli.lipendra@aethereus.com",
+        "name": "Shreevalli Lipendra"
+    },
+    "modifiedDate": "2021-12-24T05:34:18.363-06:00",
+    "modifiedBy": {
+        "email": "shreevalli.lipendra@aethereus.com",
+        "name": "Shreevalli Lipendra"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/Shreevalli/Email"
+}

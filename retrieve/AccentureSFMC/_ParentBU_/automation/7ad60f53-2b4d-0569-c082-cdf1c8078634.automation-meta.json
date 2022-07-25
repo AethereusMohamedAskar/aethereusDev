@@ -1,0 +1,20 @@
+{
+    "name": "Anu_SSJS_clear_ASL",
+    "description": "",
+    "key": "7ad60f53-2b4d-0569-c082-cdf1c8078634",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Clear_auto_suppression_list",
+                    "r__type": "script"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Anushree"
+}

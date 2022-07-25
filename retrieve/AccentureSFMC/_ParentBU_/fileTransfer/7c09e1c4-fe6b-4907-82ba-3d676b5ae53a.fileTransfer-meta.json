@@ -1,0 +1,16 @@
+{
+    "name": "Anushree_Tracking_Data SF-FTP",
+    "customerKey": "7c09e1c4-fe6b-4907-82ba-3d676b5ae53a",
+    "createdDate": "2021-08-12T06:44:20.82",
+    "modifiedDate": "2021-08-12T06:44:20.82",
+    "fileSpec": "Anushree_Tracking_Data%%Month%%.zip",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "Training 2021"
+}

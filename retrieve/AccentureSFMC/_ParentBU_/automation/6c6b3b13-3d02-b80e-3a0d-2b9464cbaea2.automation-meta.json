@@ -1,0 +1,47 @@
+{
+    "name": "updateAllSubSSJSAutomation",
+    "description": "",
+    "key": "6c6b3b13-3d02-b80e-3a0d-2b9464cbaea2",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "updateAllSubListQuery",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "updateAllSubUsingSSJSQueryActivity",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "updateAllSubUsingSSJS",
+                    "r__type": "verification"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "updateAllSubUsingSSJSScriptActivity",
+                    "r__type": "script"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Ashwini"
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Ashwini_BlockBounceFileTransferActivity",
+    "customerKey": "e5d209b1-11d7-4573-959c-0b2cd0c3fedd",
+    "createdDate": "2021-12-17T00:06:06.4",
+    "modifiedDate": "2021-12-27T23:14:20.777",
+    "fileSpec": "BlockBounce.zip",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

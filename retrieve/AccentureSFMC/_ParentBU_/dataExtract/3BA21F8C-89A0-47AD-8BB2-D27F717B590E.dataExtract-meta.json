@@ -1,0 +1,39 @@
+{
+    "name": "Ashwini_DataExtract",
+    "key": "3BA21F8C-89A0-47AD-8BB2-D27F717B590E",
+    "fileSpec": "DataExtract %%Year%% %%Month%%  %%Day%%.csv",
+    "createdDate": "2021-08-12T05:37:19.11",
+    "modifiedDate": "2021-08-12T05:50:21.717",
+    "createdBy": 713633358,
+    "modifiedBy": 713633358,
+    "intervalType": 0,
+    "description": "",
+    "dataFields": [
+        {
+            "name": "ColumnDelimiter",
+            "type": "string",
+            "value": ","
+        },
+        {
+            "name": "DECustomerKey",
+            "type": "string",
+            "value": "3BA21F8C-89A0-47AD-8BB2-D27F717B590E"
+        },
+        {
+            "name": "HasColumnHeaders",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "TextQualified",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "UsesLineFeed",
+            "type": "bool",
+            "value": "False"
+        }
+    ],
+    "r__dataExtractType_name": "Data Extension Extract"
+}

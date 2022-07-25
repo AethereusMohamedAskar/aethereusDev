@@ -1,0 +1,29 @@
+{
+    "name": "FTP-to-DE",
+    "description": "",
+    "key": "bd7c0f1e-d381-9d9a-26d1-d11b9efc8701",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Unzip to FTP to DE",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Practice-FTP_to_DE",
+                    "r__type": "importFile"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Preethi"
+}

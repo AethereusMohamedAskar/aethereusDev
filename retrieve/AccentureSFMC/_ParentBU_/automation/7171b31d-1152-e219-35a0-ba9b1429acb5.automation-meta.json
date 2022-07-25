@@ -1,0 +1,47 @@
+{
+    "name": "Data_Upload_16May",
+    "description": "",
+    "key": "7171b31d-1152-e219-35a0-ba9b1429acb5",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "Converting the file from Zip to csv (FTP -&amp;amp;gt; Safehouse)",
+            "activities": [
+                {
+                    "name": "Kanika_File_Upload_16May",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        },
+        {
+            "name": "Importing the file from Safehouse to MC ",
+            "activities": [
+                {
+                    "name": "Data_Upload_16May_Zip",
+                    "r__type": "importFile"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Master Data_16 May_Zip",
+                    "r__type": "verification"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "11 Hours",
+                    "r__type": "wait"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2022 Training/Kanika"
+}

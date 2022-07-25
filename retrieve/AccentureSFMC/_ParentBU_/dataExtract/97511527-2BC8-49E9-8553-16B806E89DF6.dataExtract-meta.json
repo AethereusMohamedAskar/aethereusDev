@@ -1,0 +1,39 @@
+{
+    "name": "Preethi-DE_Extract",
+    "key": "97511527-2BC8-49E9-8553-16B806E89DF6",
+    "fileSpec": "DE_Extract_Date%%Day%%.csv",
+    "createdDate": "2021-08-15T11:54:28.39",
+    "modifiedDate": "2021-08-15T11:58:08.427",
+    "createdBy": 713633356,
+    "modifiedBy": 713633356,
+    "intervalType": 0,
+    "description": "",
+    "dataFields": [
+        {
+            "name": "ColumnDelimiter",
+            "type": "string",
+            "value": ","
+        },
+        {
+            "name": "DECustomerKey",
+            "type": "string",
+            "value": "1011A67D-DE47-41D9-8DB3-551525A7009D"
+        },
+        {
+            "name": "HasColumnHeaders",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "TextQualified",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "UsesLineFeed",
+            "type": "bool",
+            "value": "False"
+        }
+    ],
+    "r__dataExtractType_name": "Data Extension Extract"
+}

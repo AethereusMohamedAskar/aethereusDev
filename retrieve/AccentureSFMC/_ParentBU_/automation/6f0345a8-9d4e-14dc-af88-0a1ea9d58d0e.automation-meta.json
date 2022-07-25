@@ -1,0 +1,35 @@
+{
+    "name": "Refresh group",
+    "description": "",
+    "key": "6f0345a8-9d4e-14dc-af88-0a1ea9d58d0e",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2020-08-18T16:30:00",
+        "endDate": "2020-08-18T16:30:00",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "India Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "new group",
+                    "r__type": "refreshGroup"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "birthday email",
+                    "r__type": "emailSendDefinition"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations"
+}

@@ -1,0 +1,62 @@
+{
+    "name": "Unext_Email1_POC",
+    "description": "",
+    "key": "f973c927-e864-4337-2b91-02b10bcc6ab8",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2022-05-06T15:30:00",
+        "endDate": "2022-05-06T15:30:00",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "India Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Update_Email1",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "An_Email_POC_For_Unext",
+                    "r__type": "fireEvent"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "10 Minutes",
+                    "r__type": "wait"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Update_Email2",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "An_Email_POC_For_Unext",
+                    "r__type": "fireEvent"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Anushree"
+}

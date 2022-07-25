@@ -1,0 +1,11 @@
+{
+    "name": "updateAllSubListQuery",
+    "key": "a47e9128-0105-4b33-9e93-05f990789a71",
+    "description": "",
+    "targetKey": "E26D5DEE-3505-42C5-A5B0-7960E56F2B80",
+    "createdDate": "2022-01-06T06:26:36.38",
+    "modifiedDate": "2022-04-05T22:30:21.17",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

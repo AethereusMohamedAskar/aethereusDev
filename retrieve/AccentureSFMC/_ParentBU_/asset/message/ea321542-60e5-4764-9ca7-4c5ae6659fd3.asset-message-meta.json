@@ -1,0 +1,138 @@
+{
+    "customerKey": "ea321542-60e5-4764-9ca7-4c5ae6659fd3",
+    "contentType": "application/vnd.etmc.email.Message; kind=textOnly",
+    "assetType": {
+        "name": "textonlyemail",
+        "displayName": "Text Only Email"
+    },
+    "name": "MC Connect Test",
+    "description": "",
+    "owner": {
+        "email": "anuragyadav1291@gmail.com",
+        "name": "Mc-API-User-Pardot"
+    },
+    "createdDate": "2021-09-27T09:32:53.1-06:00",
+    "createdBy": {
+        "email": "anuragyadav1291@gmail.com",
+        "name": "Mc-API-User-Pardot"
+    },
+    "modifiedDate": "2021-09-27T09:33:17.663-06:00",
+    "modifiedBy": {
+        "email": "anuragyadav1291@gmail.com",
+        "name": "Mc-API-User-Pardot"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "subjectline": {
+            "contentType": "application/vnd.etmc.email.View; kind=subjectline",
+            "thumbnail": {},
+            "content": "Marketing Cloud Connect Test Email",
+            "meta": {},
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": ""
+                    }
+                }
+            },
+            "modelVersion": 2
+        },
+        "text": {
+            "thumbnail": {},
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": ""
+                    }
+                }
+            },
+            "modelVersion": 2
+        },
+        "subscriptioncenter": {
+            "thumbnail": {},
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": ""
+                    }
+                }
+            },
+            "modelVersion": 2
+        },
+        "forwardText": {
+            "thumbnail": {},
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": ""
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "subjectline",
+        "text",
+        "subscriptioncenter",
+        "forwardText"
+    ],
+    "data": {
+        "email": {
+            "options": {
+                "characterEncoding": "utf-8"
+            },
+            "attributes": [
+                {
+                    "displayName": "__AdditionalEmailAttribute1",
+                    "name": "__AdditionalEmailAttribute1",
+                    "value": "",
+                    "order": 1,
+                    "channel": "email",
+                    "attributeType": "AdditionalEmailAttribute"
+                },
+                {
+                    "displayName": "__AdditionalEmailAttribute2",
+                    "name": "__AdditionalEmailAttribute2",
+                    "value": "",
+                    "order": 2,
+                    "channel": "email",
+                    "attributeType": "AdditionalEmailAttribute"
+                },
+                {
+                    "displayName": "__AdditionalEmailAttribute3",
+                    "name": "__AdditionalEmailAttribute3",
+                    "value": "",
+                    "order": 3,
+                    "channel": "email",
+                    "attributeType": "AdditionalEmailAttribute"
+                },
+                {
+                    "displayName": "__AdditionalEmailAttribute4",
+                    "name": "__AdditionalEmailAttribute4",
+                    "value": "",
+                    "order": 4,
+                    "channel": "email",
+                    "attributeType": "AdditionalEmailAttribute"
+                },
+                {
+                    "displayName": "__AdditionalEmailAttribute5",
+                    "name": "__AdditionalEmailAttribute5",
+                    "value": "",
+                    "order": 5,
+                    "channel": "email",
+                    "attributeType": "AdditionalEmailAttribute"
+                }
+            ]
+        }
+    },
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

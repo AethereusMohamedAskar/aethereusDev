@@ -1,0 +1,20 @@
+{
+    "name": "Ashwini_FilterDataExtension",
+    "description": "",
+    "key": "d81bcbef-5213-18ac-605e-82d38c244626",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Ashwini_FilterDEActivity",
+                    "r__type": "filter"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Ashwini"
+}

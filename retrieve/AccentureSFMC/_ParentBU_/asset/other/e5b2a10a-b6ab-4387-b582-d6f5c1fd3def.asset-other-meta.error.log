@@ -1,0 +1,8 @@
+Error Log
+Parser: html
+Unexpected closing tag "a". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags (1:168)
+> 1 | "&nbsp;alt="You left items in your cart!" height="200" width="200" style="display: block; padding: 0px; text-align: center; height: 200px; width: 200px; border: 0px;"></a>
+    |                                                                                                                                                                        ^^^^
+  2 | </td>
+  3 | </tr>
+  4 | </table>

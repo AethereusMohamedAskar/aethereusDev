@@ -1,0 +1,42 @@
+{
+    "allowErrors": true,
+    "customerKey": "7B2F2AE3-E4D2-44B6-A6C8-BBC484F712EE",
+    "createdDate": "2021-12-29T05:54:12.88",
+    "modifiedDate": "2021-12-29T05:54:12.88",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "fieldMappings": [
+        {
+            "sourceFieldName": "EmailAddress",
+            "destinationFieldName": "Email Address"
+        },
+        {
+            "sourceFieldName": "Status",
+            "destinationFieldName": "Status"
+        },
+        {
+            "sourceFieldName": "SubscriberKey",
+            "destinationFieldName": "Subscriber Key"
+        }
+    ],
+    "fieldMappingType": "ManualMap",
+    "fileNamingPattern": "sublist.csv",
+    "fileType": "CSV",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": true,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "Import All subscriber Update",
+    "notificationEmailAddress": "ashwini.surwase@aethereus.com",
+    "sendEmailNotification": true,
+    "standardQuotedStrings": true,
+    "fileTransferLocationTypeId": 0,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP",
+    "c__destinationType": "List",
+    "r__list_PathName": "my subscribers/All Subscribers",
+    "c__subscriberImportType": "Email",
+    "c__dataAction": "Update"
+}

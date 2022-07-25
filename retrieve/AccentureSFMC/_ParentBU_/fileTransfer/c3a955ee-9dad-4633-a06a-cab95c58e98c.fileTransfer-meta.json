@@ -1,0 +1,16 @@
+{
+    "name": "Kanika_File_Upload_16May",
+    "customerKey": "c3a955ee-9dad-4633-a06a-cab95c58e98c",
+    "createdDate": "2022-05-16T05:45:18.73",
+    "modifiedDate": "2022-05-16T05:48:55.99",
+    "fileSpec": "Data_Upload_16May_zip.zip",
+    "isEncrypted": false,
+    "isCompressed": true,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": false,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

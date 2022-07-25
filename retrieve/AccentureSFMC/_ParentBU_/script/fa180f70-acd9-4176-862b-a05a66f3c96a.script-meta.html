@@ -1,0 +1,30 @@
+%%[
+var results = 0;
+
+var SFIDPattern = new RegExp("^[a-zA-Z0-9]{18}");
+
+if (SFIDPattern.test(contactID) == true) {
+
+    var sf_fieldUpdateString = [];
+    sf_fieldUpdateString.push('HasOptedOutOfEmail');
+    sf_fieldUpdateString.push(1);
+
+    var updateSFObject = "";
+    updateSFObject += "\%\%[ ";
+    updateSFObject += "set @salesforceFields = UpdateSingleSalesforceObject('Contact',";
+    updateSFObject += "'" + contactID + "','"+  sf_fieldUpdateString.join("','") + "'";
+    updateSFObject += ") ";
+    updateSFObject += "output(concat(@salesforceFields)) ";
+    updateSFObject += "]\%\%";
+
+    try {
+
+      results = Platform.Function.TreatAsContent(updateSFObject);
+
+    } catch (e) {
+
+      if (debug) { Write("<br>updateSFHasOptedOutOfEmailFlag error: " + Stringify(e)); }
+
+    }
+
+} 

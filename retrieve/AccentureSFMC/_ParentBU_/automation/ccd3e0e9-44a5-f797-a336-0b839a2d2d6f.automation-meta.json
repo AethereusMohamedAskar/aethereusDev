@@ -1,0 +1,29 @@
+{
+    "name": "PJ-DataExtract",
+    "description": "",
+    "key": "ccd3e0e9-44a5-f797-a336-0b839a2d2d6f",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "PJ-Test-DataExtract",
+                    "r__type": "dataExtract"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Preethi-Tracking_Data_SF_to_FTP",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Preethi"
+}

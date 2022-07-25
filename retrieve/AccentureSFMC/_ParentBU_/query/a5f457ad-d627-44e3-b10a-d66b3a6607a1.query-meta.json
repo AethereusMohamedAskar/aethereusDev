@@ -1,0 +1,11 @@
+{
+    "name": "Hard_Boune_SQL",
+    "key": "a5f457ad-d627-44e3-b10a-d66b3a6607a1",
+    "description": "",
+    "targetKey": "031AE3E4-5742-42B0-9BF8-325B9F7395BF",
+    "createdDate": "2022-04-21T23:17:38.977",
+    "modifiedDate": "2022-04-21T23:17:38.977",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

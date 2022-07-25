@@ -1,0 +1,11 @@
+{
+    "name": "join data",
+    "key": "6861c437-4f7f-42b4-8e34-472ad796537e",
+    "description": "",
+    "targetKey": "BBCC9D00-3727-4B8A-8A47-75A9C3D7FEFD",
+    "createdDate": "2020-08-14T06:47:42.393",
+    "modifiedDate": "2020-08-18T22:59:36.033",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

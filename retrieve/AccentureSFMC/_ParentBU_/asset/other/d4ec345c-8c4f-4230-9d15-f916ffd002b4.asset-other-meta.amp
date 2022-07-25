@@ -1,0 +1,105 @@
+%%[
+/*Get subscriber values */
+set @subscriberkey=requestparameter('subscriberkey')
+set @email=requestparameter('email')
+set @jobid=requestparameter('jobid')
+set @batchid=requestparameter('batchid')
+set @listid=requestparameter('listid')
+set @emailName=requestParameter('emailName')
+
+/* Get Form Values */
+set @newsletter=requestparameter('newsletter')
+set @deals=requestparameter('deals')
+set @frequency=requestparameter('frequency')
+set @hiking=requestparameter('hiking')
+set @kayaking=requestparameter('kayaking')
+set @climbing=requestparameter('climbing')
+set @unsuball=requestparameter('unsuball')
+
+/* checkbox fixes */
+if @newsletter == 'on' then  set @newsletter = 'True' else set @newsletter = 'False' endif
+if @deals == 'on' then set @deals = 'True' else set @deals = 'False' endif
+if @hiking == 'on' then set @hiking = 'True' else set @hiking = 'False' endif
+if @kayaking == 'on' then set @kayaking = 'True' else set @kayaking = 'False' endif
+if @climbing == 'on' then set @climbing = 'True' else set @climbing = 'False' endif
+
+if not empty(@subscriberkey) == true then
+
+if @unsuball == 'on' then
+
+set @updateSubscriber = UpdateData('Ashwini Master Subscribers',1,'Subscriber Key', @subscriberkey,
+'newsletter','False',
+'Deals','False',
+'Hiking',@hiking,
+'Climbing',@climbing,
+'Kayaking',@kayaking,
+'Email Frequency', @frequency,
+'Email Status','Unsubscribed'
+)
+SET @logUnsubEvent = CreateObject("ExecuteRequest")
+SetObjectProperty(@logUnsubEvent,"Name","LogUnsubEvent")
+
+SET @UnsubProperty = CreateObject("APIProperty")
+SetObjectProperty(@UnsubProperty,"Name","SubscriberKey")
+SetObjectProperty(@UnsubProperty,"Value",@subscriberkey)
+AddObjectArrayItem(@logUnsubEvent,"Parameters",@UnsubProperty)
+
+SET @UnsubProperty = CreateObject("APIProperty")
+SetObjectProperty(@UnsubProperty,"Name","JobID")
+SetObjectProperty(@UnsubProperty,"Value",@jobid)
+AddObjectArrayItem(@logUnsubEvent,"Parameters",@UnsubProperty)
+
+SET @UnsubProperty = CreateObject("APIProperty")
+SetObjectProperty(@UnsubProperty,"Name","ListID")
+SetObjectProperty(@UnsubProperty,"Value",@listid)
+AddObjectArrayItem(@logUnsubEvent,"Parameters",@UnsubProperty)
+
+SET @UnsubProperty = CreateObject("APIProperty")
+SetObjectProperty(@UnsubProperty,"Name","BatchID")
+SetObjectProperty(@UnsubProperty,"Value",@batchid)
+AddObjectArrayItem(@logUnsubEvent,"Parameters",@UnsubProperty)
+
+SET @UnsubProperty = CreateObject("APIProperty")
+SetObjectProperty(@UnsubProperty,"Name","Reason")
+SetObjectProperty(@UnsubProperty,"Value",@reason)
+AddObjectArrayItem(@logUnsubEvent,"Parameters",@UnsubProperty)
+
+SET @logUnsubEvent_status = InvokeExecute(@logUnsubEvent,@overallStatus,@requestId)
+SET @Status = Field(Row(@logUnsubEvent_status,1),"StatusMessage")
+SET @Error = Field(Row(@logUnsubEvent_status,1),"ErrorCode")
+
+if @updateSubscriber == 1 AND @Error == 0 then
+                                 set @message = 'You have been unsubscribed.'
+                            else
+                                 set @message = 'An error has occured, please try again at a later time,If the problem persists please contact us through our help center.'
+                            endif
+                            ]%%
+%%=v(@message)=%%
+%%[
+else
+       /* subscription changes */
+       set @updateSubscriber = UpdateData('Ashwini Master Subscribers',1,'Subscriber Key', @subscriberkey,
+                                           'newsletter',@newsletter,
+                                           'Deals',@deals,
+                                           'Hiking',@hiking,
+                                           'Climbing',@climbing,
+                                           'Kayaking',@kayaking,
+                                           'Email Frequency', @frequency
+                                        )
+                                        if @updateSubscriber == 1 then
+                    set @message = 'Your preferences have been updated.'
+               else
+                    set @message = 'An error has occured.'
+               endif
+               ]%%
+
+%%=v(@message)=%%
+%%[
+else
+/* no subscriber key redirect */
+redirect('http://www.aethereus.com')
+
+endif
+endif
+
+]%%

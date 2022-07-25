@@ -1,0 +1,43 @@
+{
+    "CreatedDate": "2022-02-16T08:05:02.41",
+    "ModifiedDate": "2022-02-16T08:05:02.41",
+    "CustomerKey": 14978,
+    "Name": "emailsend_shreya",
+    "Description": "",
+    "SendClassification": {
+        "CustomerKey": "Default Commercial"
+    },
+    "SenderProfile": {
+        "CustomerKey": "Default"
+    },
+    "DeliveryProfile": {
+        "CustomerKey": "Default"
+    },
+    "SuppressTracking": false,
+    "IsSendLogging": true,
+    "SendDefinitionList": [
+        {
+            "SendDefinitionListType": "SourceList",
+            "DataSourceTypeID": "CustomObject",
+            "IsTestObject": false,
+            "SalesForceObjectID": "",
+            "Name": "",
+            "r__dataExtension_Key": "ABF01E2A-C040-4107-BEFC-4F00CAE5ACA6",
+            "r__list_PathName": "my subscribers/All Subscribers"
+        }
+    ],
+    "BccEmail": "",
+    "AutoBccEmail": "",
+    "TestEmailAddr": "",
+    "EmailSubject": "Learn Marketing cloud",
+    "DynamicEmailSubject": "Learn Marketing cloud",
+    "IsMultipart": true,
+    "IsWrapped": true,
+    "DeduplicateByEmail": true,
+    "ExclusionFilter": "",
+    "Additional": "",
+    "CCEmail": "",
+    "r__folder_Path": "User-Initiated",
+    "r__assetMessage_Name": "POC1_email_msg_shreya",
+    "r__assetMessage_Key": "80befb49-2e46-4a80-8984-910a842fb511"
+}

@@ -1,0 +1,27 @@
+1. ePaylater – Aethereus Marketing Cloud
+
+About ePaylater
+
+UUID
+Phone Subkey
+
+
+
+IP Warmup Challenges:
+
+They have bad email history. (No email activity for last six months)
+So there is lot of possibilities we may face hard bounces, less CTR percentages and IP will be blacklisted.
+
+FYI, 
+Standard Hard Bounce rate is 0.1%  (1 Hard bounce / 1000 emails)
+Good to have open rate is 20%
+
+
+Decisions we took,
+Hard Bounce < Open Rate < IP volume scale up (last sent volume * 1.4) 0
+
+
+
+
+
+

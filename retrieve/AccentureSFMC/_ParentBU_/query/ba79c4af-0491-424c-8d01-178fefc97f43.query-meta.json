@@ -1,0 +1,11 @@
+{
+    "name": "SQL",
+    "key": "ba79c4af-0491-424c-8d01-178fefc97f43",
+    "description": "",
+    "targetKey": "612F3B44-4853-4C7C-B02C-588772B1FF5F",
+    "createdDate": "2022-04-28T00:39:17.45",
+    "modifiedDate": "2022-04-28T00:39:17.45",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

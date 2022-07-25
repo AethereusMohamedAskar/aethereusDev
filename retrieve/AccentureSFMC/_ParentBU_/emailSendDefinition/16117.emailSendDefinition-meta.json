@@ -1,0 +1,43 @@
+{
+    "CreatedDate": "2022-05-16T10:32:53.193",
+    "ModifiedDate": "2022-05-16T10:32:53.193",
+    "CustomerKey": 16117,
+    "Name": "rahul_email_activity_test",
+    "Description": "",
+    "SendClassification": {
+        "CustomerKey": "Default Commercial"
+    },
+    "SenderProfile": {
+        "CustomerKey": "Default"
+    },
+    "DeliveryProfile": {
+        "CustomerKey": "Default"
+    },
+    "SuppressTracking": false,
+    "IsSendLogging": true,
+    "SendDefinitionList": [
+        {
+            "SendDefinitionListType": "SourceList",
+            "DataSourceTypeID": "CustomObject",
+            "IsTestObject": false,
+            "SalesForceObjectID": "",
+            "Name": "",
+            "r__dataExtension_Key": "37AB75C9-B3C5-44BB-BA3F-DEA3F476AC74",
+            "r__list_PathName": "my subscribers/All Subscribers"
+        }
+    ],
+    "BccEmail": "",
+    "AutoBccEmail": "",
+    "TestEmailAddr": "",
+    "EmailSubject": "7 more days to sign up for Accenture Sustainability hackathon!",
+    "DynamicEmailSubject": "7 more days to sign up for Accenture Sustainability hackathon!",
+    "IsMultipart": true,
+    "IsWrapped": false,
+    "DeduplicateByEmail": true,
+    "ExclusionFilter": "",
+    "Additional": "",
+    "CCEmail": "",
+    "r__folder_Path": "User-Initiated",
+    "r__assetMessage_Name": "rahul_week1_email2",
+    "r__assetMessage_Key": "eb70186a-b9c6-4fe1-8746-751a52e138b7"
+}

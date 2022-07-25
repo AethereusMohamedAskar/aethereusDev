@@ -1,0 +1,16 @@
+{
+    "name": "Shivani_Tracking Data Extract",
+    "customerKey": "90aff202-b6a4-4c67-bb07-6ec8a2765f80",
+    "createdDate": "2021-11-10T01:23:35.657",
+    "modifiedDate": "2021-11-10T01:23:35.657",
+    "fileSpec": "Shivani_TrackingDataExtract.zip",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "Training 2021"
+}

@@ -1,0 +1,60 @@
+<html>
+    <body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <p>
+            Country
+            <select id="sel">
+                <option value="">-- Select --</option>
+            </select>
+        </p>
+
+        <p>
+            State
+            <select id="sel1">
+                <option value="">-- Select --</option>
+            </select>
+        </p>
+        <p id="result"></p>
+        <script>
+            $(document).ready(function () {
+                let arrData = [];
+
+                $.getJSON(
+                    'https://mcfyfwscx0zgzfvrhzpbd0vv9kj1.pub.sfmc-content.com/pmqrcshjnak',
+                    function (data) {
+                        let country = [];
+
+                        $.each(data, function (index, value) {
+                            country.push(value.Country);
+                            arrData = data;
+                        });
+                        country = Array.from(new Set(country));
+
+                        $.each(country, function (index, value) {
+                            $('#sel').append(
+                                '<option value="' + value + '">' + value + '</option>'
+                            );
+                        });
+                    }
+                );
+
+                $('#sel').change(function () {
+                    let selectedcountry = this.options[this.selectedIndex].value;
+
+                    let filterData = arrData.filter(function (value) {
+                        return value.Country === selectedcountry;
+                    });
+                    $('#sel1').empty().append('<option value=""> -- Select State -- </option>');
+
+                    $.each(filterData, function (index, value) {
+                        // Now, fill the second dropdown list with bird names.
+                        $('#sel1').append(
+                            '<option value="' + value.State + '">' + value.State + '</option>'
+                        );
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+{
+    "customerKey": "b1f4cda1-f74f-49ac-bc8b-1ed71367b99a",
+    "assetType": {
+        "name": "codesnippetblock",
+        "displayName": "Code Snippet Block"
+    },
+    "fileProperties": {
+        "fileName": "AC-p1"
+    },
+    "name": "AC-p1",
+    "owner": {
+        "email": "shreevalli.lipendra@aethereus.com",
+        "name": "Shreevalli Lipendra"
+    },
+    "createdDate": "2021-12-15T04:41:46.617-06:00",
+    "createdBy": {
+        "email": "shreevalli.lipendra@aethereus.com",
+        "name": "Shreevalli Lipendra"
+    },
+    "modifiedDate": "2021-12-24T05:28:32.88-06:00",
+    "modifiedBy": {
+        "email": "shreevalli.lipendra@aethereus.com",
+        "name": "Shreevalli Lipendra"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/Shreevalli/Email"
+}

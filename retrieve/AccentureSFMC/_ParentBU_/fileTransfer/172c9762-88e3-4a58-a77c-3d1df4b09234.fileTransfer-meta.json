@@ -1,0 +1,16 @@
+{
+    "name": "Soham_FTP_Unzip",
+    "customerKey": "172c9762-88e3-4a58-a77c-3d1df4b09234",
+    "createdDate": "2022-05-17T03:20:06.087",
+    "modifiedDate": "2022-05-18T01:57:43.123",
+    "fileSpec": "Soham_19_zip.zip",
+    "isEncrypted": false,
+    "isCompressed": true,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": false,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

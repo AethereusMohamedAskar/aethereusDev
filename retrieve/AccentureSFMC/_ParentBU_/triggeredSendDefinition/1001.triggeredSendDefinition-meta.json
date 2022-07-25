@@ -1,0 +1,32 @@
+{
+    "CreatedDate": "2021-01-05T11:04:00",
+    "ModifiedDate": "2021-01-05T11:45:00",
+    "CustomerKey": 1001,
+    "Name": "Loyalty Registration Welcome",
+    "Description": "Loyalty Registration Welcome",
+    "Keyword": "",
+    "SendClassification": {
+        "CustomerKey": "Default Commercial"
+    },
+    "FromName": "Aethereus Consulting Private Ltd",
+    "FromAddress": "Kunal.parikh@aethereus.com",
+    "SuppressTracking": false,
+    "TriggeredSendType": "Continuous",
+    "TriggeredSendStatus": "Active",
+    "Email": {
+        "ID": 6215
+    },
+    "AutoAddSubscribers": true,
+    "AutoUpdateSubscribers": false,
+    "BatchInterval": 0,
+    "BccEmail": "",
+    "EmailSubject": "Welcome to our loyalty program %%First Name%%",
+    "DynamicEmailSubject": "Welcome to our loyalty program %%First Name%%",
+    "IsMultipart": false,
+    "IsWrapped": false,
+    "AllowedSlots": 0,
+    "NewSlotTrigger": 0,
+    "Priority": 4,
+    "r__folder_Path": "Triggered Sends",
+    "r__list_PathName": "my subscribers/All Subscribers"
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Birthday_Vj_automation",
+    "description": "",
+    "key": "4d5f4d89-3d7d-291b-c08c-a57c2d672392",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "SQl_birthday_POC",
+                    "r__type": "query"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/vijay"
+}

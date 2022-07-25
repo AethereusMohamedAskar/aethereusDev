@@ -1,0 +1,41 @@
+{
+    "customerKey": "82e28bef-f2ff-4b1d-81ae-d4ac65b2a4fe",
+    "assetType": {
+        "name": "htmlblock",
+        "displayName": "HTML Block"
+    },
+    "fileProperties": {
+        "fileName": "IMS_LP_logo"
+    },
+    "name": "IMS_LP_logo",
+    "owner": {
+        "email": "shivani.mittal@aethereus.com",
+        "name": "Shivani Mittal"
+    },
+    "createdDate": "2022-02-24T04:30:00.457-06:00",
+    "createdBy": {
+        "email": "shivani.mittal@aethereus.com",
+        "name": "Shivani Mittal"
+    },
+    "modifiedDate": "2022-02-24T04:30:59.617-06:00",
+    "modifiedBy": {
+        "email": "shivani.mittal@aethereus.com",
+        "name": "Shivani Mittal"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "design": "",
+    "meta": {
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true
+            },
+            "styling": {}
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/Shivani/Shivani Content Blocks"
+}

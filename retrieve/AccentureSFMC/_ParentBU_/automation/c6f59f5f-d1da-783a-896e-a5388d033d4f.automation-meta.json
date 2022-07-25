@@ -1,0 +1,35 @@
+{
+    "name": "Audit trail 2022",
+    "description": "",
+    "key": "c6f59f5f-d1da-783a-896e-a5388d033d4f",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2022-05-09T18:00:00",
+        "endDate": "2022-05-09T18:00:00",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "India Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Audit Trail_2",
+                    "r__type": "dataExtract"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Audit Trail_2",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training"
+}

@@ -1,0 +1,30 @@
+{
+    "customerKey": "a11adc82-eee3-495d-a397-68c456c15bc5",
+    "assetType": {
+        "name": "html",
+        "displayName": "Code"
+    },
+    "fileProperties": {
+        "fileName": "PDF.Online.html",
+        "extension": "html",
+        "fileSize": 226583,
+        "fileCreatedDate": "2021-09-08T04:56:00.5112293-06:00"
+    },
+    "name": "PDF.Online.html",
+    "createdDate": "2021-09-08T04:56:00.51-06:00",
+    "createdBy": {
+        "email": "anushree.barapatre@aethereus.com",
+        "name": "Anushree Barapatre"
+    },
+    "modifiedDate": "2021-09-08T04:56:00.51-06:00",
+    "modifiedBy": {
+        "email": "anushree.barapatre@aethereus.com",
+        "name": "Anushree Barapatre"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/Anushree/Email"
+}

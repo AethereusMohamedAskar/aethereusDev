@@ -1,0 +1,45 @@
+{
+    "CreatedDate": "2022-05-17T00:35:16.82",
+    "ModifiedDate": "2022-05-17T01:36:39.117",
+    "CustomerKey": 16123,
+    "Name": "Vikas_Email_Automation_Activity",
+    "Description": "",
+    "SendClassification": {
+        "CustomerKey": "Default Commercial"
+    },
+    "SenderProfile": {
+        "CustomerKey": "Default"
+    },
+    "DeliveryProfile": {
+        "CustomerKey": "Default"
+    },
+    "SuppressTracking": false,
+    "IsSendLogging": true,
+    "SendDefinitionList": [
+        {
+            "SendDefinitionListType": "SourceList",
+            "DataSourceTypeID": "CustomObject",
+            "IsTestObject": false,
+            "SalesForceObjectID": "",
+            "Name": "",
+            "r__dataExtension_Key": "FA24CDC3-191E-4A3A-9A97-0937C5CF1D97",
+            "r__list_PathName": "my subscribers/All Subscribers"
+        }
+    ],
+    "BccEmail": "",
+    "AutoBccEmail": "",
+    "TestEmailAddr": "",
+    "EmailSubject": "We have an idea for you.",
+    "DynamicEmailSubject": "We have an idea for you.",
+    "IsMultipart": true,
+    "IsWrapped": true,
+    "SendWindowOpen": "01:30:00.0000000-06:00",
+    "SendWindowClose": "02:00:00.0000000-06:00",
+    "DeduplicateByEmail": true,
+    "ExclusionFilter": "",
+    "Additional": "",
+    "CCEmail": "",
+    "r__folder_Path": "User-Initiated",
+    "r__assetMessage_Name": "Vikas_Coursera",
+    "r__assetMessage_Key": "6ebc3d7f-0df1-437b-96a5-b9611ed0f033"
+}

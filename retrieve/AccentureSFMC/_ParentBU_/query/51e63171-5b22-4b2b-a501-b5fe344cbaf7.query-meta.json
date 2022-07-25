@@ -1,0 +1,11 @@
+{
+    "name": "Query for training",
+    "key": "51e63171-5b22-4b2b-a501-b5fe344cbaf7",
+    "description": "This Query is for training and testing purpose only",
+    "targetKey": "A88B3222-E096-4911-B117-6DC4AC562874",
+    "createdDate": "2020-12-05T11:30:49.653",
+    "modifiedDate": "2020-12-05T11:30:49.653",
+    "targetUpdateTypeName": "Append",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

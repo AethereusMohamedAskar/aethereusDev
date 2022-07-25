@@ -1,0 +1,41 @@
+{
+    "customerKey": "Carousel_resuse",
+    "assetType": {
+        "name": "htmlblock",
+        "displayName": "HTML Block"
+    },
+    "fileProperties": {
+        "fileName": "Carousel_resuseable"
+    },
+    "name": "Carousel_resuseable",
+    "owner": {
+        "email": "shreevalli.lipendra@aethereus.com",
+        "name": "Shreevalli Lipendra"
+    },
+    "createdDate": "2022-02-27T15:58:02.497-06:00",
+    "createdBy": {
+        "email": "shreevalli.lipendra@aethereus.com",
+        "name": "Shreevalli Lipendra"
+    },
+    "modifiedDate": "2022-02-27T16:08:49.723-06:00",
+    "modifiedBy": {
+        "email": "shreevalli.lipendra@aethereus.com",
+        "name": "Shreevalli Lipendra"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "design": "",
+    "meta": {
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true
+            },
+            "styling": {}
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/Shreevalli/Bootstrap_Components_Content_Blocks"
+}

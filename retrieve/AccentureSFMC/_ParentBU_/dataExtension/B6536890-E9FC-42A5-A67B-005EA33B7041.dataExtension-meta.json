@@ -1,0 +1,55 @@
+{
+    "CustomerKey": "B6536890-E9FC-42A5-A67B-005EA33B7041",
+    "Name": "Test Dynamic Email Translation",
+    "Description": "",
+    "IsSendable": false,
+    "IsTestable": false,
+    "RowBasedRetention": false,
+    "ResetRetentionPeriodOnImport": false,
+    "DeleteAtEndOfRetentionPeriod": false,
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "Country_ISO",
+            "DefaultValue": "",
+            "MaxLength": 5,
+            "IsRequired": true,
+            "IsPrimaryKey": true,
+            "FieldType": "Locale"
+        },
+        {
+            "Name": "Subject",
+            "DefaultValue": "",
+            "MaxLength": 500,
+            "IsRequired": true,
+            "IsPrimaryKey": false,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Header_Image",
+            "DefaultValue": "",
+            "MaxLength": 1000,
+            "IsRequired": true,
+            "IsPrimaryKey": false,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Header_Text",
+            "DefaultValue": "",
+            "MaxLength": 1000,
+            "IsRequired": true,
+            "IsPrimaryKey": false,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "CTA_Text",
+            "DefaultValue": "",
+            "MaxLength": 1000,
+            "IsRequired": true,
+            "IsPrimaryKey": false,
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/2021 Training/Anushree/POC"
+}

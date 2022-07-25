@@ -1,0 +1,82 @@
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><script runat="server">
+   Platform.Load("Core","1");
+   try {
+</script>
+
+%%[
+if RequestParameter("submitted") == true then
+
+var @createContact
+set @createContact = CreateSalesforceObject(
+                    "Contact", 3,
+                    "FirstName", RequestParameter("firstname"),
+                    "LastName", RequestParameter("lastname"),
+                    "Email", RequestParameter("email")
+)
+endif
+]%%
+
+<style>
+  body{
+      
+        justify-content: center;
+        align-items: center;
+    }
+     
+  #form-container {
+            padding: 10px;
+            text-align: center;
+        }
+
+   h2 {
+     margin: 0px 0px 10px 0px;
+     color:black;
+   }
+    input {
+        width: 300px;
+        margin: 5px 0px;
+        padding: 5px;
+     }
+    input[type="submit"] {
+            width: 222px;
+            background-color: #00bfa5;
+            border: 0px;
+            color: white;
+        }
+  
+  label{
+    color:black;
+  }
+</style>
+  <div id="form-container">
+    %%[if not empty(@createContact) then ]%%
+    <p> %%=v(@createContact)=%% record created in Contact Object </p>
+   
+    %%[ endif ]%%
+      
+  <h2>Register</h2>
+  <form action="%%=RequestParameter('PAGEURL')=%%" method="post" align="center">
+      <label>First Name</label><br>
+      <input type="text" name="firstname"><br><br>
+      <label> Last Name</label><br>
+      <input type="text" name="lastname"><br><br>
+      <label>Email</label><br>
+      <input type="text" name="email"><br><br>
+      <input name="submitted" type="hidden" value="true">
+      <input type="submit" value="Submit">
+    
+   </form>
+ </div>
+<script runat="server">
+}catch(err){
+  
+  Write(Stringify(err));
+  Write('Duplicate records found...!!!')
+
+}
+</script>
+
+
+   
+  
+</td></tr></table>

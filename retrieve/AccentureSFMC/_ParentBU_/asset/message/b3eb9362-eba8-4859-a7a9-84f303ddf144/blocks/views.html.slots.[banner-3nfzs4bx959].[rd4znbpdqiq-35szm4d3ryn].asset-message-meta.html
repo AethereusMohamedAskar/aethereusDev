@@ -1,0 +1,12 @@
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: #E4E4E4; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner"><div style="text-align: center;">
+	%%[if empty(@fname) then]%%</div><div style="text-align: center;">
+	&nbsp;<h1>
+		Hello Member!</h1><h3 style="line-height: 100%;">
+		Thanks for choosing us for your one stop shopping experience!</h3><br>
+	&nbsp;</div><div style="text-align: center;">
+	%%[else]%%</div><h1 style="text-align: center;">
+	Hello %%=v(@fname)=%%</h1><h3 style="line-height: 100%; text-align: center;">
+</h3><p style="text-align: center;">
+	Order ID: #%%=v(@Order_ID)=%%</p><p style="text-align: center;">
+	Location:%%=v(@loc)=%%<br>
+	%%[endif]%%</p></td></tr></table>

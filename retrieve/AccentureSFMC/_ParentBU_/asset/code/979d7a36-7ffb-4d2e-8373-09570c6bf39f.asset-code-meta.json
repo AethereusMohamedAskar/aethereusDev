@@ -1,0 +1,30 @@
+{
+    "customerKey": "979d7a36-7ffb-4d2e-8373-09570c6bf39f",
+    "assetType": {
+        "name": "css",
+        "displayName": "Code"
+    },
+    "fileProperties": {
+        "fileName": "owl.carousel.css",
+        "extension": "css",
+        "fileSize": 1545,
+        "fileCreatedDate": "2022-02-11T06:34:28.1518612-06:00"
+    },
+    "name": "owl.carousel.css",
+    "createdDate": "2022-02-11T06:34:28.153-06:00",
+    "createdBy": {
+        "email": "anushree.barapatre@aethereus.com",
+        "name": "Anushree Barapatre"
+    },
+    "modifiedDate": "2022-02-11T06:44:16.347-06:00",
+    "modifiedBy": {
+        "email": "anushree.barapatre@aethereus.com",
+        "name": "Anushree Barapatre"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/Anushree/IMS"
+}

@@ -1,0 +1,66 @@
+%%[
+VAR @FirstName, @FirstNameFB, @AdvisorName, @AdvisorNameFB, @ProductName, @ProductNameFB, @SubKey, @Rowset, @Row
+
+SET @SubKey = _SubscriberKey
+
+SET @Rowset = LookUpRows('Day3_Demo_ClientProfile','SubscriberKey',@SubKey)
+
+SET @Row = Row(@Rowset,1)
+SET @FirstName = field(@Row, 'FirstName')
+SET @AdvisorName = field(@Row, 'AdvisorName')
+SET @ProductName = field(@Row, 'ProductName')
+
+/* Make sure you have a fallback mechanism in place, Do not set the value as dummy*/
+
+SET @FirstNameFB = IIF(Empty(@FirstName), 'Dear Customer',Concat('',ProperCase(@FirstName)))
+
+SET @ProductNameFB = IIF(Empty(@ProductName),'New Astro Bank Product',Concat('',ProperCase(@ProductName)))
+
+
+SET @AdvisorNameFB = IIF(Empty(@AdvisorName), 'Your Astro Bank Team', ProperCase(@AdvisorName))
+
+/*Let's also write some send time data into our data extension for re-engagement and logging purpose*/
+
+VAR @EmailAddress, @JobID, @MessageType, @SendTime
+SET @EmailAddress = emailaddr
+SET @JobID = jobid 
+SET @MessageType = 'Onboarding'
+SET @SendTime = Now()
+
+/*Insert Data into DE Day3_Demo_SendLog*/
+
+InsertDE('Day3_Demo_SendLog','SubscriberKey', @SubKey, 'EmailAddress', @EmailAddress, 'JobId',@JobID,
+'MessageType', @MessageType,
+'ProductType', @ProductName,
+'SendTime',@SendTime)
+
+/*Upsert Data into DE Day3_Demo_LatestSendTrackerDE*/
+
+UpsertDE('Day3_Demo_LatestSendTracker',1,
+'SubscriberKey',@SubKey,
+'MessageType',@MessageType,
+'ProductType',@ProductName,
+'TestSendTime',@SendTime)
+
+/* We should also assign pre-generated coupon code to each recipient, so that it is only used once*/
+
+VAR @DefaultCoupon, @CouponCode
+
+/*Redeem a coupon code from the coupon DE*/
+
+SET @DefaultCoupon = "Save10"
+
+/* Use if else statement so that you do not redeem coupon code in the preview */
+
+If _messageContext == "PREVIEW" Then
+SET @CouponCode = "TEST COUPON CODE TEST"
+
+Else
+
+/*Include the send context field values for the redeemed coupon*/
+
+SET @CouponCode = ClaimRowValue('Day3_Demo_CouponCodes','CouponCode','IsClaimed',@DefaultCoupon, 'SubscriberKey',@Subkey)
+
+Endif
+
+]%%

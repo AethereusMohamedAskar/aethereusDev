@@ -1,0 +1,30 @@
+{
+    "customerKey": "12e91482-890c-474c-b812-f1e95104b82c",
+    "assetType": {
+        "name": "css",
+        "displayName": "Code"
+    },
+    "fileProperties": {
+        "fileName": "magnific-popup.css",
+        "extension": "css",
+        "fileSize": 7300,
+        "fileCreatedDate": "2022-02-11T06:34:28.1686921-06:00"
+    },
+    "name": "magnific-popup.css",
+    "createdDate": "2022-02-11T06:34:28.17-06:00",
+    "createdBy": {
+        "email": "anushree.barapatre@aethereus.com",
+        "name": "Anushree Barapatre"
+    },
+    "modifiedDate": "2022-02-11T06:44:15.387-06:00",
+    "modifiedBy": {
+        "email": "anushree.barapatre@aethereus.com",
+        "name": "Anushree Barapatre"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/Anushree/IMS"
+}

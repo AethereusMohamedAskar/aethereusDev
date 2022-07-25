@@ -1,0 +1,36 @@
+%%[
+var @skey, @NumRowsToReturn, @Result
+
+set @skey=AttributeValue('Customer ID')
+/* value from attribute or DE column in send context */
+
+
+set @NumRowsToReturn = 0
+/* 0 means all, max 2000 */
+
+
+set @Result=LookupOrderedRows('POC_AMPscript_Kavitha', @NumRowsToReturn, 'BMI_Index
+ Desc', 'Customer ID', @skey)
+
+set @rowCount = RowCount(@Result)
+
+
+if @RowCount > 0 then
+
+for @i = 1 to @RowCount do
+
+var @demo, @Name, @weight, @height, @BMI_Index, 
+/* get row based on counter */
+
+set @demo= row(@Result, @i)
+set @Name = field(@demo,'Name')
+set @weight= field(@demo, 'Weight')
+set @height = field(@demo, 'Height')
+set @BMI_Index = field(@demo, 'BMI_Index')
+
+next @i
+else
+No rows found
+endif
+
+]%%

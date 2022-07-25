@@ -1,0 +1,43 @@
+{
+    "CreatedDate": "2022-05-17T02:42:09.98",
+    "ModifiedDate": "2022-05-17T02:42:09.98",
+    "CustomerKey": 16126,
+    "Name": "Emal Red bus",
+    "Description": "",
+    "SendClassification": {
+        "CustomerKey": "Default Commercial"
+    },
+    "SenderProfile": {
+        "CustomerKey": "Default"
+    },
+    "DeliveryProfile": {
+        "CustomerKey": "Default"
+    },
+    "SuppressTracking": false,
+    "IsSendLogging": true,
+    "SendDefinitionList": [
+        {
+            "SendDefinitionListType": "SourceList",
+            "CustomObjectID": "b359f6e4-3fd3-ec11-ba2d-d4f5ef3de4bd",
+            "DataSourceTypeID": "CustomObject",
+            "IsTestObject": false,
+            "SalesForceObjectID": "",
+            "Name": "",
+            "r__list_PathName": "my subscribers/All Subscribers"
+        }
+    ],
+    "BccEmail": "",
+    "AutoBccEmail": "",
+    "TestEmailAddr": "",
+    "EmailSubject": "Welcome page",
+    "DynamicEmailSubject": "Welcome page",
+    "IsMultipart": true,
+    "IsWrapped": true,
+    "DeduplicateByEmail": true,
+    "ExclusionFilter": "",
+    "Additional": "",
+    "CCEmail": "",
+    "r__folder_Path": "User-Initiated",
+    "r__assetMessage_Name": "red bus page 1",
+    "r__assetMessage_Key": "39eebf64-525a-45db-80ff-7d5a41d3ee4e"
+}

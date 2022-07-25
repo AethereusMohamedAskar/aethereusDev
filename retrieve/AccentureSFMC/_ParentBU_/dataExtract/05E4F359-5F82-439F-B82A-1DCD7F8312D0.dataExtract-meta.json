@@ -1,0 +1,39 @@
+{
+    "name": "Askar DE Extract",
+    "key": "05E4F359-5F82-439F-B82A-1DCD7F8312D0",
+    "fileSpec": "AethereusEmployees.csv",
+    "createdDate": "2022-03-08T23:14:15.073",
+    "modifiedDate": "2022-03-08T23:15:01.703",
+    "createdBy": 713804315,
+    "modifiedBy": 713804315,
+    "intervalType": 0,
+    "description": "",
+    "dataFields": [
+        {
+            "name": "ColumnDelimiter",
+            "type": "string",
+            "value": ","
+        },
+        {
+            "name": "DECustomerKey",
+            "type": "string",
+            "value": "3FFC386A-173C-4F46-B994-68A098A03994"
+        },
+        {
+            "name": "HasColumnHeaders",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "TextQualified",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "UsesLineFeed",
+            "type": "bool",
+            "value": "False"
+        }
+    ],
+    "r__dataExtractType_name": "Data Extension Extract"
+}

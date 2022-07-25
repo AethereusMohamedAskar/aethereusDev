@@ -1,0 +1,38 @@
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><div> 
+<!--
+		%%[
+			VAR @CPID, @deExtKey, @encodedDeExtKey, @CPURL, @hiddenFields, @qsStart, @qsValueStart, @qsValue, @unmappedFields, @cpOutOfDate
+			SET @hiddenFields = URLEncode("",1,1)
+			SET @CPID = "1146"
+			SET @deExtKey = "020905BD-B3BF-4F60-8E1B-F1799327C2D0"
+			SET @cpOutOfDate = false
+			IF (@CPID == 'undefined') AND (@deExtKey == 'undefined') THEN
+				RaiseError("Please select a CloudPage and Data Extension and assign all fields to data attributes on the Interactive Email Form Block.")
+			ELSEIF (@CPID == "undefined") THEN
+				RaiseError("Please select a CloudPage on the Interactive Email Form Block.")
+			ELSEIF (@deExtKey == "undefined") THEN
+				RaiseError("Please select a Data Extension and assign all fields to data attributes on the Interactive Email Form Block.")
+			ELSEIF (@cpOutOfDate) THEN
+				RaiseError("The Interactive Email Form block CloudPages Destination is out of date. Please update the form block on the selected Interactive Email CloudPage.")
+			ENDIF
+			SET @encodedDeExtKey = URLEncode(@deExtKey,1,1)
+			SET @CPURL = CloudPagesURL(@CPID,'ic_deN',@encodedDeExtKey, 'ic_hf', @hiddenFields)
+			SET @qsStart = IndexOf(@CPURL,'?')
+			SET @qsValueStart = Add(@qsStart, 4)
+			SET @qsValue = Substring(@CPURL, @qsValueStart)
+			VAR @linkToClickCode, @link2C, @regexPattern, @trackedClickLink
+			SET @linkToClickCode = '<a href="https://submit.mc-content.com" alias="formSubmit" target="_blank">Interactive Email Form Submit</a>'
+			SET @link2C = TreatAsContentArea("submitTrackingClick", @linkToClickCode)
+			SET @regexPattern = 'href="(.+?)"'
+			SET @trackedClickLink = RegExMatch(@link2C, @regexPattern, 1)
+			]%%
+		-->
+ <!--[if mso]><!--> <div class="ie-form" style="display:none" rebel=""> <form class="sc-block-c1k2k0rt-ic-form" action="%%=v(@CPURL)=%%" method="get" novalidate=""> <div class="sc-c1k2k0rt-ic-form-box-sizing sc-box-sizing"> <input type="hidden" name="qs" value="%%=v(@qsValue)=%%"> <input type="hidden" name="ic_tLink" value="%%=v(@trackedClickLink)=%%"> <label class="ie-input-wraper"> <span class="ie-label sc-block-c1k2k0rt-ic-label"> <span class="sc-c1k2k0rt-ic-label-box-sizing sc-box-sizing ie-b-label-box"> First Name </span> </span> <div class="ie-input-wrap-c1k2k0rt-ic-text-select"> <div class="ie-input ie-input-c1k2k0rt-ic-text-select"> <ul style="margin:0;padding:0" role="presentation"> <input class="ie-text-in" type="text" name="FirstName" placeholder="Enter your first name "> </ul> </div> </div> </label> <label class="ie-input-wraper"> <span class="ie-label sc-block-c1k2k0rt-ic-label"> <span class="sc-c1k2k0rt-ic-label-box-sizing sc-box-sizing ie-b-label-box"> Last Name </span> </span> <div class="ie-input-wrap-c1k2k0rt-ic-text-select"> <div class="ie-input ie-input-c1k2k0rt-ic-text-select"> <ul style="margin:0;padding:0" role="presentation"> <input class="ie-text-in" type="text" name="LastName" placeholder="Enter your Last name"> </ul> </div> </div> </label> <label class="ie-input-wraper"> <span class="ie-label sc-block-c1k2k0rt-ic-label"> <span class="sc-c1k2k0rt-ic-label-box-sizing sc-box-sizing ie-b-label-box"> Customer Id <span class="sc-text-c1k2k0rt-ic-required" aria-hidden="true"> * </span> </span> </span> <div class="ie-input-wrap-c1k2k0rt-ic-text-select"> <div class="ie-input ie-input-c1k2k0rt-ic-text-select"> <ul style="margin:0;padding:0" role="presentation"> <input class="ie-text-in" type="text" name="CustomerID" aria-required="true"> </ul> </div> </div> </label> <label class="ie-frm-btn ie-frm-btn-c1k2k0rt-ic-submit"> <input value="" type="submit"> <div>Submit</div> </label> <input type="hidden" name="ic_c" value="7VsLT9tIEP4rPldR4C6GhPAoOWgLeajoKEWQVndqULXxruMVjtd415BcxX-_2bXj2M4LkqqgnKkq7N3x7DezM9_MOuGHLoYe0Wu6yVxBBkIv6ZwIQd0e12s_dJ9imPvnweveeX8PYbLXR9S5DjyP-UKvCT8g6bFPrEsdMpphfCDHfcJBm4UcTh5LsFLfYy5xBYx9-xGvH3DB-oYt-g4s02V4KNdXtzX96DfD6Lgd0RGFwrfwoiO-nlxpH-qXZ42S9gGT5kD8RYZwSVyTYYIb45H65Zerc_htU4yJ26LEwRxu7_i1QL5QV1-RE5DMLVwFbh95HsHxM6b3ORCfrQYSZATjutlOq9aONVivqWBsdPSOXqqUKpspcYkaxDp6pbK7DyLJuZEpar68Uz4s7502jNPqacvYbe2XjbfNyqnRqhwcHlZ3Duo7jXLm-QREUKGcPpo_a2kb0drHWjFwMbGoS3BxUzu5aMDUeOnMdPtj82KkpCOuEOWk6fvMB_MuHYI40ThxiCk0pNUdFuBL1CMacrEGKJAGSonLKXPVEOKc9uDScTQr9JdgGpZySAifdgNBuAaywibaGcSkj0xB74nWlFGmtZjf104dZt5udfTYqc3z62bKuI4ewwex5fAviyHpxeVx_GrPJcJmLs72bOVdqXzsQK41CAcmQUIaQAFaIDRmScRkS4vsDTx5qyBbYx2REaEzCJ6yYLxKypiLxlkrlQwZMkil5pg0puQniIHw2Ba4D6OrVKTmd0wuiqVJppFTtlXMUE1adcQ6oPwMImPw2dqI-Kn4vpiVHLMSiJ9gvDHmrN2psiB2HXQ5BIPb24h5L6loM8WeDnVv26zuUPO2DqaUwpGdOlz4pEcGlxBYxHfhVoD7bwlWoucgk1o9owZQFI-QZvvEOu4AhQuP17a3edDtU7HVNw1ValyxBYWgo0M4U8RBTm7_tZKBQYDaIwJGv3cdBKvp72bEXPjE0TZ6V5yAtFMHJG2fIHHC6-GaJ3AHQRxiaUubwFMKOND0hCFpHyc9Ik2M7NvY-uP9ZkdPL591F8hfkV5z8AkJ096Y5eVxFN4UCuGlYbzTHx9LcZmUXkrUx9CQL74skoXC8X206ZvHhQJI-QRTHzIonFcDdwGMYPmoqvY1_XcYNh0kC_Q3nZpGLHJT0j3GqUxeEEMWQJRIUsIKzc2skk5dLxBGmAoJzC7qy9k7DmP3MjBj7FGgKvRJo-crgqQT0scT6rKbMENv1PaMtN4jnyJXuiaacFCXOAmPtajPhXYhF097IxRM-61LwEdEB79hwk2feuF4rCyjIik0S1FktoIRoRjZDZeeg0xiMwfDdtX0pswabcgCH0qGhC0f1sInKFbMHPZ5cWCohqGk99HgnLg9Yeu1vXJ22yV2IyRn_WZlf56j1-BOieIZ3lSg3Vj-tfiyrrpoAHmGX9SbIxxnjXn-nOe78ACxlOskKxnQDQnmTvVdSJowFZkZ1hA9oz2SunlMqn7-KQWaq8wxQvaF7asvzVSXNa0XhNYv8GVvhIQMOs1GUPtCTaoJVCEytQl8oMKmcxvB7kQjOO6d4uLTtqH2qqXBpVrAoVZO6gtFd6rVLfm_vF3Zr-7sHhyWq5XDg3JcxMKLI0zvNS6GDoHCiSmHcBjWXKgcf8pGAPYnInmYlfsPZT96brVuYtqKyzUZEZxtsEPWZcgCpZvbhAgVvwHcqBoYhVJcJSNJKWQxVwlbqE-dYZRnzGFRSjwQ2rOj9IuekZeYmMxHUcLBPVjaiy45_ZeEIR4nWuBSpQKCGpoN8jHSOVOGyBbk2kMm7PFssQfm4wVCUopimbCzlPTB7TSkGebNFvPnI-4yyO_-PIssMQejhzCOrHhBFF1oUHo-gzNiGDOjIJCB1QVfS5aMASZDZL6H46hJGrDc42MDl3t-5IBlnn4cOeEKYRrwyBXnc1xakgJXT9myJwnNW-pRNZKJLA8LbCLNI7YJn3tqznehNq5p3tsLsLxyXqjsjUW9wVQk5azEJJgJJVk8GR05SawVSSRb6FWpwoW2Ajk5WaTTtPwzsrT8_CydQxyLIS2isMpCQHljsbacEZ-JpxIGdWXqGuo8t4A83lhWGX7ydiM_huRssa5skXwptmqHsTbMUCknCmhhOjtUJ2pszhCrMcQbU_1My7VK1tejOOPMoXgqYaykbZI_VlKXpZMVlL1udinpNZvdh7v7P39tuaifeNW7mFf4uRVexrnFzHDj8jjP43yN4zz1Eey6R_tEexx_9vv8zhiOz_JnLSkABYL9pOPzz3lPXtn7xa_gKk8BtfA1XOXJr-_fmIe71f39nJmeccaeiIlppWVv-j4-VW7BmnlHnHcKeUecx3ke52sS5-pLXH2CKVL-uQuILyP8gxrSmOsMNW76hIR_grHRRwNDaa_t7pW9wab8UvW073xxgXxDRj8E3ou9hq2-nehX8g9p8g9p8g9pXuA1qmkT-ccIeTnNy-mat4358SiP8_x4lMd5HufrcTyCf4__AQ"> </div> </form> </div> <!--<![endif]--> <!--
+		%%[
+			IF @unmappedFields == TRUE THEN
+			RaiseError("Please ensure that you have mapped all inputs to data attributes within the Interactive Email Form block.")
+			ENDIF
+		]%%
+		Thank you for using Interactive Email
+		233.233.0/1632479031970
+		--> <div style="display:none" aria-hidden="true"> <a href="https://submit.mc-content.com" alias="formSubmit" style="display:none" target="_blank">Interactive Email Form Submit</a> </div> </div></td></tr></table>

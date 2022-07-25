@@ -1,0 +1,28 @@
+%%[
+var @skey, @locations, @numRowsToReturn
+set @skey = AttributeValue("SubscriberKey")
+set @numRowsToReturn = 0
+
+set @locations = LookupOrderedRows("locations",@numRowsToReturn," Location desc", "SubscriberKey",@skey)
+
+if RowCount(@locations) > 0 then
+ for @i = 1 to RowCount(@locations) do
+ 
+ var @Location, @Address, @City, @PostalCode
+ 
+ set @Location = row(@locations, @i)
+ set @Name = field(@location,"Location")
+ set @Address = field(@location,"Address")
+ set @City = field(@location,"City")
+ Set @PostalCode = field(@location,"PostalCode")
+ 
+ next @1
+ set @varerror = "I found something"
+ 
+else
+ set @varerror = "I found nothing"
+endif
+
+
+
+]%%

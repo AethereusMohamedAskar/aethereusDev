@@ -1,0 +1,20 @@
+{
+    "name": "Ashwini_BackupDEAutomation",
+    "description": "",
+    "key": "824f8ff0-7867-39c7-7e6b-655d7314b3d1",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Ashwini_BackupDE",
+                    "r__type": "script"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Ashwini"
+}

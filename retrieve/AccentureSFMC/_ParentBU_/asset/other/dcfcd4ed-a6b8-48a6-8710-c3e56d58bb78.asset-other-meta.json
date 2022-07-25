@@ -1,0 +1,620 @@
+{
+    "customerKey": "dcfcd4ed-a6b8-48a6-8710-c3e56d58bb78",
+    "assetType": {
+        "name": "smartcaptureblock",
+        "displayName": "Smart Capture"
+    },
+    "fileProperties": {
+        "fileName": "Salesforce Marketing Cloud"
+    },
+    "name": "Salesforce Marketing Cloud",
+    "description": "Task",
+    "owner": {
+        "email": "kavitha.shinde@aethereus.com",
+        "name": "Kavitha"
+    },
+    "createdDate": "2022-02-14T04:37:15.197-06:00",
+    "createdBy": {
+        "email": "kavitha.shinde@aethereus.com",
+        "name": "Kavitha"
+    },
+    "modifiedDate": "2022-02-14T04:37:15.197-06:00",
+    "modifiedBy": {
+        "email": "kavitha.shinde@aethereus.com",
+        "name": "Kavitha"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div style=\"background-color: #f3f2f2; border-radius: 8px; margin: 20px auto; height: 58px; width: 58px;\"><img src=\"data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNS4zNSAyNi4xNCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiM3MDZlNmF9LmNscy0ye2ZpbGw6bm9uZTtzdHJva2U6IzcwNmU2YTtzdHJva2UtbWl0ZXJsaW1pdDoxMDtzdHJva2Utd2lkdGg6MS41cHh9PC9zdHlsZT48L2RlZnM+PGNpcmNsZSBjbGFzcz0iY2xzLTEiIGN4PSI2LjA3IiBjeT0iNi4wNyIgcj0iMy4wOCIvPjxjaXJjbGUgY2xhc3M9ImNscy0yIiBjeD0iNi4wNyIgY3k9IjIwLjA3IiByPSI1LjMyIi8+PGNpcmNsZSBjbGFzcz0iY2xzLTIiIGN4PSI2LjA3IiBjeT0iNi4wNyIgcj0iNS4zMiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTE1Ljk5IDYuMzZ2MTQuNjFsMy41My0xLjMgMS43NCA0LjcyIDEuMjEtLjQ0IDEuMjEtLjQ1LTEuNzMtNC43MiAzLjQtMS4yNS05LjM2LTExLjE3eiIvPjwvc3ZnPg==\" style=\"display: block;  height: 24px; padding: 17px; width: 24px;\"></div></td></tr></table>",
+    "meta": {
+        "options": {
+            "attributesSlotKey": "kbxq3apc60r",
+            "smartCaptureGearID": "ify9cobwgfn",
+            "buttonText": "Submit",
+            "buttonStyling": {
+                "background-color": "#009DDC",
+                "border-color": "#009DDC",
+                "border-radius": "3px",
+                "border-style": "solid",
+                "-webkit-border-radius": "3px",
+                "-moz-border-radius": "3px",
+                "color": "#FFFFFF",
+                "font-family": "Arial, Helvetica, sans-serif",
+                "font-size": "16px",
+                "line-height": "normal",
+                "padding": "10px"
+            },
+            "buttonWrapperStyling": {
+                "padding-bottom": "10px",
+                "text-align": "center"
+            },
+            "confirmationMessage": "Thank you for your submission.",
+            "fieldFontStyling": {
+                "color": "#000000",
+                "font-family": "Arial, Helvetica, sans-serif",
+                "font-size": "16px",
+                "line-height": "inherit",
+                "margin-bottom": "3px",
+                "vertical-align": "middle"
+            },
+            "fieldStyling": {
+                "width": "200px"
+            },
+            "formStyling": {
+                "background-color": "transparent",
+                "margin-top": "0px",
+                "margin-right": "0px",
+                "margin-bottom": "0px",
+                "margin-left": "0px",
+                "padding-top": "0px",
+                "padding-right": "0px",
+                "padding-bottom": "0px",
+                "padding-left": "0px",
+                "text-align": "left"
+            },
+            "name": "Salesforce Marketing Cloud",
+            "useInJourney": false,
+            "customObjectFields": [
+                {
+                    "name": "Email",
+                    "id": "01073acf-1151-4088-952b-66b1ef6880f3",
+                    "type": "EmailAddress",
+                    "masktype": "None",
+                    "storagetype": "Plain",
+                    "length": 254,
+                    "description": "",
+                    "ordinal": 0,
+                    "isNullable": true,
+                    "isPrimaryKey": false,
+                    "isTemplateField": false,
+                    "isInheritable": false,
+                    "isOverridable": false,
+                    "isHidden": false,
+                    "isReadOnly": false,
+                    "mustOverride": false,
+                    "fieldId": "01073acf-1151-4088-952b-66b1ef6880f3",
+                    "label": "Email",
+                    "isRequired": false,
+                    "isFormRequired": false,
+                    "restrictedValues": null,
+                    "isSystemHidden": false,
+                    "_active": true,
+                    "_visible": true,
+                    "_hiddenAttribute": false,
+                    "validationMessage": "Please fill out this field.",
+                    "_key": "bb0nll69meb"
+                },
+                {
+                    "name": "Subscriber Key",
+                    "id": "e6ba4195-837f-47cc-9caa-4a57c4f99880",
+                    "type": "Text",
+                    "masktype": "None",
+                    "storagetype": "Plain",
+                    "length": 50,
+                    "description": "",
+                    "ordinal": 1,
+                    "isNullable": false,
+                    "isPrimaryKey": true,
+                    "isTemplateField": false,
+                    "isInheritable": false,
+                    "isOverridable": false,
+                    "isHidden": false,
+                    "isReadOnly": false,
+                    "mustOverride": false,
+                    "fieldId": "e6ba4195-837f-47cc-9caa-4a57c4f99880",
+                    "label": "Subscriber Key",
+                    "isRequired": true,
+                    "isFormRequired": true,
+                    "restrictedValues": null,
+                    "isSystemHidden": false,
+                    "_active": true,
+                    "_visible": true,
+                    "_hiddenAttribute": false,
+                    "validationMessage": "Please fill out this field.",
+                    "_key": "sy0p7j5otuf"
+                },
+                {
+                    "name": "First Name",
+                    "id": "9144f8a0-284c-4f3e-84cb-d48eb48388f8",
+                    "type": "Text",
+                    "masktype": "None",
+                    "storagetype": "Plain",
+                    "length": 50,
+                    "description": "",
+                    "ordinal": 2,
+                    "isNullable": true,
+                    "isPrimaryKey": false,
+                    "isTemplateField": false,
+                    "isInheritable": false,
+                    "isOverridable": false,
+                    "isHidden": false,
+                    "isReadOnly": false,
+                    "mustOverride": false,
+                    "fieldId": "9144f8a0-284c-4f3e-84cb-d48eb48388f8",
+                    "label": "First Name",
+                    "isRequired": false,
+                    "isFormRequired": false,
+                    "restrictedValues": null,
+                    "isSystemHidden": false,
+                    "_active": true,
+                    "_visible": true,
+                    "_hiddenAttribute": false,
+                    "validationMessage": "Please fill out this field.",
+                    "_key": "e31f6zlh4r5"
+                },
+                {
+                    "name": "Last Name",
+                    "id": "fb8efd35-9f07-4ed2-bf9e-15aa43b56aec",
+                    "type": "Text",
+                    "masktype": "None",
+                    "storagetype": "Plain",
+                    "length": 50,
+                    "description": "",
+                    "ordinal": 3,
+                    "isNullable": true,
+                    "isPrimaryKey": false,
+                    "isTemplateField": false,
+                    "isInheritable": false,
+                    "isOverridable": false,
+                    "isHidden": false,
+                    "isReadOnly": false,
+                    "mustOverride": false,
+                    "fieldId": "fb8efd35-9f07-4ed2-bf9e-15aa43b56aec",
+                    "label": "Last Name",
+                    "isRequired": false,
+                    "isFormRequired": false,
+                    "restrictedValues": null,
+                    "isSystemHidden": false,
+                    "_active": true,
+                    "_visible": true,
+                    "_hiddenAttribute": false,
+                    "validationMessage": "Please fill out this field.",
+                    "_key": "yet8090cok7"
+                },
+                {
+                    "name": "Phone",
+                    "id": "f14bbdd8-e48a-41e9-b2da-29e5c15218cc",
+                    "type": "Number",
+                    "masktype": "None",
+                    "storagetype": "Plain",
+                    "description": "",
+                    "ordinal": 4,
+                    "isNullable": true,
+                    "isPrimaryKey": false,
+                    "isTemplateField": false,
+                    "isInheritable": true,
+                    "isOverridable": true,
+                    "isHidden": false,
+                    "isReadOnly": false,
+                    "mustOverride": false,
+                    "fieldId": "f14bbdd8-e48a-41e9-b2da-29e5c15218cc",
+                    "label": "Phone",
+                    "isRequired": false,
+                    "isFormRequired": false,
+                    "restrictedValues": null,
+                    "isSystemHidden": false,
+                    "_active": true,
+                    "_visible": true,
+                    "_hiddenAttribute": false,
+                    "validationMessage": "Please fill out this field.",
+                    "_key": "whjrsa9r9c9"
+                },
+                {
+                    "name": "City",
+                    "id": "f622387d-a0c2-400d-9048-ceff0344e15b",
+                    "type": "Text",
+                    "masktype": "None",
+                    "storagetype": "Plain",
+                    "length": 50,
+                    "description": "",
+                    "ordinal": 5,
+                    "isNullable": true,
+                    "isPrimaryKey": false,
+                    "isTemplateField": false,
+                    "isInheritable": true,
+                    "isOverridable": true,
+                    "isHidden": false,
+                    "isReadOnly": false,
+                    "mustOverride": false,
+                    "fieldId": "f622387d-a0c2-400d-9048-ceff0344e15b",
+                    "label": "City",
+                    "isRequired": false,
+                    "isFormRequired": false,
+                    "restrictedValues": null,
+                    "isSystemHidden": false,
+                    "_active": true,
+                    "_visible": true,
+                    "_hiddenAttribute": false,
+                    "validationMessage": "Please fill out this field.",
+                    "_key": "kpez98n090i"
+                },
+                {
+                    "name": "Country",
+                    "id": "f65c5473-3d87-4394-bad2-c712a7cf7a39",
+                    "type": "Text",
+                    "masktype": "None",
+                    "storagetype": "Plain",
+                    "length": 50,
+                    "description": "",
+                    "ordinal": 6,
+                    "isNullable": true,
+                    "isPrimaryKey": false,
+                    "isTemplateField": false,
+                    "isInheritable": true,
+                    "isOverridable": true,
+                    "isHidden": false,
+                    "isReadOnly": false,
+                    "mustOverride": false,
+                    "fieldId": "f65c5473-3d87-4394-bad2-c712a7cf7a39",
+                    "label": "Country",
+                    "isRequired": false,
+                    "isFormRequired": false,
+                    "restrictedValues": null,
+                    "isSystemHidden": false,
+                    "_active": true,
+                    "_visible": true,
+                    "_hiddenAttribute": false,
+                    "validationMessage": "Please fill out this field.",
+                    "_key": "4jei5eq7gux"
+                }
+            ],
+            "dataTarget": "dataExtension",
+            "listid": "bf05d6dd-538d-ec11-ba29-d4f5ef3de3d5",
+            "listName": "POC 1",
+            "listKey": "1E4500D1-ED2D-42C2-B1B0-3D98A4654D59",
+            "noAddingFields": false,
+            "hasSendableDataExtension": false,
+            "onSubmitGotoUrlScheme": "http://",
+            "onSubmitGotoUrlType": 2,
+            "onSubmitShouldGotoUrl": false
+        }
+    },
+    "availableViews": [],
+    "slots": {
+        "kbxq3apc60r": {
+            "content": "<div data-type=\"block\" data-key=\"bb0nll69meb\"></div><div data-type=\"block\" data-key=\"sy0p7j5otuf\"></div><div data-type=\"block\" data-key=\"e31f6zlh4r5\"></div><div data-type=\"block\" data-key=\"yet8090cok7\"></div><div data-type=\"block\" data-key=\"whjrsa9r9c9\"></div><div data-type=\"block\" data-key=\"kpez98n090i\"></div><div data-type=\"block\" data-key=\"4jei5eq7gux\"></div>",
+            "design": "<p style=\"font-family: arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+            "blocks": {
+                "4jei5eq7gux": {
+                    "assetType": {
+                        "id": 216,
+                        "name": "smartcaptureformfieldblock"
+                    },
+                    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Country\">Country</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"Country\" data-field-type=\"Text\"></div>\n</div></td></tr></table>",
+                    "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Country\">Country</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"Country\" data-field-type=\"Text\"></div>\n</div></td></tr></table>",
+                    "meta": {
+                        "wrapperStyles": {
+                            "mobile": {
+                                "visible": true
+                            },
+                            "styling": {}
+                        },
+                        "options": {
+                            "name": "Country",
+                            "id": "f65c5473-3d87-4394-bad2-c712a7cf7a39",
+                            "type": "Text",
+                            "masktype": "None",
+                            "storagetype": "Plain",
+                            "length": 50,
+                            "description": "",
+                            "ordinal": 6,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isTemplateField": false,
+                            "isInheritable": true,
+                            "isOverridable": true,
+                            "isHidden": false,
+                            "isReadOnly": false,
+                            "mustOverride": false,
+                            "fieldId": "f65c5473-3d87-4394-bad2-c712a7cf7a39",
+                            "label": "Country",
+                            "isRequired": false,
+                            "isFormRequired": false,
+                            "restrictedValues": null,
+                            "isSystemHidden": false,
+                            "_active": true,
+                            "_visible": true,
+                            "_hiddenAttribute": false,
+                            "validationMessage": "Please fill out this field."
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "bb0nll69meb": {
+                    "assetType": {
+                        "id": 216,
+                        "name": "smartcaptureformfieldblock"
+                    },
+                    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Email\">Email</label></div>\n<div class=\"sc-formfield-input\"><input type=\"email\" name=\"Email\" data-field-type=\"EmailAddress\" data-validation=\"email\"></div>\n</div></td></tr></table>",
+                    "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Email\">Email</label></div>\n<div class=\"sc-formfield-input\"><input type=\"email\" name=\"Email\" data-field-type=\"EmailAddress\" data-validation=\"email\"></div>\n</div></td></tr></table>",
+                    "meta": {
+                        "wrapperStyles": {
+                            "mobile": {
+                                "visible": true
+                            },
+                            "styling": {}
+                        },
+                        "options": {
+                            "name": "Email",
+                            "id": "01073acf-1151-4088-952b-66b1ef6880f3",
+                            "type": "EmailAddress",
+                            "masktype": "None",
+                            "storagetype": "Plain",
+                            "length": 254,
+                            "description": "",
+                            "ordinal": 0,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isTemplateField": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isHidden": false,
+                            "isReadOnly": false,
+                            "mustOverride": false,
+                            "fieldId": "01073acf-1151-4088-952b-66b1ef6880f3",
+                            "label": "Email",
+                            "isRequired": false,
+                            "isFormRequired": false,
+                            "restrictedValues": null,
+                            "isSystemHidden": false,
+                            "_active": true,
+                            "_visible": true,
+                            "_hiddenAttribute": false,
+                            "validationMessage": "Please fill out this field."
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "sy0p7j5otuf": {
+                    "assetType": {
+                        "id": 216,
+                        "name": "smartcaptureformfieldblock"
+                    },
+                    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Subscriber Key\">Subscriber Key *</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"Subscriber Key\" data-field-type=\"Text\" required=\"required\" data-validation-message=\"Please fill out this field.\"></div>\n</div></td></tr></table>",
+                    "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Subscriber Key\">Subscriber Key *</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"Subscriber Key\" data-field-type=\"Text\" required=\"required\" data-validation-message=\"Please fill out this field.\"></div>\n</div></td></tr></table>",
+                    "meta": {
+                        "wrapperStyles": {
+                            "mobile": {
+                                "visible": true
+                            },
+                            "styling": {}
+                        },
+                        "options": {
+                            "name": "Subscriber Key",
+                            "id": "e6ba4195-837f-47cc-9caa-4a57c4f99880",
+                            "type": "Text",
+                            "masktype": "None",
+                            "storagetype": "Plain",
+                            "length": 50,
+                            "description": "",
+                            "ordinal": 1,
+                            "isNullable": false,
+                            "isPrimaryKey": true,
+                            "isTemplateField": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isHidden": false,
+                            "isReadOnly": false,
+                            "mustOverride": false,
+                            "fieldId": "e6ba4195-837f-47cc-9caa-4a57c4f99880",
+                            "label": "Subscriber Key",
+                            "isRequired": true,
+                            "isFormRequired": true,
+                            "restrictedValues": null,
+                            "isSystemHidden": false,
+                            "_active": true,
+                            "_visible": true,
+                            "_hiddenAttribute": false,
+                            "validationMessage": "Please fill out this field."
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "e31f6zlh4r5": {
+                    "assetType": {
+                        "id": 216,
+                        "name": "smartcaptureformfieldblock"
+                    },
+                    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"First Name\">First Name</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"First Name\" data-field-type=\"Text\"></div>\n</div></td></tr></table>",
+                    "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"First Name\">First Name</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"First Name\" data-field-type=\"Text\"></div>\n</div></td></tr></table>",
+                    "meta": {
+                        "wrapperStyles": {
+                            "mobile": {
+                                "visible": true
+                            },
+                            "styling": {}
+                        },
+                        "options": {
+                            "name": "First Name",
+                            "id": "9144f8a0-284c-4f3e-84cb-d48eb48388f8",
+                            "type": "Text",
+                            "masktype": "None",
+                            "storagetype": "Plain",
+                            "length": 50,
+                            "description": "",
+                            "ordinal": 2,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isTemplateField": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isHidden": false,
+                            "isReadOnly": false,
+                            "mustOverride": false,
+                            "fieldId": "9144f8a0-284c-4f3e-84cb-d48eb48388f8",
+                            "label": "First Name",
+                            "isRequired": false,
+                            "isFormRequired": false,
+                            "restrictedValues": null,
+                            "isSystemHidden": false,
+                            "_active": true,
+                            "_visible": true,
+                            "_hiddenAttribute": false,
+                            "validationMessage": "Please fill out this field."
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "yet8090cok7": {
+                    "assetType": {
+                        "id": 216,
+                        "name": "smartcaptureformfieldblock"
+                    },
+                    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Last Name\">Last Name</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"Last Name\" data-field-type=\"Text\"></div>\n</div></td></tr></table>",
+                    "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Last Name\">Last Name</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"Last Name\" data-field-type=\"Text\"></div>\n</div></td></tr></table>",
+                    "meta": {
+                        "wrapperStyles": {
+                            "mobile": {
+                                "visible": true
+                            },
+                            "styling": {}
+                        },
+                        "options": {
+                            "name": "Last Name",
+                            "id": "fb8efd35-9f07-4ed2-bf9e-15aa43b56aec",
+                            "type": "Text",
+                            "masktype": "None",
+                            "storagetype": "Plain",
+                            "length": 50,
+                            "description": "",
+                            "ordinal": 3,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isTemplateField": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isHidden": false,
+                            "isReadOnly": false,
+                            "mustOverride": false,
+                            "fieldId": "fb8efd35-9f07-4ed2-bf9e-15aa43b56aec",
+                            "label": "Last Name",
+                            "isRequired": false,
+                            "isFormRequired": false,
+                            "restrictedValues": null,
+                            "isSystemHidden": false,
+                            "_active": true,
+                            "_visible": true,
+                            "_hiddenAttribute": false,
+                            "validationMessage": "Please fill out this field."
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "whjrsa9r9c9": {
+                    "assetType": {
+                        "id": 216,
+                        "name": "smartcaptureformfieldblock"
+                    },
+                    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Phone\">Phone</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"Phone\" data-field-type=\"Number\"></div>\n</div></td></tr></table>",
+                    "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Phone\">Phone</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"Phone\" data-field-type=\"Number\"></div>\n</div></td></tr></table>",
+                    "meta": {
+                        "wrapperStyles": {
+                            "mobile": {
+                                "visible": true
+                            },
+                            "styling": {}
+                        },
+                        "options": {
+                            "name": "Phone",
+                            "id": "f14bbdd8-e48a-41e9-b2da-29e5c15218cc",
+                            "type": "Number",
+                            "masktype": "None",
+                            "storagetype": "Plain",
+                            "description": "",
+                            "ordinal": 4,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isTemplateField": false,
+                            "isInheritable": true,
+                            "isOverridable": true,
+                            "isHidden": false,
+                            "isReadOnly": false,
+                            "mustOverride": false,
+                            "fieldId": "f14bbdd8-e48a-41e9-b2da-29e5c15218cc",
+                            "label": "Phone",
+                            "isRequired": false,
+                            "isFormRequired": false,
+                            "restrictedValues": null,
+                            "isSystemHidden": false,
+                            "_active": true,
+                            "_visible": true,
+                            "_hiddenAttribute": false,
+                            "validationMessage": "Please fill out this field."
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "kpez98n090i": {
+                    "assetType": {
+                        "id": 216,
+                        "name": "smartcaptureformfieldblock"
+                    },
+                    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"City\">City</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"City\" data-field-type=\"Text\"></div>\n</div></td></tr></table>",
+                    "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"City\">City</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"City\" data-field-type=\"Text\"></div>\n</div></td></tr></table>",
+                    "meta": {
+                        "wrapperStyles": {
+                            "mobile": {
+                                "visible": true
+                            },
+                            "styling": {}
+                        },
+                        "options": {
+                            "name": "City",
+                            "id": "f622387d-a0c2-400d-9048-ceff0344e15b",
+                            "type": "Text",
+                            "masktype": "None",
+                            "storagetype": "Plain",
+                            "length": 50,
+                            "description": "",
+                            "ordinal": 5,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isTemplateField": false,
+                            "isInheritable": true,
+                            "isOverridable": true,
+                            "isHidden": false,
+                            "isReadOnly": false,
+                            "mustOverride": false,
+                            "fieldId": "f622387d-a0c2-400d-9048-ceff0344e15b",
+                            "label": "City",
+                            "isRequired": false,
+                            "isFormRequired": false,
+                            "restrictedValues": null,
+                            "isSystemHidden": false,
+                            "_active": true,
+                            "_visible": true,
+                            "_hiddenAttribute": false,
+                            "validationMessage": "Please fill out this field."
+                        }
+                    },
+                    "modelVersion": 2
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

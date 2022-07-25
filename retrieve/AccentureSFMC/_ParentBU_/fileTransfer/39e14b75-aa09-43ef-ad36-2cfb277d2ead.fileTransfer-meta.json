@@ -1,0 +1,16 @@
+{
+    "name": "rahul_zip_transfer.zip",
+    "customerKey": "39e14b75-aa09-43ef-ad36-2cfb277d2ead",
+    "createdDate": "2022-05-16T19:38:58.367",
+    "modifiedDate": "2022-05-17T23:52:19.097",
+    "fileSpec": "de_f1_zip16may.zip",
+    "isEncrypted": false,
+    "isCompressed": true,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": false,
+    "isPgp": false,
+    "isFileSpecLocalized": true,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

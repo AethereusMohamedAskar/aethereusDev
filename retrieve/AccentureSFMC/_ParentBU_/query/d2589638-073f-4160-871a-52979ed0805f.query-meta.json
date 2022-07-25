@@ -1,0 +1,11 @@
+{
+    "name": "GMAIL_Update_Negative_Values",
+    "key": "d2589638-073f-4160-871a-52979ed0805f",
+    "description": "",
+    "targetKey": "1A4D25F3-7463-4F7A-994F-7FA664D66596",
+    "createdDate": "2020-04-09T00:13:42.223",
+    "modifiedDate": "2020-04-09T00:13:42.223",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query/Sai Prasad UC"
+}

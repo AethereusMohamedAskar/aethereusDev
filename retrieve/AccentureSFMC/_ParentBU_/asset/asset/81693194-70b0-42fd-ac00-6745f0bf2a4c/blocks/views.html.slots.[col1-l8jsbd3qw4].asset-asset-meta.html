@@ -1,0 +1,34 @@
+<script runat="server">
+    Platform.Load('Core', '1');
+
+    var prox = new Script.Util.WSProxy();
+
+    try {
+        var queryStr = '';
+        queryStr += 'SELECT DISTINCT';
+        queryStr += '\nEmailAddress AS [Email Address]';
+        queryStr += '\nFROM _Sent s';
+        queryStr += '\nLEFT JOIN _Subscribers sub'; // add ENT. prefix if using in child BU
+        queryStr += '\n   ON s.SubscriberKey = sub.SubscriberKey';
+        queryStr += '\nLEFT JOIN _Open o';
+        queryStr += '\n   ON s.SubscriberKey = o.SubscriberKey';
+        queryStr += '\nWHERE o.SubscriberKey IS NULL';
+
+        var queryDef = {
+            CustomerKey: 'ASSSJS',
+            ObjectID: '9c68a938-0abb-494e-9c39-3ca4f7b41d53',
+            QueryText: queryStr,
+            TargetType: 'DE',
+            TargetUpdateType: 'Update',
+            DataExtensionTarget: {
+                CustomerKey: 'InactiveSubscribers',
+                Name: 'Inactive Subscribers'
+            }
+        };
+        var updateQuery = prox.updateItem('QueryDefinition', queryDef);
+
+        Write(Stringify(updateQuery));
+    } catch (err) {
+        Write(Stringify(err));
+    }
+</script>

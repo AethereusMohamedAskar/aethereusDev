@@ -1,0 +1,20 @@
+{
+    "name": "Anu_Demo_script30dec",
+    "description": "",
+    "key": "6d76b7b9-7ba7-7e92-f831-4f151ccadd0f",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Anu_30dec_Script",
+                    "r__type": "script"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Anushree"
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Kanika_Unzip DE file",
+    "customerKey": "af6e9a93-0e28-43a0-968c-4b4ef27a907a",
+    "createdDate": "2021-08-10T23:10:55.173",
+    "modifiedDate": "2021-08-10T23:10:55.173",
+    "fileSpec": "Kanika_Data Import.zip",
+    "isEncrypted": false,
+    "isCompressed": true,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": false,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

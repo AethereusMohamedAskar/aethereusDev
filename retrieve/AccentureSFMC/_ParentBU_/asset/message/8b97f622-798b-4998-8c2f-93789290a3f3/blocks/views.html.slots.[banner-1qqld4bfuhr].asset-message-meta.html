@@ -1,0 +1,61 @@
+%%[
+
+var @FirstName,@FirstNameFB,
+@CounsellorName,@CounsellortNameFB,
+@ProgramName,@ProgramNameFB,
+@SubKey, @Rowset, @Row
+
+set @SubKey=[SubscriberKey]
+set @Rowset= LookupRows('ampscript POC 3','SubscriberKey',@SubKey)
+
+set @Row=Row(@Rowset,1)
+set @FirstName= Field(@Row,'FirstName')
+set @CounsellorName= Field(@Row,'CounsellorName')
+set @ProgramName= Field(@Row,'ProgramName')
+
+
+set @FirstNameFB=IIF(Empty(@FirstName),'dear student',
+Concat(' ',Propercase(@FirstName)))
+set @CounsellorNameFB=IIF(Empty(@CounsellorName),'IMS Team',
+Concat(' ',Propercase(@CounsellorName)))
+set @ProgramNameFB=IIF(Empty(@ProgramName),'MBA preparation',
+Concat(' ',@ProgramName))
+
+/*Let's write some send time data into our data extension for re-engagement and logging purpose*/
+
+var @EmailAddress,@MessageType, @JobID,@SendTime
+
+set @EmailAddress= emailaddr
+set @JobID=jobid
+set @MessageType= 'Onboarding'
+set @SendTime= NOW()
+
+/*Insert data into DE*/
+
+InsertDE('Insert DE', 'SubscriberKey', @SubKey, 'EmailAddress', @EmailAddress,'JobID', @JobID,'MessageType',@MessageType,'ProgramName',@ProgramName,'SendTime',@SendTime)
+
+
+/*Upsert data into DE*/
+
+UpsertDE('Upsert DE', 1,'SubscriberKey', @SubKey, 'MessageType',@MessageType,'ProgramName',@ProgramName,'LatestSendTime',@SendTime)
+
+
+/*We should also assign pre-generated coupon code to each recipient, so that it is only used once*/
+
+var @DefaultCoupon, @CouponCode
+
+/*Redeem a coupon code from the Coupon DE*/
+
+set @DefaultCoupon="Save10"
+
+/*Use if else statement so that you do not redeem coupon code in the preview*/
+
+IF_messagecontext=="PREVIEW" THEN set @CouponCode="TEST COUPON CODE TEST"
+ELSE
+
+/*Include the send context field values for the redeem coupon*/
+
+set @CouponCode= ClaimRowValue('Ampscript_Coupon_Code_DE', 'CouponCode', 'IsClaimed',@DefaultCoupon,'SubscriberKey',@SubKey)
+ENDIF
+]%%
+

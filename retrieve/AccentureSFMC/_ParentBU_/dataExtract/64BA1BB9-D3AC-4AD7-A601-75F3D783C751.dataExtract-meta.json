@@ -1,0 +1,13 @@
+{
+    "name": "Data Extract",
+    "key": "64BA1BB9-D3AC-4AD7-A601-75F3D783C751",
+    "fileSpec": "Customerdata",
+    "createdDate": "2020-08-18T04:29:05.75",
+    "modifiedDate": "2020-08-18T04:33:57.567",
+    "createdBy": 713269675,
+    "modifiedBy": 713269675,
+    "intervalType": 0,
+    "description": "",
+    "dataFields": [],
+    "r__dataExtractType_name": "Contacts Without Channel Addresses"
+}

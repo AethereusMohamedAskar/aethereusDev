@@ -1,0 +1,11 @@
+{
+    "name": "Others_Dynamic_Query",
+    "key": "17cab0e0-cca4-463a-8dfd-d6362eef67ff",
+    "description": "",
+    "targetKey": "C1221D1F-5CB2-4DA3-9566-947BF760935A",
+    "createdDate": "2020-04-09T00:33:58.867",
+    "modifiedDate": "2020-04-09T00:33:58.867",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query/Sai Prasad UC"
+}

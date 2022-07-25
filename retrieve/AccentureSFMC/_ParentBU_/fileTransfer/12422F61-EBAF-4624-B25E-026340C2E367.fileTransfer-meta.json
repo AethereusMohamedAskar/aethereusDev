@@ -1,0 +1,16 @@
+{
+    "name": "Anushree_Data_Filter",
+    "customerKey": "12422F61-EBAF-4624-B25E-026340C2E367",
+    "createdDate": "2021-08-12T06:49:48.12",
+    "modifiedDate": "2021-08-12T07:09:04.44",
+    "fileSpec": "Anushree_Data_Filter%%Year%%.zip",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "Training 2021"
+}

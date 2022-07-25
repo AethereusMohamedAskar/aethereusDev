@@ -1,0 +1,20 @@
+{
+    "name": "Anu_Script30dec",
+    "description": "",
+    "key": "f1c9401d-7281-f17f-0879-7cb994d03603",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Anu_Demo_Script_30dec",
+                    "r__type": "script"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations"
+}

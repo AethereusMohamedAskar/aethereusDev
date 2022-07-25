@@ -1,0 +1,39 @@
+{
+    "name": "PJ-Test-DataExtract",
+    "key": "15D0CA3D-2DF7-4BD2-8FE7-F6E44F3AD3B2",
+    "fileSpec": "PJ-Test-DEx%%Year%%%%Month%%%%Day%%",
+    "createdDate": "2021-11-12T01:33:33.897",
+    "modifiedDate": "2021-11-12T01:33:33.897",
+    "createdBy": 713633356,
+    "modifiedBy": 713633356,
+    "intervalType": 0,
+    "description": "",
+    "dataFields": [
+        {
+            "name": "ArchiveFolder",
+            "type": "string",
+            "value": ""
+        },
+        {
+            "name": "DeleteFiles",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "FileFilter",
+            "type": "string",
+            "value": "Promo*return.txt"
+        },
+        {
+            "name": "ImportFolder",
+            "type": "string",
+            "value": "PJ-DataExtract"
+        },
+        {
+            "name": "OutputFolder",
+            "type": "string",
+            "value": "PJ-DataExtract"
+        }
+    ],
+    "r__dataExtractType_name": "Zip"
+}

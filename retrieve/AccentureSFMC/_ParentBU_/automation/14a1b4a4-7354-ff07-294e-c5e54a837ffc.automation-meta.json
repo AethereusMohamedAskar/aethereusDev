@@ -1,0 +1,48 @@
+{
+    "name": "Kanika_ Automation+ Journey Builder",
+    "description": "",
+    "key": "14a1b4a4-7354-ff07-294e-c5e54a837ffc",
+    "type": "triggered",
+    "status": "AwaitingTrigger",
+    "fileTrigger": {
+        "queueFiles": true,
+        "isPublished": true,
+        "fileNamePatternTypeId": 1,
+        "fileNamingPattern": "Automate",
+        "folderLocationText": "import\\",
+        "triggerActive": true
+    },
+    "steps": [
+        {
+            "name": "",
+            "description": "",
+            "activities": [
+                {
+                    "name": "Kanika_Import Data",
+                    "r__type": "importFile"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "activities": [
+                {
+                    "name": "Kanika_Filter DE Name",
+                    "r__type": "fireEvent"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "activities": [
+                {
+                    "name": "New Journey - August 13 2021 7.33 AM",
+                    "r__type": "journeyEntry"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations"
+}

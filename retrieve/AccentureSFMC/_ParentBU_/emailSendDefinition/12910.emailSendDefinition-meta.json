@@ -1,0 +1,48 @@
+{
+    "CreatedDate": "2021-08-14T03:13:24.897",
+    "ModifiedDate": "2021-08-14T03:13:24.897",
+    "CustomerKey": 12910,
+    "Name": "Anushree_First_Campaign",
+    "Description": "",
+    "SendClassification": {
+        "CustomerKey": "Default Commercial"
+    },
+    "SenderProfile": {
+        "CustomerKey": "Default"
+    },
+    "DeliveryProfile": {
+        "CustomerKey": "Default"
+    },
+    "SuppressTracking": false,
+    "IsSendLogging": true,
+    "SendDefinitionList": [
+        {
+            "SendDefinitionListType": "SourceList",
+            "CustomObjectID": "",
+            "DataSourceTypeID": "FilterDefinition",
+            "FilterDefinition": {
+                "PartnerKey": "",
+                "ObjectID": "0bb89ec5-4a3d-4e51-8f42-2744eb7fd199",
+                "CustomerKey": "33DFC57A-49E8-4964-9A82-55B36411A89B"
+            },
+            "IsTestObject": false,
+            "SalesForceObjectID": "",
+            "Name": "",
+            "r__list_PathName": "my subscribers/All Subscribers"
+        }
+    ],
+    "BccEmail": "",
+    "AutoBccEmail": "",
+    "TestEmailAddr": "",
+    "EmailSubject": "My First Campaign",
+    "DynamicEmailSubject": "My First Campaign",
+    "IsMultipart": true,
+    "IsWrapped": true,
+    "DeduplicateByEmail": true,
+    "ExclusionFilter": "",
+    "Additional": "",
+    "CCEmail": "",
+    "r__folder_Path": "User-Initiated",
+    "r__assetMessage_Name": "Anushree_campaign1",
+    "r__assetMessage_Key": "ebe1124f-7fc3-4c01-b577-39564c6525d8"
+}

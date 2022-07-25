@@ -1,0 +1,11 @@
+{
+    "name": "ConvertedTimeZone_SQL",
+    "key": "cf33e871-c305-4f02-83bf-79f2357d92d7",
+    "description": "",
+    "targetKey": "7DC7A5F7-BCDB-4B88-A69C-FD58D2746315",
+    "createdDate": "2022-06-13T09:55:30.5",
+    "modifiedDate": "2022-06-14T00:05:16.067",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Fractal CTR query1",
+    "key": "e66b8af8-5e2a-4d7c-83e1-aff87956c454",
+    "description": "",
+    "targetKey": "0D3BF27F-474A-4B07-9495-1675BC33792D",
+    "createdDate": "2021-09-30T02:41:47.077",
+    "modifiedDate": "2021-09-30T02:53:11.207",
+    "targetUpdateTypeName": "Append",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

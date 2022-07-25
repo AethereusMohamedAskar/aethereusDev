@@ -1,0 +1,47 @@
+{
+    "customerKey": "6794610e-4ed8-49e1-97f1-cbf49eaa9fae",
+    "assetType": {
+        "name": "freeformblock",
+        "displayName": "Free Form Block"
+    },
+    "fileProperties": {
+        "fileName": "POC 2_Kavitha"
+    },
+    "name": "POC 2_Kavitha Free Form",
+    "description": "Task Free Form",
+    "owner": {
+        "email": "kavitha.shinde@aethereus.com",
+        "name": "Kavitha"
+    },
+    "createdDate": "2022-02-15T01:41:09.553-06:00",
+    "createdBy": {
+        "email": "kavitha.shinde@aethereus.com",
+        "name": "Kavitha"
+    },
+    "modifiedDate": "2022-02-15T02:58:06.747-06:00",
+    "modifiedBy": {
+        "email": "kavitha.shinde@aethereus.com",
+        "name": "Kavitha"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"background-color: transparent; min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding: 11px; \" class=\"stylingblock-content-wrapper camarker-inner\"></td></tr></table>",
+    "meta": {
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true,
+                "columnOrder": "ltr"
+            },
+            "styling": {
+                "background-color": "transparent",
+                "margin": "0px",
+                "padding": "11px"
+            }
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/Kavitha"
+}

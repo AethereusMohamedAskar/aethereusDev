@@ -1,0 +1,626 @@
+{
+    "customerKey": "a957bba0-bd33-491d-a2b1-612b09e43060",
+    "contentType": "text/html",
+    "assetType": {
+        "name": "webpage",
+        "displayName": "Web Page"
+    },
+    "version": 1,
+    "name": "one click unsubscriber ",
+    "owner": {
+        "email": "Vikas.Rathore@aethereus.com",
+        "name": "Vikas Singh Rathore"
+    },
+    "createdDate": "2022-05-16T00:58:45.4-06:00",
+    "createdBy": {
+        "email": "Vikas.Rathore@aethereus.com",
+        "name": "Vikas Singh Rathore"
+    },
+    "modifiedDate": "2022-05-19T00:10:28.78-06:00",
+    "modifiedBy": {
+        "email": "Vikas.Rathore@aethereus.com",
+        "name": "Vikas Singh Rathore"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "meta": {
+        "globalStyles": {
+            "isLocked": false,
+            "body": {
+                "max-width": "1280px"
+            }
+        },
+        "central": {
+            "scModel": null
+        }
+    },
+    "views": {
+        "html": {
+            "thumbnail": {},
+            "meta": {},
+            "slots": {
+                "col1": {
+                    "content": "<div data-type=\"block\" data-key=\"4gj5x916rqm\"></div><div data-type=\"block\" data-key=\"3todfahgd3u\"></div><div data-type=\"block\" data-key=\"kwns676hmh\"></div><div data-type=\"block\" data-key=\"gus6dc9yc3u\"></div><div data-type=\"block\" data-key=\"dmmnk0g4dtg\"></div>",
+                    "design": "<p style=\"font-family:arial;color:#ccc;font-size:11px;text-align:center;vertical-align:middle;font-weight:bold;padding:10px;margin:0;border:#ccc dashed 1px;\">Drop blocks or content here</p>",
+                    "blocks": {
+                        "4gj5x916rqm": {
+                            "assetType": {
+                                "id": 199,
+                                "name": "imageblock"
+                            },
+                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\"><div style=\"width:100%;height:150px;background: url(data:image/png;base64,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) repeat-x 0 0\"></div></div></td></tr></table>",
+                            "meta": {
+                                "wrapperStyles": {
+                                    "mobile": {
+                                        "visible": true
+                                    },
+                                    "styling": {}
+                                }
+                            },
+                            "modelVersion": 2
+                        },
+                        "3todfahgd3u": {
+                            "assetType": {
+                                "id": 196,
+                                "name": "textblock"
+                            },
+                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\" style=\"height:150px; overflow:hidden;\"><p class=\"textblock\" style=\"margin:0; padding:0; overflow:hidden; display:block;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum nunc feugiat porta consectetur. Sed vehicula vel ante suscipit sagittis. Ut metus metus, feugiat ut laoreet blandit, viverra non mi. Phasellus convallis, mauris ac vehicula posuere, ligula magna mattis ipsum, in sollicitudin nibh lacus eget sapien. Mauris ultricies laoreet ex, a viverra leo ornare eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris commodo scelerisque arcu, id semper sem pharetra vel. Sed ut erat auctor lectus pretium blandit gravida vitae enim. Nullam eget ex et enim molestie porttitor. Duis vitae est fringilla, placerat nisi condimentum, tristique purus. Fusce lobortis mauris quis iaculis ultrices. In tempor ligula ac ex tempor rutrum. Pellentesque quis convallis mi.<br><br>Duis mattis, ex a hendrerit ullamcorper, eros massa consectetur elit, vel lobortis justo arcu ac mi magna, blandit sit amet eros id, dapibus cursus justo. Suspendisse mauris odio, aliquet ut ligula in, porta mollis risus. Ut ultrices lectus dolor, sed euismod nulla ultrices ac. Phasellus laoreet ultricies facilisis. Fusce imperdiet maximus ipsum vitae rutrum. Maecenas faucibus vestibulum lorem sit amet varius. Vivamus et ultricies ligula. Mauris semper scelerisque ante id fermentum. Curabitur non odio pellentesque, consectetur odio eu, commodo risus. Mauris egestas elit vel ipsum sagittis fermentum. Cras varius quam ac enim eleifend, eu porttitor odio finibus. Aenean quis finibus dolor. Nunc bibendum aliquam auctor.</p></div></td></tr></table>",
+                            "meta": {
+                                "wrapperStyles": {
+                                    "mobile": {
+                                        "visible": true
+                                    },
+                                    "styling": {}
+                                }
+                            },
+                            "modelVersion": 2
+                        },
+                        "kwns676hmh": {
+                            "assetType": {
+                                "id": 195,
+                                "name": "freeformblock"
+                            },
+                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"background-color: transparent; min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding: 0px; \" class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\" style=\"height:150px; overflow:hidden;\"><p class=\"textblock\" style=\"margin:0; padding:0; overflow:hidden;\"><span style=\"float:left; margin: 0 6px 6px 0; width:50%; height: 75px; overflow:hidden; background: url(data:image/png;base64,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) repeat-x 0 0\"></span>In viverra et dui id fermentum. Nulla tortor libero, aliquam in dictum id, vestibulum nec lacus. Curabitur sit amet accumsan magna. Mauris mollis eu lorem sodales mattis. Mauris et iaculis odio. Suspendisse et metus maximus, dapibus lectus in, placerat est. Praesent sit amet lacinia ligula. Donec non magna dictum, feugiat arcu vel, volutpat augue. In hac habitasse platea dictumst. Nunc eleifend nulla elit, vel condimentum lectus dictum sit amet. Aliquam ante nulla, dapibus ut nisi vitae, convallis malesuada mauris. Duis mattis, ex a hendrerit ullamcorper, eros massa consectetur elit, vel lobortis justo arcu ac mi magna, blandit sit amet eros id, dapibus cursus justo. Suspendisse mauris odio, aliquet ut ligula in, porta mollis risus. Ut ultrices lectus dolor, sed euismod nulla ultrices ac. Phasellus laoreet ultricies facilisis. Fusce imperdiet maximus ipsum vitae rutrum. Maecenas faucibus vestibulum lorem sit amet varius. Vivamus et ultricies ligula. Mauris semper scelerisque ante id fermentum. Curabitur non odio pellentesque, consectetur odio eu, commodo risus. Mauris egestas elit vel ipsum sagittis fermentum. Cras varius quam ac enim eleifend, eu porttitor odio finibus. Aenean quis finibus dolor. Nunc bibendum aliquam auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum nunc feugiat porta consectetur. Sed vehicula vel ante suscipit sagittis. Ut metus metus, feugiat ut laoreet blandit, viverra non mi. Phasellus convallis, mauris ac vehicula posuere, ligula magna mattis ipsum, in sollicitudin nibh lacus eget sapien.</p></div></td></tr></table>",
+                            "meta": {
+                                "wrapperStyles": {
+                                    "mobile": {
+                                        "visible": true,
+                                        "columnOrder": "ltr"
+                                    },
+                                    "styling": {
+                                        "background-color": "transparent",
+                                        "margin": "0px",
+                                        "padding": "0px"
+                                    }
+                                }
+                            },
+                            "modelVersion": 2
+                        },
+                        "gus6dc9yc3u": {
+                            "assetType": {
+                                "id": 215,
+                                "name": "smartcaptureblock"
+                            },
+                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div style=\"background-color: #f3f2f2; border-radius: 8px; margin: 20px auto; height: 58px; width: 58px;\"><img src=\"data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNS4zNSAyNi4xNCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiM3MDZlNmF9LmNscy0ye2ZpbGw6bm9uZTtzdHJva2U6IzcwNmU2YTtzdHJva2UtbWl0ZXJsaW1pdDoxMDtzdHJva2Utd2lkdGg6MS41cHh9PC9zdHlsZT48L2RlZnM+PGNpcmNsZSBjbGFzcz0iY2xzLTEiIGN4PSI2LjA3IiBjeT0iNi4wNyIgcj0iMy4wOCIvPjxjaXJjbGUgY2xhc3M9ImNscy0yIiBjeD0iNi4wNyIgY3k9IjIwLjA3IiByPSI1LjMyIi8+PGNpcmNsZSBjbGFzcz0iY2xzLTIiIGN4PSI2LjA3IiBjeT0iNi4wNyIgcj0iNS4zMiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTE1Ljk5IDYuMzZ2MTQuNjFsMy41My0xLjMgMS43NCA0LjcyIDEuMjEtLjQ0IDEuMjEtLjQ1LTEuNzMtNC43MiAzLjQtMS4yNS05LjM2LTExLjE3eiIvPjwvc3ZnPg==\" style=\"display: block;  height: 24px; padding: 17px; width: 24px;\"></div></td></tr></table>",
+                            "meta": {
+                                "options": {
+                                    "attributesSlotKey": "gye3dz29ymw",
+                                    "smartCaptureGearID": "iogzhadjpnj",
+                                    "buttonText": "Submit",
+                                    "buttonStyling": {
+                                        "background-color": "#009DDC",
+                                        "border-color": "#009DDC",
+                                        "border-radius": "3px",
+                                        "border-style": "solid",
+                                        "-webkit-border-radius": "3px",
+                                        "-moz-border-radius": "3px",
+                                        "color": "#FFFFFF",
+                                        "font-family": "Arial, Helvetica, sans-serif",
+                                        "font-size": "16px",
+                                        "line-height": "normal",
+                                        "padding": "10px"
+                                    },
+                                    "buttonWrapperStyling": {
+                                        "padding-bottom": "10px",
+                                        "text-align": "center"
+                                    },
+                                    "confirmationMessage": "Thank you for your submission.",
+                                    "fieldFontStyling": {
+                                        "color": "#EE1010",
+                                        "font-family": "Arial, Helvetica, sans-serif",
+                                        "font-size": "16px"
+                                    },
+                                    "fieldStyling": {
+                                        "width": "200px"
+                                    },
+                                    "formStyling": {
+                                        "background-color": "#FFFFFF",
+                                        "margin-top": "0px",
+                                        "margin-right": "0px",
+                                        "margin-bottom": "0px",
+                                        "margin-left": "0px",
+                                        "padding-top": "0px",
+                                        "padding-right": "0px",
+                                        "padding-bottom": "0px",
+                                        "padding-left": "0px",
+                                        "text-align": "left",
+                                        "margin": "0px",
+                                        "padding": "0px"
+                                    },
+                                    "name": "User Data",
+                                    "useInJourney": true,
+                                    "customObjectFields": [
+                                        {
+                                            "name": "EmailAddress",
+                                            "id": "1b58ec22-7e7c-4d0c-9101-46b98c90680f",
+                                            "type": "EmailAddress",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "length": 254,
+                                            "description": "",
+                                            "ordinal": 1,
+                                            "isNullable": true,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": true,
+                                            "isInheritable": true,
+                                            "isOverridable": true,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "1b58ec22-7e7c-4d0c-9101-46b98c90680f",
+                                            "label": "EmailAddress",
+                                            "isRequired": false,
+                                            "isFormRequired": false,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "fmy35mhpd8r"
+                                        },
+                                        {
+                                            "name": "LastName",
+                                            "id": "4c77086e-18c0-4797-ba27-ab13904c03d3",
+                                            "type": "Text",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "length": 100,
+                                            "description": "",
+                                            "ordinal": 3,
+                                            "isNullable": true,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": true,
+                                            "isInheritable": true,
+                                            "isOverridable": true,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "4c77086e-18c0-4797-ba27-ab13904c03d3",
+                                            "label": "LastName",
+                                            "isRequired": false,
+                                            "isFormRequired": false,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "wzyw0ynjqc"
+                                        },
+                                        {
+                                            "name": "FirstName",
+                                            "id": "ad736d05-8fa5-4289-badb-3f52dfe62ff7",
+                                            "type": "Text",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "length": 100,
+                                            "description": "",
+                                            "ordinal": 4,
+                                            "isNullable": true,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": true,
+                                            "isInheritable": true,
+                                            "isOverridable": true,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "ad736d05-8fa5-4289-badb-3f52dfe62ff7",
+                                            "label": "FirstName",
+                                            "isRequired": false,
+                                            "isFormRequired": false,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "n6hx5mr23y9"
+                                        },
+                                        {
+                                            "name": "Address",
+                                            "id": "9bb2201d-3aa0-4163-a807-e6cce5b4694e",
+                                            "type": "Text",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "length": 2000,
+                                            "description": "",
+                                            "ordinal": 5,
+                                            "isNullable": true,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": true,
+                                            "isInheritable": true,
+                                            "isOverridable": true,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "9bb2201d-3aa0-4163-a807-e6cce5b4694e",
+                                            "label": "Address",
+                                            "isRequired": false,
+                                            "isFormRequired": false,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "3tm9wjh1y6z"
+                                        },
+                                        {
+                                            "name": "City",
+                                            "id": "e2b9c55c-3bfa-4c54-9b47-b8adee9c6460",
+                                            "type": "Text",
+                                            "masktype": "None",
+                                            "storagetype": "Plain",
+                                            "length": 200,
+                                            "description": "",
+                                            "ordinal": 6,
+                                            "isNullable": true,
+                                            "isPrimaryKey": false,
+                                            "isTemplateField": true,
+                                            "isInheritable": true,
+                                            "isOverridable": true,
+                                            "isHidden": false,
+                                            "isReadOnly": false,
+                                            "mustOverride": false,
+                                            "fieldId": "e2b9c55c-3bfa-4c54-9b47-b8adee9c6460",
+                                            "label": "City",
+                                            "isRequired": false,
+                                            "isFormRequired": false,
+                                            "restrictedValues": null,
+                                            "isSystemHidden": false,
+                                            "_active": true,
+                                            "_visible": true,
+                                            "_hiddenAttribute": false,
+                                            "validationMessage": "Please fill out this field.",
+                                            "_key": "zs1i8e9xwwh"
+                                        }
+                                    ],
+                                    "dataTarget": "default",
+                                    "listid": "eccb028a-1c76-ea11-a2e5-48df37342d01",
+                                    "listName": "CloudPages_DataExtension",
+                                    "listKey": "B0C53A23-E32A-481D-BC0B-0F0FD74D4366",
+                                    "noAddingFields": false,
+                                    "onSubmitGotoUrlScheme": "http://",
+                                    "onSubmitGotoUrlType": 2,
+                                    "onSubmitShouldGotoUrl": true,
+                                    "onSubmitGotoUrlHost": "leetcode.com/",
+                                    "onSubmitGotoUrl": "http://leetcode.com/",
+                                    "smartCaptureFormID": 166,
+                                    "isInJourney": false
+                                },
+                                "wrapperStyles": {
+                                    "mobile": {
+                                        "visible": true
+                                    },
+                                    "styling": {}
+                                }
+                            },
+                            "slots": {
+                                "gye3dz29ymw": {
+                                    "content": "<div data-type=\"block\" data-key=\"fmy35mhpd8r\"></div><div data-type=\"block\" data-key=\"wzyw0ynjqc\"></div><div data-type=\"block\" data-key=\"n6hx5mr23y9\"></div><div data-type=\"block\" data-key=\"3tm9wjh1y6z\"></div><div data-type=\"block\" data-key=\"zs1i8e9xwwh\"></div>",
+                                    "design": "<p style=\"font-family: arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+                                    "blocks": {
+                                        "fmy35mhpd8r": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"EmailAddress\">EmailAddress</label></div>\n<div class=\"sc-formfield-input\"><input type=\"email\" name=\"EmailAddress\" data-field-type=\"EmailAddress\" data-validation=\"email\"></div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "EmailAddress",
+                                                    "id": "1b58ec22-7e7c-4d0c-9101-46b98c90680f",
+                                                    "type": "EmailAddress",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "length": 254,
+                                                    "description": "",
+                                                    "ordinal": 1,
+                                                    "isNullable": true,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": true,
+                                                    "isInheritable": true,
+                                                    "isOverridable": true,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "1b58ec22-7e7c-4d0c-9101-46b98c90680f",
+                                                    "label": "Email  Address",
+                                                    "isRequired": false,
+                                                    "isFormRequired": false,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please enter an email address.",
+                                                    "controlType": "BASIC",
+                                                    "availableControls": [
+                                                        "BASIC",
+                                                        "CONFIRM_BASIC"
+                                                    ],
+                                                    "inputType": "text",
+                                                    "isUserRequired": true,
+                                                    "validateAs": {
+                                                        "name": "Email",
+                                                        "inputType": "email",
+                                                        "pattern": "^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*$",
+                                                        "message": "Please enter an email address."
+                                                    }
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "wzyw0ynjqc": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"LastName\">LastName</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"LastName\" data-field-type=\"Text\"></div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "LastName",
+                                                    "id": "4c77086e-18c0-4797-ba27-ab13904c03d3",
+                                                    "type": "Text",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "length": 100,
+                                                    "description": "",
+                                                    "ordinal": 3,
+                                                    "isNullable": true,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": true,
+                                                    "isInheritable": true,
+                                                    "isOverridable": true,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "4c77086e-18c0-4797-ba27-ab13904c03d3",
+                                                    "label": "LastName",
+                                                    "isRequired": false,
+                                                    "isFormRequired": false,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field."
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "n6hx5mr23y9": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"FirstName\">FirstName</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"FirstName\" data-field-type=\"Text\"></div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "FirstName",
+                                                    "id": "ad736d05-8fa5-4289-badb-3f52dfe62ff7",
+                                                    "type": "Text",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "length": 100,
+                                                    "description": "",
+                                                    "ordinal": 4,
+                                                    "isNullable": true,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": true,
+                                                    "isInheritable": true,
+                                                    "isOverridable": true,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "ad736d05-8fa5-4289-badb-3f52dfe62ff7",
+                                                    "label": "FirstName",
+                                                    "isRequired": false,
+                                                    "isFormRequired": false,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field."
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "3tm9wjh1y6z": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Address\">Address</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"Address\" data-field-type=\"Text\"></div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "Address",
+                                                    "id": "9bb2201d-3aa0-4163-a807-e6cce5b4694e",
+                                                    "type": "Text",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "length": 2000,
+                                                    "description": "",
+                                                    "ordinal": 5,
+                                                    "isNullable": true,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": true,
+                                                    "isInheritable": true,
+                                                    "isOverridable": true,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "9bb2201d-3aa0-4163-a807-e6cce5b4694e",
+                                                    "label": "Address",
+                                                    "isRequired": false,
+                                                    "isFormRequired": false,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field."
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        },
+                                        "zs1i8e9xwwh": {
+                                            "assetType": {
+                                                "id": 216,
+                                                "name": "smartcaptureformfieldblock"
+                                            },
+                                            "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"City\">City</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"City\" data-field-type=\"Text\"></div>\n</div></td></tr></table>",
+                                            "meta": {
+                                                "wrapperStyles": {
+                                                    "mobile": {
+                                                        "visible": true
+                                                    },
+                                                    "styling": {}
+                                                },
+                                                "options": {
+                                                    "name": "City",
+                                                    "id": "e2b9c55c-3bfa-4c54-9b47-b8adee9c6460",
+                                                    "type": "Text",
+                                                    "masktype": "None",
+                                                    "storagetype": "Plain",
+                                                    "length": 200,
+                                                    "description": "",
+                                                    "ordinal": 6,
+                                                    "isNullable": true,
+                                                    "isPrimaryKey": false,
+                                                    "isTemplateField": true,
+                                                    "isInheritable": true,
+                                                    "isOverridable": true,
+                                                    "isHidden": false,
+                                                    "isReadOnly": false,
+                                                    "mustOverride": false,
+                                                    "fieldId": "e2b9c55c-3bfa-4c54-9b47-b8adee9c6460",
+                                                    "label": "City",
+                                                    "isRequired": false,
+                                                    "isFormRequired": false,
+                                                    "restrictedValues": null,
+                                                    "isSystemHidden": false,
+                                                    "_active": true,
+                                                    "_visible": true,
+                                                    "_hiddenAttribute": false,
+                                                    "validationMessage": "Please fill out this field."
+                                                }
+                                            },
+                                            "modelVersion": 2
+                                        }
+                                    },
+                                    "modelVersion": 2
+                                }
+                            },
+                            "modelVersion": 2
+                        },
+                        "dmmnk0g4dtg": {
+                            "assetType": {
+                                "id": 225,
+                                "name": "customblock"
+                            },
+                            "design": "",
+                            "superContent": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div><div style=\"position:relative;text-align:center;box-sizing:border-box;font-family:Salesforce Sans, Arial, sans-serif\"><div style=\"display:inline-flex;border-radius:0.25rem;color:white;align-items:center;font-weight:300;margin:0.5rem;min-width:30rem;background:#706e6b\"><div style=\"line-height:48px;vertical-align:middle;width:100%\"><svg aria-hidden=\"true\" style=\"fill:#eeeeee;width:1.5rem;height:1.5rem;line-height:1\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 55 31\" id=\"preview\" style=\"line-height:1.25\"><g><path d=\"M51.8 25.1C47.1 15.6 37.3 9 26 9S4.9 15.6.2 25.1c-.3.6-.3 1.3 0 1.8C4.9 36.4 14.7 43 26 43s21.1-6.6 25.8-16.1c.3-.6.3-1.2 0-1.8zM26 37c-6.1 0-11-4.9-11-11s4.9-11 11-11 11 4.9 11 11-4.9 11-11 11z\"></path><path d=\"M26 19c-3.9 0-7 3.1-7 7s3.1 7 7 7 7-3.1 7-7-3.1-7-7-7z\"></path></g></svg></svg><span style=\"font-size:1rem;line-height:2rem;font-weight:inherit;text-align:center;height:2rem;width:100%\">  Currently viewing sample assets from your catalog.</span></div></div></div><div><div class=\"wrapper\" align=\"center\" style=\"--max-table-width: 600px; --max-column-width: 210px; width: 100%; table-layout: fixed; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; background-color: #ffffff;\">\n  <div class=\"webkit\" style=\"max-width: var(--max-table-width); margin: 0 auto;\">\n    <table class=\"outer\" align=\"center\" style=\"border-spacing: 0; font-family: sans-serif; color: #333333; margin: 0 auto; width: 100%; max-width: var(--max-table-width);\">\n      <tr>\n        <td class=\"multi-column\" style=\"padding: 0; text-align: center; font-size: 0; padding-top: 10px; padding-bottom: 10px;\">\n          <div class=\"column\" style=\"width: 100%; max-width: var(--max-column-width); display: inline-block; vertical-align: top;\"><table width=\"100%\" align=\"center\" style=\"border-spacing: 0; font-family: sans-serif; color: #333333;\"><tr><td style=\"padding: 0;\">\n                  <a href=\"null\">\n                    <img src=\"https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/9163dab0-5879-49fc-aeff-437d1a29d7f7.png\" alt=\"\" class=\"mcbt_image_link\" style=\"border: 0; width: 100%; max-width: var(--max-column-width); height: auto;\">\n                  </a>\n                </td></tr><tr><td style=\"padding: 0;\"><table class=\"text_table\" align=\"center\" style=\"border-spacing: 0; font-family: sans-serif; color: #333333; width: 100%; max-width: var(--max-column-width);\"><tr><td class=\"mcbt_name\" style=\"padding: 0; font-size: 0.8125rem; padding-top: 10px; text-align: center; width: 100%; max-width: var(--max-column-width);\">Bag</td></tr><tr><td class=\"mcbt_regular_price\" style=\"padding: 0; font-size: 0.8125rem; padding-top: 10px; text-align: center; width: 100%; max-width: var(--max-column-width);\">$0</td></tr>\n      </table></td></tr><tr></tr></table></div><div class=\"column\" style=\"width: 100%; max-width: var(--max-column-width); display: inline-block; vertical-align: top;\"><table width=\"100%\" align=\"center\" style=\"border-spacing: 0; font-family: sans-serif; color: #333333;\"><tr><td style=\"padding: 0;\">\n                  <a href=\"null\">\n                    <img src=\"https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/0fd7cb8f-a42d-42b8-9f95-977e29cb3457.png\" alt=\"\" class=\"mcbt_image_link\" style=\"border: 0; width: 100%; max-width: var(--max-column-width); height: auto;\">\n                  </a>\n                </td></tr><tr><td style=\"padding: 0;\"><table class=\"text_table\" align=\"center\" style=\"border-spacing: 0; font-family: sans-serif; color: #333333; width: 100%; max-width: var(--max-column-width);\"><tr><td class=\"mcbt_name\" style=\"padding: 0; font-size: 0.8125rem; padding-top: 10px; text-align: center; width: 100%; max-width: var(--max-column-width);\">Shirt</td></tr><tr><td class=\"mcbt_regular_price\" style=\"padding: 0; font-size: 0.8125rem; padding-top: 10px; text-align: center; width: 100%; max-width: var(--max-column-width);\">$0</td></tr>\n      </table></td></tr><tr></tr></table></div><div class=\"column\" style=\"width: 100%; max-width: var(--max-column-width); display: inline-block; vertical-align: top;\"><table width=\"100%\" align=\"center\" style=\"border-spacing: 0; font-family: sans-serif; color: #333333;\"><tr><td style=\"padding: 0;\">\n                  <a href=\"null\">\n                    <img src=\"https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/0fd7cb8f-a42d-42b8-9f95-977e29cb3457.png\" alt=\"\" class=\"mcbt_image_link\" style=\"border: 0; width: 100%; max-width: var(--max-column-width); height: auto;\">\n                  </a>\n                </td></tr><tr><td style=\"padding: 0;\"><table class=\"text_table\" align=\"center\" style=\"border-spacing: 0; font-family: sans-serif; color: #333333; width: 100%; max-width: var(--max-column-width);\"><tr><td class=\"mcbt_name\" style=\"padding: 0; font-size: 0.8125rem; padding-top: 10px; text-align: center; width: 100%; max-width: var(--max-column-width);\">Shoes</td></tr><tr><td class=\"mcbt_regular_price\" style=\"padding: 0; font-size: 0.8125rem; padding-top: 10px; text-align: center; width: 100%; max-width: var(--max-column-width);\">$0</td></tr>\n      </table></td></tr><tr></tr></table></div>\n          </td>\n        </tr>\n     </table>\n   </div></div></div></div></td></tr></table>",
+                            "meta": {
+                                "customBlockKey": "0065f854-b50f-4191-8a5b-c1c56f2e9289",
+                                "wrapperStyles": {
+                                    "mobile": {
+                                        "visible": true
+                                    },
+                                    "styling": {}
+                                },
+                                "options": {
+                                    "customBlockData": {
+                                        "settings": {
+                                            "maxItems": 3,
+                                            "desktopCols": 0,
+                                            "mobileCols": 0,
+                                            "sortBy": "last_activity",
+                                            "sortDirection": "desc",
+                                            "fields": [
+                                                {
+                                                    "id": "image_link",
+                                                    "label": "Image Link"
+                                                },
+                                                {
+                                                    "id": "name",
+                                                    "label": "Product Name"
+                                                },
+                                                {
+                                                    "id": "regular_price",
+                                                    "label": "Regular Price"
+                                                }
+                                            ],
+                                            "previewItems": 3,
+                                            "style": "\n  :root {\n    --max-table-width: 600px;\n    --max-column-width: 310px;\n  }\n\n  .mcbt_name {\n    font-size: 0.8125rem;\n    padding-top: 10px;\n    text-align: center;\n  }\n\n  .mcbt_regular_price {\n    font-size: 0.8125rem;\n    padding-top: 10px;\n    text-align: center;\n  }\n\n  .mcbt_sale_price {\n    font-size: 0.8125rem;\n    padding-top: 10px;\n    text-align: center;\n  }\n\n  .mcbt_on_sale {\n    text-decoration: line-through;\n  }\n\n  .mcbt_image_link {\n    width: 100%;\n    max-width: var(--max-column-width);\n    height: auto;\n  }\n  \n  table {\n    border-spacing: 0;\n    font-family: sans-serif;\n    color: #333333;\n  }\n  td {\n    padding: 0;\n  }\n  img {\n    border: 0;\n  }\n  div[style*=\"margin: 16px 0\"] { \n    margin:0 !important;\n  }\n  .wrapper {\n    width: 100%;\n    table-layout: fixed;\n    -webkit-text-size-adjust: 100%;\n    -ms-text-size-adjust: 100%;\n    background-color: #ffffff;\n  }\n  .webkit {\n    max-width: var(--max-table-width);\n    margin: 0 auto;\n  }\n  .outer {\n    margin: 0 auto;\n    width: 100%;\n    max-width: var(--max-table-width);\n  }\n  .multi-column {\n    text-align: center;\n    font-size: 0;\n    padding-top: 10px;\n    padding-bottom: 10px;\n  }\n  .column {\n    width: 100%;\n    max-width: var(--max-column-width);\n    display: inline-block;\n    vertical-align: top;\n  }\n  .text_table {\n    width: 100%;\n    max-width: var(--max-column-width);\n  }\n  table.text_table td {\n    width: 100%;\n    max-width: var(--max-column-width);\n  }\n  .star {\n    height: var(--star-size);\n  }\n  .empty-star {\n    background-color: black;\n    width: var(--star-empty-width);\n  }\n  .filled-star {\n    background-color: #6699cc;\n    width: var(--star-filled-width);\n  }\n  .image-star {\n    width: var(--star-size);\n  }\n  .hidden {\n    display: none\n  }\n  ",
+                                            "useSalePricing": false,
+                                            "useRecentItems": false,
+                                            "layout": "vertical",
+                                            "maxRating": 5
+                                        }
+                                    }
+                                }
+                            },
+                            "modelVersion": 2
+                        }
+                    },
+                    "modelVersion": 2
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "html"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

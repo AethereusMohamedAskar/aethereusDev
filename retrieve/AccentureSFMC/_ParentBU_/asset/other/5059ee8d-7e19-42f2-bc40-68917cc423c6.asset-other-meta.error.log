@@ -1,0 +1,7 @@
+Error Log
+Parser: html
+Unexpected closing tag "html". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags (39:1)
+  37 |     </tr> 
+  38 | </table>
+> 39 | </html>
+     | ^^^^^^^

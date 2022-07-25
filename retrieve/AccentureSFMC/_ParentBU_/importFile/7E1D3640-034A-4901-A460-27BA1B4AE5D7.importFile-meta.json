@@ -1,0 +1,49 @@
+{
+    "allowErrors": true,
+    "customerKey": "7E1D3640-034A-4901-A460-27BA1B4AE5D7",
+    "createdDate": "2022-04-21T23:26:31.487",
+    "modifiedDate": "2022-04-21T23:26:31.487",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "fieldMappings": [
+        {
+            "sourceFieldName": "BounceCategory",
+            "destinationFieldName": "BounceCategory"
+        },
+        {
+            "sourceFieldName": "EventDate",
+            "destinationFieldName": "Date Added"
+        },
+        {
+            "sourceFieldName": "EmailAddress",
+            "destinationFieldName": "Email Address"
+        },
+        {
+            "sourceFieldName": "JobID",
+            "destinationFieldName": "JobID"
+        },
+        {
+            "sourceFieldName": "SubscriberKey",
+            "destinationFieldName": "SubscriberKey"
+        }
+    ],
+    "fieldMappingType": "ManualMap",
+    "fileNamingPattern": "Hard_bounce.zip",
+    "fileType": "CSV",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": true,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "hard_bounce_import_def",
+    "sendEmailNotification": false,
+    "standardQuotedStrings": true,
+    "fileTransferLocationTypeId": 0,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP",
+    "c__destinationType": "DataExtension",
+    "r__dataExtension_CustomerKey": "HardBounce_SL",
+    "c__subscriberImportType": "DataExtension",
+    "c__dataAction": "Overwrite"
+}

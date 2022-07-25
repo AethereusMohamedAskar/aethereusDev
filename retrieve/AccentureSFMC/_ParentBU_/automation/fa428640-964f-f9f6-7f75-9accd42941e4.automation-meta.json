@@ -1,0 +1,28 @@
+{
+    "name": "Shivani_DataExtract_from_DE",
+    "key": "fa428640-964f-f9f6-7f75-9accd42941e4",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Shivani_DataExtract_from_DE",
+                    "r__type": "dataExtract"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Shivani_DataExtract_from_DE_safehouse",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Shivani"
+}

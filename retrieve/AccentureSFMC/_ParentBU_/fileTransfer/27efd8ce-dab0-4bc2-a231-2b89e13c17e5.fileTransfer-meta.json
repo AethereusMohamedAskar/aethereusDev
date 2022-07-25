@@ -1,0 +1,16 @@
+{
+    "name": "Preethi-Tracking_Data_SF_to_FTP",
+    "customerKey": "27efd8ce-dab0-4bc2-a231-2b89e13c17e5",
+    "createdDate": "2021-08-15T13:02:41.107",
+    "modifiedDate": "2021-08-15T13:02:41.107",
+    "fileSpec": "Tracking Data%%Month%% %%Day%%.zip",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "Training 2021"
+}

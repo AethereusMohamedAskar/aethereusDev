@@ -1,0 +1,29 @@
+{
+    "name": "Kanika_Tracking Data to FTP",
+    "description": "",
+    "key": "11a31014-f7fe-bac9-50ba-22b20438f94a",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Kanika_Tracking Data Extract 2",
+                    "r__type": "dataExtract"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Kanika_Tracking Data SF-ftp",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training"
+}

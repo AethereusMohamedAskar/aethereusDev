@@ -1,0 +1,11 @@
+{
+    "name": "YAHOO_Update_Negative_Values",
+    "key": "7d9a1ede-5d75-4be3-baab-8a10bc768848",
+    "description": "",
+    "targetKey": "1A4D25F3-7463-4F7A-994F-7FA664D66596",
+    "createdDate": "2020-04-09T00:14:58.463",
+    "modifiedDate": "2020-04-09T00:14:58.463",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query/Sai Prasad UC"
+}

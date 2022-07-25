@@ -1,0 +1,27 @@
+{
+    "name": "new email",
+    "description": "",
+    "key": "af106269-3794-9741-4db6-ea3f1b8d71ca",
+    "type": "triggered",
+    "status": "InactiveTrigger",
+    "fileTrigger": {
+        "queueFiles": true,
+        "isPublished": false,
+        "fileNamePatternTypeId": 3,
+        "fileNamingPattern": "data",
+        "folderLocationText": "import\\",
+        "triggerActive": false
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Email Auto",
+                    "r__type": "emailSendDefinition"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/new automation"
+}

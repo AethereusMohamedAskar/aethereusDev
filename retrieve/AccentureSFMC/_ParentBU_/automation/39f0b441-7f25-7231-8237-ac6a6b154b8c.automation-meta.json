@@ -1,0 +1,35 @@
+{
+    "name": "SQL based automate",
+    "description": "",
+    "key": "39f0b441-7f25-7231-8237-ac6a6b154b8c",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2022-05-20T10:30:00",
+        "endDate": "2022-05-20T10:30:00",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "India Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "sqlQ",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "sql journey",
+                    "r__type": "journeyEntry"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2022 Training/abhinay"
+}

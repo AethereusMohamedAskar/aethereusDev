@@ -1,0 +1,37 @@
+%%[
+
+set @brand = attributevalue("order:brand__C")
+
+
+IF @brand == "Star Wars Fine Jewelry" then
+set @color = "#000000"
+set @call = "(947) 218-7827"
+Set @mail = "starwarsfinejewelry@renaissanceglobal.com"
+
+ElseIF @brand == "Made For You" Then
+set @color = "#000000"
+set @call = "(929) 552-3639"
+Set @mail = "mfy@renaissanceglobal.com"
+
+ElseIF @brand == "jewelili" then
+set @color = "#292d36"
+set @call = "585-632-5544"
+Set @mail = "customerservice@jewelili.com"
+
+elseIF @brand == "Hallmark Diamonds" then
+set @color = "#6a3c62"
+set @call = "(929) 203-9424"
+Set @mail = "hallmarkdiamonds@renaissanceglobal.com"
+
+elseIF @brand == "Irasva" then
+set @color = "#006384"
+set @call = "+91 93241 40495"
+Set @mail = "contact@irasva.com"
+
+Else
+set @color = "#11214a"
+set @string = concat('<span style="color:',@color,';">')
+set @call = "(929) 552-3335"
+Set @mail = "enchantedfinejewelry@renaissanceglobal.com"
+Endif
+]%%

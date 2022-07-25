@@ -1,0 +1,16 @@
+{
+    "name": "emailByDeviceFileTransfer",
+    "customerKey": "7ef8cd8d-83ad-411e-8833-c3bed46c5378",
+    "createdDate": "2021-10-04T06:51:39.617",
+    "modifiedDate": "2021-10-04T22:32:43.113",
+    "fileSpec": "emailBy.zip",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": true,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "Training 2021"
+}

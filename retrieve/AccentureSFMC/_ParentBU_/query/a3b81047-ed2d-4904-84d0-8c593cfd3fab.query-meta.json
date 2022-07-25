@@ -1,0 +1,11 @@
+{
+    "name": "SendTime",
+    "key": "a3b81047-ed2d-4904-84d0-8c593cfd3fab",
+    "description": "",
+    "targetKey": "7DC7A5F7-BCDB-4B88-A69C-FD58D2746315",
+    "createdDate": "2022-06-14T00:42:38.513",
+    "modifiedDate": "2022-06-15T02:21:00.633",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

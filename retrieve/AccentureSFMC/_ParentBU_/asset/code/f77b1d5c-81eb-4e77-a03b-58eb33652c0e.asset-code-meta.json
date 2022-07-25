@@ -1,0 +1,30 @@
+{
+    "customerKey": "f77b1d5c-81eb-4e77-a03b-58eb33652c0e",
+    "assetType": {
+        "name": "html",
+        "displayName": "Code"
+    },
+    "fileProperties": {
+        "fileName": "Iframe code.html",
+        "extension": "html",
+        "fileSize": 174,
+        "fileCreatedDate": "2021-06-30T07:43:39.6518112-06:00"
+    },
+    "name": "Iframe code.html",
+    "createdDate": "2021-06-30T07:43:39.653-06:00",
+    "createdBy": {
+        "email": "kanika.singhal@aethereus.com",
+        "name": "Kanika Singhal"
+    },
+    "modifiedDate": "2021-07-20T04:15:58.92-06:00",
+    "modifiedBy": {
+        "email": "kanika.singhal@aethereus.com",
+        "name": "Kanika Singhal"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/Practice -Kanika"
+}

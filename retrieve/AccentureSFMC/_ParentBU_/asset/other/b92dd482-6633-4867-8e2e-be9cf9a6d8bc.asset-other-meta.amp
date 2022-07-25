@@ -1,0 +1,13 @@
+%%[ if empty(@Name) then]%%
+White
+XL
+Western Dresses
+Checkered
+
+%%[else]%%
+%%=v(@Name)=%%
+%%=v(@Size)=%%
+%%=v(@DressStyle)=%%
+%%=v(@ApparelPattern)=%%
+
+%%[endif]%%

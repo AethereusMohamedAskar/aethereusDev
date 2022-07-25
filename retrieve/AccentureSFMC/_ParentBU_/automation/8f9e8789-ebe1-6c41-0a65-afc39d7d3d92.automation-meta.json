@@ -1,0 +1,36 @@
+{
+    "name": "SQLbasedAutomation",
+    "description": "",
+    "key": "8f9e8789-ebe1-6c41-0a65-afc39d7d3d92",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {
+        "typeId": 2,
+        "startDate": "2022-05-18T12:25:00",
+        "endDate": "2022-05-18T15:25:00",
+        "icalRecur": "FREQ=HOURLY;COUNT=4;INTERVAL=1",
+        "timezoneName": "India Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Gauri query",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "activities": [
+                {
+                    "name": "gauri sql based journey",
+                    "r__type": "journeyEntry"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2022 Training/Gauri Shankar"
+}

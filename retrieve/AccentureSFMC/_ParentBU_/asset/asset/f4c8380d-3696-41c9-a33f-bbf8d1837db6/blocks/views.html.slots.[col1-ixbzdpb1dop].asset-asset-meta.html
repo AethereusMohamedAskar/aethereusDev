@@ -1,0 +1,149 @@
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  
+    %%[ 
+      SET @subscriberKey = [_subscriberkey] 
+      
+      // PROFILE ATTRIBUTES 
+      SET @firstName = [First Name] 
+      SET @lastName = [Last Name] 
+      SET @emailAddress = [Email Address] 
+      SET @website = [Website]       
+      SET @genderMale = IIF([Gender] == "Male", "checked", "")
+      SET @genderFemale = IIF([Gender] == "Female", "checked", "")
+
+      // PREFERENCE ATTRIBUTES 
+      SET @preference = IIF([Preference], "checked", "")
+      SET @connection = IIF([Connection], "checked", "")
+      SET @newsletter = IIF([Send Email Newsletter], "checked", "")
+    ]%%
+
+    <script runat="server" language="JavaScript">
+      Platform.Load("core","1.1.2");
+
+      var subscriptionStatus = Subscriber.Retrieve({
+        Property: "SubscriberKey",
+        SimpleOperator: "equals",
+        Value: Variable.GetValue("@subscriberKey")
+      });
+
+      if(subscriptionStatus[0].Status == "Active") {
+        Variable.SetValue("subscriptionStatus", true);
+      } else {
+        Variable.SetValue("subscriptionStatus", false);
+      }
+    
+      // POST VARIABLES
+      var subscriberKey = Platform.Request.GetFormField('subscriberKey') || "";
+      var firstName = Platform.Request.GetFormField('firstName') || "";
+      var lastName = Platform.Request.GetFormField('lastName') || "";
+      var email = Platform.Request.GetFormField('email') || "";
+      var website = Platform.Request.GetFormField('website') || "";
+      var gender = Platform.Request.GetFormField('gender') || "";
+      var preference = Platform.Request.GetFormField('preference') || false;
+      var connection = Platform.Request.GetFormField('connection') || false;
+      var newsletter = Platform.Request.GetFormField('newsletter') || false;
+      var unsubscribe = Platform.Request.GetFormField('unsubscribe') || false;
+      var subscribeTo = Platform.Request.GetFormField('subscribe') || false;
+
+      if(subscriberKey) {
+        var subscriberData = {
+          "Attributes": {
+            "First Name" : firstName, 
+            "Last Name" : lastName,
+            "Website" : website,
+            "Preference" : preference,
+            "Connection" : connection,
+            "Send Email Newsletter" : newsletter
+          }
+        };
+
+        if(gender != "") {
+          subscriberData.Attributes.Gender = gender;
+        }
+
+        if(subscribeTo) {
+          subscriberData.Status = "Active";
+        }
+
+        var subObj = Subscriber.Init(subscriberKey);
+
+        if(unsubscribe) {
+          var unsubscribeSatus = subObj.Unsubscribe();
+          Variable.SetValue("unsubscribeSatus", unsubscribeSatus);
+        } else {
+          var udpateStatus = subObj.Update(subscriberData);
+          Variable.SetValue("unsubscribeSatus", (subscribeTo && udpateStatus)?"SUBSCRIBED":"NA");
+          Variable.SetValue("udpateStatus", udpateStatus);
+        }
+        
+        Variable.SetValue("formSubmitted", true);
+      } else {
+        Variable.SetValue("formSubmitted", false);
+      }
+    </script>
+
+    <form method="POST">
+      <input type="hidden" name="subscriberKey" value="%%=v(@subscriberkey)=%%">
+      
+      <h2>Update your profile:</h2>
+      <label>First Name: </label><input type="text" name="firstName" value="%%=v(@firstName)=%%"><br>
+      <label>Last Name: </label><input type="text" name="lastName" value="%%=v(@lastName)=%%"><br>
+      <label>* Email: </label><input type="email" required="" name="email" value="%%=v(@emailAddress)=%%"><br>
+      <label>Website: </label><input type="url" name="website" value="%%=v(@website)=%%"><br>
+      
+      <label>Gender: </label>
+      <input type="radio" name="gender" value="Male" %%=v(@genderMale)=%%> Male &nbsp;
+      <input type="radio" name="gender" value="Female" %%=v(@genderFemale)=%%> Female<br>
+            
+      <h2>Update your subscriptions:</h2>
+      <label>Preference: </label><input name="preference" value="true" type="checkbox" %%=v(@preference)=%%><br>
+      <label>Connection: </label><input name="connection" value="true" type="checkbox" %%=v(@connection)=%%><br>
+      <label>Newsletter: </label><input name="newsletter" value="true" type="checkbox" %%=v(@newsletter)=%%><br>
+
+      <br> <br>
+
+      <label>%%=IIF(@subscriptionStatus, "Unsubscribe from all", "Resubscribe")=%%</label>
+      <input name="%%=IIF(@subscriptionStatus, "unsubscribe", "subscribe")=%%" value="true" type="checkbox"><br>
+      (You are %%=IIF(@subscriptionStatus, "subscribed to", "unsubscribed from")=%% us!)
+
+      <br> <br>
+
+      <input type="submit" value="Update">
+
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.3.5/dist/sweetalert2.all.min.js"></script>
+
+    %%[ IF @formSubmitted AND @udpateStatus == "OK" AND @unsubscribeSatus == "NA" THEN ]%%
+        <script>
+          Swal.fire("Updated!", "Your preferences are updated successfully", "success").then(() => {
+            location.href = location.href;
+          });
+        </script>
+    %%[ ELSEIF @formSubmitted AND @udpateStatus != "OK" AND @unsubscribeSatus == "NA" THEN ]%%
+        <script>
+          Swal.fire("Not Updated!", "Something went wrong while updating your preferences", "error").then(() => {
+            location.href = location.href;
+          });
+        </script>
+    %%[ ELSEIF @formSubmitted AND @unsubscribeSatus == "OK" THEN ]%%
+        <script>
+          Swal.fire("Unsubscribed!", "Sorry to see you go away!", "info").then(() => {
+            location.href = location.href;
+          });
+        </script>
+    %%[ ELSEIF @formSubmitted AND @unsubscribeSatus == "SUBSCRIBED" THEN ]%%
+        <script>
+          Swal.fire("Subscribed!", "Happy to see you again!<br/>We make sure we don't spam you!!", "success").then(() => {
+            location.href = location.href;
+          });
+        </script>
+    %%[ ELSE ]%%
+    %%[ ENDIF ]%%
+  
+</td></tr></table>

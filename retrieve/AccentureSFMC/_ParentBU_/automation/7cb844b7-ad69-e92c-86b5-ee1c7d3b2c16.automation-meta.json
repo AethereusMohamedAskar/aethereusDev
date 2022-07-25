@@ -1,0 +1,27 @@
+{
+    "name": "Trial Journey Builder",
+    "description": "Used contact builder to link data models and create a journey with fire event for those who opened the email on 16th august",
+    "key": "7cb844b7-ad69-e92c-86b5-ee1c7d3b2c16",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2020-08-17T03:30:00",
+        "endDate": "2020-08-17T03:30:00",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "Central Standard Time (no DST)"
+    },
+    "steps": [
+        {
+            "name": "",
+            "description": "",
+            "activities": [
+                {
+                    "name": "Nykaa Engaged Subscribers",
+                    "r__type": "fireEvent"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations"
+}

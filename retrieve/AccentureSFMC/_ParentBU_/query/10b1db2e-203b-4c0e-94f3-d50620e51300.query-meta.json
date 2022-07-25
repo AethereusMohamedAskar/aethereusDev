@@ -1,0 +1,11 @@
+{
+    "name": "Update_Yahoo",
+    "key": "10b1db2e-203b-4c0e-94f3-d50620e51300",
+    "description": "",
+    "targetKey": "AD7AD2A2-4D83-4C4D-96DA-5E3A456DD446",
+    "createdDate": "2020-04-09T00:47:14.287",
+    "modifiedDate": "2020-04-09T00:47:14.287",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query/Sai Prasad UC"
+}

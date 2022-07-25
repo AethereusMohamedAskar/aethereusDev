@@ -1,0 +1,41 @@
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><div> 
+<!--
+		%%[
+			VAR @CPID, @deExtKey, @encodedDeExtKey, @CPURL, @hiddenFields, @qsStart, @qsValueStart, @qsValue, @unmappedFields, @cpOutOfDate, @afbCPURL
+			SET @hiddenFields = URLEncode("",1,1)
+			SET @unmappedFields = FALSE
+			SET @CPID = "1494"
+			SET @deExtKey = "5DBD5E3F-19E6-49AC-AE69-230B7001E902"
+			SET @cpOutOfDate = false
+			IF (@CPID == 'undefined') AND (@deExtKey == 'undefined') THEN
+				RaiseError("Please select a CloudPage and Data Extension and assign all fields to data attributes on the Interactive Email Form Block.")
+			ELSEIF (@CPID == "undefined") THEN
+				RaiseError("Please select a CloudPage on the Interactive Email Form Block.")
+			ELSEIF (@deExtKey == "undefined") THEN
+				RaiseError("Please select a Data Extension and assign all fields to data attributes on the Interactive Email Form Block.")
+			ELSEIF (@cpOutOfDate) THEN
+				RaiseError("The Interactive Email Form block CloudPages Destination is out of date. Please update the form block on the selected Interactive Email CloudPage.")
+			ENDIF
+			SET @encodedDeExtKey = URLEncode(@deExtKey,1,1)
+			SET @CPURL = CloudPagesURL(@CPID,'ic_deN',@encodedDeExtKey, 'ic_hf', @hiddenFields)
+			SET @qsStart = IndexOf(@CPURL,'?')
+			SET @qsValueStart = Add(@qsStart, 4)
+			SET @qsValue = Substring(@CPURL, @qsValueStart)
+
+			VAR @linkToClickCode, @link2C, @regexPattern, @trackedClickLink
+			SET @linkToClickCode = '<a href="httpgetwrap|https://submit.mc-content.com" alias="formSubmit" target="_blank">Interactive Email Form Submit</a>'
+			SET @link2C = TreatAsContent(@linkToClickCode)
+			SET @regexPattern = 'href="(.+?)"'
+			SET @sanitizedString = RegExMatch(@link2C, @regexPattern, 1)
+			SET @trackedClickLink = Replace(@sanitizedString, 'httpgetwrap|', '')
+			]%%
+		-->
+ <!-- %%[ if _MessageContext != "SEND" then ]%% --> <style>#interactive:checked+#rebel#rebel .ie-form{display:block!important}#interactive:checked+#rebel#rebel .ie-formFallback{display:none}</style> <!-- %%[ ENDIF ]%% --> <!--[if mso]><!--> <div class="ie-form" style="display:none" rebel=""> <form class="sc-block-cry6d8l-ic-form" action="%%=v(@CPURL)=%%" method="get" novalidate=""> <div class="sc-cry6d8l-ic-form-box-sizing sc-box-sizing"> <input type="hidden" name="qs" value="%%=v(@qsValue)=%%"> <input type="hidden" name="ic_tLink" value="%%=v(@trackedClickLink)=%%"> <button type="submit" class="ie-frm-btn ie-frm-btn-cry6d8l-ic-submit"> Submit </button> <input type="hidden" name="ic_c" value="7VkLU9s4EP4rqplMwjUOCa9CrnClSZgyRylDaG_mGqajWHKswbGMJUNyXP77rWTHsR0SHsf0wRhmQJZWq93Vt9-uk1tDjn1qNA2Le5KOpFE1BJWSeQNhNG-NgBFY2_n7r0Z75w2GxcEQM7cb-j4PpNGUQUizcx95n7l0usLFSM0HVIA2G7uCTqpw0tDnHvUkzH29Tc4PheRD05FDF47pczJW5-vHpvH2lWn2vJ7syVLpazToyS8HZ-hd6_SoXUXvCO2M5J90DEPqWZxQ0p7NtE4_nx3Df4cRQr1DRl0i4PFKdCUOpB59wW5Ic48wCr0h9n1Kkj2W_ymUn-w2lmoZ232te2pRt3OePQXtIVjuaIsqPaNnVBvVxmpGPHsEbDg8OO52MiLKR1joGY3N3U3Qkl6bOq7Xt9rv21udjUOzsdvZNjd3D1rmQWd711zfqL9_U683Orv19dz-lEOgQl_RdP3oEFXis_dQOfQItZlHSXkVHZy0YWl2dG75_EPnZKqkJ88wE7QTBDyACJy6FAuKBHWpJRFGLZeH5BQPKMIeQWAFRqCUeoJxT09hIdgAhq6L7ChCkiOi5LCUAeuHkgoEstKh6AgQHGBLsmuKOgqT6JAHQ_Te5dZlrWckce9AgDPO9YzEfBB7mv1PtSEdxafb8b0jl4LNUjvPFyvvK-WzAArUpgJ4B0vlAAPTQom4rSymNRT7G_rqUZtsz3TETkTBoOSOA5NTMs6ctI8OM8mQo45M9s4oZi6FNQeA8MwXeI7QVS0z6xuhJ-XqPC-pJccu54gpqzrmKFB-BMgYfbIrMZuV_yjnJWccBuIHhFRmDLd5pyyIdcO-ADB4g0rCkmlFaluabV3mXZ7zlsusyxY4U41m1lswCOiAjk4BWjTw4FHCBVxSokWPQSZzfk4N2FF-i5ETUHuvB5Qv_QGVNwH2_1Vj0VxbE2F_yGRtaJm6THmyBkWkZwC4GRawR4Ghq2VgEgyH_TD7re9iONnYX4DAaMfbNbxfnjNvvQVWnQcUywPRis6s5O3OBjUdAOVR7E6l9vqP1Z6RPUFgj0n2DyVdHXwQP6ODzugjlpZTWRTTHOryEdZKfBdbgNWcfsBaOqoAufIMPRelUjQ0zf1ooKotgkKLmI2-fYTaDZBuRe0BeqVYqgupowLtUA_BdpTshL1Cjl26P6ODFTYLftNyqLL59UpA-9SN_qIao6a6wFvCBNg_buqsfsWGqp_Anpw8Rdkh8F4fApQo9aDlSDS9XUubmfirGSHrkTGZVJMeRSlONScRKj8HqkMplfau4xxa3SuVQCqghAVASNG6nrgKYYaorbrVahq_wbTlYtUdfTWYZSYiF1XD54IpLgQxbIPXypKMsLbmYlE_xTw_lGbELCmbPTxUq1cC5q5Vnie2x3mvrU87vVwRcJhU6JtTl4fnnF5lvglVSPK02mscMLhzWI-iC0txrKJsNXJBiKUuJhcp1Y_vJeHa5zoxyP-zz51MdburBkPJDQNVk7BEYx4iBwPLRJp08dXxu7P43jDpsKUFuD9XgGc1K8nbcwdYTh8NIUWhUIQypy8SXd_YrjVqG2uN7a31xnZ9c3O3sbOdz37CrpFOD2CvdPb8rggXbifGAqyqJh_oNd6XYfBHs_ZdJz6NzGNz1sCPfUAcZIjWLRxKpX6nCeFBp0oMpCSZYkklZHNPC9t4yNxxlMAWd3kQDW8oGzgyGsd71JBQiwc4zlp4Bk8H8VAAHUcAj7IEpkIgaTUCSAPl0w-xzoUyVBWCro8tuOHFYjc8IPcIKSlGpLNYyRDCzjzNVNxfLBYst7jPIbuHyzyy5RIbfUxI7MUPtEJVkUHAoTOPMDMFgQJWH2INzDwzMA2R5RFOUJN24GnbZw4-bf80AE_ZPZkG4QwTFoo4FMdLQlpVAmcPubIHCS07aqLrTSrLXQw9QjrNY7aJ9j005_vcJS807517bPnJeaGxNRP1R3daUs9LzBszpyRvT05HQRIviiQIFVbAfJ3N_5cqCprIJmj9OfKz_vj8XEwZ9zPGfdx1L10UDcWL5YrkJfXxNLFi658HsoV6Hfq1GAOHkj8TazxPWW9sfV_eaDxHq9F4cK-xslHfJYQUNPIL0EjVaDr8OrqhopW4J5o_8S0WpXxpDiqc29yKLq7AeYHzl4pz_SnzkBKGdXyuQhoohL_TU4h77hjBOyWl0TfzlSEemVp7c3Or7o9W1ZdDd30oLSQOTIV-AN4PexPd2JnrUYoPrYoPs4um8Qc0jfFX3kU5LcrpC28bi9ejAufF61GB8wLnL-P1CH4n_wE"> </div> </form> </div> <!--<![endif]--> <!--
+		%%[
+			IF @unmappedFields == TRUE THEN
+			RaiseError("Please ensure that you have mapped all inputs to data attributes within the Interactive Email Form block.")
+			ENDIF
+		]%%
+		Thank you for using Interactive Email
+		236.1.3/1652160449186
+		--> <div style="display:none" aria-hidden="true"> <a href="https://submit.mc-content.com" alias="formSubmit" style="display:none" target="_blank">Interactive Email Form Submit</a> </div> </div></td></tr></table>

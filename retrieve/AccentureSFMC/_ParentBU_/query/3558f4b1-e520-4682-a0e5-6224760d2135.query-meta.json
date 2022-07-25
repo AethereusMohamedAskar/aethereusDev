@@ -1,0 +1,11 @@
+{
+    "name": "Update_Outlook",
+    "key": "3558f4b1-e520-4682-a0e5-6224760d2135",
+    "description": "",
+    "targetKey": "0E8687C4-092A-4BE3-98CE-2293EDF86C3A",
+    "createdDate": "2020-04-09T00:48:21.89",
+    "modifiedDate": "2020-04-09T00:49:22.677",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query/Sai Prasad UC"
+}

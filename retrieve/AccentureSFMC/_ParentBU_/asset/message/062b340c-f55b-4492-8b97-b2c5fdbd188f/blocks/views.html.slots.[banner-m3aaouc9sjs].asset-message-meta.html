@@ -1,0 +1,50 @@
+%%[
+
+
+Var @FirstName, @FirstNameFB, @AdvisorName, @AdvisorNameFB, @ProductName, @ProductNameFB, @SubKey, @RowSet, @Row
+
+SET @Subkey = [SubscriberKey]
+SET @Rowset = 
+LookupRows('Day3_Ampscript_Shreya','SubscriberKey',@SubKey)
+SET @Row = Row(@Rowset,1)
+SET @FirstName = Field(@Row,'First Name')
+SET @AdvisorName = Field(@Row,'Advisor Name')
+SET @ProductName = Field(@Row,'Product Name')
+
+
+/*Make sure you have Fallback mechanism in place*/
+ 
+
+SET @FirstNameFB = IIF(Empty(@Firstname), 'dear Customer', Concat(' ', Propercase(@FirstName)))
+
+SET @ProductNameFB = IIF(Empty(@ProductName), 'new Astro Bank Product', Concat(' ', Propercase(@ProductName)))
+ 
+ SET @AdvisorNameFB = IIF(Empty(@AdvisorName), 'Your Astro Bank Team', Concat(' ', Propercase(@AdvisorName)))
+
+
+
+
+/*Let's write some send time data into our data extension for re-engagement and logging purpose*/
+
+ 
+
+var @EmailAddress,@MessageType, @JobID,@SendTime
+
+ 
+
+set @EmailAddress= emailaddress
+set @JobID=jobid
+set @MessageType= 'Onboarding'
+set @SendTime= NOW()
+
+/*Insert data into DE*/
+
+InsertDE('Insert_upsert_ampscript', 'SubscriberKey', @SubKey, 'EmailAddress',@EmailAddress,'JobID',@JobID,'MessageType',@MessageType,'ProductType',@ProductType,'SendTime',@SendTime) 
+/*Upsert data into DE*/
+
+UpsertDE('Insert_ampscript', 1,'SubscriberKey', @SubKey, 
+'MessageType',@MessageType,'ProductType',@ProductType,'LatestSendTime',@SendTime)
+
+
+
+]%%

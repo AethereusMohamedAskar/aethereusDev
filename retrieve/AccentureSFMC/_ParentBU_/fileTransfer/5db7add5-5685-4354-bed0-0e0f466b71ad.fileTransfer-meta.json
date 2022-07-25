@@ -1,0 +1,17 @@
+{
+    "name": "Daily Transfer of Mobile Connect Users",
+    "description": "Daily Transfer of Mobile Connect Users",
+    "customerKey": "5db7add5-5685-4354-bed0-0e0f466b71ad",
+    "createdDate": "2020-12-04T02:14:05.31",
+    "modifiedDate": "2020-12-04T02:14:05.31",
+    "fileSpec": "Mobile ConnectUsersNightlyImport_%%Day%%.zip",
+    "isEncrypted": false,
+    "isCompressed": true,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": false,
+    "isPgp": false,
+    "isFileSpecLocalized": true,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

@@ -1,0 +1,30 @@
+{
+    "customerKey": "8f7950bd-aae0-4c1f-9893-a46a78a1ec78",
+    "assetType": {
+        "name": "html",
+        "displayName": "Code"
+    },
+    "fileProperties": {
+        "fileName": "Email Responsive Code.html",
+        "extension": "html",
+        "fileSize": 25272,
+        "fileCreatedDate": "2020-09-30T00:17:55.2962017-06:00"
+    },
+    "name": "Email Responsive Code.html",
+    "createdDate": "2020-09-30T00:17:55.297-06:00",
+    "createdBy": {
+        "email": "kanika.singhal@aethereus.com",
+        "name": "Kanika Singhal"
+    },
+    "modifiedDate": "2021-07-20T04:16:21.137-06:00",
+    "modifiedBy": {
+        "email": "kanika.singhal@aethereus.com",
+        "name": "Kanika Singhal"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/Practice -Kanika"
+}

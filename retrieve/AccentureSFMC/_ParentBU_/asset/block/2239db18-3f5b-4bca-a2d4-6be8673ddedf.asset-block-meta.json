@@ -1,0 +1,173 @@
+{
+    "customerKey": "2239db18-3f5b-4bca-a2d4-6be8673ddedf",
+    "assetType": {
+        "name": "dynamicblock",
+        "displayName": "Dynamic Block"
+    },
+    "fileProperties": {
+        "fileName": "Rahul_DC0"
+    },
+    "name": "Rahul_DC0",
+    "owner": {
+        "email": "Rahul.Raj@aethereus.com",
+        "name": "Rahul Raj"
+    },
+    "createdDate": "2022-07-07T02:49:58.963-06:00",
+    "createdBy": {
+        "email": "Rahul.Raj@aethereus.com",
+        "name": "Rahul Raj"
+    },
+    "modifiedDate": "2022-07-07T02:55:01.383-06:00",
+    "modifiedBy": {
+        "email": "Rahul.Raj@aethereus.com",
+        "name": "Rahul Raj"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\">%%[IF (([Gender] == \"Male\")) THEN]%%\n%%=BeginImpressionRegion(\"__Rule_1__dresses-m.jpg\")=%%\n<img src=\"https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/e808511b-5cda-416e-bac9-19085024b294.jpg\" data-assetid=\"61120\" alt=\"dresses-m.jpg\" width=\"100%\" height=\"auto\">\n%%=EndImpressionRegion()=%%\n%%[ELSEIF (([Gender] == \"Female\")) THEN]%%\n%%=BeginImpressionRegion(\"__Rule_2__dresses-f.jpg\")=%%\n<img src=\"https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/fe6ec2fa-3591-4a3b-824e-624967614f8d.jpg\" data-assetid=\"61118\" alt=\"dresses-f.jpg\" width=\"100%\" height=\"auto\">\n%%=EndImpressionRegion()=%%\n%%[ELSE]%%\n%%=BeginImpressionRegion(\"__Default_Content__photo_default.jpg\")=%%\n<img src=\"https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/b1dfe9cc-aa24-4436-8a7d-e8fa6e730704.jpg\" data-assetid=\"61121\" alt=\"photo_default.jpg\" width=\"100%\" height=\"auto\">\n%%=EndImpressionRegion()=%%\n%%[ENDIF]%%</td></tr></table>",
+    "design": "",
+    "superContent": "<div data-marker=\"wrapper\" style=\"\" class=\"stylingblock-content-wrapper\"><img src=\"https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/b1dfe9cc-aa24-4436-8a7d-e8fa6e730704.jpg\" data-assetid=\"61121\" alt=\"photo_default.jpg\" width=\"100%\" height=\"auto\" /></div>",
+    "meta": {
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true
+            },
+            "styling": {}
+        },
+        "options": {
+            "dynamicContent": {
+                "views": {
+                    "html": {
+                        "name": "",
+                        "defaultContent": {
+                            "id": 61121,
+                            "name": "photo_default.jpg",
+                            "type": {
+                                "id": 23,
+                                "name": "jpg",
+                                "displayName": "Image"
+                            },
+                            "textContent": "<img src=\"https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/b1dfe9cc-aa24-4436-8a7d-e8fa6e730704.jpg\" data-assetid=\"61121\" alt=\"photo_default.jpg\" width=\"100%\" height=\"auto\" />"
+                        },
+                        "dataSource": {
+                            "type": "dataextension",
+                            "name": "rahul_DE_for_poc",
+                            "id": "bb579fa1-cdfd-ec11-ba2f-d4f5ef3de465"
+                        },
+                        "variants": [
+                            {
+                                "name": "Rule 1",
+                                "content": {
+                                    "id": 61120,
+                                    "name": "dresses-m.jpg",
+                                    "textContent": "<img src=\"https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/e808511b-5cda-416e-bac9-19085024b294.jpg\" data-assetid=\"61120\" alt=\"dresses-m.jpg\" width=\"100%\" height=\"auto\" />"
+                                },
+                                "expression": {
+                                    "operand": "AND",
+                                    "conditions": [
+                                        {
+                                            "personalization": "Gender",
+                                            "dataType": "text",
+                                            "operator": "Equals",
+                                            "value": "Male",
+                                            "name": "Gender"
+                                        }
+                                    ]
+                                },
+                                "IRTDefault": "Rule_1__dresses-m.jpg",
+                                "customIRTName": ""
+                            },
+                            {
+                                "name": "Rule 2",
+                                "content": {
+                                    "id": 61118,
+                                    "name": "dresses-f.jpg",
+                                    "textContent": "<img src=\"https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/fe6ec2fa-3591-4a3b-824e-624967614f8d.jpg\" data-assetid=\"61118\" alt=\"dresses-f.jpg\" width=\"100%\" height=\"auto\" />"
+                                },
+                                "expression": {
+                                    "operand": "AND",
+                                    "conditions": [
+                                        {
+                                            "personalization": "Gender",
+                                            "dataType": "text",
+                                            "operator": "Equals",
+                                            "value": "Female",
+                                            "name": "Gender"
+                                        }
+                                    ]
+                                },
+                                "IRTDefault": "Rule_2__dresses-f.jpg",
+                                "customIRTName": ""
+                            }
+                        ],
+                        "blockPosition": "",
+                        "defaultContentRuleName": "Default Content"
+                    }
+                }
+            },
+            "blockType": "reference",
+            "dataSourceSchema": [
+                {
+                    "displayName": "First Name",
+                    "type": "item",
+                    "id": "666ce29c-ce17-41cd-8dd6-b3bec337afb5",
+                    "attr": {
+                        "text": "First Name",
+                        "personalization": "First Name",
+                        "dataType": "text"
+                    },
+                    "displayType": "Text"
+                },
+                {
+                    "displayName": "Last Name",
+                    "type": "item",
+                    "id": "02a29145-0ba4-4f91-b2bb-5b9ab34691b7",
+                    "attr": {
+                        "text": "Last Name",
+                        "personalization": "Last Name",
+                        "dataType": "text"
+                    },
+                    "displayType": "Text"
+                },
+                {
+                    "displayName": "Email Id",
+                    "type": "item",
+                    "id": "fbfe3aa1-4803-4da8-8f07-a474ddda8cbd",
+                    "attr": {
+                        "text": "Email Id",
+                        "personalization": "Email Id",
+                        "dataType": "text"
+                    },
+                    "displayType": "EmailAddress"
+                },
+                {
+                    "displayName": "Age",
+                    "type": "item",
+                    "id": "7bf6e237-52c0-4615-9a1c-2c10991d59a7",
+                    "attr": {
+                        "text": "Age",
+                        "personalization": "Age",
+                        "dataType": "number"
+                    },
+                    "displayType": "Number"
+                },
+                {
+                    "displayName": "Gender",
+                    "type": "item",
+                    "id": "2d631249-6a52-447b-8549-e0bda9e8bd3c",
+                    "attr": {
+                        "text": "Gender",
+                        "personalization": "Gender",
+                        "dataType": "text"
+                    },
+                    "displayType": "Text"
+                }
+            ]
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2022 Training/Rahul Raj"
+}

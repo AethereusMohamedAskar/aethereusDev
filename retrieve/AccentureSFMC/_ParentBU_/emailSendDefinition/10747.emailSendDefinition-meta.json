@@ -1,0 +1,43 @@
+{
+    "CreatedDate": "2020-08-12T03:40:57.717",
+    "ModifiedDate": "2020-09-10T11:34:59.293",
+    "CustomerKey": 10747,
+    "Name": "Email Auto",
+    "Description": "",
+    "SendClassification": {
+        "CustomerKey": "Default Commercial"
+    },
+    "SenderProfile": {
+        "CustomerKey": "Default"
+    },
+    "DeliveryProfile": {
+        "CustomerKey": "Default"
+    },
+    "SuppressTracking": false,
+    "IsSendLogging": true,
+    "SendDefinitionList": [
+        {
+            "SendDefinitionListType": "SourceList",
+            "CustomObjectID": "0fc5287f-07db-ea11-a2ee-48df37342cd1",
+            "DataSourceTypeID": "CustomObject",
+            "IsTestObject": false,
+            "SalesForceObjectID": "",
+            "Name": "",
+            "r__list_PathName": "my subscribers/All Subscribers"
+        }
+    ],
+    "BccEmail": "",
+    "AutoBccEmail": "",
+    "TestEmailAddr": "",
+    "EmailSubject": "Busy %%First Name%% ! Eat pizza",
+    "DynamicEmailSubject": "Busy %%First Name%% ! Eat pizza",
+    "IsMultipart": true,
+    "IsWrapped": true,
+    "DeduplicateByEmail": true,
+    "ExclusionFilter": "",
+    "Additional": "",
+    "CCEmail": "",
+    "r__folder_Path": "User-Initiated",
+    "r__assetMessage_Name": "Aug5 test mail",
+    "r__assetMessage_Key": "6bee2f65-343a-4a99-9411-6890bc3977d8"
+}

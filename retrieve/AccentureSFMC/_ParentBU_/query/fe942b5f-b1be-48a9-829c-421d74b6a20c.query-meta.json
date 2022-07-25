@@ -1,0 +1,11 @@
+{
+    "name": "Soham_SQL_1805",
+    "key": "fe942b5f-b1be-48a9-829c-421d74b6a20c",
+    "description": "",
+    "targetKey": "2D2FEC31-F466-4EB3-B6D7-ED29DF36940B",
+    "createdDate": "2022-05-18T00:27:17.777",
+    "modifiedDate": "2022-05-18T01:45:45.767",
+    "targetUpdateTypeName": "Append",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

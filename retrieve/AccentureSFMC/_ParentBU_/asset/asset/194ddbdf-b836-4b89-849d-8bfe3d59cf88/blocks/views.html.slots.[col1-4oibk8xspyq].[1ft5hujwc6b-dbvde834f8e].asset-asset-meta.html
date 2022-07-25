@@ -1,0 +1,110 @@
+<table
+    cellpadding="0"
+    cellspacing="0"
+    width="100%"
+    role="presentation"
+    style="min-width: 100%"
+    class="stylingblock-content-wrapper"
+>
+    <tr>
+        <td class="stylingblock-content-wrapper camarker-inner">
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link
+                rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+            />
+            <style>
+                .column {
+                    float: left;
+                    width: 50%;
+                }
+                #menu-bar {
+                    text-align: right;
+                    margin-top: 3%;
+                }
+                #menu-bar li {
+                    display: inline-block;
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #6b747b;
+                    margin-right: 5%;
+                }
+                .sticky {
+                    position: absolute !important;
+                    top: 0;
+                    width: 83%;
+                    background-color: #f1f9fc;
+                }
+
+                #div1 {
+                    text-align: left;
+                }
+                a:link {
+                    color: #6b747b;
+                }
+                a:hover {
+                    color: #834a9b !important;
+                }
+                a:active {
+                    color: #834a9b;
+                }
+                li a {
+                    padding: 10px;
+                }
+                .nbar a {
+                    padding: 10 px;
+                    color: #ff6e84;
+                    font-size: 14px;
+                }
+                @media screen and (max-width: 500px) {
+                    .nbar a {
+                        float: none;
+                        display: block;
+                    }
+                }
+                .logo_image {
+                    border-radius: 0px !important;
+                }
+            </style>
+            <div class="row">
+                <div class="column" id="div1">
+                    <img
+                        class="logo_image"
+                        src="https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/1a844631-ae8c-4bfc-b906-c9df469a2569.png"
+                    />
+                </div>
+                <div class="column" id="menu-bar">
+                    <li>
+                        <a
+                            class="active"
+                            href="#header"
+                            style="color: #000000; text-decoration: none"
+                        >
+                            <i class="fa fa-fw fa-list"></i> Programs Offered</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#features" style="color: #000000; text-decoration: none">
+                            <i class="fa fa-fw fa-bullhorn"></i> STUDENT SPEAK
+                        </a>
+                    </li>
+                </div>
+            </div>
+
+            <script>
+                window.addEventListener('scroll', function () {
+                    let navbar = document.getElementById('menu-bar');
+                    let imgbar = document.getElementById('div1');
+
+                    if (window.pageYOffset >= 75) {
+                        navbar.classList.add('sticky');
+                        imgbar.classList.add('sticky');
+                    } else {
+                        navbar.classList.remove('sticky');
+                        imgbar.classList.remove('sticky');
+                    }
+                });
+            </script>
+        </td>
+    </tr>
+</table>

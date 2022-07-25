@@ -1,0 +1,29 @@
+{
+    "name": "Preethi-DE_Tracking_FTP",
+    "description": "",
+    "key": "2b1852a5-a427-a586-b465-691c430ef830",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Preethi-Tracking_Data_Extract",
+                    "r__type": "dataExtract"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Preethi-Tracking_Data_SF_to_FTP",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Preethi"
+}

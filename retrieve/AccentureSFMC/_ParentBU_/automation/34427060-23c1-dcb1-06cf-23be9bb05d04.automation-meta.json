@@ -1,0 +1,35 @@
+{
+    "name": "Vikas_SQL_TRAINING",
+    "description": "",
+    "key": "34427060-23c1-dcb1-06cf-23be9bb05d04",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2022-05-18T15:30:00",
+        "endDate": "2022-05-18T15:30:00",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "India Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Vikas_SQL_Query",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Vikas_SQL_JOURNEY",
+                    "r__type": "journeyEntry"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2022 Training/vikas"
+}

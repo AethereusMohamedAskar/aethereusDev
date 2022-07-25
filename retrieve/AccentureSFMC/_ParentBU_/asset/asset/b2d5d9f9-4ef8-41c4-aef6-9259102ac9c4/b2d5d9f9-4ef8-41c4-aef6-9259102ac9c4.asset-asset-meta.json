@@ -1,0 +1,32 @@
+{
+    "customerKey": "b2d5d9f9-4ef8-41c4-aef6-9259102ac9c4",
+    "contentType": "text/html",
+    "assetType": {
+        "name": "webpage",
+        "displayName": "Web Page"
+    },
+    "version": 1,
+    "name": "Course Interest",
+    "description": "",
+    "owner": {
+        "email": "saiprasad.deb@gmail.com",
+        "name": "Test User"
+    },
+    "createdDate": "2022-02-23T17:16:59.387-06:00",
+    "createdBy": {
+        "email": "saiprasad.deb@gmail.com",
+        "name": "Test User"
+    },
+    "modifiedDate": "2022-02-23T17:16:59.387-06:00",
+    "modifiedBy": {
+        "email": "saiprasad.deb@gmail.com",
+        "name": "Test User"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

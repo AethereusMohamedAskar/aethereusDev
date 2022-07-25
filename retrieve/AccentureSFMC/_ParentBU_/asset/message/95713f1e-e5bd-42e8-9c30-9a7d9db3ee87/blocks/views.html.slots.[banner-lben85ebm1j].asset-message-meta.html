@@ -1,0 +1,57 @@
+%%[
+set @Country_Code=attributevalue("Country_Code")
+
+If @Country_Code=="SA" then 
+set @Header_Text=ContentBlockByKey("H2")
+set @Subject="لست وحدك"
+set @CTA_Button="انقر هنا"
+set @URL="https://www.flipkart.com/"
+set @Image=ContentBlockByKey("I2")
+set @Image_Logo=ContentBlockByKey("logo2")
+set @ButtonColor="#CE307F"
+set @CTA_Button=ContentBlockByKey("CTA")
+
+
+Elseif @Country_Code=="MX" then 
+set @Header_Text=ContentBlockByKey("H3")
+set @Subject="Usted no está solo"
+set @CTA_Button="haga clic aquí"
+set @URL="https://www.myntra.com/"
+set @Image=ContentBlockByKey("I3")
+set @Image_Logo=ContentBlockByKey("logo3")
+set @ButtonColor="#7F3FBF"
+set @CTA_Button=ContentBlockByKey("CTA")
+
+
+Elseif @Country_Code=="PT" then 
+set @Header_Text=ContentBlockByKey("H4")
+set @Subject="Você não está sozinho"
+set @CTA_Button="Clique aqui"
+set @URL="https://www.nykaa.com/"
+set @Image=ContentBlockByKey("I4")
+set @Image_Logo=ContentBlockByKey("logo4")
+set @ButtonColor="#3F3FBF"
+set @CTA_Button=ContentBlockByKey("CTA")
+
+Elseif @Country_Code=="ES" then 
+set @Header_Text=ContentBlockByKey("H5")
+set @Subject="Usted no está solo"
+set @CTA_Button="haga clic aquí"
+set @URL="https://www.ajio.com/"
+set @Image=ContentBlockByKey("I5")
+set @Image_Logo=ContentBlockByKey("logo5")
+set @ButtonColor="#007FFF"
+set @CTA_Button=ContentBlockByKey("CTA")
+
+Else 
+set @Header_Text=ContentBlockByKey("H1")
+set @Subject="You are not alone"
+set @CTA_Button="Click here"
+set @URL="https://www.amazon.in/"
+set @Image=ContentBlockByKey("I1")
+set @Image_Logo=ContentBlockByKey("logo1")
+set @ButtonColor="#BF3F3F"
+set @CTA_Button=ContentBlockByKey("CTA")
+
+endif
+]%%

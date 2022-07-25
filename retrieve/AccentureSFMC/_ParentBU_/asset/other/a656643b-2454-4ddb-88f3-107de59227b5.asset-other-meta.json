@@ -1,0 +1,33 @@
+{
+    "customerKey": "a656643b-2454-4ddb-88f3-107de59227b5",
+    "assetType": {
+        "name": "codesnippetblock",
+        "displayName": "Code Snippet Block"
+    },
+    "fileProperties": {
+        "fileName": "gauri ampscript"
+    },
+    "name": "gauri ampscript",
+    "owner": {
+        "email": "Gauri.Singh@aethereus.com",
+        "name": "Gauri shankar singh"
+    },
+    "createdDate": "2022-06-29T04:37:45.593-06:00",
+    "createdBy": {
+        "email": "Gauri.Singh@aethereus.com",
+        "name": "Gauri shankar singh"
+    },
+    "modifiedDate": "2022-06-29T04:37:45.593-06:00",
+    "modifiedBy": {
+        "email": "Gauri.Singh@aethereus.com",
+        "name": "Gauri shankar singh"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "content": "",
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2022 Training/Gauri Shankar"
+}

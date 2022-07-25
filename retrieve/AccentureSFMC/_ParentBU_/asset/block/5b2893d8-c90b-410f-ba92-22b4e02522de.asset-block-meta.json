@@ -1,0 +1,41 @@
+{
+    "customerKey": "5b2893d8-c90b-410f-ba92-22b4e02522de",
+    "assetType": {
+        "name": "htmlblock",
+        "displayName": "HTML Block"
+    },
+    "fileProperties": {
+        "fileName": "PJ - Content_B"
+    },
+    "name": "PJ - Content_Calling",
+    "owner": {
+        "email": "preethi.julian@aethereus.com",
+        "name": "Preethi Julian"
+    },
+    "createdDate": "2022-02-17T10:43:26.817-06:00",
+    "createdBy": {
+        "email": "preethi.julian@aethereus.com",
+        "name": "Preethi Julian"
+    },
+    "modifiedDate": "2022-02-27T10:29:01.933-06:00",
+    "modifiedBy": {
+        "email": "preethi.julian@aethereus.com",
+        "name": "Preethi Julian"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "design": "",
+    "meta": {
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true
+            },
+            "styling": {}
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/Preethi/Email"
+}

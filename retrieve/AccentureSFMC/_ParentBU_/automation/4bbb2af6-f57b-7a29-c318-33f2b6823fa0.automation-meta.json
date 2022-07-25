@@ -1,0 +1,20 @@
+{
+    "name": "Contact Delete",
+    "description": "",
+    "key": "4bbb2af6-f57b-7a29-c318-33f2b6823fa0",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Contact Delete API",
+                    "r__type": "script"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Kanika"
+}

@@ -1,0 +1,41 @@
+{
+    "customerKey": "063a3462-7025-4370-b610-be5eb2c064e5",
+    "assetType": {
+        "name": "htmlblock",
+        "displayName": "HTML Block"
+    },
+    "fileProperties": {
+        "fileName": "Landing-page-Header"
+    },
+    "name": "Landing-page-Header",
+    "owner": {
+        "email": "shivani.mittal@aethereus.com",
+        "name": "Shivani Mittal"
+    },
+    "createdDate": "2022-02-11T07:34:43.037-06:00",
+    "createdBy": {
+        "email": "shivani.mittal@aethereus.com",
+        "name": "Shivani Mittal"
+    },
+    "modifiedDate": "2022-02-11T08:18:04.31-06:00",
+    "modifiedBy": {
+        "email": "shivani.mittal@aethereus.com",
+        "name": "Shivani Mittal"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "design": "",
+    "meta": {
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true
+            },
+            "styling": {}
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

@@ -1,0 +1,39 @@
+{
+    "name": "status_change_dataextract",
+    "key": "6C26AA61-B9A2-4ED7-A3FE-79AFBD36E4F3",
+    "fileSpec": "statuschange.csv",
+    "createdDate": "2022-07-20T03:31:53.633",
+    "modifiedDate": "2022-07-20T03:31:53.633",
+    "createdBy": 713800991,
+    "modifiedBy": 713800991,
+    "intervalType": 0,
+    "description": "",
+    "dataFields": [
+        {
+            "name": "ColumnDelimiter",
+            "type": "string",
+            "value": ","
+        },
+        {
+            "name": "DECustomerKey",
+            "type": "string",
+            "value": "9246EF4F-0840-40A2-9D43-E07CA2602560"
+        },
+        {
+            "name": "HasColumnHeaders",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "TextQualified",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "UsesLineFeed",
+            "type": "bool",
+            "value": "False"
+        }
+    ],
+    "r__dataExtractType_name": "Data Extension Extract"
+}

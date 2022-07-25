@@ -1,0 +1,37 @@
+{
+    "name": "Anushree_Birthday_Coupon_Automation",
+    "description": "",
+    "key": "e2dfa6d3-cbbb-4794-cb79-d460240570e9",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2022-01-06T06:50:00",
+        "endDate": "2022-01-10T00:00:00",
+        "icalRecur": "FREQ=DAILY;UNTIL=20220110T113000;INTERVAL=1",
+        "timezoneName": "India Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "description": "",
+            "activities": [
+                {
+                    "name": "Anu_Birthday_query",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "activities": [
+                {
+                    "name": "Birthday_DE_123",
+                    "r__type": "fireEvent"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Anushree"
+}

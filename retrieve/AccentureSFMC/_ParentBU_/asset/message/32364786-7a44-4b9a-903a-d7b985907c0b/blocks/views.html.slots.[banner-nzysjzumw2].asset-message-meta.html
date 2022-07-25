@@ -1,0 +1,25 @@
+%%[
+var @skey, @locations, @numRowsToReturn
+set @skey = AttributeValue("StudentID")
+set @numRowsToReturn = 0
+
+set @locations = LookupOrderedRows("StudentDE",@numRowsToReturn," Name desc", "StudentID",@skey)
+
+if RowCount(@locations) > 0 then
+ for @i = 1 to RowCount(@locations) do
+ 
+ var @Location, @Name, @Status, @EmailAddress
+ 
+ set @Location = row(@locations, @i)
+ set @Name = field(@location,"Name")
+ set @EmailAddress = field(@location,"EmailAddress")
+ set @Status = field(@location,"Status")
+
+ 
+ next @1
+
+endif
+
+
+
+]%%

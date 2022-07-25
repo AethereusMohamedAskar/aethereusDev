@@ -1,0 +1,21 @@
+%%[
+
+var @rows, @row, @rowCount, @Interest, @Subject, @Image_url, @Body
+
+set @Lang_Interest = AttributeValue("Interest")
+
+set @rows = LookupRows("Interest_DE","Interest", @Lang_Interest)
+set @rowCount = rowcount(@rows)
+
+if @rowCount > 0 then
+
+set @row = row(@rows, 1) /* get row based on counter */
+set @Subject = field(@row,"Subject")
+set @Image_url = field(@row,"Image_url")
+set @Body = field(@row,"Body")
+
+endif
+]%%
+
+<center>%%=v(@Body)=%%</center>
+

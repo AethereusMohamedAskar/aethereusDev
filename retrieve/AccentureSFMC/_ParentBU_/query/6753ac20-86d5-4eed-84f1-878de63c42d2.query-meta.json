@@ -1,0 +1,11 @@
+{
+    "name": "Fractal Testing, Master Data",
+    "key": "6753ac20-86d5-4eed-84f1-878de63c42d2",
+    "description": "To move data from Synchronize DE to Standard DE",
+    "targetKey": "1C3847EA-50C6-4059-8506-E17C1D6B381F",
+    "createdDate": "2021-09-21T01:59:59.077",
+    "modifiedDate": "2021-09-21T07:15:39.55",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

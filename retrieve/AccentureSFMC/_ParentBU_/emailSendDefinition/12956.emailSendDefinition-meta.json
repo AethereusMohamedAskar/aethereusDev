@@ -1,0 +1,43 @@
+{
+    "CreatedDate": "2021-08-18T13:01:28.52",
+    "ModifiedDate": "2021-08-18T13:01:28.52",
+    "CustomerKey": 12956,
+    "Name": "Preethi-Send_Mail_Filter_Wait",
+    "Description": "",
+    "SendClassification": {
+        "CustomerKey": "Default Commercial"
+    },
+    "SenderProfile": {
+        "CustomerKey": "Default"
+    },
+    "DeliveryProfile": {
+        "CustomerKey": "Default"
+    },
+    "SuppressTracking": false,
+    "IsSendLogging": true,
+    "SendDefinitionList": [
+        {
+            "SendDefinitionListType": "SourceList",
+            "DataSourceTypeID": "CustomObject",
+            "IsTestObject": false,
+            "SalesForceObjectID": "",
+            "Name": "",
+            "r__dataExtension_Key": "9AF85906-6860-4066-8AE4-E59734AE5DD6",
+            "r__list_PathName": "my subscribers/All Subscribers"
+        }
+    ],
+    "BccEmail": "",
+    "AutoBccEmail": "",
+    "TestEmailAddr": "",
+    "EmailSubject": "Tea's the Season",
+    "DynamicEmailSubject": "Tea's the Season",
+    "IsMultipart": true,
+    "IsWrapped": true,
+    "DeduplicateByEmail": true,
+    "ExclusionFilter": "",
+    "Additional": "",
+    "CCEmail": "",
+    "r__folder_Path": "User-Initiated",
+    "r__assetMessage_Name": "Chai_Dynamic-Content",
+    "r__assetMessage_Key": "b80ec2ff-dac0-4bd7-96e8-37fcc8abbae3"
+}

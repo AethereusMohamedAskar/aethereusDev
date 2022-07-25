@@ -1,0 +1,30 @@
+{
+    "customerKey": "8c94d218-77de-49ac-82a9-7004cc838ded",
+    "assetType": {
+        "name": "css",
+        "displayName": "Code"
+    },
+    "fileProperties": {
+        "fileName": "popupaoc-public-style.css",
+        "extension": "css",
+        "fileSize": 43538,
+        "fileCreatedDate": "2022-02-11T06:34:28.8811885-06:00"
+    },
+    "name": "popupaoc-public-style.css",
+    "createdDate": "2022-02-11T06:34:28.88-06:00",
+    "createdBy": {
+        "email": "anushree.barapatre@aethereus.com",
+        "name": "Anushree Barapatre"
+    },
+    "modifiedDate": "2022-02-11T06:44:15.453-06:00",
+    "modifiedBy": {
+        "email": "anushree.barapatre@aethereus.com",
+        "name": "Anushree Barapatre"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/Anushree/IMS"
+}

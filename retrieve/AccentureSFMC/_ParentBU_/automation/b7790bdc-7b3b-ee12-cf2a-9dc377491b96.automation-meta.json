@@ -1,0 +1,43 @@
+{
+    "name": "sql AND email automation",
+    "description": "",
+    "key": "b7790bdc-7b3b-ee12-cf2a-9dc377491b96",
+    "type": "scheduled",
+    "status": "Building",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2020-08-17T17:30:00",
+        "endDate": "2020-08-18T00:00:00",
+        "icalRecur": "FREQ=DAILY;UNTIL=20200818T113000;INTERVAL=1",
+        "timezoneName": "India Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "sql  for birthday search",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "pen",
+                    "r__type": "verification"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "importFile"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations"
+}

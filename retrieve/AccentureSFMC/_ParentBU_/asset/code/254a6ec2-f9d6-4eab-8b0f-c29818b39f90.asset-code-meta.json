@@ -1,0 +1,29 @@
+{
+    "customerKey": "254a6ec2-f9d6-4eab-8b0f-c29818b39f90",
+    "assetType": {
+        "name": "html",
+        "displayName": "Code"
+    },
+    "fileProperties": {
+        "extension": "html",
+        "fileSize": 93039,
+        "fileCreatedDate": "2020-10-13T06:23:34.0227502-06:00"
+    },
+    "name": "Campaign code.html",
+    "createdDate": "2020-10-13T06:23:34.023-06:00",
+    "createdBy": {
+        "email": "kanika.singhal@aethereus.com",
+        "name": "Kanika Singhal"
+    },
+    "modifiedDate": "2021-07-20T04:16:20.343-06:00",
+    "modifiedBy": {
+        "email": "kanika.singhal@aethereus.com",
+        "name": "Kanika Singhal"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/Practice -Kanika"
+}

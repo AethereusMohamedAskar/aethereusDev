@@ -1,0 +1,13 @@
+%%[
+var @firstname,@lastname,@status,@firstnameFB,@lastnameFB,@statusPC
+set @status=[Status]
+set @firstname=[FirstName]
+set @lastname=[LastName]
+set @statusPC=ProperCase(@status)
+
+SET @firstnameFB = IIF(EMPTY(@firstname),@lastname,concat('',Propercase(@firstname)))
+
+SET @lastnameFB = IIF(EMPTY(@lastname),@firstname,concat('',Propercase(@lastname)))
+
+
+]%%

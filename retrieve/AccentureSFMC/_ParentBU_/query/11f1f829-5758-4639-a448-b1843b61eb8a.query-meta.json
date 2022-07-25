@@ -1,0 +1,11 @@
+{
+    "name": "SQl_birthday_POC",
+    "key": "11f1f829-5758-4639-a448-b1843b61eb8a",
+    "description": "",
+    "targetKey": "8984033E-E56B-48FA-B514-382E49D60173",
+    "createdDate": "2022-04-21T00:55:57.533",
+    "modifiedDate": "2022-04-21T00:55:57.533",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

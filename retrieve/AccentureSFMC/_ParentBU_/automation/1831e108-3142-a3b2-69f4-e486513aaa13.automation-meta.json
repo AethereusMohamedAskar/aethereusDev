@@ -1,0 +1,28 @@
+{
+    "name": "Birthday_PoC_VJ",
+    "key": "1831e108-3142-a3b2-69f4-e486513aaa13",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Filter_birthdayActivity_VJ",
+                    "r__type": "filter"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Filter_Activity_bir",
+                    "r__type": "emailSendDefinition"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/vijay"
+}

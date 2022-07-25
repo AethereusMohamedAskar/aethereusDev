@@ -1,0 +1,18 @@
+%%[
+set @subscriberkey = _subscriberkey
+set @email =emailaddr
+set @jobid = jobid
+set @batchid = _JobSubscriberBatchID
+set @Listid = Listid
+set @emailName = emailname_
+
+
+DEBUG:<br>
+    Subscriber Key: %%=v(@subscriberkey)=%%<br>
+    Email: %%=v(@Email)=%%<br>
+    JobID: %%=v(@jobid)=%%<br>
+    ListID: %%=v(@listid)=%%<br>
+    BatchID: %%=v(@batchid)=%%<br>
+
+
+]%%

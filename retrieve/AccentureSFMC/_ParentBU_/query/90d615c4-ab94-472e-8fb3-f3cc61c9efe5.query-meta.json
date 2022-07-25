@@ -1,0 +1,11 @@
+{
+    "name": "Outlook_Dynamic_Query",
+    "key": "90d615c4-ab94-472e-8fb3-f3cc61c9efe5",
+    "description": "",
+    "targetKey": "DE574485-740E-4FC6-B9E1-D9ECAD2C0C36",
+    "createdDate": "2020-04-09T00:32:50.877",
+    "modifiedDate": "2020-04-09T00:32:50.877",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query/Sai Prasad UC"
+}

@@ -1,0 +1,39 @@
+{
+    "name": "Extract from SMFC DE",
+    "key": "CD02389A-6984-45BE-915A-57DB4CB94586",
+    "fileSpec": "Extract DE.csv",
+    "createdDate": "2021-08-10T19:23:01.55",
+    "modifiedDate": "2021-08-10T19:41:57.827",
+    "createdBy": 713269674,
+    "modifiedBy": 713269674,
+    "intervalType": 0,
+    "description": "",
+    "dataFields": [
+        {
+            "name": "ColumnDelimiter",
+            "type": "string",
+            "value": ","
+        },
+        {
+            "name": "DECustomerKey",
+            "type": "string",
+            "value": "2020Data"
+        },
+        {
+            "name": "HasColumnHeaders",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "TextQualified",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "UsesLineFeed",
+            "type": "bool",
+            "value": "False"
+        }
+    ],
+    "r__dataExtractType_name": "Data Extension Extract"
+}

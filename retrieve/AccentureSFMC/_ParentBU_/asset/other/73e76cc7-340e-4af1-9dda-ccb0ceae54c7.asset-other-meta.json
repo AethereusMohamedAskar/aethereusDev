@@ -1,0 +1,596 @@
+{
+    "customerKey": "73e76cc7-340e-4af1-9dda-ccb0ceae54c7",
+    "assetType": {
+        "name": "smartcaptureblock",
+        "displayName": "Smart Capture"
+    },
+    "name": "data - block2",
+    "owner": {
+        "email": "kanika.singhal@aethereus.com",
+        "name": "Kanika Singhal"
+    },
+    "createdDate": "2020-11-27T06:40:02.92-06:00",
+    "createdBy": {
+        "email": "kanika.singhal@aethereus.com",
+        "name": "Kanika Singhal"
+    },
+    "modifiedDate": "2020-11-27T06:44:23.57-06:00",
+    "modifiedBy": {
+        "email": "kanika.singhal@aethereus.com",
+        "name": "Kanika Singhal"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div style=\"background-color: #f3f2f2; border-radius: 8px; margin: 20px auto; height: 58px; width: 58px;\"><img src=\"data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNS4zNSAyNi4xNCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiM3MDZlNmF9LmNscy0ye2ZpbGw6bm9uZTtzdHJva2U6IzcwNmU2YTtzdHJva2UtbWl0ZXJsaW1pdDoxMDtzdHJva2Utd2lkdGg6MS41cHh9PC9zdHlsZT48L2RlZnM+PGNpcmNsZSBjbGFzcz0iY2xzLTEiIGN4PSI2LjA3IiBjeT0iNi4wNyIgcj0iMy4wOCIvPjxjaXJjbGUgY2xhc3M9ImNscy0yIiBjeD0iNi4wNyIgY3k9IjIwLjA3IiByPSI1LjMyIi8+PGNpcmNsZSBjbGFzcz0iY2xzLTIiIGN4PSI2LjA3IiBjeT0iNi4wNyIgcj0iNS4zMiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTE1Ljk5IDYuMzZ2MTQuNjFsMy41My0xLjMgMS43NCA0LjcyIDEuMjEtLjQ0IDEuMjEtLjQ1LTEuNzMtNC43MiAzLjQtMS4yNS05LjM2LTExLjE3eiIvPjwvc3ZnPg==\" style=\"display: block;  height: 24px; padding: 17px; width: 24px;\"></div></td></tr></table>",
+    "meta": {
+        "options": {
+            "attributesSlotKey": "tqww2e5899",
+            "smartCaptureGearID": "r7mfi62m28k",
+            "buttonText": "Submit",
+            "buttonStyling": {
+                "background-color": "#A26769",
+                "border-color": "#009DDC",
+                "border-radius": "1em",
+                "border-style": "solid",
+                "-webkit-border-radius": "1em",
+                "-moz-border-radius": "1em",
+                "color": "#FFFFFF",
+                "font-family": "Arial, Helvetica, sans-serif",
+                "font-size": "16px",
+                "line-height": "normal",
+                "padding": "0.75em",
+                "width": "50%"
+            },
+            "buttonWrapperStyling": {
+                "padding-bottom": "0.75em",
+                "text-align": "center"
+            },
+            "confirmationMessage": "Thank you for your submission.",
+            "fieldFontStyling": {
+                "color": "#000000",
+                "font-family": "Arial, Helvetica, sans-serif",
+                "font-size": "16px"
+            },
+            "fieldStyling": {
+                "width": "100%",
+                "border-bottom": "2px solid #A26769",
+                "border-top": "0px",
+                "border-left": "0px",
+                "border-right": "0px",
+                "background-color": "#ECE2D0"
+            },
+            "formStyling": {
+                "background-color": "transparent",
+                "margin-top": "0px",
+                "margin-right": "0px",
+                "margin-bottom": "0px",
+                "margin-left": "0px",
+                "padding-top": "0px",
+                "padding-right": "0px",
+                "padding-bottom": "0px",
+                "padding-left": "0px",
+                "text-align": "left",
+                "margin": "0.5em 3em 0.5em 3em",
+                "padding": "0px",
+                "border": "0px"
+            },
+            "name": "Vitas - Data 2",
+            "useInJourney": true,
+            "customObjectFields": [
+                {
+                    "name": "Email Address",
+                    "id": "8e66f187-84e6-4f21-a9a7-5ca7e6b4a628",
+                    "type": "EmailAddress",
+                    "masktype": "None",
+                    "storagetype": "Plain",
+                    "length": 254,
+                    "description": "",
+                    "ordinal": 1,
+                    "isNullable": false,
+                    "isPrimaryKey": true,
+                    "isTemplateField": false,
+                    "isInheritable": false,
+                    "isOverridable": false,
+                    "isHidden": false,
+                    "isReadOnly": false,
+                    "mustOverride": false,
+                    "fieldId": "8e66f187-84e6-4f21-a9a7-5ca7e6b4a628",
+                    "label": "Email Address",
+                    "isRequired": true,
+                    "isFormRequired": true,
+                    "restrictedValues": null,
+                    "isSystemHidden": false,
+                    "_active": true,
+                    "_visible": true,
+                    "_hiddenAttribute": false,
+                    "validationMessage": "Please fill out this field.",
+                    "_key": "vnqnj7jw7jd"
+                },
+                {
+                    "name": "Phone Number",
+                    "id": "4c97dfd7-094f-4dc7-8100-583cb4f31151",
+                    "type": "Phone",
+                    "masktype": "None",
+                    "storagetype": "Plain",
+                    "length": 50,
+                    "description": "",
+                    "ordinal": 2,
+                    "isNullable": true,
+                    "isPrimaryKey": false,
+                    "isTemplateField": false,
+                    "isInheritable": false,
+                    "isOverridable": false,
+                    "isHidden": false,
+                    "isReadOnly": false,
+                    "mustOverride": false,
+                    "fieldId": "4c97dfd7-094f-4dc7-8100-583cb4f31151",
+                    "label": "Phone Number",
+                    "isRequired": false,
+                    "isFormRequired": false,
+                    "restrictedValues": null,
+                    "isSystemHidden": false,
+                    "_active": true,
+                    "_visible": true,
+                    "_hiddenAttribute": false,
+                    "validationMessage": "Please fill out this field.",
+                    "_key": "qc4xdzjgj8c"
+                },
+                {
+                    "name": "Last Name",
+                    "id": "b017069e-49bc-4e75-a225-a83a1e042965",
+                    "type": "Text",
+                    "masktype": "None",
+                    "storagetype": "Plain",
+                    "length": 50,
+                    "description": "",
+                    "ordinal": 5,
+                    "isNullable": true,
+                    "isPrimaryKey": false,
+                    "isTemplateField": false,
+                    "isInheritable": true,
+                    "isOverridable": true,
+                    "isHidden": false,
+                    "isReadOnly": false,
+                    "mustOverride": false,
+                    "fieldId": "b017069e-49bc-4e75-a225-a83a1e042965",
+                    "label": "Last Name",
+                    "isRequired": false,
+                    "isFormRequired": false,
+                    "restrictedValues": null,
+                    "isSystemHidden": false,
+                    "_active": true,
+                    "_visible": true,
+                    "_hiddenAttribute": false,
+                    "validationMessage": "Please fill out this field.",
+                    "_key": "fivfdvb8zue"
+                },
+                {
+                    "name": "Loan Type",
+                    "id": "1b539833-8c27-41b4-859c-0fb9bcf5fe0c",
+                    "type": "Text",
+                    "masktype": "None",
+                    "storagetype": "Plain",
+                    "length": 50,
+                    "description": "",
+                    "ordinal": 7,
+                    "isNullable": true,
+                    "isPrimaryKey": false,
+                    "isTemplateField": false,
+                    "isInheritable": true,
+                    "isOverridable": true,
+                    "isHidden": false,
+                    "isReadOnly": false,
+                    "mustOverride": false,
+                    "fieldId": "1b539833-8c27-41b4-859c-0fb9bcf5fe0c",
+                    "label": "Loan Type",
+                    "isRequired": false,
+                    "isFormRequired": false,
+                    "restrictedValues": null,
+                    "isSystemHidden": false,
+                    "_active": true,
+                    "_visible": true,
+                    "_hiddenAttribute": false,
+                    "validationMessage": "Please fill out this field.",
+                    "_key": "3gc0siiiinh"
+                },
+                {
+                    "name": "City",
+                    "id": "3eb7284a-0365-4df9-bdd6-d741a94452c5",
+                    "type": "Text",
+                    "masktype": "None",
+                    "storagetype": "Plain",
+                    "length": 50,
+                    "description": "",
+                    "ordinal": 3,
+                    "isNullable": true,
+                    "isPrimaryKey": false,
+                    "isTemplateField": false,
+                    "isInheritable": false,
+                    "isOverridable": false,
+                    "isHidden": false,
+                    "isReadOnly": false,
+                    "mustOverride": false,
+                    "fieldId": "3eb7284a-0365-4df9-bdd6-d741a94452c5",
+                    "label": "City",
+                    "isRequired": false,
+                    "isFormRequired": false,
+                    "restrictedValues": null,
+                    "isSystemHidden": false,
+                    "_active": true,
+                    "_visible": true,
+                    "_hiddenAttribute": false,
+                    "validationMessage": "Please fill out this field.",
+                    "_key": "uttq2t25nh"
+                },
+                {
+                    "name": "First Name",
+                    "id": "ff834b03-f958-49a7-be98-29eec73b7ece",
+                    "type": "Text",
+                    "masktype": "None",
+                    "storagetype": "Plain",
+                    "length": 50,
+                    "description": "",
+                    "ordinal": 0,
+                    "isNullable": true,
+                    "isPrimaryKey": false,
+                    "isTemplateField": false,
+                    "isInheritable": false,
+                    "isOverridable": false,
+                    "isHidden": false,
+                    "isReadOnly": false,
+                    "mustOverride": false,
+                    "fieldId": "ff834b03-f958-49a7-be98-29eec73b7ece",
+                    "label": "First Name",
+                    "isRequired": false,
+                    "isFormRequired": false,
+                    "restrictedValues": null,
+                    "isSystemHidden": false,
+                    "_active": true,
+                    "_visible": true,
+                    "_hiddenAttribute": false,
+                    "validationMessage": "Please fill out this field.",
+                    "_key": "dwbp4kvax4"
+                }
+            ],
+            "dataTarget": "dataExtension",
+            "listid": "a2581002-d92f-eb11-a2f2-48df37342cd1",
+            "listName": "Data",
+            "listKey": "4F27B721-F6E5-4AA1-947E-969958BA4016",
+            "noAddingFields": false,
+            "hasSendableDataExtension": true,
+            "onSubmitGotoUrlScheme": "http://",
+            "onSubmitGotoUrlType": 2,
+            "onSubmitShouldGotoUrl": true,
+            "isInJourney": true,
+            "onSubmitGotoUrlHost": "financialinclusionweek.org/event-calendar-2020?fbclid=IwAR3zTXyNHeZIdUROYjnvklMFdAnW3lP95ELvU5tP-6VNdwNzM3VhFmt5VhM",
+            "onSubmitGotoUrl": "http://financialinclusionweek.org/event-calendar-2020?fbclid=IwAR3zTXyNHeZIdUROYjnvklMFdAnW3lP95ELvU5tP-6VNdwNzM3VhFmt5VhM"
+        },
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true
+            },
+            "styling": {}
+        }
+    },
+    "availableViews": [],
+    "slots": {
+        "tqww2e5899": {
+            "thumbnail": {},
+            "content": "<div data-type=\"block\" data-key=\"dwbp4kvax4\"></div><div data-type=\"block\" data-key=\"fivfdvb8zue\"></div><div data-type=\"block\" data-key=\"qc4xdzjgj8c\"></div><div data-type=\"block\" data-key=\"vnqnj7jw7jd\"></div><div data-type=\"block\" data-key=\"uttq2t25nh\"></div><div data-type=\"block\" data-key=\"3gc0siiiinh\"></div>",
+            "design": "<p style=\"font-family: arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+            "blocks": {
+                "dwbp4kvax4": {
+                    "assetType": {
+                        "id": 216,
+                        "name": "smartcaptureformfieldblock"
+                    },
+                    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"First Name\">First Name</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"First Name\" data-field-type=\"Text\"></div>\n</div></td></tr></table>",
+                    "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"First Name\">First Name</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"First Name\" data-field-type=\"Text\"></div>\n</div></td></tr></table>",
+                    "meta": {
+                        "wrapperStyles": {
+                            "mobile": {
+                                "visible": true
+                            },
+                            "styling": {}
+                        },
+                        "options": {
+                            "name": "First Name",
+                            "id": "ff834b03-f958-49a7-be98-29eec73b7ece",
+                            "type": "Text",
+                            "masktype": "None",
+                            "storagetype": "Plain",
+                            "length": 50,
+                            "description": "",
+                            "ordinal": 0,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isTemplateField": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isHidden": false,
+                            "isReadOnly": false,
+                            "mustOverride": false,
+                            "fieldId": "ff834b03-f958-49a7-be98-29eec73b7ece",
+                            "label": "First Name",
+                            "isRequired": false,
+                            "isFormRequired": false,
+                            "restrictedValues": null,
+                            "isSystemHidden": false,
+                            "_active": true,
+                            "_visible": true,
+                            "_hiddenAttribute": false,
+                            "validationMessage": "Please fill out this field.",
+                            "_key": "75ziy3tphni"
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "fivfdvb8zue": {
+                    "assetType": {
+                        "id": 216,
+                        "name": "smartcaptureformfieldblock"
+                    },
+                    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Last Name\">Last Name</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"Last Name\" data-field-type=\"Text\"></div>\n</div></td></tr></table>",
+                    "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Last Name\">Last Name</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"Last Name\" data-field-type=\"Text\"></div>\n</div></td></tr></table>",
+                    "meta": {
+                        "wrapperStyles": {
+                            "mobile": {
+                                "visible": true
+                            },
+                            "styling": {}
+                        },
+                        "options": {
+                            "name": "Last Name",
+                            "id": "b017069e-49bc-4e75-a225-a83a1e042965",
+                            "type": "Text",
+                            "masktype": "None",
+                            "storagetype": "Plain",
+                            "length": 50,
+                            "description": "",
+                            "ordinal": 5,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isTemplateField": false,
+                            "isInheritable": true,
+                            "isOverridable": true,
+                            "isHidden": false,
+                            "isReadOnly": false,
+                            "mustOverride": false,
+                            "fieldId": "b017069e-49bc-4e75-a225-a83a1e042965",
+                            "label": "Last Name",
+                            "isRequired": false,
+                            "isFormRequired": false,
+                            "restrictedValues": null,
+                            "isSystemHidden": false,
+                            "_active": true,
+                            "_visible": true,
+                            "_hiddenAttribute": false,
+                            "validationMessage": "Please fill out this field."
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "qc4xdzjgj8c": {
+                    "assetType": {
+                        "id": 216,
+                        "name": "smartcaptureformfieldblock"
+                    },
+                    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Phone Number\">Phone Number</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"Phone Number\" data-field-type=\"Phone\"></div>\n</div></td></tr></table>",
+                    "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Phone Number\">Phone Number</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"Phone Number\" data-field-type=\"Phone\"></div>\n</div></td></tr></table>",
+                    "meta": {
+                        "wrapperStyles": {
+                            "mobile": {
+                                "visible": true
+                            },
+                            "styling": {}
+                        },
+                        "options": {
+                            "name": "Phone Number",
+                            "id": "4c97dfd7-094f-4dc7-8100-583cb4f31151",
+                            "type": "Phone",
+                            "masktype": "None",
+                            "storagetype": "Plain",
+                            "length": 50,
+                            "description": "",
+                            "ordinal": 2,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isTemplateField": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isHidden": false,
+                            "isReadOnly": false,
+                            "mustOverride": false,
+                            "fieldId": "4c97dfd7-094f-4dc7-8100-583cb4f31151",
+                            "label": "Phone Number",
+                            "isRequired": false,
+                            "isFormRequired": false,
+                            "restrictedValues": null,
+                            "isSystemHidden": false,
+                            "_active": true,
+                            "_visible": true,
+                            "_hiddenAttribute": false,
+                            "validationMessage": "Please fill out this field."
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "vnqnj7jw7jd": {
+                    "assetType": {
+                        "id": 216,
+                        "name": "smartcaptureformfieldblock"
+                    },
+                    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Email Address\">Email Address *</label></div>\n<div class=\"sc-formfield-input\"><input type=\"email\" name=\"Email Address\" data-field-type=\"EmailAddress\" data-validation=\"email\" required=\"required\" data-validation-message=\"Please fill out this field.\"></div>\n</div></td></tr></table>",
+                    "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Email Address\">Email Address *</label></div>\n<div class=\"sc-formfield-input\"><input type=\"email\" name=\"Email Address\" data-field-type=\"EmailAddress\" data-validation=\"email\" required=\"required\" data-validation-message=\"Please fill out this field.\"></div>\n</div></td></tr></table>",
+                    "meta": {
+                        "wrapperStyles": {
+                            "mobile": {
+                                "visible": true
+                            },
+                            "styling": {}
+                        },
+                        "options": {
+                            "name": "Email Address",
+                            "id": "8e66f187-84e6-4f21-a9a7-5ca7e6b4a628",
+                            "type": "EmailAddress",
+                            "masktype": "None",
+                            "storagetype": "Plain",
+                            "length": 254,
+                            "description": "",
+                            "ordinal": 1,
+                            "isNullable": false,
+                            "isPrimaryKey": true,
+                            "isTemplateField": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isHidden": false,
+                            "isReadOnly": false,
+                            "mustOverride": false,
+                            "fieldId": "8e66f187-84e6-4f21-a9a7-5ca7e6b4a628",
+                            "label": "Email Address",
+                            "isRequired": true,
+                            "isFormRequired": true,
+                            "restrictedValues": null,
+                            "isSystemHidden": false,
+                            "_active": true,
+                            "_visible": true,
+                            "_hiddenAttribute": false,
+                            "validationMessage": "Please fill out this field."
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "uttq2t25nh": {
+                    "assetType": {
+                        "id": 216,
+                        "name": "smartcaptureformfieldblock"
+                    },
+                    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"City\">City</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"City\" data-field-type=\"Text\"></div>\n</div></td></tr></table>",
+                    "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"City\">City</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"City\" data-field-type=\"Text\"></div>\n</div></td></tr></table>",
+                    "meta": {
+                        "wrapperStyles": {
+                            "mobile": {
+                                "visible": true
+                            },
+                            "styling": {}
+                        },
+                        "options": {
+                            "name": "City",
+                            "id": "3eb7284a-0365-4df9-bdd6-d741a94452c5",
+                            "type": "Text",
+                            "masktype": "None",
+                            "storagetype": "Plain",
+                            "length": 50,
+                            "description": "",
+                            "ordinal": 3,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isTemplateField": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isHidden": false,
+                            "isReadOnly": false,
+                            "mustOverride": false,
+                            "fieldId": "3eb7284a-0365-4df9-bdd6-d741a94452c5",
+                            "label": "City",
+                            "isRequired": false,
+                            "isFormRequired": false,
+                            "restrictedValues": null,
+                            "isSystemHidden": false,
+                            "_active": true,
+                            "_visible": true,
+                            "_hiddenAttribute": false,
+                            "validationMessage": "Please fill out this field."
+                        }
+                    },
+                    "modelVersion": 2
+                },
+                "3gc0siiiinh": {
+                    "assetType": {
+                        "id": 216,
+                        "name": "smartcaptureformfieldblock"
+                    },
+                    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Loan Type\">Loan Type *</label></div>\n<div class=\"sc-formfield-input\">\n <select name=\"Loan Type\" data-field-type=\"Text\" required=\"required\" data-validation-message=\"Please fill out this field.\" style=\"width:100%; border-left:0px;border-right:0px; border-top:0px; border-bottom:2px solid #A26769; background-color: #ECE2D0\">\n  <option value=\"\" selected=\"selected\">Business</option>\n\n  <option value=\"Business\">Business</option>\n\n  <option value=\"Home Improvement\">Home Improvement</option>\n\n  <option value=\"Consumer\">Consumer</option>\n\n  <option value=\"Special Need\">Special Need</option>\n\n </select>\n</div>\n</div></td></tr></table>",
+                    "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"smartcapture-controls\"><div class=\"sc-formfield-label\"><label for=\"Loan Type\">Loan Type</label></div>\n<div class=\"sc-formfield-input\"><input type=\"text\" name=\"Loan Type\" data-field-type=\"Text\"></div>\n</div></td></tr></table>",
+                    "meta": {
+                        "wrapperStyles": {
+                            "mobile": {
+                                "visible": true
+                            },
+                            "styling": {}
+                        },
+                        "options": {
+                            "name": "Loan Type",
+                            "id": "1b539833-8c27-41b4-859c-0fb9bcf5fe0c",
+                            "type": "Text",
+                            "masktype": "None",
+                            "storagetype": "Plain",
+                            "length": 50,
+                            "description": "",
+                            "ordinal": 7,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isTemplateField": false,
+                            "isInheritable": true,
+                            "isOverridable": true,
+                            "isHidden": false,
+                            "isReadOnly": false,
+                            "mustOverride": false,
+                            "fieldId": "1b539833-8c27-41b4-859c-0fb9bcf5fe0c",
+                            "label": "Loan Type",
+                            "isRequired": false,
+                            "isFormRequired": false,
+                            "restrictedValues": null,
+                            "isSystemHidden": false,
+                            "_active": true,
+                            "_visible": true,
+                            "_hiddenAttribute": false,
+                            "validationMessage": "Please fill out this field.",
+                            "_key": "ph8zd5fu99j",
+                            "controlType": "DROPDOWN",
+                            "availableControls": [
+                                "BASIC",
+                                "BASIC_WITH_LENGTH",
+                                "CHECKBOX",
+                                "COMBOBOX",
+                                "CONFIRM_BASIC",
+                                "DATE_TIME",
+                                "DROPDOWN",
+                                "LABEL",
+                                "NUMBER_SPINNER",
+                                "RADIO",
+                                "TIME_SELECTOR",
+                                "TERMS_CONDITIONS"
+                            ],
+                            "inputType": "text",
+                            "isUserRequired": true,
+                            "options": [
+                                {
+                                    "optionValue": "Business"
+                                },
+                                {
+                                    "optionValue": "Home Improvement"
+                                },
+                                {
+                                    "optionValue": "Consumer"
+                                },
+                                {
+                                    "optionValue": "Special Need"
+                                }
+                            ],
+                            "defaultText": "Business",
+                            "dateDropdowns": [],
+                            "validateAs": false
+                        }
+                    },
+                    "modelVersion": 2
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/Vitas"
+}

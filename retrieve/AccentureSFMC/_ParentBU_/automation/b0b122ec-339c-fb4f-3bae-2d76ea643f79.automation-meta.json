@@ -1,0 +1,41 @@
+{
+    "name": "Ashwini_Event Buyers Automation",
+    "description": "",
+    "key": "b0b122ec-339c-fb4f-3bae-2d76ea643f79",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "description": "",
+            "activities": [
+                {
+                    "name": "Ashwini_EventBuyersQueryActivity",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "activities": [
+                {
+                    "name": "Ashwini_EventBuyersDE",
+                    "r__type": "fireEvent"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "activities": [
+                {
+                    "name": "Ashwini_Event Buyers",
+                    "r__type": "journeyEntry"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Ashwini"
+}

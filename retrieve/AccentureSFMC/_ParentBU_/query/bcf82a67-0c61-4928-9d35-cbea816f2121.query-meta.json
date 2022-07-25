@@ -1,0 +1,11 @@
+{
+    "name": "sql  for birthday search",
+    "key": "bcf82a67-0c61-4928-9d35-cbea816f2121",
+    "description": "",
+    "targetKey": "A5450A63-3AF6-4971-9B92-7CEB7832831F",
+    "createdDate": "2020-08-17T01:29:17",
+    "modifiedDate": "2020-08-17T01:29:17",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

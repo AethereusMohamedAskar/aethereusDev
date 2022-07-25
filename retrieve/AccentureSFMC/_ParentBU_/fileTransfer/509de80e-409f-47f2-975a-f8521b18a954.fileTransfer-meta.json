@@ -1,0 +1,16 @@
+{
+    "name": "Kanika_Tracking Data SF-ftp",
+    "customerKey": "509de80e-409f-47f2-975a-f8521b18a954",
+    "createdDate": "2021-08-12T05:03:47.703",
+    "modifiedDate": "2021-08-12T05:03:47.703",
+    "fileSpec": "Tracking Data %%Day%% %%Month%% %%Year%%.zip",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "Training 2021"
+}

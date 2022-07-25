@@ -1,0 +1,11 @@
+{
+    "name": "_bounce query",
+    "key": "641dc794-bccb-4e8a-8313-be80c7fb896c",
+    "description": "",
+    "targetKey": "8481D59B-A843-41B6-8210-46AA26112D1E",
+    "createdDate": "2021-10-29T10:32:25.157",
+    "modifiedDate": "2021-10-29T10:39:30.087",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

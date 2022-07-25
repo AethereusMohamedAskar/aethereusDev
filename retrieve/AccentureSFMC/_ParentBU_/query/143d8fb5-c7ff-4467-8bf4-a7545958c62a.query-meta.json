@@ -1,0 +1,11 @@
+{
+    "name": "Retrieve Contacts that changed",
+    "key": "143d8fb5-c7ff-4467-8bf4-a7545958c62a",
+    "description": "",
+    "targetKey": "7D867D5A-7378-4B21-AD06-3B9540321E95",
+    "createdDate": "2021-12-29T05:23:08.26",
+    "modifiedDate": "2021-12-29T05:23:08.26",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

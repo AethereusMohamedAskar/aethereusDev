@@ -1,0 +1,14 @@
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">%%[
+ SET @Id = QueryParameter('id')
+ SET @Rows = RetrieveSalesforceObjects('Contact', 'FName, LName', 'CustomerID', '=', @Id)
+ IF ROWCOUNT(@Rows) > 0 THEN
+  SET @FirstName = FIELD(ROW(@Rows,ROWCOUNT(@Rows)),'FName')
+  SET @LastName = FIELD(ROW(@Rows,ROWCOUNT(@Rows)),'LName')
+ ENDIF
+]%%
+<form align="center">
+ <input name="fname" value="%%=v(@FirstName)=%%" type="text" placeholder="First name"><br><br>
+ <input name="lname" value="%%=v(@LastName)=%%" type="text" placeholder="Last name">
+  <br>
+
+</form></td></tr></table>

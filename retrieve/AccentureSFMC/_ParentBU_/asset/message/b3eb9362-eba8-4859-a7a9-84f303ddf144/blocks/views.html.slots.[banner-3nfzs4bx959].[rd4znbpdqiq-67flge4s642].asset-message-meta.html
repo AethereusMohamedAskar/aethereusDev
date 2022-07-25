@@ -1,0 +1,28 @@
+%%[  
+
+var @skey, @NumRowsToReturn, @Customer
+
+set @skey=AttributeValue('Subscriber Key')
+
+set @NumRowsToReturn=0 
+
+set @Customer=LookupOrderedRows("Shivani_AMPscript_DE1", @NumRowsToReturn, "Location desc", 'Subscriber Key', @skey)
+
+if RowCount(@Customer) > 0 then
+
+for @i=1 to RowCount(@Customer) do 
+
+ var @temp, @fname, @Loc, @Order_ID
+ 
+ set @temp= row(@Customer, @i)
+ set @fname = field(@temp,'First Name')
+ set @Loc = field(@temp, 'Location')
+ set @Order_ID = field(@temp, 'Order ID')
+ 
+ next @1
+  set @varerror = "I found something"
+
+else
+   set @varerror = "I found nothing"
+endif
+]%%

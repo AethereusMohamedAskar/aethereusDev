@@ -1,0 +1,11 @@
+{
+    "name": "SQL trial join",
+    "key": "8d610661-4342-4e9e-a1e7-67d2016cf556",
+    "description": "",
+    "targetKey": "726EC16C-8D5E-44D9-8DD5-F2866ADA147E",
+    "createdDate": "2020-08-18T03:16:04.153",
+    "modifiedDate": "2022-01-24T22:29:46.2",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

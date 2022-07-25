@@ -1,0 +1,38 @@
+<table cellpadding="0" cellspacing="0" width="100%" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 11px; " class="stylingblock-content-wrapper camarker-inner"><div> 
+<!--
+		%%[
+			VAR @CPID, @deExtKey, @encodedDeExtKey, @CPURL, @qsStart, @qsValueStart, @qsValue, @unmappedFields
+			SET @CPID = "undefined"
+			SET @deExtKey = "222FA73B-30AA-41A3-B278-333FA2C28796"
+			IF (@CPID == 'undefined') AND (@deExtKey == 'undefined') THEN
+				RaiseError("Please select a CloudPage and Data Extension and assign all fields to data attributes on the Interactive Email Form Block.")
+			ELSEIF (@CPID == "undefined") THEN
+				RaiseError("Please select a CloudPage on the Interactive Email Form Block.")
+			ELSEIF (@deExtKey == "undefined") THEN
+				RaiseError("Please select a Data Extension and assign all fields to data attributes on the Interactive Email Form Block.")
+			ENDIF
+			SET @encodedDeExtKey = URLEncode(@deExtKey,1,1)
+			SET @CPURL = CloudPagesURL(@CPID,'ic_deN',@encodedDeExtKey)
+			SET @qsStart = IndexOf(@CPURL,'?')
+			SET @qsValueStart = Add(@qsStart, 4)
+			SET @qsValue = Substring(@CPURL, @qsValueStart)
+
+			VAR @linkToClickCode, @link2C, @regexPattern, @trackedClickLink
+			SET @linkToClickCode = '<a href="https://submit.mc-content.com" alias="formSubmit" target="_blank">Interactive Email Form Submit</a>'
+			SET @link2C = TreatAsContentArea("submitTrackingClick", @linkToClickCode)
+			SET @regexPattern = 'href="(.+?)"'
+			SET @trackedClickLink = RegExMatch(@link2C, @regexPattern, 1)
+			]%%
+		-->
+ <!--[if mso]><!--> <div class="ie-form" style="display:none" rebel=""> <form class="sc-block-c17ky9e-ic-form" action="%%=v(@CPURL)=%%" method="get" novalidate=""> <div class="sc-c17ky9e-ic-form-box-sizing"> <input type="hidden" name="qs" value="%%=v(@qsValue)=%%"> <input type="hidden" name="ic_tLink" value="%%=v(@trackedClickLink)=%%"> <input type="hidden" name="id" value="%%emailaddr%%"> <div> <label class="ie-label sc-block-c17ky9e-ic-label"> <span class="sc-c17ky9e-ic-label-box-sizing ie-b-label-box">
+ First Name </span> </label> <div class="ie-input-wrap-c17ky9e-ic-text-select"> <div class="ie-input ie-input-c17ky9e-ic-text-select"> <ul style="margin:0;padding:0" role="presentation"> <input class="ie-text-in" type="text" name="firstname-7vEDwmAd4Q"> </ul> </div> </div> </div> <div> <label class="ie-label sc-block-c17ky9e-ic-label"> <span class="sc-c17ky9e-ic-label-box-sizing ie-b-label-box"> Last Name </span> </label> <div class="ie-input-wrap-c17ky9e-ic-text-select"> <div class="ie-input ie-input-c17ky9e-ic-text-select"> <ul style="margin:0;padding:0" role="presentation"> <input class="ie-text-in" type="text" name="lastname-K5z-MiuqN6"> </ul> </div> </div> </div> <fieldset class="ie-input-group ie-checkboxgroup"> <div> <span class="ie-label sc-block-c17ky9e-ic-label"> <legend> <span class="sc-c17ky9e-ic-label-box-sizing ie-b-label-box"> Interests </span> </legend> </span> <label class="ie-btn-label-after ie-btn-wrap ie-btn-wrap-c17ky9e-ic-radio-checkbox"> <div class="ie-gmail-btn-wrap"> <input type="checkbox" name="categoryhair-FQ3V_Ki8f" value="Hair Products" class="ie-radio-check"> <div class="ie-btn ie-btn-c17ky9e-ic-radio-checkbox ie-gmailhide"> <span></span> </div> </div> <span class="sc-block-c17ky9e-ic-radio-checkbox-label ie-b-label"> <span class="sc-c17ky9e-ic-radio-checkbox-label-box-sizing ie-b-label-box">Hair Products</span> </span> </label> <label class="ie-btn-label-after ie-btn-wrap ie-btn-wrap-c17ky9e-ic-radio-checkbox"> <div class="ie-gmail-btn-wrap"> <input type="checkbox" name="categoryskincare-FIFuwjboE7" value="Skin care" class="ie-radio-check"> <div class="ie-btn ie-btn-c17ky9e-ic-radio-checkbox ie-gmailhide"> <span></span> </div> </div> <span class="sc-block-c17ky9e-ic-radio-checkbox-label ie-b-label"> <span class="sc-c17ky9e-ic-radio-checkbox-label-box-sizing ie-b-label-box">Skin care</span> </span> </label> </div> </fieldset> <label class="ie-frm-btn ie-frm-btn-c17ky9e-ic-submit"> <input value="" type="submit"> <div>
+Submit</div> </label> <input type="hidden" name="ic_c" value="7Vxrc9q6Fv0rvu4wSe7BCY-8DrfpKSUwzTTNzQlpv5RMR7YE6Ma2iCQncDr572dLNmCbVx6dpIer9kONvL21tbS0tbYM_WHL0YDYNdtjoSRDaRdtQaSkYU_YtR82pxjuFS5Ojgtwpxcg6rejwYBxadckj0i27TNzqU_Gd5gYqnZOBLjqIl-Q-yJ0EwxYSEIJbd9-TDqPhGSB05eBD924DI9U5_pjzX77L8fphB3ZkYXCt_iiI7_WL6z3jfOT46L1HpPmUH4iI7gkoccwwcfTlsb5l4tT-PdGtCXiUl99RX5Ech_hKgoDNBgQ3KLEx2LcU7t5GfdkHVkdOwox6dKQ4I6dMRjHoI0qlUqrflD94FRL9bqzW65XnQ-Vg0OnWq226pVG5fDg9_3p8yctazPp4MjamHSwsWXVz47h1tR17vblx-bZ2ElHXiAqSJNzxjc79rlPkCCWID7xpIWshs8ifI56xEIhto6RRBY4JaGgLNRNSAjag0vft7p6-JZkFlZ2SEpO3UgSYYGt7BPrBJjCkSfpLbGaavqtFuOB9cFn3vV2x94ax9Q8bTczg8vA98T4nxpDGsWnx_FSyJ0dn7Qy_MoRG2gGtG7qxunYiuVieSvHWzAD4wl-Aj7HE1LcoN53TM42innnWRfJwgEnJwDa8L_dzWRNbfyxkbecLiwwr2O8OV12u3NtwawduQJwCnubqbU6daQeS695n4bXl6zhU--6AUEX45ZKAy446ZHhOaBOeAgfJSB9TbA2PQWbTP85NxDHxltk9TnpHnUg8ciBqO3siMgNqNwOPEdnx1BuQ_rq2DDXFAmw68LktbUNNEKwPSKh9bvrI-jNfrdgtuMn3u6gdxszIVUaEMklJ0jWRSPusw6fgIlxLJdqTICVDrxjF2cGkkU5jYgaYjK-ze3f_tjq2Nnu83CB_QXpNYefkfT6m4tQnvLtqlCILx3nnX1_X5wkd4VSKqvHA_nCVWovFI5uk2nfOiqoLYYTTDmstfi-briJoAWrR_UGVbP_Dc2ej9S28s2mnjMxuSraAyaohKUJZqgLIapIMsY6mqtFGxENB5F0-hRjEqZiDlGg7t4IaLtV1JzEnlBVR58e9HJHsPKkwnjGXX4SHusXZzwSRTqEMZ_rJNnuxy5uEacoVPgmN3zkEj8Fe4tyIa0z1VMW0tgwC75LAGhiA_iYCI_TQdw-cZZzkTZa5CgZY1eFoa6dg9vm8V1Qx7t_pkYNlwMfeaTPfAzTrxvgHoWMDA5jUTOhlFYlRTtAw1MS9mTfru2VFGECIpFK4cr6uNlgfhSEZ3H3KRRyzFIjc-Kdwr56Ntqn6FcAG56Ksf6095fzmUY3Z_sviPUUg0dB3eMsGjhen3jXLhumQM9jrBM0EVK8DsbLobq_X56kHjC-j4hy65wzHHkzY-QIUzZxMnfISQJVFYFCOjWJM7M6Q-eEPx6SpMf4qA-ROK0_q1-_f6KH3RSF8iFO0cyis4IpjaSf78pfni3Zoc4hzAOgbMOua3mIk1eFUUAUKginddKK7v7nsuZBCst0jM_FsZ30tBLLq-n9q9ym74D2lSycm_ViFTANNBZF-d4SK-gl5frxxSIUALniTlUBlxdfmhntP0_5g9CPOAHxjqQ1YpHVRyDmYk9a8msCzZX8d1T26VLZ7y6R_RM1ddkHMam7BkitSID4m_UXm1YqB9uV0nZ5f6e89_tBuVou7x-WS_sTVRZfvMX01hJy5BNQgpgKyOCjWghZ5j9K2cL8JOoC7qo6HnRs8tyLy-Ok3x0IOKsok6gd2k0RABZXQDS3EsF5SwV11XHEM84eQJUlMlzXaO7oBAM3yoelQ5i2WJvpJaDxFH1CpM7kEXzQfSRkngjPxFIZdVmojbsooP4o2UGYz5J99I7QXj9Zwskz6hITj3GUZBb4DFj3kktB_yLxIpvszlFItQsYPOh38jHxudCGKFXfHiAPWLbY7I5xvMJIWVGsNvlFTgLgA403UDZYbMaXR-wyyDDBshF15ZIYByCOk1G8YhQuaH6lWUIcc2ZMAkUsF7BW0moSYJoiyxGesCY9gKc9Ph3g054fA_CUp-_HIFzA1hOJBIrTJZAWlcHFQ6bsQUbLurrXaSm1ymMBkFrmSa6Kn3vomndBUD9s3XtEZdF_3Orvr4jlF88O5dLUdDCcG8mMxWwwe3mTfDw5HyZVrFWqSJeIz00YayoSnpwmfsr6LD1-fS5OGXsrI1qVu1amCyMr1jZXpA-8TK6Y7MKpBViYny-qM4vYFB7PyxBvPP1n3lor57Ee80wwn-K5CeNZ3mbzx7Pc5dPJM5z92tmlaNf67DaeXaMwVqD5C8-i2eGX7vCK513mxRNneG54vsY8z7yHXXe2z8jjydukxyvjN139Zy1TAIok-0kFdXl1_XqwuqIu771sSV3-Gadw5Qcfw73BbrmC9kxeekSFPTND8zaWBdP4ULvTlSQzetjoBKOHDc8Nz9eB53l5OPdLWi9zjGrez5pDVCMC_ymvWXLfbpybIvS39v4vX7fMVEqzWWLWZmGmqKys3nZXF2-VR9ST5sWLefHy-i9edHKJf85kJPjaSfA3-66HuyWz-U8rTnOyYipOc7JieG54vhYnK1fq92OYIo3PTUS4Yvh73WSx0B9ZwuOExP81wmaAho72XtvdKw2GW-r33PN-GyMk4o5iPxDv1b7eVj2cKSbMqYw5lTGnMqZKMtup2U5NeWR4bnhuyiPDc8PzJeUR_L3_Gw"> </div> </form> </div> <!--<![endif]--> <!--
+		%%[
+			IF @unmappedFields == TRUE THEN
+			RaiseError("Please ensure that you have mapped all inputs to data attributes within the Interactive Email Form block.")
+			ENDIF
+		]%%
+		Thank you for using Interactive Email
+		227.20.16/1597131168106
+		--> <div style="display:none" aria-hidden="true"> <a href="https://submit.mc-content.com" alias="formSubmit" target="_blank">Interactive Email Form Submit</a> </div> <div class="ie-formFallback">
+ %%=ContentBlockbyId("1808")=%% </div> </div></td></tr></table>

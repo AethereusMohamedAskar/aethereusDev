@@ -1,0 +1,16 @@
+{
+    "name": "Kanika_DE Extract SF- ftp",
+    "customerKey": "2f8a1e02-9008-45e2-b2b0-0c42e90da748",
+    "createdDate": "2021-08-12T04:55:12.18",
+    "modifiedDate": "2021-08-12T04:55:12.18",
+    "fileSpec": "DE Extract Data%%Day%%.csv",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "Training 2021"
+}

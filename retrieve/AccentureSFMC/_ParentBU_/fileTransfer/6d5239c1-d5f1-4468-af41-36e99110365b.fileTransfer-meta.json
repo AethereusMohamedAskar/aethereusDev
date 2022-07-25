@@ -1,0 +1,16 @@
+{
+    "name": "EmalTransfer",
+    "customerKey": "6d5239c1-d5f1-4468-af41-36e99110365b",
+    "createdDate": "2022-05-17T02:31:35.34",
+    "modifiedDate": "2022-05-17T02:31:35.34",
+    "fileSpec": "Converted files.zip",
+    "isEncrypted": false,
+    "isCompressed": true,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": false,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

@@ -1,0 +1,91 @@
+%%[
+
+set @FirstName = AttributeValue("FirstName")
+set @LastName = AttributeValue("LastName")
+set @EmailAddress = AttributeValue("EmailAddress")
+
+set @SubscriberKey = AttributeValue("SubscriberKey")
+
+
+]%%
+%%[if RequestParameter("submitted") == true then
+set @FirstName = RequestParameter("FirstName")
+set @LastName = RequestParameter("LastName")
+set @EmailAddress = RequestParameter("EmailAddress")
+set @Course = RequestParameter("Course")
+set @SubscriberKey = RequestParameter("SubscriberKey")
+SET @insertdata = UpsertData("Edutech_Course_Interest",1,"SubscriberKey",@SubscriberKey,"EmailAddress",@EmailAddress,"FirstName",@FirstName,"LastName",@LastName,"Course",@Course)
+]%%
+<h2>Thanks for submitting the details</h2>
+%%[
+ELSE]%%
+
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>Course Interests</title>
+ <meta name="description" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+	h2,h5,div,label, input{font-family:arial;}
+	</style>
+</head>	
+<body>
+<div style="margin:0 auto; width:50%;">
+<h2>Course Interests</h2>
+
+<form method="post" id="course1" name="course1">
+<div>
+<div style="float:left;padding-right:10px;">
+  <label for="FirstName">First name:</label><br>
+  <input type="text" id="FirstName" name="FirstName" value="%%=v(@FirstName)=%%"><br>
+  </div>
+  <div>
+  <label for="LastName">Last name:</label><br>
+  <input type="text" id="LastName" name="LastName" value="%%=v(@LastName)=%%"><br><br>
+  </div>
+  <div>
+  <label for="EmailAddress">EmailAddress:</label><br>
+  <input type="text" id="EmailAddress" name="EmailAddress" value="%%=v(@EmailAddress)=%%"><br><br>
+  </div>
+  <div style="margin-bottom: 10px;">
+  <h5 style="margin:0px;">Select Course</h5>
+  
+  <div>
+  <input type="radio" id="Python" name="course" value="Python">
+  <label for="Python">Python</label><br>
+  </div>
+  <div>
+  <input type="radio" id="Java" name="course" value="Java">
+  <label for="Java">Java</label><br>
+  </div>
+  <div>
+  <input type="radio" id="Salesforce" name="course" value="Salesforce">
+  <label for="other">Salesforce</label>
+  </div>
+  </div>
+  <div>
+  <input type="hidden" id="SubscriberKey" name="SubscriberKey" value="%%=v(@SubscriberKey)=%%">
+  <input name="submitted" type="hidden" value="true">
+  <input type="submit" value="Submit">
+  <div>
+<div>
+</form> 
+
+</div>
+
+
+<script>(function(a,m,i,g,o,s){o=a.createElement(g);s=a.getElementsByTagName(i)[0];o.src=m.origin+m.pathname+"/_t?eventType=CLOUDPAGESVISIT";o.width=0;o.height=0;o.style.display="none";s.appendChild(o);})(document,window.location,"body","img");</script>
+
+	<script src="https:&#x2F;&#x2F;514003648.collect.igodigital.com&#x2F;collect.js"></script>
+	<script>
+		if (_etmc && typeof _etmc.push === 'function') {
+			_etmc.push(['setOrgId', '514003648']);
+			_etmc.push(['trackPageView']);
+		}
+	</script>
+
+</body>
+</html>
+%%[ENDIF]%%

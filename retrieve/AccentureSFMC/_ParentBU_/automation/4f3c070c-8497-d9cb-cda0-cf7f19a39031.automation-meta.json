@@ -1,0 +1,35 @@
+{
+    "name": "testingE",
+    "description": "",
+    "key": "4f3c070c-8497-d9cb-cda0-cf7f19a39031",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2022-05-17T00:00:00",
+        "endDate": "2022-05-17T00:00:00",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "India Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Transfer Activity",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Import user data from ftp",
+                    "r__type": "importFile"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2022 Training/abhinay"
+}

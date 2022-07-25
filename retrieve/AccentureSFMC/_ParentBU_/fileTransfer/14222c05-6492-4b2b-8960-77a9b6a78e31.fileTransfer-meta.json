@@ -1,0 +1,16 @@
+{
+    "name": "Trial File Transfer",
+    "customerKey": "14222c05-6492-4b2b-8960-77a9b6a78e31",
+    "createdDate": "2020-08-18T06:02:55.03",
+    "modifiedDate": "2020-08-18T06:02:55.03",
+    "fileSpec": "Customerdata1.zip",
+    "isEncrypted": false,
+    "isCompressed": true,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": false,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

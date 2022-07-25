@@ -1,0 +1,16 @@
+{
+    "name": "Anushree_Tracking_Data_Extract1",
+    "customerKey": "a30c1abc-f432-4df8-954c-07c6c9a82b2b",
+    "createdDate": "2021-08-14T02:00:52.937",
+    "modifiedDate": "2021-08-14T02:06:21.257",
+    "fileSpec": "Tracking_Data%%Year%%.zip",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

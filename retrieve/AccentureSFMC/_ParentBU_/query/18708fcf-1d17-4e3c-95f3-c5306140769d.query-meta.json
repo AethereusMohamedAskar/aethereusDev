@@ -1,0 +1,11 @@
+{
+    "name": "Ashwini_EventBuyersQueryActivity",
+    "key": "18708fcf-1d17-4e3c-95f3-c5306140769d",
+    "description": "",
+    "targetKey": "BF70081B-5B0A-4A28-BEE6-B3C2BA34B5B9",
+    "createdDate": "2021-11-24T00:06:17.853",
+    "modifiedDate": "2021-11-25T05:15:53.63",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

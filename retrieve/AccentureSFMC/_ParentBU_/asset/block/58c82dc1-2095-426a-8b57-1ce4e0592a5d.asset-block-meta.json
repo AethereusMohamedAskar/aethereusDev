@@ -1,0 +1,41 @@
+{
+    "customerKey": "58c82dc1-2095-426a-8b57-1ce4e0592a5d",
+    "assetType": {
+        "name": "imageblock",
+        "displayName": "Image Block"
+    },
+    "fileProperties": {
+        "fileName": "Rewards_AC_K"
+    },
+    "name": "Rewards_AC_K",
+    "owner": {
+        "email": "kanika.singhal@aethereus.com",
+        "name": "Kanika Singhal"
+    },
+    "createdDate": "2021-10-21T00:09:34.377-06:00",
+    "createdBy": {
+        "email": "kanika.singhal@aethereus.com",
+        "name": "Kanika Singhal"
+    },
+    "modifiedDate": "2021-10-21T00:09:37.337-06:00",
+    "modifiedBy": {
+        "email": "kanika.singhal@aethereus.com",
+        "name": "Kanika Singhal"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "design": "",
+    "meta": {
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true
+            },
+            "styling": {}
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/Kanika/Email/RGL AC Journey"
+}

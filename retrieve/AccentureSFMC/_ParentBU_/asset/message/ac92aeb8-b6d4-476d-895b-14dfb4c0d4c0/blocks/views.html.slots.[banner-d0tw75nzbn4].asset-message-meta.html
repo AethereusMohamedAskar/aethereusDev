@@ -1,0 +1,67 @@
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">%%[var@firstName, @Account_ID, @OffersString, @Optin_check, @promoString, @optedin, @WebinarDate, @Confirmationnumber, @daysUntilArrival, @CountolStays,@WebinarDate, @ETA_minutes, @ETA_Hour, @RoundedETA, @RoundedMinutes, @ETA_copy, @ETA_Arrival_CTA, @WelcomeText, @email, @oci, @e, @unsuburl, @OfferType
+
+set @WelcomeText = "Can't wait to see you"
+
+set @Account_ID = AttributeValue("Account_ID")
+
+set @FirstName = AttributeValue("FirstName")
+
+set @ConfirmationNumber = AttributeValue("Confirmation_Number_c")
+
+set @Client_ID = AttributeValue("_Subscriberkey")
+
+if @Client_ID == ""
+then 
+set @Client_ID = AttributeValue("Client_ID")
+endif
+set @WebinarDate = AttributeValue("WebinarDate")
+
+SET @DaysUntilArrival = DateDiff(NOW(), @WebinarDate, "D")
+
+set @Email = AttributeValue("Email")
+
+set @oci = AttributeValue("Client_Id")
+
+set @e = EncryptSymmetric@Email, 'des;mode=cbc', @null, '0X742B5CB2BD14BB6', @null, @null, @null, @null)
+
+set @unsuburl = Concat("https://www.hotel.com/unsubscribe/?jobid==%%jobid%%&oci=", @oci,"&e=", @e)
+
+Set @optedin = "Promotions"
+
+Set @promostring = AttributeValue("Opted_In_Subscriptions_c")
+
+/* Does it match */
+
+if IndexOf(@promostring,@optedin) > 0
+then
+     Set @msg = 'Save 25% on your webinar!'
+else
+     set @msg = 'Agenda Details'
+endif
+
+
+set @ETA_Minutes = Datepart(v(@webinarDate), 'minute')
+
+set @ETA_Hour = DatePart(v(@webinarDate), 'hour')
+
+
+if @ETA_Minutes == 59 AND @ETA_Hour == 2
+then
+    set @ETA_copy = ""
+else
+    set @ETA_copy = Concat("at ", FormatDate(@WebinarDate,"", "s', ""))
+endif
+
+if @ETA_Minutes == 59 AND @ETA_Hour == 2
+then
+set @ETA_Arrival_CTA = "SHARE ARRIVAL TIME"
+elseif
+(@ETA_Minutes != 59 AND @ETA_Hour !=2) AND not empty(@PickupLoction) 
+then
+set @ETA_Arrival_CTA = "VIEW PICK-UP DETAILS"
+else
+set @ETA_Arrival_CTA = "AGENDA DETAILs HERE"
+
+ENDIF]%%
+
+</td></tr></table>

@@ -1,0 +1,16 @@
+{
+    "name": "Ashwini_WaitVerificationAct",
+    "customerKey": "5a1a3369-9918-4eb3-b536-72568a74da80",
+    "createdDate": "2021-08-13T00:18:18.05",
+    "modifiedDate": "2021-08-13T00:31:22.487",
+    "fileSpec": "Ashwini_FilterFTP.zip",
+    "isEncrypted": false,
+    "isCompressed": true,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": false,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

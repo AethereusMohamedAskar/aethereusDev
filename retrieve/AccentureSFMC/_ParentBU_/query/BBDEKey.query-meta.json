@@ -1,0 +1,11 @@
+{
+    "name": "Ashwini_Block_Bounces",
+    "key": "BBDEKey",
+    "description": "",
+    "targetKey": "BBDEKey",
+    "createdDate": "2021-12-16T23:56:34.3",
+    "modifiedDate": "2021-12-27T23:11:47.763",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

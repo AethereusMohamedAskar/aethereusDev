@@ -1,0 +1,15 @@
+{
+    "name": "testFileDrop",
+    "description": "",
+    "key": "daf39ebe-3648-78a9-e64e-5352ba51fc4c",
+    "type": "scheduled",
+    "status": "Building",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2022-05-17T00:00:00",
+        "endDate": "2022-05-17T00:00:00",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "India Standard Time"
+    },
+    "r__folder_Path": "my automations/2022 Training/abhinay"
+}

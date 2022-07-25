@@ -1,0 +1,20 @@
+{
+    "name": "Ashwini_DEAutomation",
+    "description": "",
+    "key": "8ab51d4b-597f-eedb-ad1f-6e916efe27f5",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Ashwini_CreateDE",
+                    "r__type": "script"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Ashwini"
+}

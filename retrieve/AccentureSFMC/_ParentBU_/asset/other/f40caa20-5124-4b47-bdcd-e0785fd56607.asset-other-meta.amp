@@ -1,0 +1,28 @@
+%%[
+var @skey, @shopping, @numRowsToReturn
+set @skey = AttributeValue("SubscriberKey")
+set @numRowsToReturn = 0
+
+set @shopping = LookupOrderedRows("shopping",@numRowsToReturn," Color desc", "SubscriberKey",@skey)
+
+if RowCount(@shopping) > 0 then
+ for @i = 1 to RowCount(@shopping) do
+ 
+ var  @Size, @DressStyle, @ApparelPattern, @temp
+ 
+ set @temp = row(@shopping, @i)
+ set @Name = field(@temp,"Color")
+ set @Size = field(@temp,"Size")
+ set @DressStyle = field(@temp,"DressStyle")
+ Set @ApparelPattern = field(@temp,"ApparelPattern")
+ 
+ next @1
+ set @varerror = "I found something"
+ 
+else
+ set @varerror = "I found nothing"
+endif
+
+
+
+]%%

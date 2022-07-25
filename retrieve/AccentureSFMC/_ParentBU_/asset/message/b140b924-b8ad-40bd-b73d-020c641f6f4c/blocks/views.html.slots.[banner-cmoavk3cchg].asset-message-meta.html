@@ -1,0 +1,13 @@
+
+%%[
+SET @Subkey = _subscriberkey
+]%%
+
+%%[
+Set @name = Lookup("Contact_Salesforce","Name","_ContactKey",@Subkey)
+]%%
+
+
+%%[
+Set @email = Lookup("Contact_Salesforce","Email","_ContactKey",@Subkey)
+]%%

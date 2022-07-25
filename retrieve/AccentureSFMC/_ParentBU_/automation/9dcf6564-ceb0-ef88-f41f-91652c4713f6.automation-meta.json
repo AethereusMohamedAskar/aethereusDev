@@ -1,0 +1,29 @@
+{
+    "name": "Kanika_Extract Tracking Data 1",
+    "description": "",
+    "key": "9dcf6564-ceb0-ef88-f41f-91652c4713f6",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Kanika_Tracking Data Extract 1",
+                    "r__type": "dataExtract"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Data Extract 1",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training"
+}

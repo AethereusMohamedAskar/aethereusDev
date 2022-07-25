@@ -1,0 +1,14 @@
+/*lets use some upsert function to update the DE when a new email is sent*/
+%%[
+
+
+var @Email, @SendStartTime
+SET @Email = AttributeValue('Email')
+SET @SendStartTime = AttributeValue('formattedISTDate')
+
+  SET @nowIST = DateAdd(Now(1), 690, "MI")
+  SET @formattedISTDate = Format(@nowIST, "yyyy-MM-ddTHH:mm:ssZ", "Date")
+  
+  UpsertDE("UpsertDE_Demo",1,"Email", @Email, "SendStartTime", @formattedISTDate)
+%%=Format(Now(), "YYYY")=%%
+]%%

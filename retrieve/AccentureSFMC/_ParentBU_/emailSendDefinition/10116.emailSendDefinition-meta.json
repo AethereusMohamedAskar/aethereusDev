@@ -1,0 +1,48 @@
+{
+    "CreatedDate": "2020-04-08T23:52:15.76",
+    "ModifiedDate": "2020-04-08T23:53:19.377",
+    "CustomerKey": 10116,
+    "Name": "EMAIL-IPWarming",
+    "Description": "",
+    "SendClassification": {
+        "CustomerKey": "Default Commercial"
+    },
+    "SenderProfile": {
+        "CustomerKey": "Default"
+    },
+    "DeliveryProfile": {
+        "CustomerKey": "Default"
+    },
+    "SuppressTracking": false,
+    "IsSendLogging": true,
+    "SendDefinitionList": [
+        {
+            "SendDefinitionListType": "SourceList",
+            "CustomObjectID": "",
+            "DataSourceTypeID": "FilterDefinition",
+            "FilterDefinition": {
+                "PartnerKey": "",
+                "ObjectID": "a1893af2-1669-405b-9e91-b643e2636770",
+                "CustomerKey": "F4B5D3B3-2124-4E0E-9E01-2401DD807670"
+            },
+            "IsTestObject": false,
+            "SalesForceObjectID": "",
+            "Name": "",
+            "r__list_PathName": "my subscribers/All Subscribers"
+        }
+    ],
+    "BccEmail": "",
+    "AutoBccEmail": "",
+    "TestEmailAddr": "",
+    "EmailSubject": "Aethereus is a firm with a difference",
+    "DynamicEmailSubject": "Aethereus is a firm with a difference",
+    "IsMultipart": true,
+    "IsWrapped": true,
+    "DeduplicateByEmail": false,
+    "ExclusionFilter": "",
+    "Additional": "",
+    "CCEmail": "",
+    "r__folder_Path": "User-Initiated/Sai Prasad UC/IPWarming",
+    "r__assetMessage_Name": "Email-IP Warming",
+    "r__assetMessage_Key": "bf9d426c-9a1d-496b-a631-833d3f12677c"
+}

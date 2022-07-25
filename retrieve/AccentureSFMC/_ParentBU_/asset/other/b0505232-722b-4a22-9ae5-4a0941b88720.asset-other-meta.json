@@ -1,0 +1,33 @@
+{
+    "customerKey": "b0505232-722b-4a22-9ae5-4a0941b88720",
+    "assetType": {
+        "name": "codesnippetblock",
+        "displayName": "Code Snippet Block"
+    },
+    "fileProperties": {
+        "fileName": "PJ-Sephora Code"
+    },
+    "name": "PJ-Sephora Code",
+    "description": "Ampscript Code Snippet ",
+    "owner": {
+        "email": "preethi.julian@aethereus.com",
+        "name": "Preethi Julian"
+    },
+    "createdDate": "2022-02-15T23:31:04.187-06:00",
+    "createdBy": {
+        "email": "preethi.julian@aethereus.com",
+        "name": "Preethi Julian"
+    },
+    "modifiedDate": "2022-02-16T01:58:08.233-06:00",
+    "modifiedBy": {
+        "email": "preethi.julian@aethereus.com",
+        "name": "Preethi Julian"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Anu_30dec_Query",
+    "description": "",
+    "key": "48386ed1-02cc-4938-d78c-a5b33f10eb4b",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "30dec_SQL",
+                    "r__type": "query"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Anushree"
+}

@@ -1,0 +1,16 @@
+{
+    "name": "EXTRACT DE",
+    "customerKey": "e7ce643c-0553-46b8-9c00-e9861bb854e3",
+    "createdDate": "2021-08-10T19:24:37.537",
+    "modifiedDate": "2021-08-10T19:24:37.537",
+    "fileSpec": "Extract DE.csv",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "Training 2021"
+}

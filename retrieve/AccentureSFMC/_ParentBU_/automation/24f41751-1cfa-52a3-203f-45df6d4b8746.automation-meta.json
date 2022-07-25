@@ -1,0 +1,26 @@
+{
+    "name": "Kanika_Data Upload Activity",
+    "description": "",
+    "key": "24f41751-1cfa-52a3-203f-45df6d4b8746",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2021-08-11T10:30:00",
+        "endDate": "2021-08-11T10:30:00",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "India Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Kanika_Upload data to DE",
+                    "r__type": "importFile"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training"
+}

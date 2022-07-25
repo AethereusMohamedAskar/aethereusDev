@@ -1,0 +1,16 @@
+{
+    "name": "Preethi-Zip_Wait_Filter",
+    "customerKey": "ec9ecf39-d416-48e6-8c6b-295c2b2eb2d7",
+    "createdDate": "2021-08-18T12:43:57.843",
+    "modifiedDate": "2021-08-18T12:43:57.843",
+    "fileSpec": "Max_Customer_Data_Demo.zip",
+    "isEncrypted": false,
+    "isCompressed": true,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": false,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

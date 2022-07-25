@@ -1,0 +1,11 @@
+{
+    "name": "updateAllSubUsingSSJSQueryActivity",
+    "key": "d2158ab4-5557-4402-946e-7b4c0545db9c",
+    "description": "",
+    "targetKey": "E26D5DEE-3505-42C5-A5B0-7960E56F2B80",
+    "createdDate": "2022-01-06T01:49:32.59",
+    "modifiedDate": "2022-04-05T22:30:42.76",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

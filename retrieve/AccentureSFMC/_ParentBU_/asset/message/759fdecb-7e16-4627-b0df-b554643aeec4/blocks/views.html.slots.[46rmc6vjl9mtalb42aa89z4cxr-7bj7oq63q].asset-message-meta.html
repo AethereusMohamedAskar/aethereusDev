@@ -1,0 +1,10 @@
+%%[
+var @freeShipping
+if AttributeValue('Status') == "Pass"  then
+  set @freeShipping =true/* Boolean constant */
+endif
+]%%
+<p>You %%=Iif(@freeShipping == true, "qualify","do not qualify")=%% for free shipping of books.</p>
+
+
+

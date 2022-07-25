@@ -1,0 +1,16 @@
+{
+    "name": "Anushree_Data_Filter2",
+    "customerKey": "AFE6FEDC-02BB-4338-918E-97A8931D388D",
+    "createdDate": "2021-08-12T07:36:05.053",
+    "modifiedDate": "2021-08-12T23:46:38.513",
+    "fileSpec": "Anushree_Filter_Data.zip",
+    "isEncrypted": false,
+    "isCompressed": true,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": false,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

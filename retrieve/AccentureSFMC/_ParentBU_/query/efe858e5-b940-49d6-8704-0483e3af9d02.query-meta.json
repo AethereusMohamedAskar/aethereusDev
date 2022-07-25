@@ -1,0 +1,11 @@
+{
+    "name": "Others_Update_Negative_Values",
+    "key": "efe858e5-b940-49d6-8704-0483e3af9d02",
+    "description": "",
+    "targetKey": "1A4D25F3-7463-4F7A-994F-7FA664D66596",
+    "createdDate": "2020-04-09T00:17:05.973",
+    "modifiedDate": "2020-04-09T00:17:05.973",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query/Sai Prasad UC"
+}

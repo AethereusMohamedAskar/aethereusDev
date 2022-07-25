@@ -1,0 +1,11 @@
+{
+    "name": "Ashwini_HardBounceQueryActivity",
+    "key": "1f3fa212-85c6-44a7-8211-b3074d450b7c",
+    "description": "",
+    "targetKey": "HBDEKey",
+    "createdDate": "2021-12-17T00:39:02.707",
+    "modifiedDate": "2021-12-27T23:38:44.31",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

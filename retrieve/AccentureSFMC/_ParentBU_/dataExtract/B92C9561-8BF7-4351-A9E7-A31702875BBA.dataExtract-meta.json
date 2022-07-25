@@ -1,0 +1,39 @@
+{
+    "name": "Ashwini_BlockBouncesDataExtractActivity",
+    "key": "B92C9561-8BF7-4351-A9E7-A31702875BBA",
+    "fileSpec": "BlockBounce.zip",
+    "createdDate": "2021-12-17T00:01:55.8",
+    "modifiedDate": "2021-12-27T23:13:40.503",
+    "createdBy": 713633358,
+    "modifiedBy": 713633358,
+    "intervalType": 0,
+    "description": "",
+    "dataFields": [
+        {
+            "name": "ColumnDelimiter",
+            "type": "string",
+            "value": ","
+        },
+        {
+            "name": "DECustomerKey",
+            "type": "string",
+            "value": "BBDEkey"
+        },
+        {
+            "name": "HasColumnHeaders",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "TextQualified",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "UsesLineFeed",
+            "type": "bool",
+            "value": "False"
+        }
+    ],
+    "r__dataExtractType_name": "Data Extension Extract"
+}

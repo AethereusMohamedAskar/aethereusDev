@@ -1,0 +1,63 @@
+%%[
+if RequestParameter("submitted") == true then
+
+var @createAccount, @RecordTypeId,@firstName, @lastName, @email, @subscriberRows, @subscriberRow
+set @RecordTypeId = "0125j000000wyNUAAY"
+set @createAccount = CreateSalesforceObject(
+                    "Account", 4,
+                    "FirstName", RequestParameter("firstname"),
+                    "LastName", RequestParameter("lastname"),
+                    "PersonEmail", RequestParameter("email"),
+                     ,
+                     "RecordTypeId",@RecordTypeId
+                   
+)
+
+else 
+set @subscriberRows = RetrieveSalesforceObjects(
+     "Account",
+     "FirstName,LastName,PersonEmail",
+     "PersonEmail", "=", @email )
+
+  set @subscriberRow = Row(@subscriberRows, 1)
+  set @firstName = Field(@subscriberRow, "FirstName")
+  set @lastName = Field(@subscriberRow, "LastName")
+  set @email = Field(@subscriberRow, "PersonEmail")
+
+else
+
+  var @updateRecord
+  set @firstname = RequestParameter("firstname")
+  set @lastName = RequestParameter("lastname")
+  set @email = RequestParameter("email")
+  set @updateRecord = UpdateSingleSalesforceObject(
+      "Account", 3,
+      "FirstName", @firstname,
+      "LastName", @lastName,
+      "PersonEmail", @email
+     )
+
+endif
+
+]%%
+<!DOCTYPE html>
+<html>
+   <body>
+      %%[ if @updateRecord == 1 then ]%%
+         <p>Record Updated</p>
+      %%[ elseif @updateRecord == 0 then ]%%
+        <p>Update Failed</p>
+      %%[ endif ]%%
+      <h2>Update Your Details</h2>
+      <form action="%%=RequestParameter('PAGEURL')=%%" method="post">
+         <label>First name</label>
+         <input type="text" name="firstname" value="%%=v(@firstName)=%%">
+         <label>Last name</label>
+         <input type="text" name="lastname" value="%%=v(@lastName)=%%">
+         <label>Email</label>
+         <input type="text" name="email" value="%%=v(@email)=%%">
+         <input name="submitted" type="hidden" value="true" />
+         <input type="submit" value="Submit">
+      </form>
+   </body>
+</html>

@@ -1,0 +1,34 @@
+{
+    "name": "Anushree_Audit trail activity",
+    "key": "937C285C-0197-40A7-9B8D-9F85EC4DC2ED",
+    "fileSpec": "Anushree_Audit_Trail%%Year%%.zip",
+    "createdDate": "2021-11-10T04:40:18.12",
+    "modifiedDate": "2022-05-09T05:56:06.847",
+    "createdBy": 713633357,
+    "modifiedBy": 713603179,
+    "intervalType": 2,
+    "description": "",
+    "dataFields": [
+        {
+            "name": "ApplyTimeZone",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "ConvertToASCII",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "IncludeHeader",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "Timezone",
+            "type": "integer",
+            "value": "34"
+        }
+    ],
+    "r__dataExtractType_name": "Audit Trail Activity Log"
+}

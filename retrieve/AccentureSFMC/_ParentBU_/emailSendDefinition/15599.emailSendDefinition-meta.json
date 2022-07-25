@@ -1,0 +1,44 @@
+{
+    "CreatedDate": "2022-03-31T08:35:58.84",
+    "ModifiedDate": "2022-03-31T08:35:58.84",
+    "CustomerKey": 15599,
+    "Name": "Filter_Activity",
+    "Description": "",
+    "SendClassification": {
+        "CustomerKey": "Default Commercial"
+    },
+    "SenderProfile": {
+        "CustomerKey": "Default"
+    },
+    "DeliveryProfile": {
+        "CustomerKey": "Default"
+    },
+    "SuppressTracking": false,
+    "IsSendLogging": true,
+    "SendDefinitionList": [
+        {
+            "SendDefinitionListType": "SourceList",
+            "DataSourceTypeID": "CustomObject",
+            "IsTestObject": false,
+            "SalesForceObjectID": "",
+            "Name": "",
+            "r__dataExtension_Key": "25A811A6-CDF6-4DC2-BEE6-57334AB62F6B",
+            "r__list_PathName": "my subscribers/All Subscribers"
+        }
+    ],
+    "Email": {
+        "ID": 21204
+    },
+    "BccEmail": "",
+    "AutoBccEmail": "",
+    "TestEmailAddr": "",
+    "EmailSubject": "cloudpage test",
+    "DynamicEmailSubject": "cloudpage test",
+    "IsMultipart": true,
+    "IsWrapped": true,
+    "DeduplicateByEmail": true,
+    "ExclusionFilter": "",
+    "Additional": "",
+    "CCEmail": "",
+    "r__folder_Path": "User-Initiated"
+}

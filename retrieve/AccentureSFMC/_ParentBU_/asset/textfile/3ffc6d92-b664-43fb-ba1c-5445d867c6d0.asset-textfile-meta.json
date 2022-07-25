@@ -1,0 +1,31 @@
+{
+    "customerKey": "3ffc6d92-b664-43fb-ba1c-5445d867c6d0",
+    "assetType": {
+        "name": "txt",
+        "displayName": "Text"
+    },
+    "fileProperties": {
+        "fileName": "wp-content_themes_education-base_style_css_v1.4.4.txt",
+        "extension": "txt",
+        "fileSize": 48882,
+        "fileCreatedDate": "2022-02-16T05:24:35.769978-06:00",
+        "publishedURL": "https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/df319dc0-1fcc-4771-badc-4a524d3163ca.txt"
+    },
+    "name": "wp-content_themes_education-base_style_css_v1.4.4",
+    "createdDate": "2022-02-16T05:24:35.77-06:00",
+    "createdBy": {
+        "email": "shivani.mittal@aethereus.com",
+        "name": "Shivani Mittal"
+    },
+    "modifiedDate": "2022-02-16T05:32:40.69-06:00",
+    "modifiedBy": {
+        "email": "shivani.mittal@aethereus.com",
+        "name": "Shivani Mittal"
+    },
+    "status": {
+        "name": "Published"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/Shivani/Shivani_Images"
+}

@@ -1,0 +1,29 @@
+%%[  
+
+var @skey, @NumRowsToReturn, @Result
+
+set @skey=AttributeValue('Customer ID')
+
+set @NumRowsToReturn=0 
+
+set @Result=LookupOrderedRows("PersonBMIDetailsDE", @NumRowsToReturn, "BMI Index desc ", 'Customer ID', @skey)
+
+if RowCount(@Result) > 0 then
+
+for @i=1 to RowCount(@Result) do 
+
+ var @demo @Name @weight @height @BMI_Index @Customer_ID
+ 
+ set @demo= row(@Result, @i)
+ set @Name = field(@Result,'Name')
+ set @weight= field(@Result, 'Weight')
+ set @height = field(@Result, 'height')
+ set @Customer_ID = field(@Result, 'Order ID')
+ 
+ next @1
+  set @varerror = "I found something"
+
+else
+   set @varerror = "I found nothing"
+endif
+]%%

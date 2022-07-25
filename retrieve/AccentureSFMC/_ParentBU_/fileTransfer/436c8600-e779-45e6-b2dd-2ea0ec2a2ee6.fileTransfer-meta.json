@@ -1,0 +1,16 @@
+{
+    "name": "File transfer",
+    "customerKey": "436c8600-e779-45e6-b2dd-2ea0ec2a2ee6",
+    "createdDate": "2020-08-18T05:13:59.597",
+    "modifiedDate": "2020-09-10T11:14:12.65",
+    "fileSpec": "Amazon.zip",
+    "isEncrypted": false,
+    "isCompressed": true,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": false,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Safehouse"
+}

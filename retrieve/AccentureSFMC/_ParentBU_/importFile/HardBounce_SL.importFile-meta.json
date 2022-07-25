@@ -1,0 +1,50 @@
+{
+    "allowErrors": true,
+    "customerKey": "HardBounce_SL",
+    "createdDate": "2021-12-17T00:50:47.46",
+    "modifiedDate": "2021-12-28T04:19:14.54",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "fieldMappings": [
+        {
+            "sourceFieldName": "BounceCategory",
+            "destinationFieldName": "BounceCategory"
+        },
+        {
+            "sourceFieldName": "EventDate",
+            "destinationFieldName": "Date Added"
+        },
+        {
+            "sourceFieldName": "EmailAddress",
+            "destinationFieldName": "Email Address"
+        },
+        {
+            "sourceFieldName": "JobID",
+            "destinationFieldName": "JobID"
+        },
+        {
+            "sourceFieldName": "SubscriberKey",
+            "destinationFieldName": "SubscriberKey"
+        }
+    ],
+    "fieldMappingType": "ManualMap",
+    "fileNamingPattern": "HardBounce1.zip",
+    "fileType": "CSV",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": true,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "Ashwini_HardBounceImportActivity",
+    "notificationEmailAddress": "ashwini.surwase@aethereus.com",
+    "sendEmailNotification": true,
+    "standardQuotedStrings": true,
+    "fileTransferLocationTypeId": 0,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP",
+    "c__destinationType": "DataExtension",
+    "r__dataExtension_CustomerKey": "HardBounce_SL",
+    "c__subscriberImportType": "DataExtension",
+    "c__dataAction": "Overwrite"
+}

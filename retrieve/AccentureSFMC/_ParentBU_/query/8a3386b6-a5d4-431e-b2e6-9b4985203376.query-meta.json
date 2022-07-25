@@ -1,0 +1,11 @@
+{
+    "name": "Anu_SQL555",
+    "key": "8a3386b6-a5d4-431e-b2e6-9b4985203376",
+    "description": "",
+    "targetKey": "61D7967B-23B8-4601-81D5-43FE46E2813D",
+    "createdDate": "2021-11-22T05:42:13.477",
+    "modifiedDate": "2021-12-27T03:34:35.63",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

@@ -1,0 +1,39 @@
+{
+    "name": "kanika_DE extract",
+    "key": "99BD1129-DD02-435D-98C6-740CB48E0873",
+    "fileSpec": "DE Extract Data%%Day%%.csv",
+    "createdDate": "2021-08-12T04:53:31.743",
+    "modifiedDate": "2021-08-12T04:55:25.65",
+    "createdBy": 713269674,
+    "modifiedBy": 713269674,
+    "intervalType": 0,
+    "description": "",
+    "dataFields": [
+        {
+            "name": "ColumnDelimiter",
+            "type": "string",
+            "value": ","
+        },
+        {
+            "name": "DECustomerKey",
+            "type": "string",
+            "value": "78CA5CCB-43E4-4313-968A-3A15211B9DDA"
+        },
+        {
+            "name": "HasColumnHeaders",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "TextQualified",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "UsesLineFeed",
+            "type": "bool",
+            "value": "False"
+        }
+    ],
+    "r__dataExtractType_name": "Data Extension Extract"
+}

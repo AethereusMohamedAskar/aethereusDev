@@ -1,0 +1,16 @@
+{
+    "name": "Anushree_Import_filter1",
+    "customerKey": "ca8d6d02-d616-4c55-9abd-1d0af59f8da4",
+    "createdDate": "2021-08-12T23:59:37.543",
+    "modifiedDate": "2021-08-12T23:59:37.543",
+    "fileSpec": "Anushree_Data_Filter4%%Month%%.csv",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": false,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

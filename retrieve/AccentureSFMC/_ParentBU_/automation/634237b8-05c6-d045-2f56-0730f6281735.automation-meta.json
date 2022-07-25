@@ -1,0 +1,18 @@
+{
+    "name": "SQL_VJ",
+    "key": "634237b8-05c6-d045-2f56-0730f6281735",
+    "type": "scheduled",
+    "status": "Building",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations"
+}

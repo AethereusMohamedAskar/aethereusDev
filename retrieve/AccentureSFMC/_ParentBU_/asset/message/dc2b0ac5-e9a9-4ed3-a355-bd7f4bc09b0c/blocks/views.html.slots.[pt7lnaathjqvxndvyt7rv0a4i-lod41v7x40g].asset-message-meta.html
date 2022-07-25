@@ -1,0 +1,16 @@
+%%[
+var @fn,@type,@message,@ln
+set @fn=AttributeValue("FirstName")
+set @ln=AttributeValue("LastName")
+set @cartype=AttributeValue("CarType")
+
+IF @cartype=="SUV" THEN 
+set @message = "With an astonishingly long range, intelligent charging technology and the Geometry driving assistance systems, the new EV-SUV gives us an excitingly new feeling of electric driving"
+ELSEIF @cartype=="Luxury" THEN 
+set @message = "The new-EQC radiates fascinating purity, peacefulness and modernity. In so doing, it embodies the new design language of progressive luxury"
+ELSEIF @cartype=="Pickup" THEN 
+set @message = "The All New EV-PickUP is true to its heritage, combining capable features with updated design and materials to deliver a vehicle ready for the future"
+ELSE 
+set @message = "Drive to us with your car ua and leave back hoe with our brand new EV today"
+ENDIF
+]%%

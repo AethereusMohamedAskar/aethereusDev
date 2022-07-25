@@ -1,0 +1,16 @@
+{
+    "name": "Anushree_Test_1",
+    "customerKey": "71c78363-8bad-4c09-8f3d-c84e684d3ca5",
+    "createdDate": "2021-09-22T03:59:53",
+    "modifiedDate": "2021-09-22T03:59:53",
+    "fileSpec": "Anushree_Test_Email%%Month%%",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": false,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

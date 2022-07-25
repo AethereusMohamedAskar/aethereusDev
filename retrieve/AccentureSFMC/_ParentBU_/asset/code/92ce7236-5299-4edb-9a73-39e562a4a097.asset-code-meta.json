@@ -1,0 +1,29 @@
+{
+    "customerKey": "92ce7236-5299-4edb-9a73-39e562a4a097",
+    "assetType": {
+        "name": "html",
+        "displayName": "Code"
+    },
+    "fileProperties": {
+        "extension": "html",
+        "fileSize": 8575,
+        "fileCreatedDate": "2020-10-13T06:18:01.8547926-06:00"
+    },
+    "name": "index.html",
+    "createdDate": "2020-10-13T06:18:01.853-06:00",
+    "createdBy": {
+        "email": "kanika.singhal@aethereus.com",
+        "name": "Kanika Singhal"
+    },
+    "modifiedDate": "2021-07-20T04:16:20.753-06:00",
+    "modifiedBy": {
+        "email": "kanika.singhal@aethereus.com",
+        "name": "Kanika Singhal"
+    },
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/Practice -Kanika"
+}

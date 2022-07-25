@@ -1,0 +1,46 @@
+{
+    "customerKey": "9eac3ce8-8fc3-491e-a0cc-647129da2d83",
+    "assetType": {
+        "name": "contentmap",
+        "displayName": "Enhanced Dynamic Content Map"
+    },
+    "name": "Occupation",
+    "owner": {
+        "email": "Vijay.Jaganathan@aethereus.com",
+        "name": "Vijay Jaganathan"
+    },
+    "createdDate": "2022-06-01T02:13:35.987-06:00",
+    "createdBy": {
+        "email": "Vijay.Jaganathan@aethereus.com",
+        "name": "Vijay Jaganathan"
+    },
+    "modifiedDate": "2022-06-01T02:13:35.987-06:00",
+    "modifiedBy": {
+        "email": "Vijay.Jaganathan@aethereus.com",
+        "name": "Vijay Jaganathan"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "content": "{\"default\":\"{{=BeginImpressionRegion(\\\"Occupation__default\\\")}}A gun is no more dangerous than a cricket bat{{=EndImpressionRegion()}}\",\"poa01\":\"{{=BeginImpressionRegion(\\\"Occupation__poa01\\\")}}A gun is no more dangerous than a cricket bat{{=EndImpressionRegion()}}\",\"poa02\":\"{{=BeginImpressionRegion(\\\"Occupation__poa02\\\")}}The propulsion of the body through water by combined arm and leg motions and the natural flotation of the bodyming{{=EndImpressionRegion()}}\",\"poa03\":\"{{=BeginImpressionRegion(\\\"Occupation__poa03\\\")}}The journey of a thousand miles begins with a single step{{=EndImpressionRegion()}}\"}",
+    "superContent": "A gun is no more dangerous than a cricket bat",
+    "meta": {
+        "audience": {
+            "audienceDE": "Test_Poc_vj",
+            "id": "ba39dc03-f0b8-ec11-ba30-d4f5ef3de275",
+            "type": "dataExtension",
+            "audienceColumn": "Unique_Key"
+        },
+        "primaryKeyColumn": "Unique_Key"
+    },
+    "availableViews": [],
+    "data": {
+        "contentmap": {
+            "importFilename": "edcpoc1.csv",
+            "type": "text"
+        }
+    },
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/VJ"
+}

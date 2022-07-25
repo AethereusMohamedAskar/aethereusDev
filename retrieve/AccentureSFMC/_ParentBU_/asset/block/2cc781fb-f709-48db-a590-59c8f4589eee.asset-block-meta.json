@@ -1,0 +1,41 @@
+{
+    "customerKey": "2cc781fb-f709-48db-a590-59c8f4589eee",
+    "assetType": {
+        "name": "imageblock",
+        "displayName": "Image Block"
+    },
+    "fileProperties": {
+        "fileName": "Cloud pages default Image"
+    },
+    "name": "Cloud pages default Image",
+    "owner": {
+        "email": "ashwini.surwase@aethereus.com",
+        "name": "Ashwini Surwase"
+    },
+    "createdDate": "2021-12-02T02:48:17.25-06:00",
+    "createdBy": {
+        "email": "ashwini.surwase@aethereus.com",
+        "name": "Ashwini Surwase"
+    },
+    "modifiedDate": "2021-12-02T02:48:17.25-06:00",
+    "modifiedBy": {
+        "email": "ashwini.surwase@aethereus.com",
+        "name": "Ashwini Surwase"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "design": "",
+    "meta": {
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true
+            },
+            "styling": {}
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/Ashwini/Preference Center"
+}

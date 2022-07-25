@@ -1,0 +1,220 @@
+<script runat="server">
+   Platform.Load("Core","1");
+   try {
+</script>
+%%[
+ SET @Rating = RequestParameter('Rating')
+]%%
+%%[
+if RequestParameter("Submitted") == true  then
+    var @createStudentAccount, @RecordTypeId
+    set @RecordTypeId = "0125j000000wyNUAAY"
+    set @createStudentAccount = CreateSalesforceObject(
+        "Account",6,
+        "FirstName", RequestParameter("FirstName"),
+        "LastName", RequestParameter("LastName"),
+        "PersonEmail", RequestParameter("Email"),
+        "Phone", RequestParameter("Mobile"),
+        "Rating", RequestParameter("Rating"),
+        "RecordTypeId", @RecordTypeId
+    )
+endif
+]%%
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="https://www.imsindia.com/campaign/wp-content/themes/education-base/assets/library/bootstrap/css/bootstrap.min.css?ver=3.3.6" type="text/css" media="all">
+    
+    <style>
+        body {
+            background-color: #fff;
+            color: #666;
+            font-family: "Open Sans", sans-serif;
+            font-size: 14px;
+            line-height: 1.75em;
+            padding: 0px !important;
+            min-height: 100%;
+            height: auto;
+            position: relative;
+            overflow: hidden;
+            margin: 0;
+        }
+
+        .col-md-4 {
+            position: relative;
+            min-height: 1px;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+
+        form {
+            display: block;
+            margin: 0em;
+        }
+
+        input {
+            border-radius: 0 !important;
+            box-shadow: none;
+            font-family: "Open Sans", sans-serif;
+            font-size: 14px;
+            line-height: 1.75em;
+            margin: 0;
+            color: #666;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-control {
+            display: block;
+            height: 36px;
+            padding: 6px 12px;
+            font-size: 14px;
+            line-height: 1.42857143;
+            color: #555;
+            background-color: #fff;
+            background-image: none;
+            border: 1px solid #ccc;
+            box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+            transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+        }
+       
+       
+
+    </style>
+</head>
+
+<body>
+    <div class="col-md-4">
+        %%[ if not empty(@createStudentAccount) then  ]%%
+        <p>%%=v(@createStudentAccount)=%%, Student Account Created Successfully</p>
+      %%[ endif ]%%
+        <form id="onlineform" method="post" class="" action="%%=RequestParameter('PAGEURL')=%%">
+            <div class="form-group">
+                <input type="text" class="form-control" id="FirstName" placeholder="First Name" name="FirstName" required="">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="LastName" placeholder="Last Name" name="LastName" required="">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="Mobile" placeholder="Mobile No" name="Mobile"
+                    pattern="[7-9]{1}[0-9]{9}" required="">
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" id="Email" placeholder="Email" name="Email" required="">
+            </div>
+            <div class="form-group" id="City_div">
+                  %%[
+                  var @City_rows, @City_row, @rowCount, @i
+                  set @City_rows = LookupRows("City_DE","default","1")
+                set @rowCount = rowcount(@City_rows)
+        if @rowCount > 0 then
+        for @i = 1 to @rowCount do
+        if @i == 1 then
+        output(concat('Select City: ','<select name="City"
+            onchange="javascript: dynamicdropdown(this.options[this.selectedIndex].value);">
+            <option value="">Select</option>'))
+            endif
+            var @City
+            set @City_row = row(@City_rows, @i)
+            set @City = field(@City_row,"City")
+            output(concat('<option value="', @City, '">', @City, '</option>'))
+            if @i == @rowCount then
+            output(concat('
+        </select>'))
+        endif
+        next @i
+        else
+        output(concat("<br />City not found"))
+        endif
+        ]%%
+    </div>
+           <div id="Centre_div">
+        <script language="javascript" type="text/javascript">
+            function dynamicdropdown(listindex) {
+              var citySel = document.getElementById("Centre")
+              for (var i=0;i<citySel.length;i++){
+                document.getElementById("Centre").options[i].text;
+              }
+              }
+              /*  document.getElementById("Centre").length = 0;
+                switch (listindex) {
+                    case "Pune":
+                        document.getElementById("Centre").options[0] = new Option("Pune Centres", "Pune Centres");
+                        document.getElementById("Centre").options[1] = new Option("Aundh", "Aundh");
+                        document.getElementById("Centre").options[2] = new Option("Deccan", "Deccan");
+                        document.getElementById("Centre").options[3] = new Option("Deccan - CIE", "Deccan - CIE");
+                        document.getElementById("Centre").options[4] = new Option("Dhole Patil Road", "Dhole Patil Road");
+                    document.getElementById("Centre").options[5] = new Option("Hinjewadi", "Hinjewadi");
+                        break;
+                    case "Hydrabad" :
+                        document.getElementById("Centre").options[0] = new Option("Hydrabad Centres", "Hydrabad Centres");
+                        document.getElementById("Centre").options[1] = new Option("Begumpet", "Begumpet");
+                        document.getElementById("Centre").options[2] = new Option("Begumpet (GATE)", "Begumpet (GATE)");
+                        document.getElementById("Centre").options[3] = new Option("Madhapur", "Madhapur");
+                        document.getElementById("Centre").options[4] = new Option("Madhapur (GATE)", "Madhapur (GATE)");
+                     document.getElementById("Centre").options[5] = new Option("Narayanguda", "Narayanguda");
+                        break;
+                }
+                return true;
+            }*/
+        </script>
+              %%[
+        var @Centre_rows, @Centre_row, @rowCount, @i
+        set @Centre_rows = LookupRows("Centre", "default", "1")
+        set @rowCount = rowcount(@Centre_rows)
+        if @rowCount > 0 then
+        for @i = 1 to @rowCount do
+        if @i == 1 then
+        output(concat('Select Centre: ','<select id="Centre" name="Centre">
+            <option value="">Select City first</option>
+        </select>'))
+        endif
+        next @i
+        else
+        output(concat("<br />Centre not found"))
+        endif
+        ]%%
+    </div>
+            <div class="form-group">
+                <select class="form-control" id="Product" name="Product" >
+                   <option value="">Select Product</option>
+                  
+                </select>
+            </div>
+          <div classs="form-group">
+            <select class="form-control" id="Rating" name="Rating" required>
+              <option value="">Select Rating</option>
+ <option %%[ IF @Rating == "Hot" THEN ]%% selected="" %%[ ENDIF ]%% value="Hot">Hot</option>
+ <option %%[ IF @Rating == "Warm" THEN ]%% selected="" %%[ ENDIF ]%% value="Warm">Warm</option>
+ <option %%[ IF @Rating == "Cold" THEN ]%% selected="" %%[ ENDIF ]%% value="Cold">Cold</option>
+            </select>
+         </div>
+            <input type="hidden" class="form-control" id="CampaingName" name="CampaingName" value="" placeholder="Source" readonly="">
+            <input type="hidden" class="form-control" id="SourceMedium" name="SourceMedium" value="" placeholder="Source" readonly="">
+            <input type="hidden" class="form-control" id="LeadSource" name="LeadSource" value="" placeholder="Source" readonly="">
+            <input type="hidden" class="form-control" id="LeadMode" name="LeadMode" value="" placeholder="Mode" readonly="">
+            <input type="hidden" class="form-control" id="CampaingId" name="CampaingId" value="" placeholder="campaing id" readonly="">
+            <input type="hidden" class="form-control" id="txtlimacampaign" name="txtlimacampaign" value="">
+          <input name="submitted" type="hidden" value="true">
+            <button type="submit" class="button button-primary" id="sub">Submit</button>
+            <br><br>
+        </form>
+    </div>
+</body>
+</html>
+<script runat="server">
+}catch(err){
+  
+  Write(Stringify(err));
+  Write('Duplicate records found...!!!')
+
+}
+</script>

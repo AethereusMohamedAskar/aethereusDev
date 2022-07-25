@@ -1,0 +1,31 @@
+{
+    "CreatedDate": "2022-04-22T00:47:00",
+    "ModifiedDate": "2022-05-12T04:58:00",
+    "CustomerKey": 43313,
+    "Name": "Triggersend_Birthday_Vijay",
+    "Description": "Triggersend_Birthday_Vijay",
+    "Keyword": "",
+    "SendClassification": {
+        "CustomerKey": "Default Commercial"
+    },
+    "FromName": "Aethereus Consulting Private Ltd",
+    "FromAddress": "Kunal.parikh@aethereus.com",
+    "SuppressTracking": false,
+    "TriggeredSendType": "Continuous",
+    "TriggeredSendStatus": "Active",
+    "AutoAddSubscribers": true,
+    "AutoUpdateSubscribers": false,
+    "BatchInterval": 0,
+    "BccEmail": "",
+    "EmailSubject": "Science behind the northern lights wasn't theorized",
+    "DynamicEmailSubject": "Science behind the northern lights wasn't theorized",
+    "IsMultipart": false,
+    "IsWrapped": true,
+    "AllowedSlots": 0,
+    "NewSlotTrigger": 0,
+    "Priority": 4,
+    "r__folder_Path": "Triggered Sends",
+    "r__assetMessage_Name": "PoC_template_Vijay",
+    "r__assetMessage_Key": "cd8484e5-1cbd-4c7a-a210-72ad3703bcb2",
+    "r__list_PathName": "my subscribers/All Subscribers"
+}

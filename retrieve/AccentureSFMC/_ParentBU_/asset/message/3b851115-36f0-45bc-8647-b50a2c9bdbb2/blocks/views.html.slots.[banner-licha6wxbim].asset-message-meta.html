@@ -1,0 +1,18 @@
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">%%[ var @Subject, @DE, @p1, @p2, @Customer_ID
+
+set @Country_ISO=AttributeValue("Country_ISO")
+set @Customer_ID=AttributeValue("Customer_ID")
+set @DE=LookupRows("Target_DE","Customer_ID",@Customer_ID,"Country_ISO",@Country_ISO)
+
+if @Country_ISO=="US" then 
+set @Subject="Happy Father's Day"
+set @p=ContentBlockByID("58922")
+
+elseif @Country_ISO=="SA" then 
+set @Subject="عيد أب سعيد"
+set @p=ContentBlockByID("58923")
+Endif
+]%%
+
+
+</td></tr></table>

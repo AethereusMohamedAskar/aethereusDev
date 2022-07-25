@@ -1,0 +1,27 @@
+{
+    "name": "Test_epay_K",
+    "description": "",
+    "key": "64ca1c21-e839-793c-4442-bb0772451943",
+    "type": "triggered",
+    "status": "AwaitingTrigger",
+    "fileTrigger": {
+        "queueFiles": true,
+        "isPublished": true,
+        "fileNamePatternTypeId": 1,
+        "fileNamingPattern": "substatus",
+        "folderLocationText": "import\\kavitha\\",
+        "triggerActive": true
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "POC_epay_Kavitha",
+                    "r__type": "query"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Kavitha"
+}

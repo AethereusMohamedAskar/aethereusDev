@@ -1,0 +1,11 @@
+{
+    "name": "Domain_wise_Count_from_Sent_DV",
+    "key": "2dedaba6-1f19-4d27-add0-79cabb56c523",
+    "description": "",
+    "targetKey": "488EB638-4470-4DA7-AABF-CDDCDEA2D477",
+    "createdDate": "2020-04-09T00:10:58.37",
+    "modifiedDate": "2020-04-09T00:10:58.37",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query/Sai Prasad UC"
+}

@@ -1,0 +1,39 @@
+{
+    "name": "Anushree_Data_Extract1",
+    "key": "9157DD08-72D4-4B77-A2CA-B7D71EAFEFD4",
+    "fileSpec": "Data Extract%%Day%%.csv",
+    "createdDate": "2021-08-14T01:44:44.903",
+    "modifiedDate": "2022-03-09T06:43:44.787",
+    "createdBy": 713633357,
+    "modifiedBy": 713633357,
+    "intervalType": 0,
+    "description": "",
+    "dataFields": [
+        {
+            "name": "ColumnDelimiter",
+            "type": "string",
+            "value": ","
+        },
+        {
+            "name": "DECustomerKey",
+            "type": "string",
+            "value": "9F61BE74-11E0-49BC-A641-38ED563E7A8A"
+        },
+        {
+            "name": "HasColumnHeaders",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "TextQualified",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "UsesLineFeed",
+            "type": "bool",
+            "value": "False"
+        }
+    ],
+    "r__dataExtractType_name": "Data Extension Extract"
+}

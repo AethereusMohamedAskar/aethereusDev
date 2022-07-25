@@ -1,0 +1,43 @@
+{
+    "CreatedDate": "2022-02-17T03:40:22.333",
+    "ModifiedDate": "2022-02-18T00:43:11.617",
+    "CustomerKey": 14990,
+    "Name": "Kanika_Campaign1 test",
+    "Description": "test",
+    "SendClassification": {
+        "CustomerKey": "Default Commercial"
+    },
+    "SenderProfile": {
+        "CustomerKey": "Default"
+    },
+    "DeliveryProfile": {
+        "CustomerKey": "Default"
+    },
+    "SuppressTracking": false,
+    "IsSendLogging": true,
+    "SendDefinitionList": [
+        {
+            "SendDefinitionListType": "SourceList",
+            "DataSourceTypeID": "CustomObject",
+            "IsTestObject": false,
+            "SalesForceObjectID": "",
+            "Name": "",
+            "r__dataExtension_Key": "1D52B904-33AB-46D0-98FD-3C3C9D6745DC",
+            "r__list_PathName": "my subscribers/All Subscribers"
+        }
+    ],
+    "BccEmail": "",
+    "AutoBccEmail": "",
+    "TestEmailAddr": "",
+    "EmailSubject": "My First Campaign",
+    "DynamicEmailSubject": "My First Campaign",
+    "IsMultipart": true,
+    "IsWrapped": true,
+    "DeduplicateByEmail": true,
+    "ExclusionFilter": "",
+    "Additional": "",
+    "CCEmail": "",
+    "r__folder_Path": "User-Initiated",
+    "r__assetMessage_Name": "Kanika_Campaign1",
+    "r__assetMessage_Key": "b18c09a3-1aba-4a32-ac33-3f4e6804c72b"
+}

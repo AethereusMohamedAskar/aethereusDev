@@ -1,0 +1,26 @@
+{
+    "name": "report activity",
+    "description": "",
+    "key": "1c998296-b00f-b164-f15d-ff4216e3dd1e",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2020-08-18T16:00:00",
+        "endDate": "2020-08-18T16:00:00",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "India Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Email report",
+                    "r__type": "reportDefinition"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations"
+}

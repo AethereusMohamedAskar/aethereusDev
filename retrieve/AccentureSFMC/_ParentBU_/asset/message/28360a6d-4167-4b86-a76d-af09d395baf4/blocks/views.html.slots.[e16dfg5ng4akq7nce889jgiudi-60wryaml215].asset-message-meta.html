@@ -1,0 +1,28 @@
+%%[
+VAR @SubKey,@Rowset,@Row,@FirstName,@AdvisorName,@ProductName,@FirstNameFB
+
+SET @SubKey = [Customer ID]
+SET @Rowset = LookupRows('Copy of Amps-Sendable Data','Customer ID',@Subkey)
+SET @Row = Row(@Rowset,1)
+SET @FirstName = Field(@Row,'First Name')
+SET @AdvisorName = Field(@Row,'Advisor Name')
+SET @ProductName = Field(@Row,'Product Name')
+
+
+SET @FirstNameFB = IIF(EMPTY(@FirstName),'Dear Customer',concat('',Propercase(@FirstName)))
+
+SET @AdvisorNameFB = IIF(EMPTY(@AdvisorName),'Sephora Advisor',concat('',Propercase(@AdvisorName)))
+
+SET @ProductNameFB = IIF(EMPTY(@ProductName),'Beauty Product',concat('',Propercase(@ProductName)))
+
+VAR @EmailAddress, @JobID, @MessageType, @SendTime
+
+SET @EmailAddress = emailaddr
+SET @JobID = jobid
+SET @MessageType = 'Onboarding'
+SET @SendTime = NOW()
+
+InsertDE('PJ-Amp3_SendLog','Subscriber Key',@SubKey,'Email Address',@EmailAddress,'Job ID',@JobID,'Message Type',@MessageType,'Product Type',@ProductName,'Send Time',@SendTime)
+
+
+]%%

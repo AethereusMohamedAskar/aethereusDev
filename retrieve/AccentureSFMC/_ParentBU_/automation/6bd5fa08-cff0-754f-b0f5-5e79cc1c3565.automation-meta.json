@@ -1,0 +1,29 @@
+{
+    "name": "Anushree_Audience_Engagement_POC",
+    "description": "",
+    "key": "6bd5fa08-cff0-754f-b0f5-5e79cc1c3565",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "An_Individual_Score",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "An_Final_Score_calculation",
+                    "r__type": "query"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Anushree/LSM POC"
+}

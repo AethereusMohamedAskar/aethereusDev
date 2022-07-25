@@ -1,0 +1,29 @@
+{
+    "name": "Kanika_Filter + Email Send",
+    "description": "",
+    "key": "4dcef532-881d-8338-0fc4-e16615108516",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Kanika_Buy Status True",
+                    "r__type": "filter"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Kanika_Email Send using Automation",
+                    "r__type": "emailSendDefinition"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations"
+}

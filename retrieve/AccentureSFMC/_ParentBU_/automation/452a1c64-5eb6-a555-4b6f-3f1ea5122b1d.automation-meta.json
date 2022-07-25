@@ -1,0 +1,36 @@
+{
+    "name": "Fire an event",
+    "description": "",
+    "key": "452a1c64-5eb6-a555-4b6f-3f1ea5122b1d",
+    "type": "triggered",
+    "status": "AwaitingTrigger",
+    "fileTrigger": {
+        "queueFiles": true,
+        "isPublished": true,
+        "fileNamePatternTypeId": 1,
+        "fileNamingPattern": "Book3",
+        "folderLocationText": "triggered_automations\\",
+        "triggerActive": true
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Fire event",
+                    "r__type": "importFile"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Nykaa Master Subscribers",
+                    "r__type": "fireEvent"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/new automation"
+}

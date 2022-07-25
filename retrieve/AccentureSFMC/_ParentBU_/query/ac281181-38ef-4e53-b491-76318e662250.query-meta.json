@@ -1,0 +1,11 @@
+{
+    "name": "Anniversary_POC_Kavitha",
+    "key": "ac281181-38ef-4e53-b491-76318e662250",
+    "description": "",
+    "targetKey": "2782A23C-A151-4B06-A2B5-0398DD3D8CF6",
+    "createdDate": "2022-04-11T05:02:56.443",
+    "modifiedDate": "2022-04-11T05:16:47.703",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

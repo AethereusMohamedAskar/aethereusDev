@@ -1,0 +1,11 @@
+{
+    "name": "aethe_query",
+    "key": "898",
+    "description": "",
+    "targetKey": "8C6C52A5-1A4A-4D75-8F10-E0E96D1B973D",
+    "createdDate": "2022-05-31T04:31:47.637",
+    "modifiedDate": "2022-05-31T05:46:58.64",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

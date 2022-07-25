@@ -1,0 +1,11 @@
+{
+    "name": "Outlook_Update_Negative_Values",
+    "key": "b574627a-2be8-44d2-a26f-c9bef9e490bd",
+    "description": "",
+    "targetKey": "1A4D25F3-7463-4F7A-994F-7FA664D66596",
+    "createdDate": "2020-04-09T00:16:05.97",
+    "modifiedDate": "2020-04-09T00:16:05.97",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query/Sai Prasad UC"
+}

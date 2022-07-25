@@ -1,0 +1,16 @@
+{
+    "name": "Anushree_Data_Extract_SF-FTP",
+    "customerKey": "7ec74d20-1074-4115-a4b7-e6c3c7108acb",
+    "createdDate": "2021-08-12T06:06:19.053",
+    "modifiedDate": "2021-08-12T06:22:41.027",
+    "fileSpec": "Data_Extract%%Day%%.zip",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "Training 2021"
+}

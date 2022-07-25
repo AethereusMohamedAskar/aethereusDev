@@ -1,0 +1,23 @@
+%%[
+var @skey, @array, @rowCount, @i
+
+set @skey = AttributeValue("StudentId")
+set @array = LookupRows("Students","StudentId", @skey)
+set @rowCount = rowcount(@array)
+
+if @rowCount > 0 then
+
+  for @i = 1 to @rowCount do
+
+   var @temp,@name, @Email
+   set @temp = row(@array, @i)
+   set @name = field(@temp,"Name")
+   set @Email = field(@temp,"EmailAddress")
+]%%
+%%[
+next @i 
+]%%
+%%[
+else
+endif
+]%%

@@ -1,0 +1,43 @@
+{
+    "CreatedDate": "2021-08-13T00:28:19.173",
+    "ModifiedDate": "2021-08-13T00:28:19.173",
+    "CustomerKey": 12894,
+    "Name": "Ahswini_EmailAct",
+    "Description": "",
+    "SendClassification": {
+        "CustomerKey": "Default Commercial"
+    },
+    "SenderProfile": {
+        "CustomerKey": "Default"
+    },
+    "DeliveryProfile": {
+        "CustomerKey": "Default"
+    },
+    "SuppressTracking": false,
+    "IsSendLogging": true,
+    "SendDefinitionList": [
+        {
+            "SendDefinitionListType": "SourceList",
+            "CustomObjectID": "2f53d967-fdfb-eb11-a306-48df37342cd0",
+            "DataSourceTypeID": "CustomObject",
+            "IsTestObject": false,
+            "SalesForceObjectID": "",
+            "Name": "",
+            "r__list_PathName": "my subscribers/All Subscribers"
+        }
+    ],
+    "BccEmail": "",
+    "AutoBccEmail": "",
+    "TestEmailAddr": "",
+    "EmailSubject": "Save up to 25% off",
+    "DynamicEmailSubject": "Save up to 25% off",
+    "IsMultipart": true,
+    "IsWrapped": true,
+    "DeduplicateByEmail": true,
+    "ExclusionFilter": "",
+    "Additional": "",
+    "CCEmail": "",
+    "r__folder_Path": "User-Initiated",
+    "r__assetMessage_Name": "Ashwini_VisionExpress",
+    "r__assetMessage_Key": "968c60e2-1516-407b-ba8f-8e54cc1d74f6"
+}

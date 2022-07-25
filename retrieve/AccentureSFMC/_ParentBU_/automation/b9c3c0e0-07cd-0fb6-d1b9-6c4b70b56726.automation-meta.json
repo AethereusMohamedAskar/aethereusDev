@@ -1,0 +1,27 @@
+{
+    "name": "JB Entry Source",
+    "description": "",
+    "key": "b9c3c0e0-07cd-0fb6-d1b9-6c4b70b56726",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "typeId": 2,
+        "startDate": "2022-01-24T09:50:00",
+        "endDate": "2022-01-24T18:50:00",
+        "icalRecur": "FREQ=HOURLY;COUNT=10;INTERVAL=1",
+        "timezoneName": "India Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "description": "",
+            "activities": [
+                {
+                    "name": "SQL trial join",
+                    "r__type": "query"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training/Kanika"
+}

@@ -1,0 +1,227 @@
+%%[
+IF RequestParameter("submitted") == true THEN
+
+  set @RecordTypeId = "0125j000000wyNUAAY"
+  
+  set @createrecord = CreateSalesforceObject(
+        "Account",7,
+        "FirstName",RequestParameter('FirstName'),
+        "LastName", RequestParameter('LastName'),
+       "PersonEmail", RequestParameter('Email'),
+       "Website",RequestParameter('Website'),
+     "PersonLeadSource",RequestParameter('PersonLeadSource'),
+       "PersonMobilePhone", RequestParameter('MobileNo'),
+       "RecordTypeId",@RecordTypeId
+      )
+
+     
+]%% 
+<p>
+  %%=v(@fname)=%%
+   %%=v(@mobileno)=%%
+  %%=v(@lmobile)=%%
+</p>
+<h2 style="text-align:center;">Thank you for submitting the form.</h2>
+
+%%[ ELSE ]%%
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<style>
+  .form-control.item{
+  padding: 8px;
+    width: 94%;
+    margin-bottom: 16px;}
+  
+  .form-control.dropdown{
+  padding: 8px;
+    width: 100%;
+    margin-bottom: 16px;}
+  
+  .btn.btn-block.create-account{
+  background-color: #1b9af7;
+    color: white;
+    border: 1px solid;
+    padding: 12px 36px;
+    font-size: 16px;
+  cursor:pointer;}
+  
+  #thank-you-message {
+  display: none;
+}
+
+#thank-you-message.show {
+  display: block;
+}
+</style>
+ 
+<!--
+  <style>
+   
+
+.registration-form{
+ padding: 50px 0;
+}
+
+.registration-form form{
+    background-color: #fff;
+    max-width: 400px;
+    margin: auto;
+  
+    padding: 50px 70px;
+    border:1px solid white;
+}
+
+
+.registration-form .item{
+    width:300px;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+   margin-left:-40px;
+  
+}
+    .registration-form .dropdown{
+     width:300px;
+    margin-bottom: 10px;
+     margin-left:-40px;
+    
+    }
+    option{
+    color:#555555;
+    }
+.registration-form .create-account{
+    
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #5791ff;
+    border: none;
+    color: white;
+    margin-top: 10px;
+  width:130px;
+  margin-left:-40px;
+  
+}
+
+
+
+@media (max-width: 576px) {
+    .registration-form form{
+        padding: 50px 20px;
+      padding-left:100px;
+    }
+
+    
+}
+  </style>
+-->
+  
+</head>
+<body>
+  
+    <div class="registration-form">
+        <form id="onlineform" method="post" action="%%=RequestParameter('PAGEURL')=%%" >
+
+<input type=hidden name="Website" value="http://www.imsindia.com">
+          
+<input type=hidden name="PersonLeadSource" value="Landing Page">
+            <div class="form-group">
+                <input type="text" class="form-control item" id="FirstName" name="FirstName" placeholder="FirstName" required>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control item" id="LastName" name="LastName" placeholder="LastName" required>
+            </div>
+            <div class="form-group">
+                <input type="tel" class="form-control item" id="MobileNo" name="MobileNo" placeholder="MobileNo" id="mobileno" pattern="[7-9]{1}[0-9]{9}" required>
+              <span id="message"></span>
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control item" id="Email" name="Email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+            </div>
+
+       
+          <input name="submitted" type="hidden" value="true">
+            <div class="form-group">
+                <button type="submit" class="btn btn-block create-account" >Submit</button>
+            </div>
+        </form>
+       
+        </div>
+    
+    <script>
+      
+     
+  $(document).ready(function () {
+
+    let arrData = [];
+    
+    $.getJSON('https://cloud.connect.imsindia.com/jsondata', function(data) {
+      let city = [];
+      let centre = [];
+        $.each(data, function (index, value) {
+            city.push(value.City);
+            centre.push(value.Center);
+            arrData = data;
+            
+         
+         
+        });
+       city = Array.from(new Set (city));
+       centre= Array.from(new Set (centre));
+          
+          $.each(city, function (index, value) {
+            $('#sel1').append('<option value="' + value + '">' + value + '</option>');
+        });
+    });
+      
+     $('#sel1').change(function () {
+        let selectedcity = this.options[this.selectedIndex].value;
+
+        let filterData = arrData.filter(function(value) {
+            return value.City === selectedcity;
+        });
+       
+     let unique = [...new Set(filterData.map(item => item.Center))];
+       
+        $('#sel2')
+            .empty()
+            .append('<option value=""> Select Centre </option>');
+
+        $.each(unique, function (index, value) {
+            // Now, fill the second dropdown list with bird names.
+            $('#sel2').append('<option value="' + unique[index] + '">' + unique[index] + '</option>');
+        });
+    });
+    $('#sel2').change(function () {
+        let selectedcenter = this.options[this.selectedIndex].value;
+
+        let filtercenter = arrData.filter(function(value) {
+            return value.Center === selectedcenter;
+        });
+       
+     let uniqueprogram = [...new Set(filtercenter.map(item => item.Program))];
+       console.log(uniqueprogram);
+        $('#sel3')
+            .empty()
+            .append('<option value=""> Select Program </option>');
+
+        $.each(uniqueprogram, function (index, value) {
+            // Now, fill the second dropdown list with bird names.
+            $('#sel3').append('<option value="' + uniqueprogram[index] + '">' + uniqueprogram[index] + '</option>');
+        });
+    });
+  });
+      
+
+
+    
+  </script>
+%%[ENDIF]%%
+</body>
+</html>

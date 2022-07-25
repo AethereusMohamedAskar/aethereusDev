@@ -1,0 +1,16 @@
+{
+    "name": "Allsub_statuschange_FileTransfer",
+    "customerKey": "867d5b3e-4387-4525-a9df-bf0fe46a0326",
+    "createdDate": "2022-07-20T03:35:37.65",
+    "modifiedDate": "2022-07-20T03:35:37.65",
+    "fileSpec": "statuschange.csv",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

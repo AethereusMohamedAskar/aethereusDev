@@ -1,0 +1,37 @@
+{
+    "CustomerKey": "793B4BE2-28CF-48DD-BA0F-3F3B17C7FDA8",
+    "Name": "Universal Suppression 2",
+    "Description": "",
+    "IsSendable": true,
+    "IsTestable": false,
+    "SendableDataExtensionField": {
+        "Name": "Email Address"
+    },
+    "SendableSubscriberField": {
+        "Name": "_EmailAddress"
+    },
+    "RowBasedRetention": false,
+    "ResetRetentionPeriodOnImport": false,
+    "DeleteAtEndOfRetentionPeriod": false,
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "Email Address",
+            "DefaultValue": "",
+            "MaxLength": 254,
+            "IsRequired": true,
+            "IsPrimaryKey": true,
+            "FieldType": "EmailAddress"
+        },
+        {
+            "Name": "Date Added",
+            "DefaultValue": "GETDATE()",
+            "IsRequired": true,
+            "IsPrimaryKey": false,
+            "FieldType": "Date"
+        }
+    ],
+    "r__folder_ContentType": "contextual_suppression_list",
+    "r__folder_Path": "Auto-Suppression Configuration",
+    "r__dataExtensionTemplate_Name": "CONTEXTUAL_SUPPRESSION_LISTS"
+}

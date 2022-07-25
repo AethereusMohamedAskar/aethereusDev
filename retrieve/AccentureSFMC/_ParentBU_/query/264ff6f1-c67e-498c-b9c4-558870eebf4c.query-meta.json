@@ -1,0 +1,11 @@
+{
+    "name": "Yahoo_Dynamic_Query",
+    "key": "264ff6f1-c67e-498c-b9c4-558870eebf4c",
+    "description": "",
+    "targetKey": "588F0811-981E-46F0-B08E-2AF580DBF094",
+    "createdDate": "2020-04-09T00:31:29.15",
+    "modifiedDate": "2020-04-09T00:31:29.15",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query/Sai Prasad UC"
+}

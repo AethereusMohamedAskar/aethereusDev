@@ -1,0 +1,35 @@
+<head>
+    <style>
+        @media screen and (min-width: 480px) {
+            .swapimg {
+                display: none;
+            }
+            .visible-mobile {
+                display: inline;
+            }
+        }
+        @media screen and (min-width: 992px) {
+            .swapimg {
+                display: none;
+            }
+            .visible-desktop {
+                display: inline;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="headerL">
+        <img
+            src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
+            alt="Italian Trulli"
+            class="swapimg visible-mobile"
+        />
+        <img
+            src="https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg"
+            alt="Italian Trulli"
+            class="swapimg visible-desktop"
+        />
+    </div>
+</body>

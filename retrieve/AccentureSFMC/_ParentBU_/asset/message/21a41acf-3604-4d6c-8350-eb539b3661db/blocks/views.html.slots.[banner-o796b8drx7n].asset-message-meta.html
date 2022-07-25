@@ -1,0 +1,34 @@
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><div> 
+<!--
+		%%[
+			VAR @CPID, @deExtKey, @encodedDeExtKey, @CPURL, @qsStart, @qsValueStart, @qsValue, @unmappedFields
+			SET @CPID = "796"
+			SET @deExtKey = "4CC94EAB-7B54-4FE6-B203-7C63A84466F5"
+			IF (@CPID == 'undefined') AND (@deExtKey == 'undefined') THEN
+				RaiseError("Please select a CloudPage and Data Extension and assign all fields to data attributes on the Interactive Email Form Block.")
+			ELSEIF (@CPID == "undefined") THEN
+				RaiseError("Please select a CloudPage on the Interactive Email Form Block.")
+			ELSEIF (@deExtKey == "undefined") THEN
+				RaiseError("Please select a Data Extension and assign all fields to data attributes on the Interactive Email Form Block.")
+			ENDIF
+			SET @encodedDeExtKey = URLEncode(@deExtKey,1,1)
+			SET @CPURL = CloudPagesURL(@CPID,'ic_deN',@encodedDeExtKey)
+			SET @qsStart = IndexOf(@CPURL,'?')
+			SET @qsValueStart = Add(@qsStart, 4)
+			SET @qsValue = Substring(@CPURL, @qsValueStart)
+			VAR @linkToClickCode, @link2C, @regexPattern, @trackedClickLink
+			SET @linkToClickCode = '<a href="https://submit.mc-content.com" alias="formSubmit" target="_blank">Interactive Email Form Submit</a>'
+			SET @link2C = TreatAsContentArea("submitTrackingClick", @linkToClickCode)
+			SET @regexPattern = 'href="(.+?)"'
+			SET @trackedClickLink = RegExMatch(@link2C, @regexPattern, 1)
+			]%%
+		-->
+ <!--[if mso]><!--> <div class="ie-form" style="display:none" rebel=""> <form class="sc-block-c10sfvrs-ic-form" action="%%=v(@CPURL)=%%" method="get" novalidate=""> <div class="sc-c10sfvrs-ic-form-box-sizing"> <input type="hidden" name="qs" value="%%=v(@qsValue)=%%"> <input type="hidden" name="ic_tLink" value="%%=v(@trackedClickLink)=%%"> <div> <label class="ie-label sc-block-c10sfvrs-ic-label"> <span class="sc-c10sfvrs-ic-label-box-sizing ie-b-label-box"> Id <span class="sc-text-c10sfvrs-ic-required" aria-hidden="true"> * </span> </span> </label> <div class="ie-input-wrap-c10sfvrs-ic-text-select"> <div class="ie-input ie-input-c10sfvrs-ic-text-select"> <ul style="margin:0;padding:0" role="presentation"> <input class="ie-text-in" type="text" name="customerid-C7_XUcxVwx" aria-required="true"> </ul> </div> </div> </div> <div> <label class="ie-label sc-block-c10sfvrs-ic-label"> <span class="sc-c10sfvrs-ic-label-box-sizing ie-b-label-box"> Name </span> </label> <div class="ie-input-wrap-c10sfvrs-ic-text-select"> <div class="ie-input ie-input-c10sfvrs-ic-text-select"> <ul style="margin:0;padding:0" role="presentation"> <input class="ie-text-in" type="text" name="Name"> </ul> </div> </div> </div> <div> <label class="ie-label sc-block-c10sfvrs-ic-label"> <span class="sc-c10sfvrs-ic-label-box-sizing ie-b-label-box"> Amount </span> </label> <div class="ie-input-wrap-c10sfvrs-ic-text-select"> <div class="ie-input ie-input-c10sfvrs-ic-text-select"> <ul style="margin:0;padding:0" role="presentation"> <input class="ie-text-in" type="number" name="loanamount-NVF12vCTbb"> </ul> </div> </div> </div> <label class="ie-frm-btn ie-frm-btn-c10sfvrs-ic-submit"> <input value="" type="submit"> <div>Submit</div> </label> <input type="hidden" name="ic_c" value="7Vv_U-I4FP9Xet1hxDuqgKgrt-4uAs4y53qOonMzi-OkTYCMbVObVOF2_N_vJS2llG8uOOseU_aHTZOXl5dP3vu8l4LfdTH0iF7VLeYKMhB6QedECOr2uF79rvsUwxgZWHfXjYu7p2ELxnsOovZV4HnMF3pV-AGZ7PvKTGqT0QjjA9nvEw4Ku8jm5LkAizkec4kroO_b99iEgAvmGH3h2LCMyfBQmqAeq_qH3wyj43ZER-Ry38JGR9zULrXP9YtWo6B9xqQ5EH-RITSJazFMcGPcU7-4vjyD_x_4lUC-UK0bZAck9QitwHWQ5xF8SomN-Wilq2Y7XEk71jr64dFBR58YGq2uhiv1-lGlWTsxDk_2K0bltHlgnJSLe8Zh_WCv9r5SOTg43R_Pb51q-Uj1sbYVuJh0qUvw1rZWO2_A0Fh1arj9pXk-UtIRl4hy0vR95uc7-oVNECcaJzaxhIa0us0CfIF6REMu1hpIIA2UEpdT5qouxDntQdO2ta7auCaYhqUcEsKnZiAI10BW9InWAk_xkSXoI9Ga8uC1U-Y72onNrPudjr49sql5dtWc2FxHj80HsdXsX9WGJIqr2_GzkDtvtE4n_Cvl0uBm4NBN1TneW6FUKG2nPBbEQDjGj8NzeCCFLWrdYXK-VUgrn1QRhQwoaQFog7-7-Siatj5tpSXHIQXiNYzz44CrzJQFsavA5ICT28snonSsaHsi1m3q3rdZ3abWfR1MLoQ95To0fNIjgwvAnPguPArA-Z5gJXoGMhOrp9SAFVsfkNb3Sfe4A4QjPF7d3eWB6VCx41iG4kZX7ABtdXQ4aYo4yHXh6K6UDHSCqT0ioPfOtBGspn-cc9bhjA-76OPWlEnlOljS9gkSNV4P16zBE_hhaEtb7gmQUoZ39MLURiYxTiIitxjtL7_zx6ftjj65fBoukL8kvebgKxJWPz8P5bG33eZyYdMwPurPz4WY1CVKCTYPN3LtS0rP5Y4fo0PfPs7lQMonmPoQaeG46ngIoAfLqSo9VfXfoduykUwn33RqGbHIbUH3GKcCAhPEUBdMlJZMCCtrbuclIOp6gTD6FGPiJmx2kSNHHzj0PUrHjG2PHFVZn9z0YkUQd0JiPKUufQhz9EZ5eqT1EfkUuRKaaMBGJrETiLVwCrJQYBIvkwA2RAe8MOGWT72wP1aSUpEUmqco2m6Y1gmUEkb98O6fa2tw8zRI7B2ano0s0mc2hiNTHTBGgUNBY1iGxG4QFhUOGpwRtyf6enW_KM_YIQJJzpXCjWad2YHjnofL16Pl71oNPeUNcmtGyO367dowq_XeEujIgJVwVZXZDGBfAS43cExYfxqwmsMCV7wpZDZD0JJmGOc3p6XyY71tmmthuMQbz2BBLdr4C-GVnGVAGSGYOxPfkFJhKEIjzDBp7ZHU7XNS9Y9X3FBLpSpkWVC1L6-bE2XUrCIKaqbAJ1AHIaENWaD1EWTGUJOqnpQbzayenqjo04UVlLmggopTU7sPmVktDZBqAYdMOq0vFC2X3--UyjvF3dJB8XB_r3x0cHR0tBdnuLDxAdNHjYuhTSCrYsrBU4ZVF9LKn7JKgOOJMgCMStqCmiCat16pMWvF1SqQyJxd2IdM2hArSjfvEyKUawfwoBJk5ElxCo0kpVCXuUq4ixxqD6NoZDaLouWJ0F4_CtJojmxiYjEfRWEJz7DTXtTk9F8Sengcg4FLlQrwaahEyJdI51wZIuuTKw9ZcMTzxZ6Yj5cISSmKJR3OU-IA7DQkI-bNF_MXW2wyCG9n0Y66YoGNHsI42sUbWmFC9dLzgdpw6DMjJ5COZQLWkkBjA5Mushjh2GuSG1ht-niDq80fAbDK7OcRCJcI04BHUJwtgLQgBS5fcmQvElq01LOqMhNRHqbhRJhHbBPOe2nMm5A2NzTu-0ts-cV5obQ_FvUGMy0ppiWmjZlSkrYnpSMjiY0iiWShvS5VZDQxGaDF14jP4o_H53zKWM4Yy7hrKV1kBcXGckV8TZ5JFNSVgWuoa9wS0njX7Rbhk5UZ2fUjY4tNZYvku7CsshjV7MVEus7NZoe9qZSfMcR6DPHOUp9ZsVZKYz3yM85simcSxlrapvljLXVpOllD2a_NLgW92meP4elm95ElaP7Cp5hl-IUZXvp5l1nhwWV-nvn5Bvv5xLeym-7tU-Vx_JXvj1fGcH2Wn42kABQI9krX59d5P17a_7kv4Eqv8c6-9OKX9u_2ikcY44yX_gc37KwGzmqDrAbO_Dzz883wc_VzLYdgihQ-DwHxpYd_Vl0ac-2hxi2fkPCPFPIOGhhKe7WyX_QG2_K31bN-3cUF8g3p_eB4b_bide_9VI2SfS2TfS2TFY1vUDRafSL_JiFLp1k63fCyMbseZX6eXY8yP8_8fDOuR_Dv-T8"> </div> </form> </div> <!--<![endif]--> <!--
+		%%[
+			IF @unmappedFields == TRUE THEN
+			RaiseError("Please ensure that you have mapped all inputs to data attributes within the Interactive Email Form block.")
+			ENDIF
+		]%%
+		Thank you for using Interactive Email
+		228.12.0/1607532969993
+		--> <div style="display:none" aria-hidden="true"> <a href="https://submit.mc-content.com" alias="formSubmit" style="display:none" target="_blank">Interactive Email Form Submit</a> </div> </div></td></tr></table>

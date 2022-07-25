@@ -1,0 +1,15 @@
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><a href="%%=CloudPagesURL(123)=%%">click here to visit your landing page</a>
+%%[
+
+var @firstName
+set @firstName = Lookup("Members", "First Name", "Subscriber Key", _subscriberKey)
+
+]%%
+
+
+
+   
+      <h2>Hello %%=v(@firstName)=%%,</h2>
+      <p>Welcome to your personalized landing page.</p>
+   
+</td></tr></table>

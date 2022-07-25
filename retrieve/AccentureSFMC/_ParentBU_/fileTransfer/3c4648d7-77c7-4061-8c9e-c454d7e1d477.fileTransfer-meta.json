@@ -1,0 +1,16 @@
+{
+    "name": "Tracking Extract",
+    "customerKey": "3c4648d7-77c7-4061-8c9e-c454d7e1d477",
+    "createdDate": "2021-08-10T11:18:32.277",
+    "modifiedDate": "2021-08-10T12:11:48.663",
+    "fileSpec": "Audit Trail",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "Training 2021"
+}

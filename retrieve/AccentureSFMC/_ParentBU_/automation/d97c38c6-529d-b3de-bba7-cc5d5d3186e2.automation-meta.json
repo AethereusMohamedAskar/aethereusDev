@@ -1,0 +1,27 @@
+{
+    "name": "test1",
+    "description": "",
+    "key": "d97c38c6-529d-b3de-bba7-cc5d5d3186e2",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2022-06-01T00:00:00",
+        "endDate": "2022-06-01T00:00:00",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "India Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "description": "",
+            "activities": [
+                {
+                    "name": "aethe_query",
+                    "r__type": "query"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2022 Training/abhinay"
+}

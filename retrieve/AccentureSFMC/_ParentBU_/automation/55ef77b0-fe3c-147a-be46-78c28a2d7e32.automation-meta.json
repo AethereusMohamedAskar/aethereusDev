@@ -1,0 +1,28 @@
+{
+    "name": "send mail automatically",
+    "description": "",
+    "key": "55ef77b0-fe3c-147a-be46-78c28a2d7e32",
+    "type": "triggered",
+    "status": "InactiveTrigger",
+    "fileTrigger": {
+        "queueFiles": true,
+        "isPublished": false,
+        "fileNamePatternTypeId": 3,
+        "fileNamingPattern": "data",
+        "folderLocationText": "import\\",
+        "triggerActive": false
+    },
+    "steps": [
+        {
+            "name": "",
+            "description": "",
+            "activities": [
+                {
+                    "name": "Email Auto",
+                    "r__type": "emailSendDefinition"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/new automation"
+}

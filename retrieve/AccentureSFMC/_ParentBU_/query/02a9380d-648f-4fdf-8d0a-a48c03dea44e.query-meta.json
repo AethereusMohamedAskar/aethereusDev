@@ -1,0 +1,11 @@
+{
+    "name": "Update_Master",
+    "key": "02a9380d-648f-4fdf-8d0a-a48c03dea44e",
+    "description": "",
+    "targetKey": "29475FE3-3CB5-49CF-8825-7EC7BA79D14F",
+    "createdDate": "2020-04-09T00:44:50.477",
+    "modifiedDate": "2020-04-09T00:44:50.477",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query/Sai Prasad UC"
+}

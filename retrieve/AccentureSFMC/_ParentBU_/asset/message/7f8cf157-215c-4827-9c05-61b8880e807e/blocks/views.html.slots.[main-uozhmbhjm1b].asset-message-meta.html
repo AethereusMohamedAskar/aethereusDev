@@ -1,0 +1,14 @@
+
+%%[
+var @skey, @NumRowReturn, @location
+set @skey=AtributeValue('Subscriber Key')
+set @NumRowReturn=0
+set @Customer=LookupOrderedRows("Kavitha_AMPscript_DE1",
+@NumRowReturn, "Location desc", 'Subscriber Key', @skey)
+
+if RowCount(@Customer) > 0 then
+
+for @i=1 and
+
+else
+]%%

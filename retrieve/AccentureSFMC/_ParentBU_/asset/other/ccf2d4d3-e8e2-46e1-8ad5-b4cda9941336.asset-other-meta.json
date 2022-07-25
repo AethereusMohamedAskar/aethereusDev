@@ -1,0 +1,32 @@
+{
+    "customerKey": "ccf2d4d3-e8e2-46e1-8ad5-b4cda9941336",
+    "assetType": {
+        "name": "codesnippetblock",
+        "displayName": "Code Snippet Block"
+    },
+    "fileProperties": {
+        "fileName": "Code for personalising Student Programs"
+    },
+    "name": "Code for personalising Student Programs",
+    "owner": {
+        "email": "nitika.gupta@aethereus.com",
+        "name": "Nitika Gupta"
+    },
+    "createdDate": "2022-02-16T21:00:55.013-06:00",
+    "createdBy": {
+        "email": "nitika.gupta@aethereus.com",
+        "name": "Nitika Gupta"
+    },
+    "modifiedDate": "2022-02-16T21:00:55.013-06:00",
+    "modifiedBy": {
+        "email": "nitika.gupta@aethereus.com",
+        "name": "Nitika Gupta"
+    },
+    "memberId": 514003648,
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/Nitika/Code Snippets"
+}

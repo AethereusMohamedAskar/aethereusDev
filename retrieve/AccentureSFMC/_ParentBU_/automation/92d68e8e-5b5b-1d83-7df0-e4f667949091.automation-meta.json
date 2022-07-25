@@ -1,0 +1,51 @@
+{
+    "name": "Kanika_Extract data activity",
+    "description": "",
+    "key": "92d68e8e-5b5b-1d83-7df0-e4f667949091",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "typeId": 2,
+        "startDate": "2021-08-10T23:30:00",
+        "endDate": "2021-08-10T23:30:00",
+        "icalRecur": "FREQ=HOURLY;COUNT=1;INTERVAL=1",
+        "timezoneName": "India Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Extract from SMFC DE",
+                    "r__type": "dataExtract"
+                },
+                {
+                    "name": "Data Extract from Tracking Data",
+                    "r__type": "dataExtract"
+                },
+                {
+                    "name": "Audit Trail",
+                    "r__type": "dataExtract"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "Tracking Extract",
+                    "r__type": "fileTransfer"
+                },
+                {
+                    "name": "EXTRACT DE",
+                    "r__type": "fileTransfer"
+                },
+                {
+                    "name": "Data Extract",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training"
+}

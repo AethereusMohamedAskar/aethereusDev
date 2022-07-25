@@ -1,0 +1,11 @@
+{
+    "name": "Ashwini_CustomerWinbackQueryActivity",
+    "key": "62806c9e-bc93-497a-9afa-efff9b1961a0",
+    "description": "",
+    "targetKey": "8840029B-4F61-459F-B0FB-7D192C3262D3",
+    "createdDate": "2021-11-30T01:38:16.013",
+    "modifiedDate": "2021-11-30T04:16:09.517",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

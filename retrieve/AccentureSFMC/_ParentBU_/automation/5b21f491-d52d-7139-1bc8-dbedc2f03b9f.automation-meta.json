@@ -1,0 +1,35 @@
+{
+    "name": "Automate+journey",
+    "description": "",
+    "key": "5b21f491-d52d-7139-1bc8-dbedc2f03b9f",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2022-05-21T11:30:00",
+        "endDate": "2022-05-21T11:30:00",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "India Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "sqlA",
+                    "r__type": "query"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "New Journey - May 20 2022 11.16 AM",
+                    "r__type": "journeyEntry"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations"
+}

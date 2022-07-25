@@ -1,0 +1,29 @@
+{
+    "name": "ReportEmailByDevice",
+    "description": "",
+    "key": "0691a529-ccfe-36d0-9701-6745c82b9291",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "emailByDeviceActivity",
+                    "r__type": "dataExtract"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "emailByDeviceFileTransfer",
+                    "r__type": "fileTransfer"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations/2021 Training"
+}

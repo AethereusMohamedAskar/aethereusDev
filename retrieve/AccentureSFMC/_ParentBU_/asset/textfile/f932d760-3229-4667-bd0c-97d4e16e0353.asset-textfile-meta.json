@@ -1,0 +1,31 @@
+{
+    "customerKey": "f932d760-3229-4667-bd0c-97d4e16e0353",
+    "assetType": {
+        "name": "txt",
+        "displayName": "Text"
+    },
+    "fileProperties": {
+        "fileName": "ePaylater.txt",
+        "extension": "txt",
+        "fileSize": 508,
+        "fileCreatedDate": "2022-05-31T07:09:32.9866348-06:00",
+        "publishedURL": "https://image.s11.sfmc-content.com/lib/fe3011717164047e731078/m/1/5a2925c2-1fea-4d97-be62-2797d8fb233d.txt"
+    },
+    "name": "ePaylater.txt",
+    "createdDate": "2022-05-31T07:09:32.987-06:00",
+    "createdBy": {
+        "email": "Vijay.Jaganathan@aethereus.com",
+        "name": "Vijay Jaganathan"
+    },
+    "modifiedDate": "2022-05-31T07:09:32.987-06:00",
+    "modifiedBy": {
+        "email": "Vijay.Jaganathan@aethereus.com",
+        "name": "Vijay Jaganathan"
+    },
+    "status": {
+        "name": "Published"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/2021 Training/VJ"
+}

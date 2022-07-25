@@ -1,0 +1,11 @@
+{
+    "name": "An_Individual_Score",
+    "key": "bbf7a3b1-665a-4cdf-ae51-802241f63f41",
+    "description": "",
+    "targetKey": "47209FB2-377D-41BB-B76C-E328569DEA4A",
+    "createdDate": "2022-04-05T12:11:36.15",
+    "modifiedDate": "2022-06-06T01:58:46.427",
+    "targetUpdateTypeName": "Overwrite",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

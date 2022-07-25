@@ -1,0 +1,11 @@
+{
+    "name": "Anu_SQL(27dec)",
+    "key": "843ec0df-4aa6-4a82-8d20-1242ed86d705",
+    "description": "",
+    "targetKey": "61D7967B-23B8-4601-81D5-43FE46E2813D",
+    "createdDate": "2021-12-27T04:10:56.807",
+    "modifiedDate": "2021-12-29T07:58:41.673",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query"
+}

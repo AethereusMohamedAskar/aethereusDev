@@ -1,0 +1,16 @@
+{
+    "name": "Ashwini_FilterDEByFTP",
+    "customerKey": "02817007-28ec-40d2-9833-40be2395435a",
+    "createdDate": "2021-08-12T06:19:44.023",
+    "modifiedDate": "2021-08-12T06:19:44.023",
+    "fileSpec": "Ashwini_FilterFTP.csv",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": false,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Shreya@tracking data extract",
+    "customerKey": "f7c48fc1-deff-4d8b-bbbd-f63cc035a56d",
+    "createdDate": "2021-11-10T01:46:13.82",
+    "modifiedDate": "2021-11-10T02:02:13.46",
+    "fileSpec": "Shreya@trackingdataexreact.zip",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "Training 2021"
+}

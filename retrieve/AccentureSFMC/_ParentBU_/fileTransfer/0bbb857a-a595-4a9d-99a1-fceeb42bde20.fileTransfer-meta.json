@@ -1,0 +1,16 @@
+{
+    "name": "Anushree_Unzip_DE File2",
+    "customerKey": "0bbb857a-a595-4a9d-99a1-fceeb42bde20",
+    "createdDate": "2021-08-13T00:19:58.533",
+    "modifiedDate": "2021-08-13T04:55:47.467",
+    "fileSpec": "Anushree_Automation_File.zip",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": false,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

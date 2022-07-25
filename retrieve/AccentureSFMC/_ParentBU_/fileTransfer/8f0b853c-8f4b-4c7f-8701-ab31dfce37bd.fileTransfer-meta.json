@@ -1,0 +1,16 @@
+{
+    "name": "Transfer All Subscriber Update",
+    "customerKey": "8f0b853c-8f4b-4c7f-8701-ab31dfce37bd",
+    "createdDate": "2021-12-29T05:28:22.837",
+    "modifiedDate": "2021-12-29T05:28:22.837",
+    "fileSpec": "sublist.csv",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

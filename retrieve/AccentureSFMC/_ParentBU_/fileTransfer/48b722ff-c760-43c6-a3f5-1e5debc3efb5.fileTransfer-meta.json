@@ -1,0 +1,16 @@
+{
+    "name": "File transfer 2",
+    "customerKey": "48b722ff-c760-43c6-a3f5-1e5debc3efb5",
+    "createdDate": "2020-09-10T11:41:04.717",
+    "modifiedDate": "2020-09-10T11:41:04.717",
+    "fileSpec": "happy.zip",
+    "isEncrypted": false,
+    "isCompressed": true,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": false,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "ExactTarget Enhanced FTP"
+}

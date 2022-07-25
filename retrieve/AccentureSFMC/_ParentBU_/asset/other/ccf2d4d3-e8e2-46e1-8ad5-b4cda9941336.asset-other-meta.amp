@@ -1,0 +1,28 @@
+%%[
+var @ckey, @numberofRows, @allprograms
+set @ckey = AttributeValue('StudentID')
+set @numberofRows = 0
+
+set @allprograms = LookupOrderedRows('Student Detail',@numberofRows, 'Program desc','StudentID',@ckey)
+
+set @firstname = Lookup('Student Master','FirstName','StudentID',@ckey)
+
+if RowCount(@allprograms) > 0 then
+
+   for @i= 1 to RowCount(@allprograms) 
+   
+   do
+   
+   var @Programrow, @Program, @Mode, @Center
+   
+   set @Programrow = row(@allprograms,@i)
+   
+   set @Program = field(@Programrow, 'Program')
+   set @Mode = field(@Programrow,'Mode')
+   set @Center = field(@Programrow,'Center')
+   
+   next @1
+   
+endif
+
+]%%

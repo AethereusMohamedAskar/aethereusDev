@@ -1,0 +1,5 @@
+%%[
+set @country = AttributeValue("Order country_c")
+set @FromName = lookup("Dynamic_sender_Vj","FromName","Country",@country)
+]%%
+%%=v(@FromName)=%%

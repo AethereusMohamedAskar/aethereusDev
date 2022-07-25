@@ -1,0 +1,16 @@
+{
+    "name": "kanika_dataextension_extract_file transfer",
+    "customerKey": "3ac6ef58-0bd1-4f7d-b1fb-832c0b67d82e",
+    "createdDate": "2022-05-17T07:02:10.693",
+    "modifiedDate": "2022-05-17T07:09:53.43",
+    "fileSpec": "kanika_dataextension_extract",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__ftpLocation_name": "Training 2021"
+}
